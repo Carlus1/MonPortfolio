@@ -95,7 +95,7 @@
   ]
   </script>
 
-  <link rel="stylesheet" href="/styles.css?v=4">
+  <link rel="stylesheet" href="/styles.css?v=5">
 </head>
 <body>
   <!-- ===== NAVIGATION ===== -->
@@ -110,10 +110,15 @@
         <span>CarlusOne</span>
       </a>
       <div class="nav-links" id="nav-links">
-        <a href="#apps" class="nav-link">Applications</a>
-        <a href="#pricing" class="nav-link">Tarifs</a>
-        <a href="#faq" class="nav-link">FAQ</a>
-        <a href="#contact" class="nav-link">Contact</a>
+        <a href="#apps" class="nav-link" data-i18n="nav.apps">Applications</a>
+        <a href="#pricing" class="nav-link" data-i18n="nav.pricing">Tarifs</a>
+        <a href="#faq" class="nav-link" data-i18n="nav.faq">FAQ</a>
+        <a href="#contact" class="nav-link" data-i18n="nav.contact">Contact</a>
+      </div>
+      <div class="lang-switcher">
+        <button class="lang-btn active" data-lang="fr" title="Français">FR</button>
+        <button class="lang-btn" data-lang="en" title="English">EN</button>
+        <button class="lang-btn" data-lang="es" title="Español">ES</button>
       </div>
       <button class="nav-toggle" id="nav-toggle" aria-label="Menu">
         <span></span><span></span><span></span>
@@ -129,34 +134,34 @@
       <div class="shape shape-3"></div>
     </div>
     <div class="container hero-content">
-      <div class="hero-badge">🚀 Applications web modernes</div>
-      <h1 class="hero-title">
+      <div class="hero-badge" data-i18n="hero.badge">🚀 Applications web modernes</div>
+      <h1 class="hero-title" data-i18n-html="hero.title">
         Des outils <span class="gradient-text">puissants</span> pour votre quotidien
       </h1>
-      <p class="hero-subtitle">
+      <p class="hero-subtitle" data-i18n="hero.subtitle">
         Gestion de tâches d'équipe et apprentissage interactif — conçus pour être simples, efficaces et accessibles.
       </p>
       <div class="hero-cta">
         <a href="#apps" class="btn btn-primary btn-lg">
-          Découvrir nos applications
+          <span data-i18n="hero.cta">Découvrir nos applications</span>
           <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M4 10h12m0 0l-4-4m4 4l-4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
         </a>
-        <a href="#pricing" class="btn btn-outline btn-lg">Voir les tarifs</a>
+        <a href="#pricing" class="btn btn-outline btn-lg" data-i18n="hero.ctaPricing">Voir les tarifs</a>
       </div>
       <div class="hero-stats">
         <div class="stat">
           <span class="stat-number">2</span>
-          <span class="stat-label">Applications</span>
+          <span class="stat-label" data-i18n="hero.statApps">Applications</span>
         </div>
         <div class="stat-divider"></div>
         <div class="stat">
-          <span class="stat-number">Gratuit</span>
-          <span class="stat-label">Essai disponible</span>
+          <span class="stat-number" data-i18n="hero.statFree">Gratuit</span>
+          <span class="stat-label" data-i18n="hero.statFreeLabel">Essai disponible</span>
         </div>
         <div class="stat-divider"></div>
         <div class="stat">
           <span class="stat-number">24/7</span>
-          <span class="stat-label">Accessible partout</span>
+          <span class="stat-label" data-i18n="hero.stat247Label">Accessible partout</span>
         </div>
       </div>
     </div>
@@ -166,9 +171,9 @@
   <section class="section" id="apps">
     <div class="container">
       <div class="section-header">
-        <span class="section-badge">Nos applications</span>
-        <h2 class="section-title">Des solutions adaptées à vos besoins</h2>
-        <p class="section-subtitle">Chaque application est conçue avec soin pour offrir une expérience utilisateur exceptionnelle.</p>
+        <span class="section-badge" data-i18n="apps.badge">Nos applications</span>
+        <h2 class="section-title" data-i18n="apps.title">Des solutions adaptées à vos besoins</h2>
+        <p class="section-subtitle" data-i18n="apps.subtitle">Chaque application est conçue avec soin pour offrir une expérience utilisateur exceptionnelle.</p>
       </div>
 
       <!-- App 1: GestTaches -->
@@ -211,50 +216,50 @@
           </div>
         </div>
         <div class="app-card-info">
-          <div class="app-badge app-badge-blue">Gestion d'équipe</div>
+          <div class="app-badge app-badge-blue" data-i18n="gt.badge">Gestion d'équipe</div>
           <h3 class="app-title">GestTaches</h3>
-          <p class="app-description">
+          <p class="app-description" data-i18n-html="gt.desc">
             Application de <strong>gestion des tâches d'équipe</strong> adaptée à tout type d'organisation : 
             cliniques, entreprises, associations et plus encore.
           </p>
           <div class="app-how-it-works">
-            <h4 class="how-title">Comment ça fonctionne ?</h4>
+            <h4 class="how-title" data-i18n="gt.howTitle">Comment ça fonctionne ?</h4>
             <ol class="how-steps">
-              <li><strong>Créez vos groupes</strong> et ajoutez vos membres d'équipe avec des rôles (propriétaire, administrateur, membre).</li>
-              <li><strong>Définissez vos tâches</strong> — ponctuelles ou récurrentes (hebdomadaires, mensuelles, etc.) — et assignez-les à vos groupes.</li>
-              <li><strong>Les membres déclarent leurs indisponibilités</strong> directement dans le calendrier.</li>
-              <li><strong>Lancez la proposition automatique :</strong> l'algorithme d'optimisation génère un calendrier équilibré en répartissant les tâches équitablement, en respectant les priorités et les disponibilités de chacun.</li>
-              <li><strong>Validez et publiez</strong> — chaque membre voit ses tâches assignées dans son calendrier personnel.</li>
+              <li data-i18n-html="gt.step1"><strong>Créez vos groupes</strong> et ajoutez vos membres d'équipe avec des rôles (propriétaire, administrateur, membre).</li>
+              <li data-i18n-html="gt.step2"><strong>Définissez vos tâches</strong> — ponctuelles ou récurrentes (hebdomadaires, mensuelles, etc.) — et assignez-les à vos groupes.</li>
+              <li data-i18n-html="gt.step3"><strong>Les membres déclarent leurs indisponibilités</strong> directement dans le calendrier.</li>
+              <li data-i18n-html="gt.step4"><strong>Lancez la proposition automatique :</strong> l'algorithme d'optimisation génère un calendrier équilibré en répartissant les tâches équitablement, en respectant les priorités et les disponibilités de chacun.</li>
+              <li data-i18n-html="gt.step5"><strong>Validez et publiez</strong> — chaque membre voit ses tâches assignées dans son calendrier personnel.</li>
             </ol>
           </div>
           <ul class="app-features">
             <li>
               <svg class="feature-icon" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
-              <span>Algorithme d'optimisation avec répartition équitable</span>
+              <span data-i18n="gt.feat1">Algorithme d'optimisation avec répartition équitable</span>
             </li>
             <li>
               <svg class="feature-icon" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
-              <span>Tâches récurrentes et tâches parentes</span>
+              <span data-i18n="gt.feat2">Tâches récurrentes et tâches parentes</span>
             </li>
             <li>
               <svg class="feature-icon" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
-              <span>Gestion des groupes, rôles et disponibilités</span>
+              <span data-i18n="gt.feat3">Gestion des groupes, rôles et disponibilités</span>
             </li>
             <li>
               <svg class="feature-icon" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
-              <span>Calendrier interactif, impression et périodes verrouillées</span>
+              <span data-i18n="gt.feat4">Calendrier interactif, impression et périodes verrouillées</span>
             </li>
             <li>
               <svg class="feature-icon" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
-              <span>Rapports, statistiques et notifications</span>
+              <span data-i18n="gt.feat5">Rapports, statistiques et notifications</span>
             </li>
           </ul>
           <div class="app-cta">
             <a href="https://gesttaches.netlify.app" target="_blank" rel="noopener" class="btn btn-primary">
-              Essayer gratuitement
+              <span data-i18n="gt.cta">Essayer gratuitement</span>
               <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M4 12l8-8m0 0H5m7 0v7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
             </a>
-            <span class="app-trial-info">14 jours d'essai gratuit — sans carte bancaire</span>
+            <span class="app-trial-info" data-i18n="gt.trial">14 jours d'essai gratuit — sans carte bancaire</span>
           </div>
         </div>
       </article>
@@ -291,23 +296,23 @@
           </div>
         </div>
         <div class="app-card-info">
-          <div class="app-badge app-badge-green">Éducation</div>
+          <div class="app-badge app-badge-green" data-i18n="jm.badge">Éducation</div>
           <h3 class="app-title">Jeu de Mots</h3>
-          <p class="app-description">
+          <p class="app-description" data-i18n-html="jm.desc">
             Application éducative interactive pour <strong>apprendre en jouant</strong>. 
             Idéale pour les enfants et les étudiants qui souhaitent améliorer leur 
             <strong>vocabulaire</strong> et leurs <strong>compétences en mathématiques</strong>.
           </p>
           <div class="app-how-it-works app-how-green">
-            <h4 class="how-title how-title-green">Chargez vos propres listes de mots !</h4>
-            <p class="how-description">
+            <h4 class="how-title how-title-green" data-i18n="jm.howTitle">Chargez vos propres listes de mots !</h4>
+            <p class="how-description" data-i18n-html="jm.howDesc">
               Créez un simple fichier <strong>.txt</strong> avec vos mots et chargez-le dans l'application. 
               Deux formats disponibles :
             </p>
             <div class="file-examples">
               <div class="file-example">
-                <span class="file-example-label">📝 Vocabulaire français</span>
-                <span class="file-example-desc">Un mot par ligne</span>
+                <span class="file-example-label" data-i18n="jm.fileLabel1">📝 Vocabulaire français</span>
+                <span class="file-example-desc" data-i18n="jm.fileDesc1">Un mot par ligne</span>
                 <pre class="file-example-code">maison
 jardin
 école
@@ -315,8 +320,8 @@ famille
 bonheur</pre>
               </div>
               <div class="file-example">
-                <span class="file-example-label">🇬🇧 Anglais ↔ Français</span>
-                <span class="file-example-desc">Mot anglais<strong>;</strong>traduction française</span>
+                <span class="file-example-label" data-i18n="jm.fileLabel2">🇬🇧 Anglais ↔ Français</span>
+                <span class="file-example-desc" data-i18n-html="jm.fileDesc2">Mot anglais<strong>;</strong>traduction française</span>
                 <pre class="file-example-code">Hello;Bonjour
 Goodbye;Au revoir
 Thank you;Merci
@@ -324,7 +329,7 @@ Apple;Pomme
 Cat;Chat</pre>
               </div>
             </div>
-            <p class="how-note">
+            <p class="how-note" data-i18n="jm.howNote">
               Chaque étudiant peut avoir sa propre liste personnalisée. Les flashcards défilent 
               automatiquement avec une vitesse réglable.
             </p>
@@ -332,27 +337,27 @@ Cat;Chat</pre>
           <ul class="app-features">
             <li>
               <svg class="feature-icon" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
-              <span>Flashcards de vocabulaire personnalisables</span>
+              <span data-i18n="jm.feat1">Flashcards de vocabulaire personnalisables</span>
             </li>
             <li>
               <svg class="feature-icon" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
-              <span>Quiz de mathématiques : addition, soustraction, multiplication</span>
+              <span data-i18n="jm.feat2">Quiz de mathématiques : addition, soustraction, multiplication</span>
             </li>
             <li>
               <svg class="feature-icon" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
-              <span>Feuilles de calcul imprimables</span>
+              <span data-i18n="jm.feat3">Feuilles de calcul imprimables</span>
             </li>
             <li>
               <svg class="feature-icon" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
-              <span>Suivi des progrès par étudiant</span>
+              <span data-i18n="jm.feat4">Suivi des progrès par étudiant</span>
             </li>
           </ul>
           <div class="app-cta">
             <a href="https://jeudemots.netlify.app" target="_blank" rel="noopener" class="btn btn-success">
-              Essayer gratuitement
+              <span data-i18n="jm.cta">Essayer gratuitement</span>
               <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M4 12l8-8m0 0H5m7 0v7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
             </a>
-            <span class="app-trial-info">2 jours d'essai gratuit — sans carte bancaire</span>
+            <span class="app-trial-info" data-i18n="jm.trial">2 jours d'essai gratuit — sans carte bancaire</span>
           </div>
         </div>
       </article>
@@ -363,9 +368,9 @@ Cat;Chat</pre>
   <section class="section section-alt" id="pricing">
     <div class="container">
       <div class="section-header">
-        <span class="section-badge">Tarifs</span>
-        <h2 class="section-title">Des prix simples et transparents</h2>
-        <p class="section-subtitle">Essayez gratuitement, puis choisissez le plan qui vous convient. Annulable à tout moment.</p>
+        <span class="section-badge" data-i18n="pricing.badge">Tarifs</span>
+        <h2 class="section-title" data-i18n="pricing.title">Des prix simples et transparents</h2>
+        <p class="section-subtitle" data-i18n="pricing.subtitle">Essayez gratuitement, puis choisissez le plan qui vous convient. Annulable à tout moment.</p>
       </div>
 
       <div class="pricing-grid">
@@ -376,43 +381,43 @@ Cat;Chat</pre>
               <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
             </div>
             <h3 class="pricing-name">GestTaches</h3>
-            <p class="pricing-tagline">Gestion de tâches d'équipe</p>
+            <p class="pricing-tagline" data-i18n="pricing.gtTagline">Gestion de tâches d'équipe</p>
           </div>
           <div class="pricing-body">
             <div class="pricing-amount">
               <span class="price-value">12 $</span>
               <span class="price-currency">CAD</span>
-              <span class="price-period">/ mois</span>
+              <span class="price-period" data-i18n="pricing.period">/ mois</span>
             </div>
             <div class="pricing-trial">
               <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M8 3v5l3 3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><circle cx="8" cy="8" r="6.5" stroke="currentColor" stroke-width="1.5"/></svg>
-              14 jours d'essai gratuit
+              <span data-i18n="pricing.gtTrial">14 jours d'essai gratuit</span>
             </div>
             <ul class="pricing-features">
               <li>
                 <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor"><path d="M13.854 3.646a.5.5 0 010 .708l-7 7a.5.5 0 01-.708 0l-3.5-3.5a.5.5 0 11.708-.708L6.5 10.293l6.646-6.647a.5.5 0 01.708 0z"/></svg>
-                Calendrier interactif
+                <span data-i18n="pricing.gtFeat1">Calendrier interactif</span>
               </li>
               <li>
                 <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor"><path d="M13.854 3.646a.5.5 0 010 .708l-7 7a.5.5 0 01-.708 0l-3.5-3.5a.5.5 0 11.708-.708L6.5 10.293l6.646-6.647a.5.5 0 01.708 0z"/></svg>
-                Propositions automatiques
+                <span data-i18n="pricing.gtFeat2">Propositions automatiques</span>
               </li>
               <li>
                 <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor"><path d="M13.854 3.646a.5.5 0 010 .708l-7 7a.5.5 0 01-.708 0l-3.5-3.5a.5.5 0 11.708-.708L6.5 10.293l6.646-6.647a.5.5 0 01.708 0z"/></svg>
-                Gestion des groupes
+                <span data-i18n="pricing.gtFeat3">Gestion des groupes</span>
               </li>
               <li>
                 <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor"><path d="M13.854 3.646a.5.5 0 010 .708l-7 7a.5.5 0 01-.708 0l-3.5-3.5a.5.5 0 11.708-.708L6.5 10.293l6.646-6.647a.5.5 0 01.708 0z"/></svg>
-                Rapports et statistiques
+                <span data-i18n="pricing.gtFeat4">Rapports et statistiques</span>
               </li>
               <li>
                 <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor"><path d="M13.854 3.646a.5.5 0 010 .708l-7 7a.5.5 0 01-.708 0l-3.5-3.5a.5.5 0 11.708-.708L6.5 10.293l6.646-6.647a.5.5 0 01.708 0z"/></svg>
-                Sans carte bancaire pour l'essai
+                <span data-i18n="pricing.gtFeat5">Sans carte bancaire pour l'essai</span>
               </li>
             </ul>
           </div>
           <div class="pricing-footer">
-            <a href="https://gesttaches.netlify.app" target="_blank" rel="noopener" class="btn btn-primary btn-block">
+            <a href="https://gesttaches.netlify.app" target="_blank" rel="noopener" class="btn btn-primary btn-block" data-i18n="pricing.gtCta">
               Commencer l'essai gratuit
             </a>
           </div>
@@ -420,49 +425,49 @@ Cat;Chat</pre>
 
         <!-- Jeu de Mots Pricing -->
         <div class="pricing-card pricing-card-featured">
-          <div class="pricing-featured-badge">Populaire</div>
+          <div class="pricing-featured-badge" data-i18n="pricing.popular">Populaire</div>
           <div class="pricing-header">
             <div class="pricing-app-badge pricing-badge-green">
               <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
             </div>
             <h3 class="pricing-name">Jeu de Mots</h3>
-            <p class="pricing-tagline">Apprentissage interactif</p>
+            <p class="pricing-tagline" data-i18n="pricing.jmTagline">Apprentissage interactif</p>
           </div>
           <div class="pricing-body">
             <div class="pricing-amount">
               <span class="price-value">5 $</span>
               <span class="price-currency">CAD</span>
-              <span class="price-period">/ mois</span>
+              <span class="price-period" data-i18n="pricing.period">/ mois</span>
             </div>
             <div class="pricing-trial">
               <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M8 3v5l3 3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><circle cx="8" cy="8" r="6.5" stroke="currentColor" stroke-width="1.5"/></svg>
-              2 jours d'essai gratuit
+              <span data-i18n="pricing.jmTrial">2 jours d'essai gratuit</span>
             </div>
             <ul class="pricing-features">
               <li>
                 <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor"><path d="M13.854 3.646a.5.5 0 010 .708l-7 7a.5.5 0 01-.708 0l-3.5-3.5a.5.5 0 11.708-.708L6.5 10.293l6.646-6.647a.5.5 0 01.708 0z"/></svg>
-                Flashcards de vocabulaire
+                <span data-i18n="pricing.jmFeat1">Flashcards de vocabulaire</span>
               </li>
               <li>
                 <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor"><path d="M13.854 3.646a.5.5 0 010 .708l-7 7a.5.5 0 01-.708 0l-3.5-3.5a.5.5 0 11.708-.708L6.5 10.293l6.646-6.647a.5.5 0 01.708 0z"/></svg>
-                Quiz mathématiques interactifs
+                <span data-i18n="pricing.jmFeat2">Quiz mathématiques interactifs</span>
               </li>
               <li>
                 <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor"><path d="M13.854 3.646a.5.5 0 010 .708l-7 7a.5.5 0 01-.708 0l-3.5-3.5a.5.5 0 11.708-.708L6.5 10.293l6.646-6.647a.5.5 0 01.708 0z"/></svg>
-                Feuilles de calcul imprimables
+                <span data-i18n="pricing.jmFeat3">Feuilles de calcul imprimables</span>
               </li>
               <li>
                 <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor"><path d="M13.854 3.646a.5.5 0 010 .708l-7 7a.5.5 0 01-.708 0l-3.5-3.5a.5.5 0 11.708-.708L6.5 10.293l6.646-6.647a.5.5 0 01.708 0z"/></svg>
-                Suivi des progrès
+                <span data-i18n="pricing.jmFeat4">Suivi des progrès</span>
               </li>
               <li>
                 <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor"><path d="M13.854 3.646a.5.5 0 010 .708l-7 7a.5.5 0 01-.708 0l-3.5-3.5a.5.5 0 11.708-.708L6.5 10.293l6.646-6.647a.5.5 0 01.708 0z"/></svg>
-                Multi-langues (FR, EN, ES)
+                <span data-i18n="pricing.jmFeat5">Multi-langues (FR, EN, ES)</span>
               </li>
             </ul>
           </div>
           <div class="pricing-footer">
-            <a href="https://jeudemots.netlify.app" target="_blank" rel="noopener" class="btn btn-success btn-block">
+            <a href="https://jeudemots.netlify.app" target="_blank" rel="noopener" class="btn btn-success btn-block" data-i18n="pricing.jmCta">
               Commencer l'essai gratuit
             </a>
           </div>
@@ -476,50 +481,50 @@ Cat;Chat</pre>
     <div class="container">
       <div class="section-header">
         <span class="section-badge">FAQ</span>
-        <h2 class="section-title">Questions fréquentes</h2>
+        <h2 class="section-title" data-i18n="faq.title">Questions fréquentes</h2>
       </div>
       <div class="faq-grid">
         <details class="faq-item">
           <summary class="faq-question">
-            Comment fonctionne l'essai gratuit ?
+            <span data-i18n="faq.q1">Comment fonctionne l'essai gratuit ?</span>
             <svg class="faq-chevron" width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M5 7l5 5 5-5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
           </summary>
-          <p class="faq-answer">Créez simplement un compte et commencez à utiliser l'application immédiatement. Aucune carte bancaire n'est requise. À la fin de la période d'essai, vous pourrez choisir de vous abonner pour continuer.</p>
+          <p class="faq-answer" data-i18n="faq.a1">Créez simplement un compte et commencez à utiliser l'application immédiatement. Aucune carte bancaire n'est requise. À la fin de la période d'essai, vous pourrez choisir de vous abonner pour continuer.</p>
         </details>
         <details class="faq-item">
           <summary class="faq-question">
-            Puis-je annuler à tout moment ?
+            <span data-i18n="faq.q2">Puis-je annuler à tout moment ?</span>
             <svg class="faq-chevron" width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M5 7l5 5 5-5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
           </summary>
-          <p class="faq-answer">Oui, absolument. Vous pouvez annuler votre abonnement à tout moment depuis votre espace de gestion. Il n'y a aucun engagement ni frais cachés.</p>
+          <p class="faq-answer" data-i18n="faq.a2">Oui, absolument. Vous pouvez annuler votre abonnement à tout moment depuis votre espace de gestion. Il n'y a aucun engagement ni frais cachés.</p>
         </details>
         <details class="faq-item">
           <summary class="faq-question">
-            Quels moyens de paiement acceptez-vous ?
+            <span data-i18n="faq.q3">Quels moyens de paiement acceptez-vous ?</span>
             <svg class="faq-chevron" width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M5 7l5 5 5-5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
           </summary>
-          <p class="faq-answer">Nous utilisons Stripe, une plateforme de paiement sécurisée. Vous pouvez payer par carte de crédit ou de débit (Visa, Mastercard, American Express).</p>
+          <p class="faq-answer" data-i18n="faq.a3">Nous utilisons Stripe, une plateforme de paiement sécurisée. Vous pouvez payer par carte de crédit ou de débit (Visa, Mastercard, American Express).</p>
         </details>
         <details class="faq-item">
           <summary class="faq-question">
-            Mes données sont-elles en sécurité ?
+            <span data-i18n="faq.q4">Mes données sont-elles en sécurité ?</span>
             <svg class="faq-chevron" width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M5 7l5 5 5-5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
           </summary>
-          <p class="faq-answer">Absolument. Nous utilisons des technologies de pointe (Firebase, Supabase) avec chiffrement des données, authentification sécurisée et conformité aux normes de protection des données.</p>
+          <p class="faq-answer" data-i18n="faq.a4">Absolument. Nous utilisons des technologies de pointe (Firebase, Supabase) avec chiffrement des données, authentification sécurisée et conformité aux normes de protection des données.</p>
         </details>
         <details class="faq-item">
           <summary class="faq-question">
-            Les applications fonctionnent-elles sur mobile ?
+            <span data-i18n="faq.q5">Les applications fonctionnent-elles sur mobile ?</span>
             <svg class="faq-chevron" width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M5 7l5 5 5-5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
           </summary>
-          <p class="faq-answer">Oui, nos applications sont entièrement responsives et fonctionnent sur tous les appareils : ordinateurs, tablettes et téléphones mobiles. Vous pouvez même les installer comme application sur votre téléphone.</p>
+          <p class="faq-answer" data-i18n="faq.a5">Oui, nos applications sont entièrement responsives et fonctionnent sur tous les appareils : ordinateurs, tablettes et téléphones mobiles. Vous pouvez même les installer comme application sur votre téléphone.</p>
         </details>
         <details class="faq-item">
           <summary class="faq-question">
-            Comment contacter le support ?
+            <span data-i18n="faq.q6">Comment contacter le support ?</span>
             <svg class="faq-chevron" width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M5 7l5 5 5-5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
           </summary>
-          <p class="faq-answer">Vous pouvez nous contacter via le formulaire de contact en bas de cette page ou directement par courriel. Nous répondons généralement sous 24 heures.</p>
+          <p class="faq-answer" data-i18n="faq.a6">Vous pouvez nous contacter via le formulaire de contact en bas de cette page ou directement par courriel. Nous répondons généralement sous 24 heures.</p>
         </details>
       </div>
     </div>
@@ -529,8 +534,8 @@ Cat;Chat</pre>
   <section class="section section-alt" id="contact">
     <div class="container">
       <div class="cta-block">
-        <h2 class="cta-title">Prêt à commencer ?</h2>
-        <p class="cta-subtitle">Essayez nos applications gratuitement dès aujourd'hui. Aucune carte bancaire requise.</p>
+        <h2 class="cta-title" data-i18n="contact.ctaTitle">Prêt à commencer ?</h2>
+        <p class="cta-subtitle" data-i18n="contact.ctaSubtitle">Essayez nos applications gratuitement dès aujourd'hui. Aucune carte bancaire requise.</p>
         <div class="cta-buttons">
           <a href="https://gesttaches.netlify.app" target="_blank" rel="noopener" class="btn btn-primary btn-lg">
             GestTaches
@@ -545,45 +550,45 @@ Cat;Chat</pre>
 
       <!-- Contact Form -->
       <div class="contact-form-wrapper">
-        <h3 class="contact-form-title">Une question ? Contactez-nous</h3>
-        <p class="contact-form-subtitle">Nous vous répondrons sous 24 heures.</p>
+        <h3 class="contact-form-title" data-i18n="contact.formTitle">Une question ? Contactez-nous</h3>
+        <p class="contact-form-subtitle" data-i18n="contact.formSubtitle">Nous vous répondrons sous 24 heures.</p>
         <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" class="contact-form" id="contact-form">
           <input type="hidden" name="form-name" value="contact">
           <p class="hidden-field"><label>Ne pas remplir : <input name="bot-field"></label></p>
           <div class="form-row">
             <div class="form-group">
-              <label for="name" class="form-label">Nom</label>
-              <input type="text" id="name" name="name" required class="form-input" placeholder="Votre nom">
+              <label for="name" class="form-label" data-i18n="contact.labelName">Nom</label>
+              <input type="text" id="name" name="name" required class="form-input" placeholder="Votre nom" data-i18n-placeholder="contact.phName">
             </div>
             <div class="form-group">
-              <label for="email" class="form-label">Courriel</label>
-              <input type="email" id="email" name="email" required class="form-input" placeholder="votre@email.com">
+              <label for="email" class="form-label" data-i18n="contact.labelEmail">Courriel</label>
+              <input type="email" id="email" name="email" required class="form-input" placeholder="votre@email.com" data-i18n-placeholder="contact.phEmail">
             </div>
           </div>
           <div class="form-group">
-            <label for="subject" class="form-label">Sujet</label>
+            <label for="subject" class="form-label" data-i18n="contact.labelSubject">Sujet</label>
             <select id="subject" name="subject" required class="form-input form-select">
-              <option value="" disabled selected>Choisir un sujet</option>
-              <option value="gesttaches">Question sur GestTaches</option>
-              <option value="jeudemots">Question sur Jeu de Mots</option>
-              <option value="general">Question générale</option>
-              <option value="bug">Signaler un problème</option>
-              <option value="autre">Autre</option>
+              <option value="" disabled selected data-i18n="contact.optDefault">Choisir un sujet</option>
+              <option value="gesttaches" data-i18n="contact.optGt">Question sur GestTaches</option>
+              <option value="jeudemots" data-i18n="contact.optJm">Question sur Jeu de Mots</option>
+              <option value="general" data-i18n="contact.optGeneral">Question générale</option>
+              <option value="bug" data-i18n="contact.optBug">Signaler un problème</option>
+              <option value="autre" data-i18n="contact.optOther">Autre</option>
             </select>
           </div>
           <div class="form-group">
-            <label for="message" class="form-label">Message</label>
-            <textarea id="message" name="message" required rows="5" class="form-input form-textarea" placeholder="Votre message..."></textarea>
+            <label for="message" class="form-label" data-i18n="contact.labelMessage">Message</label>
+            <textarea id="message" name="message" required rows="5" class="form-input form-textarea" placeholder="Votre message..." data-i18n-placeholder="contact.phMessage"></textarea>
           </div>
           <button type="submit" class="btn btn-primary btn-lg btn-block" id="submit-btn">
             <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" fill="currentColor"/><path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" fill="currentColor"/></svg>
-            Envoyer le message
+            <span data-i18n="contact.submit">Envoyer le message</span>
           </button>
         </form>
         <div class="form-success" id="form-success" style="display:none;">
           <svg width="48" height="48" viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="24" fill="#dcfce7"/><path d="M15 24l6 6 12-12" stroke="#16a34a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>
-          <h4>Message envoyé !</h4>
-          <p>Merci pour votre message. Nous vous répondrons dans les plus brefs délais.</p>
+          <h4 data-i18n="contact.successTitle">Message envoyé !</h4>
+          <p data-i18n="contact.successMsg">Merci pour votre message. Nous vous répondrons dans les plus brefs délais.</p>
         </div>
       </div>
     </div>
@@ -601,27 +606,28 @@ Cat;Chat</pre>
           </svg>
           <span>CarlusOne</span>
         </a>
-        <p class="footer-tagline">Applications web modernes pour professionnels et éducateurs.</p>
+        <p class="footer-tagline" data-i18n="footer.tagline">Applications web modernes pour professionnels et éducateurs.</p>
       </div>
       <div class="footer-links">
         <div class="footer-col">
-          <h4>Applications</h4>
+          <h4 data-i18n="footer.appsTitle">Applications</h4>
           <a href="https://gesttaches.netlify.app" target="_blank" rel="noopener">GestTaches</a>
           <a href="https://jeudemots.netlify.app" target="_blank" rel="noopener">Jeu de Mots</a>
         </div>
         <div class="footer-col">
-          <h4>Ressources</h4>
-          <a href="#pricing">Tarifs</a>
-          <a href="#faq">FAQ</a>
-          <a href="#contact">Contact</a>
+          <h4 data-i18n="footer.resourcesTitle">Ressources</h4>
+          <a href="#pricing" data-i18n="footer.pricing">Tarifs</a>
+          <a href="#faq" data-i18n="footer.faq">FAQ</a>
+          <a href="#contact" data-i18n="footer.contact">Contact</a>
         </div>
       </div>
     </div>
     <div class="container footer-bottom">
-      <p>&copy; 2026 CarlusOne. Tous droits réservés.</p>
+      <p data-i18n="footer.copyright">&copy; 2026 CarlusOne. Tous droits réservés.</p>
     </div>
   </footer>
 
+  <script src="/i18n.js"></script>
   <script src="/script.js"></script>
 </body>
 </html>

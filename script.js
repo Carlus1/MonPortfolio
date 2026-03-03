@@ -67,7 +67,7 @@ if (contactForm) {
     e.preventDefault();
     const submitBtn = document.getElementById('submit-btn');
     const originalText = submitBtn.innerHTML;
-    submitBtn.innerHTML = '<svg width="20" height="20" viewBox="0 0 20 20" fill="none" class="spin"><circle cx="10" cy="10" r="8" stroke="currentColor" stroke-width="2" fill="none" stroke-dasharray="40" stroke-dashoffset="10"/></svg> Envoi en cours...';
+    submitBtn.innerHTML = '<svg width="20" height="20" viewBox="0 0 20 20" fill="none" class="spin"><circle cx="10" cy="10" r="8" stroke="currentColor" stroke-width="2" fill="none" stroke-dasharray="40" stroke-dashoffset="10"/></svg> ' + (window.t ? window.t('contact.sending') : 'Envoi en cours...');
     submitBtn.disabled = true;
 
     try {
@@ -87,7 +87,7 @@ if (contactForm) {
     } catch (err) {
       submitBtn.innerHTML = originalText;
       submitBtn.disabled = false;
-      alert('Une erreur est survenue. Veuillez réessayer.');
+      alert(window.t ? window.t('contact.error') : 'Une erreur est survenue. Veuillez réessayer.');
     }
   });
 }
