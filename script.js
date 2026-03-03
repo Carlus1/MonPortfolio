@@ -58,6 +58,40 @@ revealElements.forEach(el => {
   revealObserver.observe(el);
 });
 
+// ===== Contact Form Submission =====
+const contactForm = document.getElementById('contact-form');
+const formSuccess = document.getElementById('form-success');
+
+if (contactForm) {
+  contactForm.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const submitBtn = document.getElementById('submit-btn');
+    const originalText = submitBtn.innerHTML;
+    submitBtn.innerHTML = '<svg width="20" height="20" viewBox="0 0 20 20" fill="none" class="spin"><circle cx="10" cy="10" r="8" stroke="currentColor" stroke-width="2" fill="none" stroke-dasharray="40" stroke-dashoffset="10"/></svg> Envoi en cours...';
+    submitBtn.disabled = true;
+
+    try {
+      const formData = new FormData(contactForm);
+      const response = await fetch('/', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+        body: new URLSearchParams(formData).toString()
+      });
+
+      if (response.ok) {
+        contactForm.style.display = 'none';
+        formSuccess.style.display = 'block';
+      } else {
+        throw new Error('Erreur');
+      }
+    } catch (err) {
+      submitBtn.innerHTML = originalText;
+      submitBtn.disabled = false;
+      alert('Une erreur est survenue. Veuillez réessayer.');
+    }
+  });
+}
+
 // ===== Active nav link on scroll =====
 const sections = document.querySelectorAll('section[id]');
 const navLinksAll = document.querySelectorAll('.nav-link');
