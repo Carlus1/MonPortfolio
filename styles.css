@@ -494,6 +494,51 @@ ul { list-style: none; }
   font-weight: 600;
 }
 
+/* How it works section */
+.app-how-it-works {
+  background: linear-gradient(135deg, #f0f4ff 0%, #e8f0fe 100%);
+  border-radius: var(--radius-xl);
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  border: 1px solid rgba(99, 102, 241, 0.12);
+}
+
+.how-title {
+  font-family: var(--font-heading);
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--primary);
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.how-title::before {
+  content: '💡';
+}
+
+.how-steps {
+  display: flex;
+  flex-direction: column;
+  gap: 0.625rem;
+  padding-left: 1.25rem;
+  margin: 0;
+  counter-reset: step;
+}
+
+.how-steps li {
+  font-size: 0.9rem;
+  line-height: 1.6;
+  color: var(--gray-700);
+  position: relative;
+}
+
+.how-steps li strong {
+  color: var(--gray-900);
+  font-weight: 600;
+}
+
 .app-features {
   display: flex;
   flex-direction: column;
