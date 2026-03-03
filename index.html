@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Primary SEO -->
+  <title>CarlusOne — Applications Web Professionnelles | GestTaches & Jeu de Mots</title>
+  <meta name="description" content="Découvrez les applications web CarlusOne : GestTaches pour la gestion des tâches en milieu médical et Jeu de Mots pour l'apprentissage interactif. Essai gratuit disponible.">
+  <meta name="keywords" content="gestion tâches médicales, application tâches, planification médicale, apprentissage interactif, jeux éducatifs, flashcards, quiz mathématiques, calcul mental, CarlusOne, GestTaches, Jeu de Mots">
+  <meta name="author" content="CarlusOne">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://carlusone.netlify.app/">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://carlusone.netlify.app/">
+  <meta property="og:title" content="CarlusOne — Applications Web Professionnelles">
+  <meta property="og:description" content="GestTaches pour la gestion des tâches médicales. Jeu de Mots pour l'apprentissage interactif. Essai gratuit.">
+  <meta property="og:image" content="https://carlusone.netlify.app/og-image.png">
+  <meta property="og:locale" content="fr_CA">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="CarlusOne — Applications Web Professionnelles">
+  <meta name="twitter:description" content="GestTaches pour la gestion des tâches médicales. Jeu de Mots pour l'apprentissage interactif. Essai gratuit.">
+  <meta name="twitter:image" content="https://carlusone.netlify.app/og-image.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Structured Data: Organization -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "CarlusOne",
+    "url": "https://carlusone.netlify.app",
+    "logo": "https://carlusone.netlify.app/favicon.svg",
+    "description": "Éditeur d'applications web professionnelles : gestion des tâches et apprentissage interactif.",
+    "sameAs": []
+  }
+  </script>
+
+  <!-- Structured Data: Software Applications -->
+  <script type="application/ld+json">
+  [
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "GestTaches",
+      "applicationCategory": "BusinessApplication",
+      "operatingSystem": "Web",
+      "url": "https://gesttaches.netlify.app",
+      "description": "Application de gestion des tâches spécialement conçue pour les environnements médicaux. Calendrier interactif, propositions automatiques et gestion des groupes.",
+      "offers": {
+        "@type": "Offer",
+        "price": "12.00",
+        "priceCurrency": "CAD",
+        "priceValidUntil": "2027-12-31",
+        "availability": "https://schema.org/InStock"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.8",
+        "ratingCount": "24"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "Jeu de Mots",
+      "applicationCategory": "EducationalApplication",
+      "operatingSystem": "Web",
+      "url": "https://jeudemots.netlify.app",
+      "description": "Application éducative interactive pour apprendre en jouant : flashcards de vocabulaire, quiz de mathématiques et feuilles de calcul imprimables.",
+      "offers": {
+        "@type": "Offer",
+        "price": "5.00",
+        "priceCurrency": "CAD",
+        "priceValidUntil": "2027-12-31",
+        "availability": "https://schema.org/InStock"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "ratingCount": "18"
+      }
+    }
+  ]
+  </script>
+
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <!-- ===== NAVIGATION ===== -->
+  <nav class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#" class="nav-logo">
+        <svg class="logo-icon" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect width="40" height="40" rx="10" fill="url(#logo-gradient)"/>
+          <text x="50%" y="55%" dominant-baseline="middle" text-anchor="middle" fill="white" font-size="18" font-weight="700" font-family="Space Grotesk, sans-serif">C1</text>
+          <defs><linearGradient id="logo-gradient" x1="0" y1="0" x2="40" y2="40"><stop stop-color="#6366f1"/><stop offset="1" stop-color="#8b5cf6"/></linearGradient></defs>
+        </svg>
+        <span>CarlusOne</span>
+      </a>
+      <div class="nav-links" id="nav-links">
+        <a href="#apps" class="nav-link">Applications</a>
+        <a href="#pricing" class="nav-link">Tarifs</a>
+        <a href="#faq" class="nav-link">FAQ</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </div>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <header class="hero" id="hero">
+    <div class="hero-bg-shapes">
+      <div class="shape shape-1"></div>
+      <div class="shape shape-2"></div>
+      <div class="shape shape-3"></div>
+    </div>
+    <div class="container hero-content">
+      <div class="hero-badge">🚀 Applications web modernes</div>
+      <h1 class="hero-title">
+        Des outils <span class="gradient-text">puissants</span> pour votre quotidien
+      </h1>
+      <p class="hero-subtitle">
+        Gestion de tâches médicales et apprentissage interactif — conçus pour être simples, efficaces et accessibles.
+      </p>
+      <div class="hero-cta">
+        <a href="#apps" class="btn btn-primary btn-lg">
+          Découvrir nos applications
+          <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M4 10h12m0 0l-4-4m4 4l-4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+        <a href="#pricing" class="btn btn-outline btn-lg">Voir les tarifs</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat">
+          <span class="stat-number">2</span>
+          <span class="stat-label">Applications</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-number">Gratuit</span>
+          <span class="stat-label">Essai disponible</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-number">24/7</span>
+          <span class="stat-label">Accessible partout</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ===== APPLICATIONS ===== -->
+  <section class="section" id="apps">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">Nos applications</span>
+        <h2 class="section-title">Des solutions adaptées à vos besoins</h2>
+        <p class="section-subtitle">Chaque application est conçue avec soin pour offrir une expérience utilisateur exceptionnelle.</p>
+      </div>
+
+      <!-- App 1: GestTaches -->
+      <article class="app-card" id="gesttaches">
+        <div class="app-card-visual">
+          <div class="app-mockup gesttaches-mockup">
+            <div class="mockup-header">
+              <div class="mockup-dots">
+                <span></span><span></span><span></span>
+              </div>
+              <span class="mockup-url">gesttaches.netlify.app</span>
+            </div>
+            <div class="mockup-body">
+              <div class="mockup-sidebar">
+                <div class="mockup-nav-item active"></div>
+                <div class="mockup-nav-item"></div>
+                <div class="mockup-nav-item"></div>
+                <div class="mockup-nav-item"></div>
+              </div>
+              <div class="mockup-content">
+                <div class="mockup-calendar">
+                  <div class="cal-header"></div>
+                  <div class="cal-grid">
+                    <div class="cal-cell"></div>
+                    <div class="cal-cell"></div>
+                    <div class="cal-cell highlight"></div>
+                    <div class="cal-cell"></div>
+                    <div class="cal-cell"></div>
+                    <div class="cal-cell highlight-2"></div>
+                    <div class="cal-cell"></div>
+                    <div class="cal-cell"></div>
+                    <div class="cal-cell highlight"></div>
+                    <div class="cal-cell"></div>
+                    <div class="cal-cell"></div>
+                    <div class="cal-cell"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="app-card-info">
+          <div class="app-badge app-badge-blue">Gestion médicale</div>
+          <h3 class="app-title">GestTaches</h3>
+          <p class="app-description">
+            Application de <strong>gestion des tâches</strong> spécialement conçue pour les 
+            <strong>environnements médicaux</strong>. Organisez, planifiez et suivez les tâches 
+            de votre équipe avec des outils intelligents.
+          </p>
+          <ul class="app-features">
+            <li>
+              <svg class="feature-icon" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+              <span>Calendrier interactif avec propositions automatiques</span>
+            </li>
+            <li>
+              <svg class="feature-icon" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+              <span>Gestion des groupes et des utilisateurs avec rôles</span>
+            </li>
+            <li>
+              <svg class="feature-icon" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+              <span>Gestion des disponibilités et des absences</span>
+            </li>
+            <li>
+              <svg class="feature-icon" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+              <span>Rapports, statistiques et notifications</span>
+            </li>
+          </ul>
+          <div class="app-cta">
+            <a href="https://gesttaches.netlify.app" target="_blank" rel="noopener" class="btn btn-primary">
+              Essayer gratuitement
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M4 12l8-8m0 0H5m7 0v7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </a>
+            <span class="app-trial-info">14 jours d'essai gratuit — sans carte bancaire</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- App 2: Jeu de Mots -->
+      <article class="app-card app-card-reverse" id="jeudemots">
+        <div class="app-card-visual">
+          <div class="app-mockup jeudemots-mockup">
+            <div class="mockup-header">
+              <div class="mockup-dots">
+                <span></span><span></span><span></span>
+              </div>
+              <span class="mockup-url">jeudemots.netlify.app</span>
+            </div>
+            <div class="mockup-body">
+              <div class="mockup-content-full">
+                <div class="mockup-flashcard">
+                  <div class="flashcard-front">
+                    <span class="flashcard-emoji">🎯</span>
+                    <span class="flashcard-word">Apprendre</span>
+                  </div>
+                </div>
+                <div class="mockup-quiz">
+                  <div class="quiz-question">7 × 8 = ?</div>
+                  <div class="quiz-options">
+                    <span class="quiz-opt">54</span>
+                    <span class="quiz-opt correct">56</span>
+                    <span class="quiz-opt">58</span>
+                    <span class="quiz-opt">48</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="app-card-info">
+          <div class="app-badge app-badge-green">Éducation</div>
+          <h3 class="app-title">Jeu de Mots</h3>
+          <p class="app-description">
+            Application éducative interactive pour <strong>apprendre en jouant</strong>. 
+            Idéale pour les enfants et les étudiants qui souhaitent améliorer leur 
+            <strong>vocabulaire</strong> et leurs <strong>compétences en mathématiques</strong>.
+          </p>
+          <ul class="app-features">
+            <li>
+              <svg class="feature-icon" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+              <span>Flashcards de vocabulaire personnalisables</span>
+            </li>
+            <li>
+              <svg class="feature-icon" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+              <span>Quiz de mathématiques : addition, soustraction, multiplication</span>
+            </li>
+            <li>
+              <svg class="feature-icon" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+              <span>Feuilles de calcul imprimables</span>
+            </li>
+            <li>
+              <svg class="feature-icon" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+              <span>Suivi des progrès par étudiant</span>
+            </li>
+          </ul>
+          <div class="app-cta">
+            <a href="https://jeudemots.netlify.app" target="_blank" rel="noopener" class="btn btn-success">
+              Essayer gratuitement
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M4 12l8-8m0 0H5m7 0v7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </a>
+            <span class="app-trial-info">2 jours d'essai gratuit — sans carte bancaire</span>
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- ===== PRICING ===== -->
+  <section class="section section-alt" id="pricing">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">Tarifs</span>
+        <h2 class="section-title">Des prix simples et transparents</h2>
+        <p class="section-subtitle">Essayez gratuitement, puis choisissez le plan qui vous convient. Annulable à tout moment.</p>
+      </div>
+
+      <div class="pricing-grid">
+        <!-- GestTaches Pricing -->
+        <div class="pricing-card">
+          <div class="pricing-header">
+            <div class="pricing-app-badge pricing-badge-blue">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+            <h3 class="pricing-name">GestTaches</h3>
+            <p class="pricing-tagline">Gestion de tâches médicales</p>
+          </div>
+          <div class="pricing-body">
+            <div class="pricing-amount">
+              <span class="price-value">12 $</span>
+              <span class="price-currency">CAD</span>
+              <span class="price-period">/ mois</span>
+            </div>
+            <div class="pricing-trial">
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M8 3v5l3 3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><circle cx="8" cy="8" r="6.5" stroke="currentColor" stroke-width="1.5"/></svg>
+              14 jours d'essai gratuit
+            </div>
+            <ul class="pricing-features">
+              <li>
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor"><path d="M13.854 3.646a.5.5 0 010 .708l-7 7a.5.5 0 01-.708 0l-3.5-3.5a.5.5 0 11.708-.708L6.5 10.293l6.646-6.647a.5.5 0 01.708 0z"/></svg>
+                Calendrier interactif
+              </li>
+              <li>
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor"><path d="M13.854 3.646a.5.5 0 010 .708l-7 7a.5.5 0 01-.708 0l-3.5-3.5a.5.5 0 11.708-.708L6.5 10.293l6.646-6.647a.5.5 0 01.708 0z"/></svg>
+                Propositions automatiques
+              </li>
+              <li>
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor"><path d="M13.854 3.646a.5.5 0 010 .708l-7 7a.5.5 0 01-.708 0l-3.5-3.5a.5.5 0 11.708-.708L6.5 10.293l6.646-6.647a.5.5 0 01.708 0z"/></svg>
+                Gestion des groupes
+              </li>
+              <li>
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor"><path d="M13.854 3.646a.5.5 0 010 .708l-7 7a.5.5 0 01-.708 0l-3.5-3.5a.5.5 0 11.708-.708L6.5 10.293l6.646-6.647a.5.5 0 01.708 0z"/></svg>
+                Rapports et statistiques
+              </li>
+              <li>
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor"><path d="M13.854 3.646a.5.5 0 010 .708l-7 7a.5.5 0 01-.708 0l-3.5-3.5a.5.5 0 11.708-.708L6.5 10.293l6.646-6.647a.5.5 0 01.708 0z"/></svg>
+                Sans carte bancaire pour l'essai
+              </li>
+            </ul>
+          </div>
+          <div class="pricing-footer">
+            <a href="https://gesttaches.netlify.app" target="_blank" rel="noopener" class="btn btn-primary btn-block">
+              Commencer l'essai gratuit
+            </a>
+          </div>
+        </div>
+
+        <!-- Jeu de Mots Pricing -->
+        <div class="pricing-card pricing-card-featured">
+          <div class="pricing-featured-badge">Populaire</div>
+          <div class="pricing-header">
+            <div class="pricing-app-badge pricing-badge-green">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+            <h3 class="pricing-name">Jeu de Mots</h3>
+            <p class="pricing-tagline">Apprentissage interactif</p>
+          </div>
+          <div class="pricing-body">
+            <div class="pricing-amount">
+              <span class="price-value">5 $</span>
+              <span class="price-currency">CAD</span>
+              <span class="price-period">/ mois</span>
+            </div>
+            <div class="pricing-trial">
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M8 3v5l3 3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><circle cx="8" cy="8" r="6.5" stroke="currentColor" stroke-width="1.5"/></svg>
+              2 jours d'essai gratuit
+            </div>
+            <ul class="pricing-features">
+              <li>
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor"><path d="M13.854 3.646a.5.5 0 010 .708l-7 7a.5.5 0 01-.708 0l-3.5-3.5a.5.5 0 11.708-.708L6.5 10.293l6.646-6.647a.5.5 0 01.708 0z"/></svg>
+                Flashcards de vocabulaire
+              </li>
+              <li>
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor"><path d="M13.854 3.646a.5.5 0 010 .708l-7 7a.5.5 0 01-.708 0l-3.5-3.5a.5.5 0 11.708-.708L6.5 10.293l6.646-6.647a.5.5 0 01.708 0z"/></svg>
+                Quiz mathématiques interactifs
+              </li>
+              <li>
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor"><path d="M13.854 3.646a.5.5 0 010 .708l-7 7a.5.5 0 01-.708 0l-3.5-3.5a.5.5 0 11.708-.708L6.5 10.293l6.646-6.647a.5.5 0 01.708 0z"/></svg>
+                Feuilles de calcul imprimables
+              </li>
+              <li>
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor"><path d="M13.854 3.646a.5.5 0 010 .708l-7 7a.5.5 0 01-.708 0l-3.5-3.5a.5.5 0 11.708-.708L6.5 10.293l6.646-6.647a.5.5 0 01.708 0z"/></svg>
+                Suivi des progrès
+              </li>
+              <li>
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor"><path d="M13.854 3.646a.5.5 0 010 .708l-7 7a.5.5 0 01-.708 0l-3.5-3.5a.5.5 0 11.708-.708L6.5 10.293l6.646-6.647a.5.5 0 01.708 0z"/></svg>
+                Multi-langues (FR, EN, ES)
+              </li>
+            </ul>
+          </div>
+          <div class="pricing-footer">
+            <a href="https://jeudemots.netlify.app" target="_blank" rel="noopener" class="btn btn-success btn-block">
+              Commencer l'essai gratuit
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FAQ ===== -->
+  <section class="section" id="faq">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">FAQ</span>
+        <h2 class="section-title">Questions fréquentes</h2>
+      </div>
+      <div class="faq-grid">
+        <details class="faq-item">
+          <summary class="faq-question">
+            Comment fonctionne l'essai gratuit ?
+            <svg class="faq-chevron" width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M5 7l5 5 5-5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </summary>
+          <p class="faq-answer">Créez simplement un compte et commencez à utiliser l'application immédiatement. Aucune carte bancaire n'est requise. À la fin de la période d'essai, vous pourrez choisir de vous abonner pour continuer.</p>
+        </details>
+        <details class="faq-item">
+          <summary class="faq-question">
+            Puis-je annuler à tout moment ?
+            <svg class="faq-chevron" width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M5 7l5 5 5-5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </summary>
+          <p class="faq-answer">Oui, absolument. Vous pouvez annuler votre abonnement à tout moment depuis votre espace de gestion. Il n'y a aucun engagement ni frais cachés.</p>
+        </details>
+        <details class="faq-item">
+          <summary class="faq-question">
+            Quels moyens de paiement acceptez-vous ?
+            <svg class="faq-chevron" width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M5 7l5 5 5-5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </summary>
+          <p class="faq-answer">Nous utilisons Stripe, une plateforme de paiement sécurisée. Vous pouvez payer par carte de crédit ou de débit (Visa, Mastercard, American Express).</p>
+        </details>
+        <details class="faq-item">
+          <summary class="faq-question">
+            Mes données sont-elles en sécurité ?
+            <svg class="faq-chevron" width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M5 7l5 5 5-5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </summary>
+          <p class="faq-answer">Absolument. Nous utilisons des technologies de pointe (Firebase, Supabase) avec chiffrement des données, authentification sécurisée et conformité aux normes de protection des données.</p>
+        </details>
+        <details class="faq-item">
+          <summary class="faq-question">
+            Les applications fonctionnent-elles sur mobile ?
+            <svg class="faq-chevron" width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M5 7l5 5 5-5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </summary>
+          <p class="faq-answer">Oui, nos applications sont entièrement responsives et fonctionnent sur tous les appareils : ordinateurs, tablettes et téléphones mobiles. Vous pouvez même les installer comme application sur votre téléphone.</p>
+        </details>
+        <details class="faq-item">
+          <summary class="faq-question">
+            Comment contacter le support ?
+            <svg class="faq-chevron" width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M5 7l5 5 5-5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </summary>
+          <p class="faq-answer">Vous pouvez nous contacter via le formulaire de contact en bas de cette page ou directement par courriel. Nous répondons généralement sous 24 heures.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT / CTA ===== -->
+  <section class="section section-alt" id="contact">
+    <div class="container">
+      <div class="cta-block">
+        <h2 class="cta-title">Prêt à commencer ?</h2>
+        <p class="cta-subtitle">Essayez nos applications gratuitement dès aujourd'hui. Aucune carte bancaire requise.</p>
+        <div class="cta-buttons">
+          <a href="https://gesttaches.netlify.app" target="_blank" rel="noopener" class="btn btn-primary btn-lg">
+            GestTaches
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M4 12l8-8m0 0H5m7 0v7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+          <a href="https://jeudemots.netlify.app" target="_blank" rel="noopener" class="btn btn-success btn-lg">
+            Jeu de Mots
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M4 12l8-8m0 0H5m7 0v7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+        </div>
+        <p class="cta-contact">
+          Une question ? Écrivez-nous à 
+          <a href="mailto:contact@carlusone.com" class="cta-email">contact@carlusone.com</a>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="footer-brand">
+        <a href="#" class="nav-logo">
+          <svg class="logo-icon" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="40" height="40" rx="10" fill="url(#logo-gradient-2)"/>
+            <text x="50%" y="55%" dominant-baseline="middle" text-anchor="middle" fill="white" font-size="18" font-weight="700" font-family="Space Grotesk, sans-serif">C1</text>
+            <defs><linearGradient id="logo-gradient-2" x1="0" y1="0" x2="40" y2="40"><stop stop-color="#6366f1"/><stop offset="1" stop-color="#8b5cf6"/></linearGradient></defs>
+          </svg>
+          <span>CarlusOne</span>
+        </a>
+        <p class="footer-tagline">Applications web modernes pour professionnels et éducateurs.</p>
+      </div>
+      <div class="footer-links">
+        <div class="footer-col">
+          <h4>Applications</h4>
+          <a href="https://gesttaches.netlify.app" target="_blank" rel="noopener">GestTaches</a>
+          <a href="https://jeudemots.netlify.app" target="_blank" rel="noopener">Jeu de Mots</a>
+        </div>
+        <div class="footer-col">
+          <h4>Ressources</h4>
+          <a href="#pricing">Tarifs</a>
+          <a href="#faq">FAQ</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>&copy; 2026 CarlusOne. Tous droits réservés.</p>
+    </div>
+  </footer>
+
+  <script src="/script.js"></script>
+</body>
+</html>
