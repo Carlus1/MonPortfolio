@@ -539,6 +539,93 @@ ul { list-style: none; }
   font-weight: 600;
 }
 
+/* Green variant for Jeu de Mots */
+.app-how-green {
+  background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%);
+  border-color: rgba(34, 197, 94, 0.15);
+}
+
+.how-title-green {
+  color: var(--green-600, #16a34a);
+}
+
+.how-title-green::before {
+  content: '📚';
+}
+
+.how-description {
+  font-size: 0.9rem;
+  line-height: 1.6;
+  color: var(--gray-700);
+  margin-bottom: 1rem;
+}
+
+.how-description strong {
+  color: var(--gray-900);
+  font-weight: 600;
+}
+
+.file-examples {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.file-example {
+  background: white;
+  border-radius: var(--radius-lg);
+  padding: 1rem;
+  border: 1px solid rgba(34, 197, 94, 0.15);
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.file-example-label {
+  font-weight: 600;
+  font-size: 0.875rem;
+  color: var(--gray-800);
+}
+
+.file-example-desc {
+  font-size: 0.8rem;
+  color: var(--gray-500);
+  margin-bottom: 0.5rem;
+}
+
+.file-example-desc strong {
+  color: var(--primary);
+  font-size: 1rem;
+}
+
+.file-example-code {
+  background: var(--gray-50);
+  border-radius: var(--radius-md);
+  padding: 0.75rem;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.8rem;
+  line-height: 1.6;
+  color: var(--gray-700);
+  border: 1px solid var(--gray-200);
+  margin: 0;
+  white-space: pre;
+  overflow-x: auto;
+}
+
+.how-note {
+  font-size: 0.85rem;
+  color: var(--gray-600);
+  font-style: italic;
+  line-height: 1.5;
+}
+
+@media (max-width: 600px) {
+  .file-examples {
+    grid-template-columns: 1fr;
+  }
+}
+
 .app-features {
   display: flex;
   flex-direction: column;
