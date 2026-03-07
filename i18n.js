@@ -428,9 +428,9 @@ function detectLanguage() {
 
 let currentLang = 'fr';
 
-// Get translation
+// Get translation (returns null if key not found, to preserve fallback HTML)
 function t(key) {
-  return (translations[currentLang] && translations[currentLang][key]) || translations.fr[key] || key;
+  return (translations[currentLang] && translations[currentLang][key]) || translations.fr[key] || null;
 }
 
 // Apply all translations to the page
@@ -446,17 +446,20 @@ function applyTranslations(lang) {
 
   // Update text content
   document.querySelectorAll('[data-i18n]').forEach(el => {
-    el.textContent = t(el.dataset.i18n);
+    const val = t(el.dataset.i18n);
+    if (val) el.textContent = val;
   });
 
   // Update HTML content (for elements with <strong>, <span>, etc.)
   document.querySelectorAll('[data-i18n-html]').forEach(el => {
-    el.innerHTML = t(el.dataset.i18nHtml);
+    const val = t(el.dataset.i18nHtml);
+    if (val) el.innerHTML = val;
   });
 
   // Update placeholders
   document.querySelectorAll('[data-i18n-placeholder]').forEach(el => {
-    el.placeholder = t(el.dataset.i18nPlaceholder);
+    const val = t(el.dataset.i18nPlaceholder);
+    if (val) el.placeholder = val;
   });
 
   // Update active language button
