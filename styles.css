@@ -668,6 +668,88 @@ ul { list-style: none; }
   margin-bottom: 2rem;
 }
 
+/* Roles info section */
+.app-roles-info {
+  background: linear-gradient(135deg, #fffbeb 0%, #fef3c7 100%);
+  border-radius: var(--radius-xl);
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  border: 1px solid rgba(245, 158, 11, 0.2);
+}
+
+.app-roles-intro {
+  font-size: 0.9rem;
+  color: var(--gray-600);
+  margin-bottom: 1rem;
+}
+
+.app-roles-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.app-role-card {
+  background: white;
+  border-radius: var(--radius-lg);
+  padding: 1.25rem;
+  border: 1px solid rgba(245, 158, 11, 0.15);
+  text-align: center;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.app-role-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.app-role-icon {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.app-role-card h5 {
+  font-family: var(--font-heading);
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.app-role-admin h5 {
+  color: #b45309;
+}
+
+.app-role-user h5 {
+  color: #4f46e5;
+}
+
+.app-role-card p {
+  font-size: 0.82rem;
+  line-height: 1.5;
+  color: var(--gray-600);
+  text-align: left;
+}
+
+.app-role-card p strong {
+  color: var(--gray-800);
+  font-weight: 600;
+}
+
+.app-roles-note {
+  font-size: 0.85rem;
+  color: var(--gray-600);
+  font-style: italic;
+  line-height: 1.5;
+  margin: 0;
+}
+
+@media (max-width: 600px) {
+  .app-roles-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
 .app-features li {
   display: flex;
   align-items: flex-start;
