@@ -247,7 +247,7 @@ const translations = {
     'faq.q7': 'What is the difference between Administrator and User in GestTaches?',
     'faq.a7': 'The <strong>Administrator</strong> can create and manage groups, define tasks, add members, launch automatic proposals and view reports. The <strong>User</strong> joins an existing group, views their assigned tasks and declares their unavailabilities. You choose your role when signing up and it is kept after the free trial. Each person has their own subscription.',
     'faq.q6': 'How do I contact support?',
-    'faq.a6': 'You can reach us through the contact form at the bottom of this page or directly by email. We typically respond within 24 hours.'
+    'faq.a6': 'You can reach us through the contact form at the bottom of this page or directly by email. We typically respond within 24 hours.',
 
     'contact.ctaTitle': 'Ready to get started?',
     'contact.ctaSubtitle': 'Try our applications for free today. No credit card required.',
@@ -383,7 +383,7 @@ const translations = {
     'faq.q7': '\u00bfCu\u00e1l es la diferencia entre Administrador y Usuario en GestTaches?',
     'faq.a7': 'El <strong>Administrador</strong> puede crear y gestionar grupos, definir tareas, a\u00f1adir miembros, lanzar las propuestas autom\u00e1ticas y consultar los informes. El <strong>Usuario</strong> se une a un grupo existente, consulta sus tareas asignadas y declara sus indisponibilidades. Usted elige su rol al registrarse y se conserva despu\u00e9s de la prueba gratuita. Cada persona tiene su propia suscripci\u00f3n.',
     'faq.q6': '\u00bfC\u00f3mo contactar al soporte?',
-    'faq.a6': 'Puede contactarnos a trav\u00e9s del formulario de contacto en la parte inferior de esta p\u00e1gina o directamente por correo electr\u00f3nico. Generalmente respondemos en menos de 24 horas.'
+    'faq.a6': 'Puede contactarnos a trav\u00e9s del formulario de contacto en la parte inferior de esta p\u00e1gina o directamente por correo electr\u00f3nico. Generalmente respondemos en menos de 24 horas.',
 
     'contact.ctaTitle': '\u00bfListo para comenzar?',
     'contact.ctaSubtitle': 'Pruebe nuestras aplicaciones gratis hoy. Sin tarjeta de cr\u00e9dito.',
