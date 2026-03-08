@@ -1,8 +1,8 @@
 // ===== CarlusOne i18n System =====
 const translations = {
   fr: {
-    'meta.title': 'CarlusOne \u2014 Applications Web Professionnelles | GestTaches & Jeu de Mots',
-    'meta.description': 'D\u00e9couvrez les applications web CarlusOne : GestTaches pour la gestion des t\u00e2ches d\u2019\u00e9quipe et Jeu de Mots pour l\u2019apprentissage interactif. Essai gratuit disponible.',
+    'meta.title': 'CarlusOne \u2014 Applications Web Professionnelles | GestTaches, GestBudget & Jeu de Mots',
+    'meta.description': 'D\u00e9couvrez les applications web CarlusOne : GestTaches pour la gestion des t\u00e2ches d\u2019\u00e9quipe, GestBudget pour la gestion de budget personnel et Jeu de Mots pour l\u2019apprentissage interactif. Essai gratuit disponible.',
 
     // Nav
     'nav.apps': 'Applications',
@@ -50,6 +50,22 @@ const translations = {
     'gt.cta': 'Essayer gratuitement',
     'gt.trial': '14 jours d\u2019essai gratuit \u2014 sans carte bancaire',
 
+    // GestBudget
+    'gb.badge': 'Finances personnelles',
+    'gb.desc': 'Application de <strong>gestion de budget personnel</strong> compl\u00e8te : suivez vos <strong>revenus</strong>, vos <strong>d\u00e9penses</strong> et g\u00e9rez vos <strong>comptes</strong> en toute simplicit\u00e9.',
+    'gb.howTitle': 'Comment \u00e7a fonctionne ?',
+    'gb.step1': '<strong>Cr\u00e9ez vos comptes</strong> (bancaire, \u00e9pargne, esp\u00e8ces, carte de cr\u00e9dit, etc.) pour organiser vos finances.',
+    'gb.step2': '<strong>Ajoutez vos transactions</strong> \u2014 revenus et d\u00e9penses \u2014 en choisissant une cat\u00e9gorie et un compte.',
+    'gb.step3': '<strong>Consultez le tableau de bord</strong> pour visualiser vos d\u00e9penses par cat\u00e9gorie et suivre l\u2019\u00e9volution de votre budget.',
+    'gb.step4': '<strong>Personnalisez vos cat\u00e9gories</strong> et types de comptes dans les r\u00e9glages pour adapter l\u2019application \u00e0 vos besoins.',
+    'gb.feat1': 'Tableau de bord avec graphiques interactifs',
+    'gb.feat2': 'Cat\u00e9gories de d\u00e9penses et revenus personnalisables',
+    'gb.feat3': 'Gestion multi-comptes (banque, \u00e9pargne, esp\u00e8ces, etc.)',
+    'gb.feat4': 'Suivi en temps r\u00e9el de vos finances',
+    'gb.feat5': 'Multi-langues (FR, EN, ES)',
+    'gb.cta': 'Essayer gratuitement',
+    'gb.trial': '2 jours d\u2019essai gratuit \u2014 sans carte bancaire',
+
     // Jeu de Mots
     'jm.badge': '\u00c9ducation',
     'jm.desc': 'Application \u00e9ducative interactive pour <strong>apprendre en jouant</strong>. Id\u00e9ale pour les enfants et les \u00e9tudiants qui souhaitent am\u00e9liorer leur <strong>vocabulaire</strong> et leurs <strong>comp\u00e9tences en math\u00e9matiques</strong>.',
@@ -91,6 +107,14 @@ const translations = {
     'pricing.jmFeat4': 'Listes sauvegard\u00e9es dans le cloud',
     'pricing.jmFeat5': 'Multi-langues (FR, EN, ES)',
     'pricing.jmCta': 'Commencer l\u2019essai gratuit',
+    'pricing.gbTagline': 'Gestion de budget personnel',
+    'pricing.gbTrial': '2 jours d\u2019essai gratuit',
+    'pricing.gbFeat1': 'Tableau de bord interactif',
+    'pricing.gbFeat2': 'Cat\u00e9gories personnalisables',
+    'pricing.gbFeat3': 'Gestion multi-comptes',
+    'pricing.gbFeat4': 'Suivi des revenus et d\u00e9penses',
+    'pricing.gbFeat5': 'Multi-langues (FR, EN, ES)',
+    'pricing.gbCta': 'Commencer l\u2019essai gratuit',
 
     // FAQ
     'faq.title': 'Questions fr\u00e9quentes',
@@ -125,6 +149,7 @@ const translations = {
     'contact.phMessage': 'Votre message...',
     'contact.optDefault': 'Choisir un sujet',
     'contact.optGt': 'Question sur GestTaches',
+    'contact.optGb': 'Question sur GestBudget',
     'contact.optJm': 'Question sur Jeu de Mots',
     'contact.optGeneral': 'Question g\u00e9n\u00e9rale',
     'contact.optBug': 'Signaler un probl\u00e8me',
@@ -146,8 +171,8 @@ const translations = {
   },
 
   en: {
-    'meta.title': 'CarlusOne \u2014 Professional Web Applications | GestTaches & Jeu de Mots',
-    'meta.description': 'Discover CarlusOne web applications: GestTaches for team task management and Jeu de Mots for interactive learning. Free trial available.',
+    'meta.title': 'CarlusOne \u2014 Professional Web Applications | GestTaches, GestBudget & Jeu de Mots',
+    'meta.description': 'Discover CarlusOne web applications: GestTaches for team task management, GestBudget for personal budget management and Jeu de Mots for interactive learning. Free trial available.',
 
     'nav.apps': 'Applications',
     'nav.pricing': 'Pricing',
@@ -191,6 +216,21 @@ const translations = {
     'gt.cta': 'Try for free',
     'gt.trial': '14-day free trial \u2014 no credit card required',
 
+    'gb.badge': 'Personal Finance',
+    'gb.desc': 'A complete <strong>personal budget management</strong> application: track your <strong>income</strong>, your <strong>expenses</strong> and manage your <strong>accounts</strong> with ease.',
+    'gb.howTitle': 'How does it work?',
+    'gb.step1': '<strong>Create your accounts</strong> (bank, savings, cash, credit card, etc.) to organize your finances.',
+    'gb.step2': '<strong>Add your transactions</strong> \u2014 income and expenses \u2014 by choosing a category and an account.',
+    'gb.step3': '<strong>View the dashboard</strong> to visualize your spending by category and track your budget evolution.',
+    'gb.step4': '<strong>Customize your categories</strong> and account types in settings to adapt the application to your needs.',
+    'gb.feat1': 'Dashboard with interactive charts',
+    'gb.feat2': 'Customizable expense and income categories',
+    'gb.feat3': 'Multi-account management (bank, savings, cash, etc.)',
+    'gb.feat4': 'Real-time tracking of your finances',
+    'gb.feat5': 'Multi-language (FR, EN, ES)',
+    'gb.cta': 'Try for free',
+    'gb.trial': '2-day free trial \u2014 no credit card required',
+
     'jm.badge': 'Education',
     'jm.desc': 'Interactive educational application for <strong>learning through play</strong>. Ideal for children and students who want to improve their <strong>vocabulary</strong> and <strong>math skills</strong>.',
     'jm.howTitle': 'How does it work?',
@@ -230,6 +270,14 @@ const translations = {
     'pricing.jmFeat4': 'Cloud-saved word lists',
     'pricing.jmFeat5': 'Multi-language (FR, EN, ES)',
     'pricing.jmCta': 'Start free trial',
+    'pricing.gbTagline': 'Personal budget management',
+    'pricing.gbTrial': '2-day free trial',
+    'pricing.gbFeat1': 'Interactive dashboard',
+    'pricing.gbFeat2': 'Customizable categories',
+    'pricing.gbFeat3': 'Multi-account management',
+    'pricing.gbFeat4': 'Income and expense tracking',
+    'pricing.gbFeat5': 'Multi-language (FR, EN, ES)',
+    'pricing.gbCta': 'Start free trial',
 
     'faq.title': 'Frequently Asked Questions',
     'faq.q1': 'How does the free trial work?',
@@ -262,6 +310,7 @@ const translations = {
     'contact.phMessage': 'Your message...',
     'contact.optDefault': 'Choose a subject',
     'contact.optGt': 'Question about GestTaches',
+    'contact.optGb': 'Question about GestBudget',
     'contact.optJm': 'Question about Jeu de Mots',
     'contact.optGeneral': 'General question',
     'contact.optBug': 'Report a problem',
@@ -282,8 +331,8 @@ const translations = {
   },
 
   es: {
-    'meta.title': 'CarlusOne \u2014 Aplicaciones Web Profesionales | GestTaches & Jeu de Mots',
-    'meta.description': 'Descubra las aplicaciones web CarlusOne: GestTaches para la gesti\u00f3n de tareas de equipo y Jeu de Mots para el aprendizaje interactivo. Prueba gratuita disponible.',
+    'meta.title': 'CarlusOne \u2014 Aplicaciones Web Profesionales | GestTaches, GestBudget & Jeu de Mots',
+    'meta.description': 'Descubra las aplicaciones web CarlusOne: GestTaches para la gesti\u00f3n de tareas de equipo, GestBudget para la gesti\u00f3n de presupuesto personal y Jeu de Mots para el aprendizaje interactivo. Prueba gratuita disponible.',
 
     'nav.apps': 'Aplicaciones',
     'nav.pricing': 'Precios',
@@ -327,6 +376,21 @@ const translations = {
     'gt.cta': 'Probar gratis',
     'gt.trial': '14 d\u00edas de prueba gratis \u2014 sin tarjeta de cr\u00e9dito',
 
+    'gb.badge': 'Finanzas personales',
+    'gb.desc': 'Aplicaci\u00f3n completa de <strong>gesti\u00f3n de presupuesto personal</strong>: siga sus <strong>ingresos</strong>, sus <strong>gastos</strong> y gestione sus <strong>cuentas</strong> con facilidad.',
+    'gb.howTitle': '\u00bfC\u00f3mo funciona?',
+    'gb.step1': '<strong>Cree sus cuentas</strong> (bancaria, ahorros, efectivo, tarjeta de cr\u00e9dito, etc.) para organizar sus finanzas.',
+    'gb.step2': '<strong>A\u00f1ada sus transacciones</strong> \u2014 ingresos y gastos \u2014 eligiendo una categor\u00eda y una cuenta.',
+    'gb.step3': '<strong>Consulte el panel de control</strong> para visualizar sus gastos por categor\u00eda y seguir la evoluci\u00f3n de su presupuesto.',
+    'gb.step4': '<strong>Personalice sus categor\u00edas</strong> y tipos de cuentas en los ajustes para adaptar la aplicaci\u00f3n a sus necesidades.',
+    'gb.feat1': 'Panel de control con gr\u00e1ficos interactivos',
+    'gb.feat2': 'Categor\u00edas de gastos e ingresos personalizables',
+    'gb.feat3': 'Gesti\u00f3n multi-cuentas (banco, ahorros, efectivo, etc.)',
+    'gb.feat4': 'Seguimiento en tiempo real de sus finanzas',
+    'gb.feat5': 'Multi-idiomas (FR, EN, ES)',
+    'gb.cta': 'Probar gratis',
+    'gb.trial': '2 d\u00edas de prueba gratis \u2014 sin tarjeta de cr\u00e9dito',
+
     'jm.badge': 'Educaci\u00f3n',
     'jm.desc': 'Aplicaci\u00f3n educativa interactiva para <strong>aprender jugando</strong>. Ideal para ni\u00f1os y estudiantes que desean mejorar su <strong>vocabulario</strong> y sus <strong>habilidades matem\u00e1ticas</strong>.',
     'jm.howTitle': '\u00bfC\u00f3mo funciona?',
@@ -366,6 +430,14 @@ const translations = {
     'pricing.jmFeat4': 'Listas guardadas en la nube',
     'pricing.jmFeat5': 'Multi-idiomas (FR, EN, ES)',
     'pricing.jmCta': 'Comenzar prueba gratis',
+    'pricing.gbTagline': 'Gesti\u00f3n de presupuesto personal',
+    'pricing.gbTrial': '2 d\u00edas de prueba gratis',
+    'pricing.gbFeat1': 'Panel de control interactivo',
+    'pricing.gbFeat2': 'Categor\u00edas personalizables',
+    'pricing.gbFeat3': 'Gesti\u00f3n multi-cuentas',
+    'pricing.gbFeat4': 'Seguimiento de ingresos y gastos',
+    'pricing.gbFeat5': 'Multi-idiomas (FR, EN, ES)',
+    'pricing.gbCta': 'Comenzar prueba gratis',
 
     'faq.title': 'Preguntas frecuentes',
     'faq.q1': '\u00bfC\u00f3mo funciona la prueba gratuita?',
@@ -398,6 +470,7 @@ const translations = {
     'contact.phMessage': 'Su mensaje...',
     'contact.optDefault': 'Elegir un asunto',
     'contact.optGt': 'Pregunta sobre GestTaches',
+    'contact.optGb': 'Pregunta sobre GestBudget',
     'contact.optJm': 'Pregunta sobre Jeu de Mots',
     'contact.optGeneral': 'Pregunta general',
     'contact.optBug': 'Reportar un problema',

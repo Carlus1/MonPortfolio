@@ -24,6 +24,15 @@
   --green-600: #16a34a;
   --green-700: #15803d;
 
+  --amber-50: #fffbeb;
+  --amber-100: #fef3c7;
+  --amber-200: #fde68a;
+  --amber-400: #fbbf24;
+  --amber-500: #f59e0b;
+  --amber-600: #d97706;
+  --amber-700: #b45309;
+  --amber-800: #92400e;
+
   --gray-50: #f9fafb;
   --gray-100: #f3f4f6;
   --gray-200: #e5e7eb;
@@ -402,6 +411,18 @@ ul { list-style: none; }
   transform: translateY(-1px);
 }
 
+.btn-amber {
+  background: var(--amber-500);
+  color: #fff;
+  box-shadow: 0 2px 8px rgba(245, 158, 11, 0.3);
+}
+
+.btn-amber:hover {
+  background: var(--amber-600);
+  box-shadow: 0 4px 16px rgba(245, 158, 11, 0.4);
+  transform: translateY(-1px);
+}
+
 .btn-outline {
   background: #fff;
   color: var(--gray-700);
@@ -509,6 +530,11 @@ ul { list-style: none; }
   color: var(--green-600);
 }
 
+.app-badge-amber {
+  background: var(--amber-50);
+  color: var(--amber-600);
+}
+
 .app-title {
   font-family: var(--font-display);
   font-size: 2rem;
@@ -586,6 +612,20 @@ ul { list-style: none; }
 
 .how-title-green::before {
   content: '📚';
+}
+
+/* Amber variant for GestBudget */
+.app-how-amber {
+  background: linear-gradient(135deg, #fffbeb 0%, #fef3c7 100%);
+  border-color: rgba(245, 158, 11, 0.15);
+}
+
+.how-title-amber {
+  color: var(--amber-600);
+}
+
+.how-title-amber::before {
+  content: '💰';
 }
 
 .how-description {
@@ -985,12 +1025,88 @@ ul { list-style: none; }
   color: var(--green-700);
 }
 
+/* GestBudget Mockup */
+.gestbudget-mockup .mockup-body {
+  background: linear-gradient(135deg, #fffbeb, #fef3c7);
+}
+
+.mockup-dashboard {
+  flex: 1;
+  padding: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.dashboard-header {
+  height: 20px;
+  background: rgba(245, 158, 11, 0.2);
+  border-radius: var(--radius-sm);
+}
+
+.dashboard-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.5rem;
+}
+
+.dash-card {
+  background: #fff;
+  border-radius: var(--radius-md);
+  padding: 0.75rem;
+  box-shadow: var(--shadow-sm);
+}
+
+.dash-card-label {
+  height: 8px;
+  width: 50%;
+  background: var(--gray-200);
+  border-radius: 4px;
+  margin-bottom: 0.5rem;
+}
+
+.dash-card-value {
+  height: 14px;
+  width: 70%;
+  border-radius: 4px;
+}
+
+.dash-card-income .dash-card-value {
+  background: rgba(34, 197, 94, 0.3);
+}
+
+.dash-card-expense .dash-card-value {
+  background: rgba(239, 68, 68, 0.3);
+}
+
+.dashboard-chart {
+  flex: 1;
+  display: flex;
+  align-items: flex-end;
+  gap: 6px;
+  background: #fff;
+  border-radius: var(--radius-md);
+  padding: 1rem 0.75rem 0.5rem;
+  box-shadow: var(--shadow-sm);
+}
+
+.chart-bar {
+  flex: 1;
+  background: rgba(245, 158, 11, 0.25);
+  border-radius: var(--radius-sm) var(--radius-sm) 0 0;
+  min-height: 20px;
+}
+
+.chart-bar-accent {
+  background: rgba(245, 158, 11, 0.5);
+}
+
 /* ===== PRICING ===== */
 .pricing-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
-  max-width: 800px;
+  max-width: 1100px;
   margin: 0 auto;
 }
 
@@ -1054,6 +1170,11 @@ ul { list-style: none; }
 .pricing-badge-green {
   background: var(--green-50);
   color: var(--green-600);
+}
+
+.pricing-badge-amber {
+  background: var(--amber-50);
+  color: var(--amber-600);
 }
 
 .pricing-name {
@@ -1252,6 +1373,17 @@ ul { list-style: none; }
 
 .cta-block .btn-success:hover {
   background: var(--green-500);
+  box-shadow: 0 4px 16px rgba(0,0,0,0.2);
+}
+
+.cta-block .btn-amber {
+  background: var(--amber-400);
+  color: var(--amber-800);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+
+.cta-block .btn-amber:hover {
+  background: var(--amber-500);
   box-shadow: 0 4px 16px rgba(0,0,0,0.2);
 }
 
