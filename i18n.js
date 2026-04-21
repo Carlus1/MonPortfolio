@@ -604,6 +604,25 @@ function detectLanguage() {
 
 let currentLang = 'fr';
 
+const MIN_I18N_ATTRS_FOR_FULL_PAGE = 10;
+
+function isPageFullyTranslatable() {
+  const count = document.querySelectorAll('[data-i18n], [data-i18n-html], [data-i18n-placeholder]').length;
+  return count >= MIN_I18N_ATTRS_FOR_FULL_PAGE;
+}
+
+function applyLanguageAvailabilityRules() {
+  const fullPage = isPageFullyTranslatable();
+  document.querySelectorAll('.lang-btn').forEach(btn => {
+    const isFrench = btn.dataset.lang === 'fr';
+    const mustDisable = !fullPage && !isFrench;
+    btn.disabled = mustDisable;
+    btn.setAttribute('aria-disabled', mustDisable ? 'true' : 'false');
+    btn.title = mustDisable ? 'Translation in progress for this page' : '';
+  });
+  return fullPage;
+}
+
 // Get translation (returns null if key not found, to preserve fallback HTML)
 function t(key) {
   return (translations[currentLang] && translations[currentLang][key]) || translations.fr[key] || null;
@@ -682,10 +701,13 @@ window.t = t;
 
 // Initialize on DOM ready
 document.addEventListener('DOMContentLoaded', () => {
-  applyTranslations(detectLanguage());
+  const fullPage = applyLanguageAvailabilityRules();
+  const initialLang = fullPage ? detectLanguage() : 'fr';
+  applyTranslations(initialLang);
 
   document.querySelectorAll('.lang-btn').forEach(btn => {
     btn.addEventListener('click', () => {
+      if (btn.disabled) return;
       applyTranslations(btn.dataset.lang);
     });
   });
