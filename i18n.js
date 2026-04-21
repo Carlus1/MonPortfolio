@@ -1159,6 +1159,176 @@ const pageTranslations = {
         { selector: '.cta-panel .button-row a:nth-child(2)', value: 'Ver todas las aplicaciones' }
       ]
     }
+  },
+  '/blog/application-budget-canada/': {
+    en: {
+      title: 'Personal budget app in Canada',
+      description: 'Choose a personal budget app in Canada to better track expenses and accounts.',
+      text: [
+        { selector: '.page-hero .breadcrumb span:last-child', value: 'Budget app Canada' },
+        { selector: '.page-hero .page-kicker', value: 'Canada' },
+        { selector: '.page-hero .page-title', value: 'Personal budget app in Canada' },
+        { selector: '.page-hero .page-subtitle', value: 'How to choose a clear app to manage a monthly budget in Canadian dollars.' },
+        { selector: '.content-prose h2', value: 'Key elements' },
+        { selector: '.blog-sidebar .content-card h3', value: 'Related resources' },
+        { selector: '.blog-sidebar .note-list a:nth-child(1)', value: 'Family budget app' },
+        { selector: '.blog-sidebar .note-list a:nth-child(2)', value: 'Apps with free trial' },
+        { selector: '.blog-sidebar .note-list a:nth-child(3)', value: 'GestBudget product page' },
+        { selector: '.footer-bottom p', value: '© 2026 CarlusOne. All rights reserved.' }
+      ]
+    },
+    es: {
+      title: 'Aplicacion de presupuesto personal en Canada',
+      description: 'Elegir una aplicacion de presupuesto personal en Canada para seguir gastos y cuentas.',
+      text: [
+        { selector: '.page-hero .breadcrumb span:last-child', value: 'Aplicacion presupuesto Canada' },
+        { selector: '.page-hero .page-kicker', value: 'Canada' },
+        { selector: '.page-hero .page-title', value: 'Aplicacion de presupuesto personal en Canada' },
+        { selector: '.page-hero .page-subtitle', value: 'Como elegir una aplicacion clara para gestionar presupuesto mensual en dolares canadienses.' },
+        { selector: '.content-prose h2', value: 'Elementos importantes' },
+        { selector: '.blog-sidebar .content-card h3', value: 'Recursos relacionados' },
+        { selector: '.blog-sidebar .note-list a:nth-child(1)', value: 'Aplicacion presupuesto familiar' },
+        { selector: '.blog-sidebar .note-list a:nth-child(2)', value: 'Aplicaciones con prueba gratuita' },
+        { selector: '.blog-sidebar .note-list a:nth-child(3)', value: 'Pagina de producto GestBudget' },
+        { selector: '.footer-bottom p', value: '© 2026 CarlusOne. Todos los derechos reservados.' }
+      ]
+    }
+  },
+  '/blog/application-educative-francais-enfant/': {
+    en: {
+      title: 'French educational app for children',
+      description: 'Which French educational app to choose to help a child progress in vocabulary.',
+      text: [
+        { selector: '.page-hero .breadcrumb span:last-child', value: 'French educational app child' },
+        { selector: '.page-hero .page-kicker', value: 'Education' },
+        { selector: '.page-hero .page-title', value: 'French educational app for children' },
+        { selector: '.page-hero .page-subtitle', value: 'Simple criteria to choose a useful and playful app adapted to school progression.' },
+        { selector: '.content-prose h2', value: 'What to check before choosing' },
+        { selector: '.blog-sidebar .content-card h3', value: 'Related resources' },
+        { selector: '.blog-sidebar .note-list a:nth-child(1)', value: 'Improve child vocabulary' },
+        { selector: '.blog-sidebar .note-list a:nth-child(2)', value: 'Jeu de Mots product page' },
+        { selector: '.blog-sidebar .note-list a:nth-child(3)', value: 'All applications' },
+        { selector: '.footer-bottom p', value: '© 2026 CarlusOne. All rights reserved.' }
+      ]
+    },
+    es: {
+      title: 'Aplicacion educativa de frances para ninos',
+      description: 'Que aplicacion educativa en frances elegir para ayudar a un nino con vocabulario.',
+      text: [
+        { selector: '.page-hero .breadcrumb span:last-child', value: 'Aplicacion educativa frances nino' },
+        { selector: '.page-hero .page-kicker', value: 'Educacion' },
+        { selector: '.page-hero .page-title', value: 'Aplicacion educativa de frances para ninos' },
+        { selector: '.page-hero .page-subtitle', value: 'Criterios simples para elegir una aplicacion util, ludica y adaptada al progreso escolar.' },
+        { selector: '.content-prose h2', value: 'Que verificar antes de elegir' },
+        { selector: '.blog-sidebar .content-card h3', value: 'Recursos relacionados' },
+        { selector: '.blog-sidebar .note-list a:nth-child(1)', value: 'Mejorar vocabulario de un nino' },
+        { selector: '.blog-sidebar .note-list a:nth-child(2)', value: 'Pagina de producto Jeu de Mots' },
+        { selector: '.blog-sidebar .note-list a:nth-child(3)', value: 'Todas las aplicaciones' },
+        { selector: '.footer-bottom p', value: '© 2026 CarlusOne. Todos los derechos reservados.' }
+      ]
+    }
+  },
+  '/blog/application-gestion-taches-quebec/': {
+    en: {
+      title: 'Task management app in Quebec',
+      description: 'How to choose a task management app in Quebec for a local team.',
+      text: [
+        { selector: '.page-hero .breadcrumb span:last-child', value: 'Task management in Quebec' },
+        { selector: '.page-hero .page-kicker', value: 'Quebec' },
+        { selector: '.page-hero .page-title', value: 'Task management app in Quebec' },
+        { selector: '.page-hero .page-subtitle', value: 'A practical framework for Quebec teams that want better planning without heavy tools.' },
+        { selector: '.content-prose h2', value: 'What to prioritize' },
+        { selector: '.blog-sidebar .content-card h3', value: 'See also' },
+        { selector: '.blog-sidebar .note-list a:nth-child(1)', value: 'Manage priorities at work' },
+        { selector: '.blog-sidebar .note-list a:nth-child(2)', value: 'Weekly team planning' },
+        { selector: '.blog-sidebar .note-list a:nth-child(3)', value: 'GestTaches product page' },
+        { selector: '.footer-bottom p', value: '© 2026 CarlusOne. All rights reserved.' }
+      ]
+    },
+    es: {
+      title: 'Aplicacion de gestion de tareas en Quebec',
+      description: 'Como elegir una aplicacion de gestion de tareas en Quebec para un equipo local.',
+      text: [
+        { selector: '.page-hero .breadcrumb span:last-child', value: 'Gestion de tareas en Quebec' },
+        { selector: '.page-hero .page-kicker', value: 'Quebec' },
+        { selector: '.page-hero .page-title', value: 'Aplicacion de gestion de tareas en Quebec' },
+        { selector: '.page-hero .page-subtitle', value: 'Marco concreto para equipos de Quebec que quieren planificar mejor sin herramientas pesadas.' },
+        { selector: '.content-prose h2', value: 'Que priorizar' },
+        { selector: '.blog-sidebar .content-card h3', value: 'Ver tambien' },
+        { selector: '.blog-sidebar .note-list a:nth-child(1)', value: 'Gestionar prioridades en el trabajo' },
+        { selector: '.blog-sidebar .note-list a:nth-child(2)', value: 'Planificacion semanal de equipo' },
+        { selector: '.blog-sidebar .note-list a:nth-child(3)', value: 'Pagina de producto GestTaches' },
+        { selector: '.footer-bottom p', value: '© 2026 CarlusOne. Todos los derechos reservados.' }
+      ]
+    }
+  },
+  '/blog/logiciel-reservation-quebec/': {
+    en: {
+      title: 'Reservation software in Quebec',
+      description: 'Guide to choose reservation software in Quebec based on your teams and resources.',
+      text: [
+        { selector: '.page-hero .breadcrumb span:last-child', value: 'Reservation software in Quebec' },
+        { selector: '.page-hero .page-kicker', value: 'Quebec' },
+        { selector: '.page-hero .page-title', value: 'Reservation software in Quebec' },
+        { selector: '.page-hero .page-subtitle', value: 'A pragmatic approach to manage rooms, vehicles and shared resources.' },
+        { selector: '.content-prose h2', value: 'Useful checklist' },
+        { selector: '.blog-sidebar .content-card h3', value: 'Related resources' },
+        { selector: '.blog-sidebar .note-list a:nth-child(1)', value: 'Simple reservation software' },
+        { selector: '.blog-sidebar .note-list a:nth-child(2)', value: 'Work organization tools' },
+        { selector: '.blog-sidebar .note-list a:nth-child(3)', value: 'GestReserve product page' },
+        { selector: '.footer-bottom p', value: '© 2026 CarlusOne. All rights reserved.' }
+      ]
+    },
+    es: {
+      title: 'Software de reservas en Quebec',
+      description: 'Guia para elegir software de reservas en Quebec segun recursos y equipos.',
+      text: [
+        { selector: '.page-hero .breadcrumb span:last-child', value: 'Software de reservas en Quebec' },
+        { selector: '.page-hero .page-kicker', value: 'Quebec' },
+        { selector: '.page-hero .page-title', value: 'Software de reservas en Quebec' },
+        { selector: '.page-hero .page-subtitle', value: 'Enfoque pragmatico para gestionar salas, vehiculos y recursos compartidos.' },
+        { selector: '.content-prose h2', value: 'Checklist util' },
+        { selector: '.blog-sidebar .content-card h3', value: 'Recursos relacionados' },
+        { selector: '.blog-sidebar .note-list a:nth-child(1)', value: 'Software de reservas simple' },
+        { selector: '.blog-sidebar .note-list a:nth-child(2)', value: 'Herramientas de organizacion del trabajo' },
+        { selector: '.blog-sidebar .note-list a:nth-child(3)', value: 'Pagina de producto GestReserve' },
+        { selector: '.footer-bottom p', value: '© 2026 CarlusOne. Todos los derechos reservados.' }
+      ]
+    }
+  },
+  '/blog/outil-organisation-pme-quebec/': {
+    en: {
+      title: 'Organization tool for SMEs in Quebec',
+      description: 'How to choose an organization tool for SMEs in Quebec with a simple collaborative approach.',
+      text: [
+        { selector: '.page-hero .breadcrumb span:last-child', value: 'SME organization Quebec' },
+        { selector: '.page-hero .page-kicker', value: 'SME' },
+        { selector: '.page-hero .page-title', value: 'Organization tool for SMEs in Quebec' },
+        { selector: '.page-hero .page-subtitle', value: 'A concrete plan to structure operations and coordination in a small team.' },
+        { selector: '.content-prose h2', value: 'Watch points' },
+        { selector: '.blog-sidebar .content-card h3', value: 'Useful links' },
+        { selector: '.blog-sidebar .note-list a:nth-child(1)', value: 'Work organization guide' },
+        { selector: '.blog-sidebar .note-list a:nth-child(2)', value: 'Organize teamwork' },
+        { selector: '.blog-sidebar .note-list a:nth-child(3)', value: 'All applications' },
+        { selector: '.footer-bottom p', value: '© 2026 CarlusOne. All rights reserved.' }
+      ]
+    },
+    es: {
+      title: 'Herramienta de organizacion para PyME en Quebec',
+      description: 'Como elegir una herramienta de organizacion para PyME en Quebec con enfoque simple y colaborativo.',
+      text: [
+        { selector: '.page-hero .breadcrumb span:last-child', value: 'Organizacion PyME Quebec' },
+        { selector: '.page-hero .page-kicker', value: 'PyME' },
+        { selector: '.page-hero .page-title', value: 'Herramienta de organizacion para PyME en Quebec' },
+        { selector: '.page-hero .page-subtitle', value: 'Plan concreto para estructurar operaciones y coordinacion en un equipo pequeno.' },
+        { selector: '.content-prose h2', value: 'Puntos de vigilancia' },
+        { selector: '.blog-sidebar .content-card h3', value: 'Enlaces utiles' },
+        { selector: '.blog-sidebar .note-list a:nth-child(1)', value: 'Guia de organizacion del trabajo' },
+        { selector: '.blog-sidebar .note-list a:nth-child(2)', value: 'Organizar trabajo en equipo' },
+        { selector: '.blog-sidebar .note-list a:nth-child(3)', value: 'Todas las aplicaciones' },
+        { selector: '.footer-bottom p', value: '© 2026 CarlusOne. Todos los derechos reservados.' }
+      ]
+    }
   }
 };
 
