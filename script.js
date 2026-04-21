@@ -1,25 +1,31 @@
 // ===== Navbar scroll effect =====
 const navbar = document.getElementById('navbar');
-window.addEventListener('scroll', () => {
-  navbar.classList.toggle('scrolled', window.scrollY > 20);
-});
+if (navbar) {
+  window.addEventListener('scroll', () => {
+    navbar.classList.toggle('scrolled', window.scrollY > 20);
+  });
+}
 
 // ===== Mobile menu toggle =====
 const navToggle = document.getElementById('nav-toggle');
 const navLinks = document.getElementById('nav-links');
 
-navToggle.addEventListener('click', () => {
-  navToggle.classList.toggle('open');
-  navLinks.classList.toggle('open');
-});
+if (navToggle && navLinks) {
+  navToggle.addEventListener('click', () => {
+    navToggle.classList.toggle('open');
+    navLinks.classList.toggle('open');
+  });
+}
 
 // Close mobile menu on link click
-navLinks.querySelectorAll('.nav-link').forEach(link => {
-  link.addEventListener('click', () => {
-    navToggle.classList.remove('open');
-    navLinks.classList.remove('open');
+if (navLinks && navToggle) {
+  navLinks.querySelectorAll('.nav-link').forEach(link => {
+    link.addEventListener('click', () => {
+      navToggle.classList.remove('open');
+      navLinks.classList.remove('open');
+    });
   });
-});
+}
 
 // ===== Smooth scroll for anchor links =====
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
@@ -38,7 +44,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 
 // ===== Scroll Reveal Animation =====
 const revealElements = document.querySelectorAll(
-  '.app-card, .pricing-card, .faq-item, .section-header, .cta-block, .hero-stats'
+  '.app-card, .pricing-card, .faq-item, .section-header, .cta-block, .hero-stats, .content-card, .article-card, .app-link-card, .stat-card, .cta-panel'
 );
 
 const revealObserver = new IntersectionObserver(
@@ -96,21 +102,44 @@ if (contactForm) {
 const sections = document.querySelectorAll('section[id]');
 const navLinksAll = document.querySelectorAll('.nav-link');
 
-window.addEventListener('scroll', () => {
-  const scrollY = window.scrollY + 100;
-  
-  sections.forEach(section => {
-    const top = section.offsetTop;
-    const height = section.offsetHeight;
-    const id = section.getAttribute('id');
-    
-    if (scrollY >= top && scrollY < top + height) {
-      navLinksAll.forEach(link => {
-        link.classList.remove('active');
-        if (link.getAttribute('href') === `#${id}`) {
-          link.classList.add('active');
-        }
-      });
-    }
-  });
+function normalizePath(pathname) {
+  if (!pathname || pathname === '/') return '/';
+  return pathname.endsWith('/') ? pathname : `${pathname}/`;
+}
+
+const currentPath = normalizePath(window.location.pathname);
+
+navLinksAll.forEach(link => {
+  const href = link.getAttribute('href');
+  if (!href || href.startsWith('#')) return;
+
+  const normalizedHref = normalizePath(href);
+  const isAppsPage = currentPath.startsWith('/applications/') && normalizedHref === '/applications/';
+  const isBlogPage = currentPath.startsWith('/blog/') && normalizedHref === '/blog/';
+
+  if (normalizedHref === currentPath || isAppsPage || isBlogPage) {
+    link.classList.add('active');
+  }
 });
+
+if (sections.length > 0) {
+  window.addEventListener('scroll', () => {
+    const scrollY = window.scrollY + 100;
+
+    sections.forEach(section => {
+      const top = section.offsetTop;
+      const height = section.offsetHeight;
+      const id = section.getAttribute('id');
+
+      if (scrollY >= top && scrollY < top + height) {
+        navLinksAll.forEach(link => {
+          if ((link.getAttribute('href') || '').startsWith('/')) return;
+          link.classList.remove('active');
+          if (link.getAttribute('href') === `#${id}`) {
+            link.classList.add('active');
+          }
+        });
+      }
+    });
+  });
+}
