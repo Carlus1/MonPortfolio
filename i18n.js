@@ -1,8 +1,8 @@
 // ===== CarlusOne i18n System =====
 const translations = {
   fr: {
-    'meta.title': 'CarlusOne \u2014 Applications Web Professionnelles | GestTaches, GestBudget & Jeu de Mots',
-    'meta.description': 'D\u00e9couvrez les applications web CarlusOne : GestTaches pour la gestion des t\u00e2ches d\u2019\u00e9quipe, GestBudget pour la gestion de budget personnel et Jeu de Mots pour l\u2019apprentissage interactif. Essai gratuit disponible.',
+    'meta.title': 'CarlusOne \u2014 Applications Web Professionnelles | GestTaches, GestBudget, GestReserve & Jeu de Mots',
+    'meta.description': 'D\u00e9couvrez les applications web CarlusOne : GestTaches pour la gestion des t\u00e2ches d\u2019\u00e9quipe, GestBudget pour la gestion de budget personnel, GestReserve pour la gestion de r\u00e9servations et Jeu de Mots pour l\u2019apprentissage interactif. Essai gratuit disponible.',
 
     // Nav
     'nav.apps': 'Applications',
@@ -66,6 +66,22 @@ const translations = {
     'gb.cta': 'Essayer gratuitement',
     'gb.trial': '2 jours d\u2019essai gratuit \u2014 sans carte bancaire',
 
+    // GestReserve
+    'gr.badge': 'Gestion de r\u00e9servations',
+    'gr.desc': 'Application de <strong>gestion de r\u00e9servations</strong> pour organiser la r\u00e9servation de salles, \u00e9quipements et autres biens avec des <strong>groupes d\u2019acc\u00e8s</strong> et un calendrier interactif.',
+    'gr.howTitle': 'Comment \u00e7a fonctionne ?',
+    'gr.step1': '<strong>Cr\u00e9ez vos biens</strong> (salles, \u00e9quipements, v\u00e9hicules) avec leur unit\u00e9 de r\u00e9servation.',
+    'gr.step2': '<strong>Organisez vos groupes</strong> et assignez des utilisateurs pour contr\u00f4ler la visibilit\u00e9 des biens.',
+    'gr.step3': '<strong>R\u00e9servez en quelques clics</strong> via le calendrier ou la vue liste selon vos besoins.',
+    'gr.step4': '<strong>G\u00e9rez les indisponibilit\u00e9s</strong> pour bloquer des p\u00e9riodes (maintenance, cong\u00e9s, \u00e9v\u00e9nements).',
+    'gr.feat1': 'Calendrier de r\u00e9servations interactif',
+    'gr.feat2': 'Gestion des biens et des indisponibilit\u00e9s',
+    'gr.feat3': 'Contr\u00f4le d\u2019acc\u00e8s par groupes d\u2019utilisateurs',
+    'gr.feat4': 'Gestion des utilisateurs et des r\u00f4les',
+    'gr.feat5': 'Multi-langues (FR, EN, ES)',
+    'gr.cta': 'Essayer gratuitement',
+    'gr.trial': '2 jours d\u2019essai gratuit \u2014 sans carte bancaire',
+
     // Jeu de Mots
     'jm.badge': '\u00c9ducation',
     'jm.desc': 'Application \u00e9ducative interactive pour <strong>apprendre en jouant</strong>. Id\u00e9ale pour les enfants et les \u00e9tudiants qui souhaitent am\u00e9liorer leur <strong>vocabulaire</strong> et leurs <strong>comp\u00e9tences en math\u00e9matiques</strong>.',
@@ -115,6 +131,14 @@ const translations = {
     'pricing.gbFeat4': 'Suivi des revenus et d\u00e9penses',
     'pricing.gbFeat5': 'Multi-langues (FR, EN, ES)',
     'pricing.gbCta': 'Commencer l\u2019essai gratuit',
+    'pricing.grTagline': 'Gestion de r\u00e9servations',
+    'pricing.grTrial': '2 jours d\u2019essai gratuit',
+    'pricing.grFeat1': 'Calendrier de r\u00e9servations interactif',
+    'pricing.grFeat2': 'Gestion des biens et indisponibilit\u00e9s',
+    'pricing.grFeat3': 'Contr\u00f4le d\u2019acc\u00e8s par groupes',
+    'pricing.grFeat4': 'Gestion des utilisateurs et r\u00f4les',
+    'pricing.grFeat5': 'Multi-langues (FR, EN, ES)',
+    'pricing.grCta': 'Commencer l\u2019essai gratuit',
 
     // FAQ
     'faq.title': 'Questions fr\u00e9quentes',
@@ -150,6 +174,7 @@ const translations = {
     'contact.optDefault': 'Choisir un sujet',
     'contact.optGt': 'Question sur GestTaches',
     'contact.optGb': 'Question sur GestBudget',
+    'contact.optGr': 'Question sur GestReserve',
     'contact.optJm': 'Question sur Jeu de Mots',
     'contact.optGeneral': 'Question g\u00e9n\u00e9rale',
     'contact.optBug': 'Signaler un probl\u00e8me',
@@ -171,8 +196,8 @@ const translations = {
   },
 
   en: {
-    'meta.title': 'CarlusOne \u2014 Professional Web Applications | GestTaches, GestBudget & Jeu de Mots',
-    'meta.description': 'Discover CarlusOne web applications: GestTaches for team task management, GestBudget for personal budget management and Jeu de Mots for interactive learning. Free trial available.',
+    'meta.title': 'CarlusOne \u2014 Professional Web Applications | GestTaches, GestBudget, GestReserve & Jeu de Mots',
+    'meta.description': 'Discover CarlusOne web applications: GestTaches for team task management, GestBudget for personal budget management, GestReserve for reservation management and Jeu de Mots for interactive learning. Free trial available.',
 
     'nav.apps': 'Applications',
     'nav.pricing': 'Pricing',
@@ -231,6 +256,21 @@ const translations = {
     'gb.cta': 'Try for free',
     'gb.trial': '2-day free trial \u2014 no credit card required',
 
+    'gr.badge': 'Reservation Management',
+    'gr.desc': 'A <strong>reservation management</strong> application to organize bookings for rooms, equipment and other assets with <strong>access groups</strong> and an interactive calendar.',
+    'gr.howTitle': 'How does it work?',
+    'gr.step1': '<strong>Create your assets</strong> (rooms, equipment, vehicles) with their booking time unit.',
+    'gr.step2': '<strong>Organize your groups</strong> and assign users to control asset visibility.',
+    'gr.step3': '<strong>Book in a few clicks</strong> via the calendar or list view depending on your needs.',
+    'gr.step4': '<strong>Manage unavailabilities</strong> to block periods (maintenance, holidays, events).',
+    'gr.feat1': 'Interactive reservation calendar',
+    'gr.feat2': 'Asset and unavailability management',
+    'gr.feat3': 'Access control by user groups',
+    'gr.feat4': 'User and role management',
+    'gr.feat5': 'Multi-language (FR, EN, ES)',
+    'gr.cta': 'Try for free',
+    'gr.trial': '2-day free trial \u2014 no credit card required',
+
     'jm.badge': 'Education',
     'jm.desc': 'Interactive educational application for <strong>learning through play</strong>. Ideal for children and students who want to improve their <strong>vocabulary</strong> and <strong>math skills</strong>.',
     'jm.howTitle': 'How does it work?',
@@ -278,6 +318,14 @@ const translations = {
     'pricing.gbFeat4': 'Income and expense tracking',
     'pricing.gbFeat5': 'Multi-language (FR, EN, ES)',
     'pricing.gbCta': 'Start free trial',
+    'pricing.grTagline': 'Reservation management',
+    'pricing.grTrial': '2-day free trial',
+    'pricing.grFeat1': 'Interactive reservation calendar',
+    'pricing.grFeat2': 'Asset and unavailability management',
+    'pricing.grFeat3': 'Group-based access control',
+    'pricing.grFeat4': 'User and role management',
+    'pricing.grFeat5': 'Multi-language (FR, EN, ES)',
+    'pricing.grCta': 'Start free trial',
 
     'faq.title': 'Frequently Asked Questions',
     'faq.q1': 'How does the free trial work?',
@@ -311,6 +359,7 @@ const translations = {
     'contact.optDefault': 'Choose a subject',
     'contact.optGt': 'Question about GestTaches',
     'contact.optGb': 'Question about GestBudget',
+    'contact.optGr': 'Question about GestReserve',
     'contact.optJm': 'Question about Jeu de Mots',
     'contact.optGeneral': 'General question',
     'contact.optBug': 'Report a problem',
@@ -331,8 +380,8 @@ const translations = {
   },
 
   es: {
-    'meta.title': 'CarlusOne \u2014 Aplicaciones Web Profesionales | GestTaches, GestBudget & Jeu de Mots',
-    'meta.description': 'Descubra las aplicaciones web CarlusOne: GestTaches para la gesti\u00f3n de tareas de equipo, GestBudget para la gesti\u00f3n de presupuesto personal y Jeu de Mots para el aprendizaje interactivo. Prueba gratuita disponible.',
+    'meta.title': 'CarlusOne \u2014 Aplicaciones Web Profesionales | GestTaches, GestBudget, GestReserve & Jeu de Mots',
+    'meta.description': 'Descubra las aplicaciones web CarlusOne: GestTaches para la gesti\u00f3n de tareas de equipo, GestBudget para la gesti\u00f3n de presupuesto personal, GestReserve para la gesti\u00f3n de reservas y Jeu de Mots para el aprendizaje interactivo. Prueba gratuita disponible.',
 
     'nav.apps': 'Aplicaciones',
     'nav.pricing': 'Precios',
@@ -391,6 +440,21 @@ const translations = {
     'gb.cta': 'Probar gratis',
     'gb.trial': '2 d\u00edas de prueba gratis \u2014 sin tarjeta de cr\u00e9dito',
 
+    'gr.badge': 'Gesti\u00f3n de reservas',
+    'gr.desc': 'Aplicaci\u00f3n de <strong>gesti\u00f3n de reservas</strong> para organizar reservas de salas, equipos y otros bienes con <strong>grupos de acceso</strong> y un calendario interactivo.',
+    'gr.howTitle': '\u00bfC\u00f3mo funciona?',
+    'gr.step1': '<strong>Cree sus bienes</strong> (salas, equipos, veh\u00edculos) con su unidad de reserva.',
+    'gr.step2': '<strong>Organice sus grupos</strong> y asigne usuarios para controlar la visibilidad de los bienes.',
+    'gr.step3': '<strong>Reserve en pocos clics</strong> mediante calendario o vista de lista seg\u00fan su necesidad.',
+    'gr.step4': '<strong>Gestione las indisponibilidades</strong> para bloquear per\u00edodos (mantenimiento, vacaciones, eventos).',
+    'gr.feat1': 'Calendario de reservas interactivo',
+    'gr.feat2': 'Gesti\u00f3n de bienes e indisponibilidades',
+    'gr.feat3': 'Control de acceso por grupos de usuarios',
+    'gr.feat4': 'Gesti\u00f3n de usuarios y roles',
+    'gr.feat5': 'Multi-idiomas (FR, EN, ES)',
+    'gr.cta': 'Probar gratis',
+    'gr.trial': '2 d\u00edas de prueba gratis \u2014 sin tarjeta de cr\u00e9dito',
+
     'jm.badge': 'Educaci\u00f3n',
     'jm.desc': 'Aplicaci\u00f3n educativa interactiva para <strong>aprender jugando</strong>. Ideal para ni\u00f1os y estudiantes que desean mejorar su <strong>vocabulario</strong> y sus <strong>habilidades matem\u00e1ticas</strong>.',
     'jm.howTitle': '\u00bfC\u00f3mo funciona?',
@@ -438,6 +502,14 @@ const translations = {
     'pricing.gbFeat4': 'Seguimiento de ingresos y gastos',
     'pricing.gbFeat5': 'Multi-idiomas (FR, EN, ES)',
     'pricing.gbCta': 'Comenzar prueba gratis',
+    'pricing.grTagline': 'Gesti\u00f3n de reservas',
+    'pricing.grTrial': '2 d\u00edas de prueba gratis',
+    'pricing.grFeat1': 'Calendario de reservas interactivo',
+    'pricing.grFeat2': 'Gesti\u00f3n de bienes e indisponibilidades',
+    'pricing.grFeat3': 'Control de acceso por grupos',
+    'pricing.grFeat4': 'Gesti\u00f3n de usuarios y roles',
+    'pricing.grFeat5': 'Multi-idiomas (FR, EN, ES)',
+    'pricing.grCta': 'Comenzar prueba gratis',
 
     'faq.title': 'Preguntas frecuentes',
     'faq.q1': '\u00bfC\u00f3mo funciona la prueba gratuita?',
@@ -471,6 +543,7 @@ const translations = {
     'contact.optDefault': 'Elegir un asunto',
     'contact.optGt': 'Pregunta sobre GestTaches',
     'contact.optGb': 'Pregunta sobre GestBudget',
+    'contact.optGr': 'Pregunta sobre GestReserve',
     'contact.optJm': 'Pregunta sobre Jeu de Mots',
     'contact.optGeneral': 'Pregunta general',
     'contact.optBug': 'Reportar un problema',
