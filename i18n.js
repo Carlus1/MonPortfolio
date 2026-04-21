@@ -606,9 +606,353 @@ let currentLang = 'fr';
 
 const MIN_I18N_ATTRS_FOR_FULL_PAGE = 10;
 
+const pageTranslations = {
+  '/applications/': {
+    en: {
+      title: 'CarlusOne Applications | Tasks, budget, reservations and learning',
+      description: 'Discover all CarlusOne applications: GestTaches, GestBudget, GestReserve and Jeu de Mots.',
+      text: [
+        { selector: '.page-hero .breadcrumb span:last-child', value: 'Applications' },
+        { selector: '.page-hero .page-kicker', value: 'Applications hub' },
+        { selector: '.page-hero .page-title', value: 'All CarlusOne applications' },
+        { selector: '.page-hero .page-subtitle', value: 'This page brings together all our web applications so you can quickly choose the right tool for your needs.' },
+        { selector: '.app-link-card:nth-child(1) .card-kicker', value: 'Productivity' },
+        { selector: '.app-link-card:nth-child(1) p', value: 'Team task management with groups, roles, interactive calendar, recurring tasks and automatic proposals.' },
+        { selector: '.app-link-card:nth-child(1) .button-row a:nth-child(1)', value: 'View page' },
+        { selector: '.app-link-card:nth-child(1) .button-row a:nth-child(2)', value: 'Open app' },
+        { selector: '.app-link-card:nth-child(2) .card-kicker', value: 'Finance' },
+        { selector: '.app-link-card:nth-child(2) p', value: 'Personal budget management to track income, expenses, accounts and categories with a visual dashboard.' },
+        { selector: '.app-link-card:nth-child(2) .button-row a:nth-child(1)', value: 'View page' },
+        { selector: '.app-link-card:nth-child(2) .button-row a:nth-child(2)', value: 'Open app' },
+        { selector: '.app-link-card:nth-child(3) .card-kicker', value: 'Reservations' },
+        { selector: '.app-link-card:nth-child(3) p', value: 'Reservation management for rooms and equipment with calendar, access groups and user permissions.' },
+        { selector: '.app-link-card:nth-child(3) .button-row a:nth-child(1)', value: 'View page' },
+        { selector: '.app-link-card:nth-child(3) .button-row a:nth-child(2)', value: 'Open app' },
+        { selector: '.app-link-card:nth-child(4) .card-kicker', value: 'Education' },
+        { selector: '.app-link-card:nth-child(4) p', value: 'Educational app with flashcards, math quizzes and cloud-saved learning lists.' },
+        { selector: '.app-link-card:nth-child(4) .button-row a:nth-child(1)', value: 'View page' },
+        { selector: '.app-link-card:nth-child(4) .button-row a:nth-child(2)', value: 'Open app' },
+        { selector: '.content-grid.two-col .content-card:nth-child(1) h2', value: 'How to choose the right app?' },
+        { selector: '.content-grid.two-col .content-card:nth-child(1) li:nth-child(1)', value: 'Identify your main need: tasks, budget, reservations or education.' },
+        { selector: '.content-grid.two-col .content-card:nth-child(1) li:nth-child(2)', value: 'Review each app features and use cases.' },
+        { selector: '.content-grid.two-col .content-card:nth-child(1) li:nth-child(3)', value: 'Try the tool with a free trial when available.' },
+        { selector: '.content-grid.two-col .content-card:nth-child(1) li:nth-child(4)', value: 'Pick the simplest solution for your daily workflow.' },
+        { selector: '.content-grid.two-col .content-card:nth-child(2) h2', value: 'Explore more' },
+        { selector: '.content-grid.two-col .content-card:nth-child(2) .note-list a:nth-child(1)', value: 'See our productivity tools page' },
+        { selector: '.content-grid.two-col .content-card:nth-child(2) .note-list a:nth-child(2)', value: 'Discover apps with free trial' },
+        { selector: '.content-grid.two-col .content-card:nth-child(2) .note-list a:nth-child(3)', value: 'Read our work organization guide' },
+        { selector: '.content-grid.two-col .content-card:nth-child(2) .note-list a:nth-child(4)', value: 'Browse blog articles' }
+      ]
+    },
+    es: {
+      title: 'Aplicaciones CarlusOne | Tareas, presupuesto, reservas y aprendizaje',
+      description: 'Descubra todas las aplicaciones CarlusOne: GestTaches, GestBudget, GestReserve y Jeu de Mots.',
+      text: [
+        { selector: '.page-hero .breadcrumb span:last-child', value: 'Aplicaciones' },
+        { selector: '.page-hero .page-kicker', value: 'Hub de aplicaciones' },
+        { selector: '.page-hero .page-title', value: 'Todas las aplicaciones CarlusOne' },
+        { selector: '.page-hero .page-subtitle', value: 'Esta pagina reune todas nuestras aplicaciones web para ayudarle a elegir rapidamente la herramienta adecuada.' },
+        { selector: '.app-link-card:nth-child(1) .card-kicker', value: 'Productividad' },
+        { selector: '.app-link-card:nth-child(1) p', value: 'Gestion de tareas de equipo con grupos, roles, calendario interactivo, tareas recurrentes y propuestas automaticas.' },
+        { selector: '.app-link-card:nth-child(1) .button-row a:nth-child(1)', value: 'Ver pagina' },
+        { selector: '.app-link-card:nth-child(1) .button-row a:nth-child(2)', value: 'Abrir app' },
+        { selector: '.app-link-card:nth-child(2) .card-kicker', value: 'Finanzas' },
+        { selector: '.app-link-card:nth-child(2) p', value: 'Gestion de presupuesto personal para seguir ingresos, gastos, cuentas y categorias con panel visual.' },
+        { selector: '.app-link-card:nth-child(2) .button-row a:nth-child(1)', value: 'Ver pagina' },
+        { selector: '.app-link-card:nth-child(2) .button-row a:nth-child(2)', value: 'Abrir app' },
+        { selector: '.app-link-card:nth-child(3) .card-kicker', value: 'Reservas' },
+        { selector: '.app-link-card:nth-child(3) p', value: 'Gestion de reservas para salas y equipos con calendario, grupos de acceso y permisos de usuario.' },
+        { selector: '.app-link-card:nth-child(3) .button-row a:nth-child(1)', value: 'Ver pagina' },
+        { selector: '.app-link-card:nth-child(3) .button-row a:nth-child(2)', value: 'Abrir app' },
+        { selector: '.app-link-card:nth-child(4) .card-kicker', value: 'Educacion' },
+        { selector: '.app-link-card:nth-child(4) p', value: 'Aplicacion educativa con flashcards, cuestionarios de matematicas y listas guardadas en la nube.' },
+        { selector: '.app-link-card:nth-child(4) .button-row a:nth-child(1)', value: 'Ver pagina' },
+        { selector: '.app-link-card:nth-child(4) .button-row a:nth-child(2)', value: 'Abrir app' },
+        { selector: '.content-grid.two-col .content-card:nth-child(1) h2', value: 'Como elegir la aplicacion correcta?' },
+        { selector: '.content-grid.two-col .content-card:nth-child(1) li:nth-child(1)', value: 'Identifique su necesidad principal: tareas, presupuesto, reservas o educacion.' },
+        { selector: '.content-grid.two-col .content-card:nth-child(1) li:nth-child(2)', value: 'Revise casos de uso y funciones de cada aplicacion.' },
+        { selector: '.content-grid.two-col .content-card:nth-child(1) li:nth-child(3)', value: 'Pruebe la herramienta con prueba gratuita cuando este disponible.' },
+        { selector: '.content-grid.two-col .content-card:nth-child(1) li:nth-child(4)', value: 'Elija la solucion mas simple para su dia a dia.' },
+        { selector: '.content-grid.two-col .content-card:nth-child(2) h2', value: 'Explorar tambien' },
+        { selector: '.content-grid.two-col .content-card:nth-child(2) .note-list a:nth-child(1)', value: 'Ver nuestra pagina de productividad' },
+        { selector: '.content-grid.two-col .content-card:nth-child(2) .note-list a:nth-child(2)', value: 'Descubrir apps con prueba gratuita' },
+        { selector: '.content-grid.two-col .content-card:nth-child(2) .note-list a:nth-child(3)', value: 'Leer nuestra guia de organizacion del trabajo' },
+        { selector: '.content-grid.two-col .content-card:nth-child(2) .note-list a:nth-child(4)', value: 'Consultar articulos del blog' }
+      ]
+    }
+  },
+  '/a-propos/': {
+    en: {
+      title: 'About CarlusOne',
+      description: 'Learn more about CarlusOne and the product vision behind its web applications.',
+      text: [
+        { selector: '.page-hero .breadcrumb span:last-child', value: 'About' },
+        { selector: '.page-hero .page-title', value: 'About the project' },
+        { selector: '.page-hero .page-subtitle', value: 'CarlusOne builds simple and practical web apps focused on real-world needs: organize, plan, reserve and learn.' },
+        { selector: '.content-card:nth-child(1) h2', value: 'Our approach' },
+        { selector: '.content-card:nth-child(1) p', value: 'We focus on clear, specialized tools that are fast to adopt. Each app solves a concrete problem instead of trying to do everything in a single interface.' },
+        { selector: '.content-card:nth-child(2) h2', value: 'Current suite' },
+        { selector: '.content-card:nth-child(2) li:nth-child(1)', value: 'GestTaches for task management' },
+        { selector: '.content-card:nth-child(2) li:nth-child(2)', value: 'GestBudget for budget management' },
+        { selector: '.content-card:nth-child(2) li:nth-child(3)', value: 'GestReserve for reservation management' },
+        { selector: '.content-card:nth-child(2) li:nth-child(4)', value: 'Jeu de Mots for learning' }
+      ]
+    },
+    es: {
+      title: 'Acerca de CarlusOne',
+      description: 'Descubra CarlusOne y la vision de producto detras de sus aplicaciones web.',
+      text: [
+        { selector: '.page-hero .breadcrumb span:last-child', value: 'Acerca de' },
+        { selector: '.page-hero .page-title', value: 'Acerca del proyecto' },
+        { selector: '.page-hero .page-subtitle', value: 'CarlusOne desarrolla aplicaciones web simples y practicas orientadas a necesidades reales: organizar, planificar, reservar y aprender.' },
+        { selector: '.content-card:nth-child(1) h2', value: 'Nuestro enfoque' },
+        { selector: '.content-card:nth-child(1) p', value: 'Priorizamos herramientas claras, especializadas y faciles de adoptar. Cada aplicacion responde a un problema concreto.' },
+        { selector: '.content-card:nth-child(2) h2', value: 'Suite actual' },
+        { selector: '.content-card:nth-child(2) li:nth-child(1)', value: 'GestTaches para gestion de tareas' },
+        { selector: '.content-card:nth-child(2) li:nth-child(2)', value: 'GestBudget para gestion de presupuesto' },
+        { selector: '.content-card:nth-child(2) li:nth-child(3)', value: 'GestReserve para gestion de reservas' },
+        { selector: '.content-card:nth-child(2) li:nth-child(4)', value: 'Jeu de Mots para aprendizaje' }
+      ]
+    }
+  },
+  '/contact/': {
+    en: {
+      title: 'Contact CarlusOne',
+      description: 'Contact CarlusOne about GestTaches, GestBudget, GestReserve or Jeu de Mots.',
+      text: [
+        { selector: '.page-hero .breadcrumb span:last-child', value: 'Contact' },
+        { selector: '.page-hero .page-kicker', value: 'Form' },
+        { selector: '.page-hero .page-title', value: 'Contact CarlusOne' },
+        { selector: '.page-hero .page-subtitle', value: 'A question about an application, a specific need or product feedback? Use this form.' },
+        { selector: '.contact-form-wrapper .section-title', value: 'Contact form' },
+        { selector: '.contact-form-wrapper .section-lead', value: 'We usually reply within 24 business hours.' },
+        { selector: 'label[for="name"]', value: 'Name' },
+        { selector: 'label[for="email"]', value: 'Email' },
+        { selector: 'label[for="subject"]', value: 'Subject' },
+        { selector: 'label[for="message"]', value: 'Message' },
+        { selector: '#submit-btn', value: 'Send message' },
+        { selector: '#form-success h4', value: 'Message sent!' },
+        { selector: '#form-success p', value: 'Thanks for your message. We will reply as soon as possible.' }
+      ],
+      placeholders: [
+        { selector: '#name', value: 'Your name' },
+        { selector: '#email', value: 'your@email.com' },
+        { selector: '#message', value: 'Your message...' }
+      ],
+      options: [
+        { selector: '#subject option:nth-child(1)', value: 'Choose a subject' },
+        { selector: '#subject option:nth-child(2)', value: 'Question about GestTaches' },
+        { selector: '#subject option:nth-child(3)', value: 'Question about GestBudget' },
+        { selector: '#subject option:nth-child(4)', value: 'Question about GestReserve' },
+        { selector: '#subject option:nth-child(5)', value: 'Question about Jeu de Mots' },
+        { selector: '#subject option:nth-child(6)', value: 'General question' },
+        { selector: '#subject option:nth-child(7)', value: 'Report a problem' }
+      ]
+    },
+    es: {
+      title: 'Contacto CarlusOne',
+      description: 'Contacte a CarlusOne sobre GestTaches, GestBudget, GestReserve o Jeu de Mots.',
+      text: [
+        { selector: '.page-hero .breadcrumb span:last-child', value: 'Contacto' },
+        { selector: '.page-hero .page-kicker', value: 'Formulario' },
+        { selector: '.page-hero .page-title', value: 'Contactar a CarlusOne' },
+        { selector: '.page-hero .page-subtitle', value: 'Una pregunta sobre una aplicacion, una necesidad especifica o comentarios de producto? Use este formulario.' },
+        { selector: '.contact-form-wrapper .section-title', value: 'Formulario de contacto' },
+        { selector: '.contact-form-wrapper .section-lead', value: 'Respondemos normalmente en menos de 24 horas habiles.' },
+        { selector: 'label[for="name"]', value: 'Nombre' },
+        { selector: 'label[for="email"]', value: 'Correo electronico' },
+        { selector: 'label[for="subject"]', value: 'Asunto' },
+        { selector: 'label[for="message"]', value: 'Mensaje' },
+        { selector: '#submit-btn', value: 'Enviar mensaje' },
+        { selector: '#form-success h4', value: 'Mensaje enviado!' },
+        { selector: '#form-success p', value: 'Gracias por su mensaje. Le responderemos lo antes posible.' }
+      ],
+      placeholders: [
+        { selector: '#name', value: 'Su nombre' },
+        { selector: '#email', value: 'su@email.com' },
+        { selector: '#message', value: 'Su mensaje...' }
+      ],
+      options: [
+        { selector: '#subject option:nth-child(1)', value: 'Elegir un asunto' },
+        { selector: '#subject option:nth-child(2)', value: 'Pregunta sobre GestTaches' },
+        { selector: '#subject option:nth-child(3)', value: 'Pregunta sobre GestBudget' },
+        { selector: '#subject option:nth-child(4)', value: 'Pregunta sobre GestReserve' },
+        { selector: '#subject option:nth-child(5)', value: 'Pregunta sobre Jeu de Mots' },
+        { selector: '#subject option:nth-child(6)', value: 'Pregunta general' },
+        { selector: '#subject option:nth-child(7)', value: 'Reportar un problema' }
+      ]
+    }
+  },
+  '/mentions-legales/': {
+    en: {
+      title: 'Legal notice | CarlusOne',
+      description: 'Legal notice for the CarlusOne website.',
+      text: [
+        { selector: '.page-hero .breadcrumb span:last-child', value: 'Legal notice' },
+        { selector: '.page-hero .page-kicker', value: 'Legal information' },
+        { selector: '.page-hero .page-title', value: 'Legal notice' },
+        { selector: '.page-hero .page-subtitle', value: 'Legal information page for the CarlusOne website.' },
+        { selector: '.legal-list .content-card:nth-child(1) h2', value: 'Site publisher' },
+        { selector: '.legal-list .content-card:nth-child(2) h2', value: 'Hosting' },
+        { selector: '.legal-list .content-card:nth-child(2) p', value: 'Website hosted on Netlify.' },
+        { selector: '.legal-list .content-card:nth-child(3) h2', value: 'Contact data' },
+        { selector: '.legal-list .content-card:nth-child(4) h2', value: 'Personal data' },
+        { selector: '.legal-list .content-card:nth-child(4) p', value: 'Information submitted via the contact form is used only to reply to requests.' }
+      ],
+      html: [
+        { selector: '.legal-list .content-card:nth-child(3) p', value: 'For any request, use the <a href="/contact/">contact</a> page.' }
+      ]
+    },
+    es: {
+      title: 'Aviso legal | CarlusOne',
+      description: 'Aviso legal del sitio web CarlusOne.',
+      text: [
+        { selector: '.page-hero .breadcrumb span:last-child', value: 'Aviso legal' },
+        { selector: '.page-hero .page-kicker', value: 'Informacion legal' },
+        { selector: '.page-hero .page-title', value: 'Aviso legal' },
+        { selector: '.page-hero .page-subtitle', value: 'Pagina de informacion legal del sitio CarlusOne.' },
+        { selector: '.legal-list .content-card:nth-child(1) h2', value: 'Editor del sitio' },
+        { selector: '.legal-list .content-card:nth-child(2) h2', value: 'Alojamiento' },
+        { selector: '.legal-list .content-card:nth-child(2) p', value: 'Sitio alojado en Netlify.' },
+        { selector: '.legal-list .content-card:nth-child(3) h2', value: 'Datos de contacto' },
+        { selector: '.legal-list .content-card:nth-child(4) h2', value: 'Datos personales' },
+        { selector: '.legal-list .content-card:nth-child(4) p', value: 'La informacion enviada por el formulario de contacto se usa solo para responder solicitudes.' }
+      ],
+      html: [
+        { selector: '.legal-list .content-card:nth-child(3) p', value: 'Para cualquier solicitud, use la pagina de <a href="/contact/">contacto</a>.' }
+      ]
+    }
+  },
+  '/blog/': {
+    en: {
+      title: 'CarlusOne Blog | Productivity, organization and simple tools',
+      description: 'CarlusOne articles about productivity, work organization, task management and app selection.',
+      text: [
+        { selector: '.article-card:nth-child(1) .article-meta', value: 'Task management' },
+        { selector: '.article-card:nth-child(1) h3 a', value: 'Manage your tasks effectively' },
+        { selector: '.article-card:nth-child(1) p', value: 'Core principles to prioritize better and structure a reliable tracking system.' },
+        { selector: '.article-card:nth-child(2) .article-meta', value: 'Comparison' },
+        { selector: '.article-card:nth-child(2) h3 a', value: 'Best task management applications' },
+        { selector: '.article-card:nth-child(2) p', value: 'How to compare tools without being trapped by generic lists.' },
+        { selector: '.article-card:nth-child(3) .article-meta', value: 'Organization' },
+        { selector: '.article-card:nth-child(3) h3 a', value: 'Organize teamwork' },
+        { selector: '.article-card:nth-child(3) p', value: 'A simple method to clarify who does what, when and on which resources.' },
+        { selector: '.article-card:nth-child(4) .article-meta', value: 'Method' },
+        { selector: '.article-card:nth-child(4) h3 a', value: 'Build a simple todo list' },
+        { selector: '.article-card:nth-child(4) p', value: 'Why simplicity often beats complex systems.' },
+        { selector: '.article-card:nth-child(5) .article-meta', value: 'Freelance' },
+        { selector: '.article-card:nth-child(5) h3 a', value: 'Which task management tool for freelancers?' },
+        { selector: '.article-card:nth-child(5) p', value: 'Choose a lightweight and fast tool aligned with solo constraints.' },
+        { selector: '.article-card:nth-child(6) .article-meta', value: 'Prioritization' },
+        { selector: '.article-card:nth-child(6) h3 a', value: 'How to manage priorities at work' },
+        { selector: '.article-card:nth-child(6) p', value: 'A practical approach to separate urgent, important and secondary tasks.' },
+        { selector: '.article-card:nth-child(7) .article-meta', value: 'Planning' },
+        { selector: '.article-card:nth-child(7) h3 a', value: 'Weekly team planning' },
+        { selector: '.article-card:nth-child(7) p', value: 'A simple framework to distribute workload and protect deliverables.' },
+        { selector: '.article-card:nth-child(8) .article-meta', value: 'Reservations' },
+        { selector: '.article-card:nth-child(8) h3 a', value: 'Choose a simple reservation software' },
+        { selector: '.article-card:nth-child(8) p', value: 'Essential criteria to reduce booking conflicts and missed slots.' },
+        { selector: '.article-card:nth-child(9) .article-meta', value: 'Budget' },
+        { selector: '.article-card:nth-child(9) h3 a', value: 'Which app to manage a family budget?' },
+        { selector: '.article-card:nth-child(9) p', value: 'How to choose a clear tool to control household spending.' },
+        { selector: '.article-card:nth-child(10) .article-meta', value: 'Education' },
+        { selector: '.article-card:nth-child(10) h3 a', value: 'How to improve a child vocabulary' },
+        { selector: '.article-card:nth-child(10) p', value: 'Regular and playful activities to build vocabulary over time.' },
+        { selector: '.article-card:nth-child(11) .article-meta', value: 'Quebec' },
+        { selector: '.article-card:nth-child(11) h3 a', value: 'Task management app in Quebec' },
+        { selector: '.article-card:nth-child(11) p', value: 'How to structure team planning in a local context.' },
+        { selector: '.article-card:nth-child(12) .article-meta', value: 'Quebec' },
+        { selector: '.article-card:nth-child(12) h3 a', value: 'Reservation software in Quebec' },
+        { selector: '.article-card:nth-child(12) p', value: 'Key points to avoid schedule conflicts on shared resources.' },
+        { selector: '.article-card:nth-child(13) .article-meta', value: 'Canada' },
+        { selector: '.article-card:nth-child(13) h3 a', value: 'Personal budget app in Canada' },
+        { selector: '.article-card:nth-child(13) p', value: 'A simple framework to track spending and monthly budget.' },
+        { selector: '.article-card:nth-child(14) .article-meta', value: 'SME' },
+        { selector: '.article-card:nth-child(14) h3 a', value: 'Organization tool for SMEs in Quebec' },
+        { selector: '.article-card:nth-child(14) p', value: 'Structure operations for a small team with suitable tools.' },
+        { selector: '.article-card:nth-child(15) .article-meta', value: 'Education' },
+        { selector: '.article-card:nth-child(15) h3 a', value: 'French educational app for children' },
+        { selector: '.article-card:nth-child(15) p', value: 'Help children progress in vocabulary with a playful approach.' }
+      ]
+    },
+    es: {
+      title: 'Blog CarlusOne | Productividad, organizacion y herramientas simples',
+      description: 'Articulos de CarlusOne sobre productividad, organizacion del trabajo y gestion de tareas.',
+      text: [
+        { selector: '.article-card:nth-child(1) .article-meta', value: 'Gestion de tareas' },
+        { selector: '.article-card:nth-child(1) h3 a', value: 'Gestionar tareas eficazmente' },
+        { selector: '.article-card:nth-child(1) p', value: 'Principios para priorizar mejor y estructurar un sistema de seguimiento fiable.' },
+        { selector: '.article-card:nth-child(2) .article-meta', value: 'Comparativa' },
+        { selector: '.article-card:nth-child(2) h3 a', value: 'Mejores aplicaciones de gestion de tareas' },
+        { selector: '.article-card:nth-child(2) p', value: 'Como comparar herramientas sin caer en listas genericas.' },
+        { selector: '.article-card:nth-child(3) .article-meta', value: 'Organizacion' },
+        { selector: '.article-card:nth-child(3) h3 a', value: 'Organizar el trabajo en equipo' },
+        { selector: '.article-card:nth-child(3) p', value: 'Metodo simple para aclarar quien hace que, cuando y con que recursos.' },
+        { selector: '.article-card:nth-child(4) .article-meta', value: 'Metodo' },
+        { selector: '.article-card:nth-child(4) h3 a', value: 'Construir una lista de tareas simple' },
+        { selector: '.article-card:nth-child(4) p', value: 'Por que la simplicidad suele ser mas eficaz que sistemas complejos.' },
+        { selector: '.article-card:nth-child(5) .article-meta', value: 'Freelance' },
+        { selector: '.article-card:nth-child(5) h3 a', value: 'Que herramienta de tareas para un freelance?' },
+        { selector: '.article-card:nth-child(5) p', value: 'Elegir una herramienta ligera y rapida para un independiente.' },
+        { selector: '.article-card:nth-child(6) .article-meta', value: 'Priorizacion' },
+        { selector: '.article-card:nth-child(6) h3 a', value: 'Como gestionar prioridades en el trabajo' },
+        { selector: '.article-card:nth-child(6) p', value: 'Enfoque practico para distinguir urgente, importante y secundario.' },
+        { selector: '.article-card:nth-child(7) .article-meta', value: 'Planificacion' },
+        { selector: '.article-card:nth-child(7) h3 a', value: 'Planificacion semanal de equipo' },
+        { selector: '.article-card:nth-child(7) p', value: 'Marco simple para repartir carga y asegurar entregables.' },
+        { selector: '.article-card:nth-child(8) .article-meta', value: 'Reservas' },
+        { selector: '.article-card:nth-child(8) h3 a', value: 'Elegir un software de reservas simple' },
+        { selector: '.article-card:nth-child(8) p', value: 'Criterios clave para reducir conflictos de agenda y olvidos.' },
+        { selector: '.article-card:nth-child(9) .article-meta', value: 'Presupuesto' },
+        { selector: '.article-card:nth-child(9) h3 a', value: 'Que aplicacion para presupuesto familiar?' },
+        { selector: '.article-card:nth-child(9) p', value: 'Como elegir una herramienta clara para controlar gastos del hogar.' },
+        { selector: '.article-card:nth-child(10) .article-meta', value: 'Educacion' },
+        { selector: '.article-card:nth-child(10) h3 a', value: 'Como mejorar el vocabulario de un nino' },
+        { selector: '.article-card:nth-child(10) p', value: 'Actividades regulares y ludicas para enriquecer vocabulario.' },
+        { selector: '.article-card:nth-child(11) .article-meta', value: 'Quebec' },
+        { selector: '.article-card:nth-child(11) h3 a', value: 'Aplicacion de gestion de tareas en Quebec' },
+        { selector: '.article-card:nth-child(11) p', value: 'Como estructurar la planificacion de equipo en contexto local.' },
+        { selector: '.article-card:nth-child(12) .article-meta', value: 'Quebec' },
+        { selector: '.article-card:nth-child(12) h3 a', value: 'Software de reservas en Quebec' },
+        { selector: '.article-card:nth-child(12) p', value: 'Puntos esenciales para evitar conflictos de agenda en recursos.' },
+        { selector: '.article-card:nth-child(13) .article-meta', value: 'Canada' },
+        { selector: '.article-card:nth-child(13) h3 a', value: 'Aplicacion de presupuesto personal en Canada' },
+        { selector: '.article-card:nth-child(13) p', value: 'Marco simple para seguir gastos y presupuesto mensual.' },
+        { selector: '.article-card:nth-child(14) .article-meta', value: 'PyME' },
+        { selector: '.article-card:nth-child(14) h3 a', value: 'Herramienta de organizacion para PyME en Quebec' },
+        { selector: '.article-card:nth-child(14) p', value: 'Estructurar operaciones de un equipo pequeno con herramientas adaptadas.' },
+        { selector: '.article-card:nth-child(15) .article-meta', value: 'Educacion' },
+        { selector: '.article-card:nth-child(15) h3 a', value: 'Aplicacion educativa de frances para ninos' },
+        { selector: '.article-card:nth-child(15) p', value: 'Ayudar a progresar en vocabulario con enfoque ludico.' }
+      ]
+    }
+  }
+};
+
+const initialPageMeta = {
+  title: document.title,
+  description: (document.querySelector('meta[name="description"]') || {}).content || ''
+};
+
+const initialPageSnapshot = {};
+
+function normalizePathname(pathname) {
+  if (!pathname || pathname === '/') return '/';
+  return pathname.endsWith('/') ? pathname : `${pathname}/`;
+}
+
+function getCurrentPathTranslations() {
+  return pageTranslations[normalizePathname(window.location.pathname)] || null;
+}
+
+function canTranslatePageWithoutDataAttrs() {
+  const page = getCurrentPathTranslations();
+  return !!(page && page.en && page.es);
+}
+
 function isPageFullyTranslatable() {
   const count = document.querySelectorAll('[data-i18n], [data-i18n-html], [data-i18n-placeholder]').length;
-  return count >= MIN_I18N_ATTRS_FOR_FULL_PAGE;
+  return count >= MIN_I18N_ATTRS_FOR_FULL_PAGE || canTranslatePageWithoutDataAttrs();
 }
 
 function applyLanguageAvailabilityRules() {
@@ -617,10 +961,86 @@ function applyLanguageAvailabilityRules() {
     const isFrench = btn.dataset.lang === 'fr';
     const mustDisable = !fullPage && !isFrench;
     btn.disabled = mustDisable;
+    btn.style.opacity = mustDisable ? '0.45' : '';
+    btn.style.cursor = mustDisable ? 'not-allowed' : '';
     btn.setAttribute('aria-disabled', mustDisable ? 'true' : 'false');
     btn.title = mustDisable ? 'Translation in progress for this page' : '';
   });
   return fullPage;
+}
+
+function storeInitialPageSnapshot() {
+  const page = getCurrentPathTranslations();
+  if (!page) return;
+
+  const selectors = [];
+  ['en', 'es'].forEach(lang => {
+    const config = page[lang];
+    if (!config) return;
+    (config.text || []).forEach(item => selectors.push({ selector: item.selector, type: 'text' }));
+    (config.html || []).forEach(item => selectors.push({ selector: item.selector, type: 'html' }));
+    (config.placeholders || []).forEach(item => selectors.push({ selector: item.selector, type: 'placeholder' }));
+    (config.options || []).forEach(item => selectors.push({ selector: item.selector, type: 'option' }));
+  });
+
+  selectors.forEach(({ selector, type }) => {
+    if (initialPageSnapshot[selector]) return;
+    const node = document.querySelector(selector);
+    if (!node) return;
+    if (type === 'html') initialPageSnapshot[selector] = node.innerHTML;
+    else if (type === 'placeholder') initialPageSnapshot[selector] = node.placeholder;
+    else initialPageSnapshot[selector] = node.textContent;
+  });
+}
+
+function applyPageSpecificTranslations(lang) {
+  const page = getCurrentPathTranslations();
+  if (!page) return;
+
+  const metaDesc = document.querySelector('meta[name="description"]');
+  if (lang === 'fr') {
+    document.title = initialPageMeta.title;
+    if (metaDesc && initialPageMeta.description) metaDesc.setAttribute('content', initialPageMeta.description);
+
+    Object.entries(initialPageSnapshot).forEach(([selector, value]) => {
+      const node = document.querySelector(selector);
+      if (!node) return;
+      if (node.tagName === 'INPUT' || node.tagName === 'TEXTAREA') {
+        node.placeholder = value;
+      } else if (selector.includes('.content-card:nth-child(3) p')) {
+        node.innerHTML = value;
+      } else {
+        node.textContent = value;
+      }
+    });
+    return;
+  }
+
+  const config = page[lang];
+  if (!config) return;
+
+  if (config.title) document.title = config.title;
+  if (metaDesc && config.description) metaDesc.setAttribute('content', config.description);
+
+  (config.text || []).forEach(({ selector, value }) => {
+    const node = document.querySelector(selector);
+    if (node) node.textContent = value;
+  });
+
+  (config.html || []).forEach(({ selector, value }) => {
+    const node = document.querySelector(selector);
+    if (node) node.innerHTML = value;
+  });
+
+  (config.placeholders || []).forEach(({ selector, value }) => {
+    const node = document.querySelector(selector);
+    if (node) node.placeholder = value;
+  });
+
+  (config.options || []).forEach(({ selector, value }) => {
+    const node = document.querySelector(selector);
+    if (node) node.textContent = value;
+  });
 }
 
 // Get translation (returns null if key not found, to preserve fallback HTML)
@@ -694,6 +1114,9 @@ function applyTranslations(lang) {
       el.textContent = val;
     });
   });
+
+  // Apply page-level translations for static pages that do not use data-i18n everywhere
+  applyPageSpecificTranslations(lang);
 }
 
 // Make t() available globally for script.js
@@ -701,6 +1124,7 @@ window.t = t;
 
 // Initialize on DOM ready
 document.addEventListener('DOMContentLoaded', () => {
+  storeInitialPageSnapshot();
   const fullPage = applyLanguageAvailabilityRules();
   const initialLang = fullPage ? detectLanguage() : 'fr';
   applyTranslations(initialLang);
