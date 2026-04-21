@@ -1417,6 +1417,246 @@ const pageTranslations = {
         { selector: '.content-prose h2:nth-of-type(2)', value: 'Que herramienta segun su situacion?' }
       ]
     }
+  },
+  '/blog/ameliorer-vocabulaire-enfant/': {
+    en: {
+      title: 'How to improve a child vocabulary',
+      description: 'Practical tips to improve a child vocabulary with simple and regular activities.',
+      text: [
+        { selector: '.page-hero .breadcrumb span:last-child', value: 'Improve child vocabulary' },
+        { selector: '.page-hero .page-kicker', value: 'Education' },
+        { selector: '.page-hero .page-title', value: 'How to improve a child vocabulary' },
+        { selector: '.blog-sidebar .content-card h3', value: 'Related resources' },
+        { selector: '.footer-bottom p', value: '© 2026 CarlusOne. All rights reserved.' }
+      ]
+    },
+    es: {
+      title: 'Como mejorar el vocabulario de un nino',
+      description: 'Consejos practicos para mejorar el vocabulario de un nino con actividades simples.',
+      text: [
+        { selector: '.page-hero .breadcrumb span:last-child', value: 'Mejorar vocabulario infantil' },
+        { selector: '.page-hero .page-kicker', value: 'Educacion' },
+        { selector: '.page-hero .page-title', value: 'Como mejorar el vocabulario de un nino' },
+        { selector: '.blog-sidebar .content-card h3', value: 'Recursos relacionados' },
+        { selector: '.footer-bottom p', value: '© 2026 CarlusOne. Todos los derechos reservados.' }
+      ]
+    }
+  },
+  '/blog/application-budget-familial/': {
+    en: {
+      title: 'Which app to manage a family budget?',
+      description: 'How to choose a clear application to manage family spending and monthly budget.',
+      text: [
+        { selector: '.page-hero .breadcrumb span:last-child', value: 'Family budget app' },
+        { selector: '.page-hero .page-kicker', value: 'Budget' },
+        { selector: '.page-hero .page-title', value: 'Which app to manage a family budget?' },
+        { selector: '.blog-sidebar .content-card h3', value: 'Related resources' },
+        { selector: '.footer-bottom p', value: '© 2026 CarlusOne. All rights reserved.' }
+      ]
+    },
+    es: {
+      title: 'Que aplicacion para gestionar un presupuesto familiar?',
+      description: 'Como elegir una aplicacion clara para gestionar gastos del hogar.',
+      text: [
+        { selector: '.page-hero .breadcrumb span:last-child', value: 'Aplicacion presupuesto familiar' },
+        { selector: '.page-hero .page-kicker', value: 'Presupuesto' },
+        { selector: '.page-hero .page-title', value: 'Que aplicacion para gestionar un presupuesto familiar?' },
+        { selector: '.blog-sidebar .content-card h3', value: 'Recursos relacionados' },
+        { selector: '.footer-bottom p', value: '© 2026 CarlusOne. Todos los derechos reservados.' }
+      ]
+    }
+  },
+  '/blog/gerer-ses-taches-efficacement/': {
+    en: {
+      title: 'Manage your tasks effectively',
+      description: 'Simple methods to prioritize better and avoid task overload.',
+      text: [
+        { selector: '.page-hero .breadcrumb span:last-child', value: 'Manage tasks effectively' },
+        { selector: '.page-hero .page-kicker', value: 'Task management' },
+        { selector: '.page-hero .page-title', value: 'Manage your tasks effectively' },
+        { selector: '.blog-sidebar .content-card h3', value: 'Related resources' },
+        { selector: '.footer-bottom p', value: '© 2026 CarlusOne. All rights reserved.' }
+      ]
+    },
+    es: {
+      title: 'Gestionar tareas eficazmente',
+      description: 'Metodos simples para priorizar mejor y evitar acumulacion de tareas.',
+      text: [
+        { selector: '.page-hero .breadcrumb span:last-child', value: 'Gestionar tareas eficazmente' },
+        { selector: '.page-hero .page-kicker', value: 'Gestion de tareas' },
+        { selector: '.page-hero .page-title', value: 'Gestionar tareas eficazmente' },
+        { selector: '.blog-sidebar .content-card h3', value: 'Recursos relacionados' },
+        { selector: '.footer-bottom p', value: '© 2026 CarlusOne. Todos los derechos reservados.' }
+      ]
+    }
+  },
+  '/blog/gestion-priorites-travail/': {
+    en: {
+      title: 'How to manage priorities at work',
+      description: 'A practical framework to separate urgent, important and secondary priorities.',
+      text: [
+        { selector: '.page-hero .breadcrumb span:last-child', value: 'Priorities at work' },
+        { selector: '.page-hero .page-kicker', value: 'Prioritization' },
+        { selector: '.page-hero .page-title', value: 'How to manage priorities at work' },
+        { selector: '.blog-sidebar .content-card h3', value: 'Related resources' },
+        { selector: '.footer-bottom p', value: '© 2026 CarlusOne. All rights reserved.' }
+      ]
+    },
+    es: {
+      title: 'Como gestionar prioridades en el trabajo',
+      description: 'Marco practico para distinguir urgente, importante y secundario.',
+      text: [
+        { selector: '.page-hero .breadcrumb span:last-child', value: 'Prioridades en el trabajo' },
+        { selector: '.page-hero .page-kicker', value: 'Priorizacion' },
+        { selector: '.page-hero .page-title', value: 'Como gestionar prioridades en el trabajo' },
+        { selector: '.blog-sidebar .content-card h3', value: 'Recursos relacionados' },
+        { selector: '.footer-bottom p', value: '© 2026 CarlusOne. Todos los derechos reservados.' }
+      ]
+    }
+  },
+  '/blog/logiciel-reservation-simple/': {
+    en: {
+      title: 'Choose a simple reservation software',
+      description: 'Key criteria to select a reservation software that prevents scheduling conflicts.',
+      text: [
+        { selector: '.page-hero .breadcrumb span:last-child', value: 'Simple reservation software' },
+        { selector: '.page-hero .page-kicker', value: 'Reservations' },
+        { selector: '.page-hero .page-title', value: 'Choose a simple reservation software' },
+        { selector: '.blog-sidebar .content-card h3', value: 'Related resources' },
+        { selector: '.footer-bottom p', value: '© 2026 CarlusOne. All rights reserved.' }
+      ]
+    },
+    es: {
+      title: 'Elegir un software de reservas simple',
+      description: 'Criterios clave para elegir un software de reservas y evitar conflictos.',
+      text: [
+        { selector: '.page-hero .breadcrumb span:last-child', value: 'Software de reservas simple' },
+        { selector: '.page-hero .page-kicker', value: 'Reservas' },
+        { selector: '.page-hero .page-title', value: 'Elegir un software de reservas simple' },
+        { selector: '.blog-sidebar .content-card h3', value: 'Recursos relacionados' },
+        { selector: '.footer-bottom p', value: '© 2026 CarlusOne. Todos los derechos reservados.' }
+      ]
+    }
+  },
+  '/blog/meilleures-applications-gestion-taches/': {
+    en: {
+      title: 'Best task management applications',
+      description: 'Compare task management applications with practical criteria for real teams.',
+      text: [
+        { selector: '.page-hero .breadcrumb span:last-child', value: 'Best task management apps' },
+        { selector: '.page-hero .page-kicker', value: 'Comparison' },
+        { selector: '.page-hero .page-title', value: 'Best task management applications' },
+        { selector: '.blog-sidebar .content-card h3', value: 'Related resources' },
+        { selector: '.footer-bottom p', value: '© 2026 CarlusOne. All rights reserved.' }
+      ]
+    },
+    es: {
+      title: 'Mejores aplicaciones de gestion de tareas',
+      description: 'Comparar aplicaciones de gestion de tareas con criterios practicos.',
+      text: [
+        { selector: '.page-hero .breadcrumb span:last-child', value: 'Mejores apps de tareas' },
+        { selector: '.page-hero .page-kicker', value: 'Comparativa' },
+        { selector: '.page-hero .page-title', value: 'Mejores aplicaciones de gestion de tareas' },
+        { selector: '.blog-sidebar .content-card h3', value: 'Recursos relacionados' },
+        { selector: '.footer-bottom p', value: '© 2026 CarlusOne. Todos los derechos reservados.' }
+      ]
+    }
+  },
+  '/blog/organiser-travail-equipe/': {
+    en: {
+      title: 'Organize teamwork effectively',
+      description: 'A simple method to organize teamwork, responsibilities and shared calendars.',
+      text: [
+        { selector: '.page-hero .breadcrumb span:last-child', value: 'Organize teamwork' },
+        { selector: '.page-hero .page-kicker', value: 'Organization' },
+        { selector: '.page-hero .page-title', value: 'Organize teamwork effectively' },
+        { selector: '.blog-sidebar .content-card h3', value: 'Related resources' },
+        { selector: '.footer-bottom p', value: '© 2026 CarlusOne. All rights reserved.' }
+      ]
+    },
+    es: {
+      title: 'Organizar el trabajo en equipo',
+      description: 'Metodo simple para organizar responsabilidades y planificacion de equipo.',
+      text: [
+        { selector: '.page-hero .breadcrumb span:last-child', value: 'Organizar trabajo en equipo' },
+        { selector: '.page-hero .page-kicker', value: 'Organizacion' },
+        { selector: '.page-hero .page-title', value: 'Organizar el trabajo en equipo' },
+        { selector: '.blog-sidebar .content-card h3', value: 'Recursos relacionados' },
+        { selector: '.footer-bottom p', value: '© 2026 CarlusOne. Todos los derechos reservados.' }
+      ]
+    }
+  },
+  '/blog/outil-gestion-taches-freelance/': {
+    en: {
+      title: 'Task management tool for freelancers',
+      description: 'How freelancers can choose a lightweight task management tool.',
+      text: [
+        { selector: '.page-hero .breadcrumb span:last-child', value: 'Freelance task tool' },
+        { selector: '.page-hero .page-kicker', value: 'Freelance' },
+        { selector: '.page-hero .page-title', value: 'Task management tool for freelancers' },
+        { selector: '.blog-sidebar .content-card h3', value: 'Related resources' },
+        { selector: '.footer-bottom p', value: '© 2026 CarlusOne. All rights reserved.' }
+      ]
+    },
+    es: {
+      title: 'Herramienta de gestion de tareas para freelance',
+      description: 'Como elegir una herramienta ligera de gestion de tareas para freelance.',
+      text: [
+        { selector: '.page-hero .breadcrumb span:last-child', value: 'Herramienta tareas freelance' },
+        { selector: '.page-hero .page-kicker', value: 'Freelance' },
+        { selector: '.page-hero .page-title', value: 'Herramienta de gestion de tareas para freelance' },
+        { selector: '.blog-sidebar .content-card h3', value: 'Recursos relacionados' },
+        { selector: '.footer-bottom p', value: '© 2026 CarlusOne. Todos los derechos reservados.' }
+      ]
+    }
+  },
+  '/blog/planification-hebdomadaire-equipe/': {
+    en: {
+      title: 'Weekly team planning',
+      description: 'A practical framework for weekly team planning and workload distribution.',
+      text: [
+        { selector: '.page-hero .breadcrumb span:last-child', value: 'Weekly team planning' },
+        { selector: '.page-hero .page-kicker', value: 'Planning' },
+        { selector: '.page-hero .page-title', value: 'Weekly team planning' },
+        { selector: '.blog-sidebar .content-card h3', value: 'Related resources' },
+        { selector: '.footer-bottom p', value: '© 2026 CarlusOne. All rights reserved.' }
+      ]
+    },
+    es: {
+      title: 'Planificacion semanal de equipo',
+      description: 'Marco practico para planificacion semanal y distribucion de carga de equipo.',
+      text: [
+        { selector: '.page-hero .breadcrumb span:last-child', value: 'Planificacion semanal' },
+        { selector: '.page-hero .page-kicker', value: 'Planificacion' },
+        { selector: '.page-hero .page-title', value: 'Planificacion semanal de equipo' },
+        { selector: '.blog-sidebar .content-card h3', value: 'Recursos relacionados' },
+        { selector: '.footer-bottom p', value: '© 2026 CarlusOne. Todos los derechos reservados.' }
+      ]
+    }
+  },
+  '/blog/todo-list-simple/': {
+    en: {
+      title: 'Build a simple todo list',
+      description: 'How to build and keep a simple todo list that really helps daily execution.',
+      text: [
+        { selector: '.page-hero .breadcrumb span:last-child', value: 'Simple todo list' },
+        { selector: '.page-hero .page-kicker', value: 'Method' },
+        { selector: '.page-hero .page-title', value: 'Build a simple todo list' },
+        { selector: '.blog-sidebar .content-card h3', value: 'Related resources' },
+        { selector: '.footer-bottom p', value: '© 2026 CarlusOne. All rights reserved.' }
+      ]
+    },
+    es: {
+      title: 'Construir una lista de tareas simple',
+      description: 'Como construir una lista de tareas simple y util para el dia a dia.',
+      text: [
+        { selector: '.page-hero .breadcrumb span:last-child', value: 'Lista de tareas simple' },
+        { selector: '.page-hero .page-kicker', value: 'Metodo' },
+        { selector: '.page-hero .page-title', value: 'Construir una lista de tareas simple' },
+        { selector: '.blog-sidebar .content-card h3', value: 'Recursos relacionados' },
+        { selector: '.footer-bottom p', value: '© 2026 CarlusOne. Todos los derechos reservados.' }
+      ]
+    }
   }
 };
 
