@@ -926,6 +926,194 @@ const pageTranslations = {
         { selector: '.article-card:nth-child(15) p', value: 'Ayudar a progresar en vocabulario con enfoque ludico.' }
       ]
     }
+  },
+  '/applications/gesttaches/': {
+    en: {
+      title: 'GestTaches | Simple team task management app',
+      description: 'Organize your team, plan tasks and balance schedules with GestTaches. 14-day free trial.',
+      text: [
+        { selector: '.page-hero .breadcrumb span:last-child', value: 'GestTaches' },
+        { selector: '.page-hero .page-kicker', value: 'Business app' },
+        { selector: '.page-hero .page-title', value: 'Simple task management application' },
+        { selector: '.page-hero .page-subtitle', value: 'GestTaches helps teams plan work, distribute tasks, centralize unavailability and publish more balanced schedules.' },
+        { selector: '.content-grid.two-col .content-card:nth-child(1) h2', value: 'Description' },
+        { selector: '.content-grid.two-col .content-card:nth-child(1) p:nth-of-type(1)', value: 'GestTaches is designed for organizations that need clear work distribution: clinics, admin teams, associations and small businesses.' },
+        { selector: '.content-grid.two-col .content-card:nth-child(1) p:nth-of-type(2)', value: 'The app lets you create groups, define one-time or recurring tasks, manage roles and generate coherent assignments based on availability.' },
+        { selector: '.content-grid.two-col .content-card:nth-child(2) h2', value: 'Features' },
+        { selector: '.content-grid.two-col .content-card:nth-child(2) li:nth-child(1)', value: 'Group and member management' },
+        { selector: '.content-grid.two-col .content-card:nth-child(2) li:nth-child(2)', value: 'Recurring and one-time tasks' },
+        { selector: '.content-grid.two-col .content-card:nth-child(2) li:nth-child(3)', value: 'Interactive calendar' },
+        { selector: '.content-grid.two-col .content-card:nth-child(2) li:nth-child(4)', value: 'Automatic proposals' },
+        { selector: '.content-grid.two-col .content-card:nth-child(2) li:nth-child(5)', value: 'Reports and statistics' },
+        { selector: '.section-soft .content-card:nth-child(1) h2', value: 'Use cases' },
+        { selector: '.section-soft .content-card:nth-child(2) h2', value: 'Useful links' },
+        { selector: '.section-soft .content-card:nth-child(2) .note-list a:nth-child(1)', value: 'Open GestTaches' },
+        { selector: '.section-soft .content-card:nth-child(2) .note-list a:nth-child(2)', value: 'Read article about task management' },
+        { selector: '.section-soft .content-card:nth-child(2) .note-list a:nth-child(3)', value: 'Read article about team organization' },
+        { selector: '.section-soft .content-card:nth-child(2) .note-list a:nth-child(4)', value: 'Read local Quebec article' },
+        { selector: '.section-soft .content-card:nth-child(2) .note-list a:nth-child(5)', value: 'See also GestReserve' },
+        { selector: '.section-header .section-title', value: 'Frequently asked questions about GestTaches' },
+        { selector: '.faq-grid .faq-item:nth-child(1) .faq-question span', value: 'Is GestTaches suitable for a small team?' },
+        { selector: '.faq-grid .faq-item:nth-child(2) .faq-question span', value: 'Can I plan recurring tasks?' },
+        { selector: '.faq-grid .faq-item:nth-child(3) .faq-question span', value: 'Do I need technical training?' },
+        { selector: '.cta-panel h2', value: 'Try GestTaches' },
+        { selector: '.cta-panel .button-row a:nth-child(1)', value: 'Open application' },
+        { selector: '.cta-panel .button-row a:nth-child(2)', value: 'See all applications' }
+      ]
+    },
+    es: {
+      title: 'GestTaches | Aplicacion simple de gestion de tareas de equipo',
+      description: 'Organice su equipo, planifique tareas y equilibre horarios con GestTaches. Prueba gratuita de 14 dias.',
+      text: [
+        { selector: '.page-hero .breadcrumb span:last-child', value: 'GestTaches' },
+        { selector: '.page-hero .page-kicker', value: 'Aplicacion profesional' },
+        { selector: '.page-hero .page-title', value: 'Aplicacion simple de gestion de tareas' },
+        { selector: '.page-hero .page-subtitle', value: 'GestTaches ayuda a los equipos a planificar trabajo, repartir tareas y publicar calendarios mas equilibrados.' },
+        { selector: '.content-grid.two-col .content-card:nth-child(1) h2', value: 'Descripcion' },
+        { selector: '.content-grid.two-col .content-card:nth-child(2) h2', value: 'Funciones' },
+        { selector: '.content-grid.two-col .content-card:nth-child(2) li:nth-child(1)', value: 'Gestion de grupos y miembros' },
+        { selector: '.content-grid.two-col .content-card:nth-child(2) li:nth-child(2)', value: 'Tareas recurrentes y puntuales' },
+        { selector: '.content-grid.two-col .content-card:nth-child(2) li:nth-child(3)', value: 'Calendario interactivo' },
+        { selector: '.content-grid.two-col .content-card:nth-child(2) li:nth-child(4)', value: 'Propuestas automaticas' },
+        { selector: '.content-grid.two-col .content-card:nth-child(2) li:nth-child(5)', value: 'Informes y estadisticas' },
+        { selector: '.section-soft .content-card:nth-child(1) h2', value: 'Casos de uso' },
+        { selector: '.section-soft .content-card:nth-child(2) h2', value: 'Enlaces utiles' },
+        { selector: '.section-header .section-title', value: 'Preguntas frecuentes sobre GestTaches' },
+        { selector: '.faq-grid .faq-item:nth-child(1) .faq-question span', value: 'GestTaches sirve para un equipo pequeno?' },
+        { selector: '.faq-grid .faq-item:nth-child(2) .faq-question span', value: 'Se pueden planificar tareas recurrentes?' },
+        { selector: '.faq-grid .faq-item:nth-child(3) .faq-question span', value: 'Hace falta formacion tecnica?' },
+        { selector: '.cta-panel h2', value: 'Probar GestTaches' },
+        { selector: '.cta-panel .button-row a:nth-child(1)', value: 'Acceder a la aplicacion' },
+        { selector: '.cta-panel .button-row a:nth-child(2)', value: 'Ver todas las aplicaciones' }
+      ]
+    }
+  },
+  '/applications/gestbudget/': {
+    en: {
+      title: 'GestBudget | Simple personal budget app',
+      description: 'Track income, expenses and accounts with a clear view using GestBudget.',
+      text: [
+        { selector: '.page-hero .page-kicker', value: 'Personal finance' },
+        { selector: '.page-hero .page-title', value: 'Simple budget management application' },
+        { selector: '.page-hero .page-subtitle', value: 'GestBudget helps manage personal budgets with a clear view of income, expenses, accounts and categories.' },
+        { selector: '.content-grid.two-col .content-card:nth-child(1) h2', value: 'Description' },
+        { selector: '.content-grid.two-col .content-card:nth-child(2) h2', value: 'Features' },
+        { selector: '.content-grid.two-col .content-card:nth-child(2) li:nth-child(1)', value: 'Visual dashboard' },
+        { selector: '.content-grid.two-col .content-card:nth-child(2) li:nth-child(2)', value: 'Multi-account management' },
+        { selector: '.content-grid.two-col .content-card:nth-child(2) li:nth-child(3)', value: 'Custom categories' },
+        { selector: '.section-soft .content-card:nth-child(1) h2', value: 'Use cases' },
+        { selector: '.section-soft .content-card:nth-child(2) h2', value: 'Useful links' },
+        { selector: '.section-soft .content-card:nth-child(2) .note-list a:nth-child(1)', value: 'Open GestBudget' },
+        { selector: '.section-soft .content-card:nth-child(2) .note-list a:nth-child(2)', value: 'See apps with free trial' },
+        { selector: '.section-header .section-title', value: 'Frequently asked questions about GestBudget' },
+        { selector: '.cta-panel h2', value: 'Discover GestBudget' },
+        { selector: '.cta-panel .button-row a:nth-child(1)', value: 'Open application' },
+        { selector: '.cta-panel .button-row a:nth-child(2)', value: 'See all applications' }
+      ]
+    },
+    es: {
+      title: 'GestBudget | Aplicacion simple de presupuesto personal',
+      description: 'Siga ingresos, gastos y cuentas con una vista clara usando GestBudget.',
+      text: [
+        { selector: '.page-hero .page-kicker', value: 'Finanzas personales' },
+        { selector: '.page-hero .page-title', value: 'Aplicacion simple de gestion de presupuesto' },
+        { selector: '.page-hero .page-subtitle', value: 'GestBudget ayuda a gestionar presupuesto personal con vista clara de ingresos, gastos y cuentas.' },
+        { selector: '.content-grid.two-col .content-card:nth-child(1) h2', value: 'Descripcion' },
+        { selector: '.content-grid.two-col .content-card:nth-child(2) h2', value: 'Funciones' },
+        { selector: '.content-grid.two-col .content-card:nth-child(2) li:nth-child(1)', value: 'Panel visual' },
+        { selector: '.content-grid.two-col .content-card:nth-child(2) li:nth-child(2)', value: 'Gestion multi-cuentas' },
+        { selector: '.content-grid.two-col .content-card:nth-child(2) li:nth-child(3)', value: 'Categorias personalizables' },
+        { selector: '.section-soft .content-card:nth-child(1) h2', value: 'Casos de uso' },
+        { selector: '.section-soft .content-card:nth-child(2) h2', value: 'Enlaces utiles' },
+        { selector: '.section-header .section-title', value: 'Preguntas frecuentes sobre GestBudget' },
+        { selector: '.cta-panel h2', value: 'Descubrir GestBudget' },
+        { selector: '.cta-panel .button-row a:nth-child(1)', value: 'Acceder a la aplicacion' },
+        { selector: '.cta-panel .button-row a:nth-child(2)', value: 'Ver todas las aplicaciones' }
+      ]
+    }
+  },
+  '/applications/gestreserve/': {
+    en: {
+      title: 'GestReserve | Simple reservation management app',
+      description: 'Manage room and resource bookings without conflicts with GestReserve.',
+      text: [
+        { selector: '.page-hero .page-kicker', value: 'Asset reservation' },
+        { selector: '.page-hero .page-title', value: 'Simple reservation management application' },
+        { selector: '.page-hero .page-subtitle', value: 'GestReserve manages room, equipment and vehicle booking with a clear calendar and group-based access rights.' },
+        { selector: '.content-grid.two-col .content-card:nth-child(1) h2', value: 'Description' },
+        { selector: '.content-grid.two-col .content-card:nth-child(2) h2', value: 'Features' },
+        { selector: '.content-grid.two-col .content-card:nth-child(2) li:nth-child(1)', value: 'Interactive reservation calendar' },
+        { selector: '.content-grid.two-col .content-card:nth-child(2) li:nth-child(2)', value: 'Asset and unavailability management' },
+        { selector: '.content-grid.two-col .content-card:nth-child(2) li:nth-child(3)', value: 'Access groups and restricted visibility' },
+        { selector: '.section-soft .content-card:nth-child(1) h2', value: 'Use cases' },
+        { selector: '.section-soft .content-card:nth-child(2) h2', value: 'Useful links' },
+        { selector: '.section-soft .content-card:nth-child(2) .note-list a:nth-child(1)', value: 'Open GestReserve' },
+        { selector: '.section-header .section-title', value: 'Frequently asked questions about GestReserve' },
+        { selector: '.cta-panel h2', value: 'Try GestReserve' },
+        { selector: '.cta-panel .button-row a:nth-child(1)', value: 'Open application' },
+        { selector: '.cta-panel .button-row a:nth-child(2)', value: 'See all applications' }
+      ]
+    },
+    es: {
+      title: 'GestReserve | Aplicacion simple de gestion de reservas',
+      description: 'Gestione reservas de salas y recursos sin conflictos con GestReserve.',
+      text: [
+        { selector: '.page-hero .page-kicker', value: 'Reserva de bienes' },
+        { selector: '.page-hero .page-title', value: 'Aplicacion simple de gestion de reservas' },
+        { selector: '.page-hero .page-subtitle', value: 'GestReserve permite gestionar reservas de salas y equipos con calendario claro y accesos por grupos.' },
+        { selector: '.content-grid.two-col .content-card:nth-child(1) h2', value: 'Descripcion' },
+        { selector: '.content-grid.two-col .content-card:nth-child(2) h2', value: 'Funciones' },
+        { selector: '.section-soft .content-card:nth-child(1) h2', value: 'Casos de uso' },
+        { selector: '.section-soft .content-card:nth-child(2) h2', value: 'Enlaces utiles' },
+        { selector: '.section-header .section-title', value: 'Preguntas frecuentes sobre GestReserve' },
+        { selector: '.cta-panel h2', value: 'Probar GestReserve' },
+        { selector: '.cta-panel .button-row a:nth-child(1)', value: 'Acceder a la aplicacion' },
+        { selector: '.cta-panel .button-row a:nth-child(2)', value: 'Ver todas las aplicaciones' }
+      ]
+    }
+  },
+  '/applications/jeudemots/': {
+    en: {
+      title: 'Jeu de Mots | Educational app for children',
+      description: 'Help children progress with flashcards, math quizzes and vocabulary activities.',
+      text: [
+        { selector: '.page-hero .page-kicker', value: 'Education' },
+        { selector: '.page-hero .page-title', value: 'Simple educational application' },
+        { selector: '.page-hero .page-subtitle', value: 'Jeu de Mots helps children, parents and teachers learn through interactive activities, vocabulary and adapted quizzes.' },
+        { selector: '.content-grid.two-col .content-card:nth-child(1) h2', value: 'Description' },
+        { selector: '.content-grid.two-col .content-card:nth-child(2) h2', value: 'Features' },
+        { selector: '.content-grid.two-col .content-card:nth-child(2) li:nth-child(1)', value: 'Vocabulary flashcards' },
+        { selector: '.content-grid.two-col .content-card:nth-child(2) li:nth-child(2)', value: 'Math quizzes' },
+        { selector: '.content-grid.two-col .content-card:nth-child(2) li:nth-child(3)', value: 'Printable worksheets' },
+        { selector: '.section-soft .content-card:nth-child(1) h2', value: 'Use cases' },
+        { selector: '.section-soft .content-card:nth-child(2) h2', value: 'Useful links' },
+        { selector: '.section-soft .content-card:nth-child(2) .note-list a:nth-child(1)', value: 'Open Jeu de Mots' },
+        { selector: '.section-header .section-title', value: 'Frequently asked questions about Jeu de Mots' },
+        { selector: '.cta-panel h2', value: 'Discover Jeu de Mots' },
+        { selector: '.cta-panel .button-row a:nth-child(1)', value: 'Open application' },
+        { selector: '.cta-panel .button-row a:nth-child(2)', value: 'See all applications' }
+      ]
+    },
+    es: {
+      title: 'Jeu de Mots | Aplicacion educativa para ninos',
+      description: 'Ayude a los ninos a progresar con flashcards, quizzes de matematicas y actividades de vocabulario.',
+      text: [
+        { selector: '.page-hero .page-kicker', value: 'Educacion' },
+        { selector: '.page-hero .page-title', value: 'Aplicacion educativa simple' },
+        { selector: '.page-hero .page-subtitle', value: 'Jeu de Mots ayuda a ninos, padres y docentes a aprender con actividades interactivas y quizzes adaptados.' },
+        { selector: '.content-grid.two-col .content-card:nth-child(1) h2', value: 'Descripcion' },
+        { selector: '.content-grid.two-col .content-card:nth-child(2) h2', value: 'Funciones' },
+        { selector: '.content-grid.two-col .content-card:nth-child(2) li:nth-child(1)', value: 'Flashcards de vocabulario' },
+        { selector: '.content-grid.two-col .content-card:nth-child(2) li:nth-child(2)', value: 'Quizzes de matematicas' },
+        { selector: '.content-grid.two-col .content-card:nth-child(2) li:nth-child(3)', value: 'Hojas imprimibles' },
+        { selector: '.section-soft .content-card:nth-child(1) h2', value: 'Casos de uso' },
+        { selector: '.section-soft .content-card:nth-child(2) h2', value: 'Enlaces utiles' },
+        { selector: '.section-header .section-title', value: 'Preguntas frecuentes sobre Jeu de Mots' },
+        { selector: '.cta-panel h2', value: 'Descubrir Jeu de Mots' },
+        { selector: '.cta-panel .button-row a:nth-child(1)', value: 'Acceder a la aplicacion' },
+        { selector: '.cta-panel .button-row a:nth-child(2)', value: 'Ver todas las aplicaciones' }
+      ]
+    }
   }
 };
 
