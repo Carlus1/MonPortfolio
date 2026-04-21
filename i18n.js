@@ -5,7 +5,10 @@ const translations = {
     'meta.description': 'D\u00e9couvrez les applications web CarlusOne : GestTaches pour la gestion des t\u00e2ches d\u2019\u00e9quipe, GestBudget pour la gestion de budget personnel, GestReserve pour la gestion de r\u00e9servations et Jeu de Mots pour l\u2019apprentissage interactif. Essai gratuit disponible.',
 
     // Nav
+    'nav.home': 'Accueil',
     'nav.apps': 'Applications',
+    'nav.blog': 'Blog',
+    'nav.about': 'A propos',
     'nav.pricing': 'Tarifs',
     'nav.faq': 'FAQ',
     'nav.contact': 'Contact',
@@ -192,6 +195,7 @@ const translations = {
     'footer.pricing': 'Tarifs',
     'footer.faq': 'FAQ',
     'footer.contact': 'Contact',
+    'footer.legal': 'Mentions legales',
     'footer.copyright': '\u00a9 2026 CarlusOne. Tous droits r\u00e9serv\u00e9s.'
   },
 
@@ -199,7 +203,10 @@ const translations = {
     'meta.title': 'CarlusOne \u2014 Professional Web Applications | GestTaches, GestBudget, GestReserve & Jeu de Mots',
     'meta.description': 'Discover CarlusOne web applications: GestTaches for team task management, GestBudget for personal budget management, GestReserve for reservation management and Jeu de Mots for interactive learning. Free trial available.',
 
+    'nav.home': 'Home',
     'nav.apps': 'Applications',
+    'nav.blog': 'Blog',
+    'nav.about': 'About',
     'nav.pricing': 'Pricing',
     'nav.faq': 'FAQ',
     'nav.contact': 'Contact',
@@ -376,6 +383,7 @@ const translations = {
     'footer.pricing': 'Pricing',
     'footer.faq': 'FAQ',
     'footer.contact': 'Contact',
+    'footer.legal': 'Legal notice',
     'footer.copyright': '\u00a9 2026 CarlusOne. All rights reserved.'
   },
 
@@ -383,7 +391,10 @@ const translations = {
     'meta.title': 'CarlusOne \u2014 Aplicaciones Web Profesionales | GestTaches, GestBudget, GestReserve & Jeu de Mots',
     'meta.description': 'Descubra las aplicaciones web CarlusOne: GestTaches para la gesti\u00f3n de tareas de equipo, GestBudget para la gesti\u00f3n de presupuesto personal, GestReserve para la gesti\u00f3n de reservas y Jeu de Mots para el aprendizaje interactivo. Prueba gratuita disponible.',
 
+    'nav.home': 'Inicio',
     'nav.apps': 'Aplicaciones',
+    'nav.blog': 'Blog',
+    'nav.about': 'Acerca de',
     'nav.pricing': 'Precios',
     'nav.faq': 'FAQ',
     'nav.contact': 'Contacto',
@@ -560,6 +571,7 @@ const translations = {
     'footer.pricing': 'Precios',
     'footer.faq': 'FAQ',
     'footer.contact': 'Contacto',
+    'footer.legal': 'Aviso legal',
     'footer.copyright': '\u00a9 2026 CarlusOne. Todos los derechos reservados.'
   }
 };
@@ -624,6 +636,26 @@ function applyTranslations(lang) {
   // Update active language button
   document.querySelectorAll('.lang-btn').forEach(btn => {
     btn.classList.toggle('active', btn.dataset.lang === lang);
+  });
+
+  // Ensure global labels are translated on static pages without data-i18n attributes
+  const staticSelectorMap = [
+    { selector: 'a.nav-link[href="/"]', key: 'nav.home' },
+    { selector: 'a.nav-link[href="/applications/"]', key: 'nav.apps' },
+    { selector: 'a.nav-link[href="/blog/"]', key: 'nav.blog' },
+    { selector: 'a.nav-link[href="/a-propos/"]', key: 'nav.about' },
+    { selector: 'a.nav-link[href="/contact/"]', key: 'nav.contact' },
+    { selector: '.breadcrumb a[href="/"]', key: 'nav.home' },
+    { selector: '.breadcrumb a[href="/applications/"]', key: 'nav.apps' },
+    { selector: 'a[href="/mentions-legales/"]', key: 'footer.legal' }
+  ];
+
+  staticSelectorMap.forEach(({ selector, key }) => {
+    const val = t(key);
+    if (!val) return;
+    document.querySelectorAll(selector).forEach(el => {
+      el.textContent = val;
+    });
   });
 }
 
