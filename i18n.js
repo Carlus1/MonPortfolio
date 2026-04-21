@@ -29,6 +29,12 @@ const translations = {
     'apps.title': 'Des solutions adapt\u00e9es \u00e0 vos besoins',
     'apps.subtitle': 'Chaque application est con\u00e7ue avec soin pour offrir une exp\u00e9rience utilisateur exceptionnelle.',
 
+    // Blog page
+    'blog.breadcrumb': 'Blog',
+    'blog.kicker': 'Contenu \u00e9ditorial',
+    'blog.title': 'Blog productivit\u00e9 et organisation',
+    'blog.subtitle': "Des articles cibl\u00e9s pour capter du trafic organique puis orienter les visiteurs vers l'application la plus pertinente.",
+
     // GestTaches
     'gt.badge': 'Gestion d\u2019\u00e9quipe',
     'gt.desc': 'Application de <strong>gestion des t\u00e2ches d\u2019\u00e9quipe</strong> adapt\u00e9e \u00e0 tout type d\u2019organisation : cliniques, entreprises, associations et plus encore.',
@@ -225,6 +231,12 @@ const translations = {
     'apps.title': 'Solutions tailored to your needs',
     'apps.subtitle': 'Each application is carefully designed to deliver an exceptional user experience.',
 
+    // Blog page
+    'blog.breadcrumb': 'Blog',
+    'blog.kicker': 'Editorial content',
+    'blog.title': 'Productivity and organization blog',
+    'blog.subtitle': 'Targeted articles to capture organic traffic and guide visitors to the most relevant application.',
+
     'gt.badge': 'Team Management',
     'gt.desc': 'A <strong>team task management</strong> application suited for any type of organization: clinics, businesses, associations and more.',
     'gt.howTitle': 'How does it work?',
@@ -412,6 +424,12 @@ const translations = {
     'apps.badge': 'Nuestras aplicaciones',
     'apps.title': 'Soluciones adaptadas a sus necesidades',
     'apps.subtitle': 'Cada aplicaci\u00f3n est\u00e1 cuidadosamente dise\u00f1ada para ofrecer una experiencia de usuario excepcional.',
+
+    // Blog page
+    'blog.breadcrumb': 'Blog',
+    'blog.kicker': 'Contenido editorial',
+    'blog.title': 'Blog de productividad y organizaci\u00f3n',
+    'blog.subtitle': 'Art\u00edculos orientados a captar tr\u00e1fico org\u00e1nico y dirigir a los visitantes hacia la aplicaci\u00f3n m\u00e1s pertinente.',
 
     'gt.badge': 'Gesti\u00f3n de equipo',
     'gt.desc': 'Aplicaci\u00f3n de <strong>gesti\u00f3n de tareas de equipo</strong> adaptada a todo tipo de organizaci\u00f3n: cl\u00ednicas, empresas, asociaciones y m\u00e1s.',
