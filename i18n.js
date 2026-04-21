@@ -1329,6 +1329,94 @@ const pageTranslations = {
         { selector: '.footer-bottom p', value: '© 2026 CarlusOne. Todos los derechos reservados.' }
       ]
     }
+  },
+  '/applications-gratuites/': {
+    en: {
+      title: 'Applications to try for free | CarlusOne',
+      description: 'Try task, budget, reservation and education applications for free and compare available trials.',
+      text: [
+        { selector: '.page-hero .breadcrumb span:last-child', value: 'Free applications' },
+        { selector: '.page-hero .page-kicker', value: 'SEO page' },
+        { selector: '.page-hero .page-title', value: 'Applications to try for free' },
+        { selector: '.page-hero .page-subtitle', value: 'Our applications offer a free trial so you can test the product before subscribing.' },
+        { selector: '.app-link-card:nth-child(1) .card-kicker', value: '14-day trial' },
+        { selector: '.app-link-card:nth-child(2) .card-kicker', value: '2-day trial' },
+        { selector: '.app-link-card:nth-child(3) .card-kicker', value: '2-day trial' },
+        { selector: '.app-link-card:nth-child(4) .card-kicker', value: '2-day trial' },
+        { selector: '.section-soft .content-prose h2:nth-of-type(1)', value: 'Why offer a free trial?' },
+        { selector: '.section-soft .content-prose h2:nth-of-type(2)', value: 'Which trial should you choose?' }
+      ]
+    },
+    es: {
+      title: 'Aplicaciones para probar gratis | CarlusOne',
+      description: 'Pruebe gratis aplicaciones de tareas, presupuesto, reservas y educacion.',
+      text: [
+        { selector: '.page-hero .breadcrumb span:last-child', value: 'Aplicaciones gratuitas' },
+        { selector: '.page-hero .page-kicker', value: 'Pagina SEO' },
+        { selector: '.page-hero .page-title', value: 'Aplicaciones para probar gratis' },
+        { selector: '.page-hero .page-subtitle', value: 'Nuestras aplicaciones ofrecen prueba gratuita para validar la herramienta antes de suscribirse.' },
+        { selector: '.app-link-card:nth-child(1) .card-kicker', value: '14 dias de prueba' },
+        { selector: '.app-link-card:nth-child(2) .card-kicker', value: '2 dias de prueba' },
+        { selector: '.app-link-card:nth-child(3) .card-kicker', value: '2 dias de prueba' },
+        { selector: '.app-link-card:nth-child(4) .card-kicker', value: '2 dias de prueba' },
+        { selector: '.section-soft .content-prose h2:nth-of-type(1)', value: 'Por que ofrecer prueba gratuita?' },
+        { selector: '.section-soft .content-prose h2:nth-of-type(2)', value: 'Que prueba elegir segun su necesidad?' }
+      ]
+    }
+  },
+  '/outils-productivite/': {
+    en: {
+      title: 'Productivity tools | 4 simple applications to test',
+      description: 'Compare 4 simple tools for tasks, reservations, budget and learning.',
+      text: [
+        { selector: '.page-hero .breadcrumb span:last-child', value: 'Productivity tools' },
+        { selector: '.page-hero .page-kicker', value: 'SEO page' },
+        { selector: '.page-hero .page-title', value: 'Simple productivity tools to organize work' },
+        { selector: '.page-hero .page-subtitle', value: 'This page presents practical tools to organize tasks, reservations, finances and workflows.' },
+        { selector: '.content-prose h2:nth-of-type(1)', value: 'Which tools should you choose?' },
+        { selector: '.content-prose h2:nth-of-type(2)', value: 'Choose based on intent' },
+        { selector: '.content-prose h2:nth-of-type(3)', value: 'Additional resources' }
+      ]
+    },
+    es: {
+      title: 'Herramientas de productividad | 4 aplicaciones simples para probar',
+      description: 'Compare 4 herramientas simples para tareas, reservas, presupuesto y aprendizaje.',
+      text: [
+        { selector: '.page-hero .breadcrumb span:last-child', value: 'Herramientas de productividad' },
+        { selector: '.page-hero .page-kicker', value: 'Pagina SEO' },
+        { selector: '.page-hero .page-title', value: 'Herramientas de productividad simples para organizar trabajo' },
+        { selector: '.page-hero .page-subtitle', value: 'Esta pagina presenta herramientas concretas para organizar tareas, reservas, finanzas y flujo de trabajo.' },
+        { selector: '.content-prose h2:nth-of-type(1)', value: 'Que herramientas elegir?' },
+        { selector: '.content-prose h2:nth-of-type(2)', value: 'Elegir segun su intencion' },
+        { selector: '.content-prose h2:nth-of-type(3)', value: 'Recursos complementarios' }
+      ]
+    }
+  },
+  '/outils-organisation-travail/': {
+    en: {
+      title: 'Work organization tools | Practical 2026 guide',
+      description: 'Plan tasks, coordinate teams and avoid resource conflicts with simple tools.',
+      text: [
+        { selector: '.page-hero .breadcrumb span:last-child', value: 'Work organization tools' },
+        { selector: '.page-hero .page-kicker', value: 'SEO page' },
+        { selector: '.page-hero .page-title', value: 'Work organization tools' },
+        { selector: '.page-hero .page-subtitle', value: 'Better work organization means better task management, team coordination and resource visibility.' },
+        { selector: '.content-prose h2:nth-of-type(1)', value: 'Build a simple system' },
+        { selector: '.content-prose h2:nth-of-type(2)', value: 'Which tool for your situation?' }
+      ]
+    },
+    es: {
+      title: 'Herramientas de organizacion del trabajo | Guia practica 2026',
+      description: 'Planifique tareas, coordine equipos y evite conflictos de recursos con herramientas simples.',
+      text: [
+        { selector: '.page-hero .breadcrumb span:last-child', value: 'Herramientas de organizacion del trabajo' },
+        { selector: '.page-hero .page-kicker', value: 'Pagina SEO' },
+        { selector: '.page-hero .page-title', value: 'Herramientas de organizacion del trabajo' },
+        { selector: '.page-hero .page-subtitle', value: 'Organizar mejor el trabajo significa gestionar mejor tareas, equipos, reservas y prioridades.' },
+        { selector: '.content-prose h2:nth-of-type(1)', value: 'Construir un sistema simple' },
+        { selector: '.content-prose h2:nth-of-type(2)', value: 'Que herramienta segun su situacion?' }
+      ]
+    }
   }
 };
 
