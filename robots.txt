@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://carlusone.netlify.app/sitemap.xml
+Sitemap: https://www.carlusone.com/sitemap.xml

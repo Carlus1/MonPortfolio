@@ -2,40 +2,40 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://carlusone.netlify.app/</loc>
+    <loc>https://www.carlusone.com/</loc>
     <lastmod>2026-04-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://carlusone.netlify.app/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://carlusone.netlify.app/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://carlusone.netlify.app/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://carlusone.netlify.app/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.carlusone.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.carlusone.com/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.carlusone.com/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.carlusone.com/"/>
   </url>
-  <url><loc>https://carlusone.netlify.app/applications/</loc><lastmod>2026-04-21</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://carlusone.netlify.app/applications/gesttaches/</loc><lastmod>2026-04-21</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://carlusone.netlify.app/applications/gestbudget/</loc><lastmod>2026-04-21</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://carlusone.netlify.app/applications/gestreserve/</loc><lastmod>2026-04-21</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://carlusone.netlify.app/applications/jeudemots/</loc><lastmod>2026-04-21</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://carlusone.netlify.app/outils-productivite/</loc><lastmod>2026-04-21</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://carlusone.netlify.app/applications-gratuites/</loc><lastmod>2026-04-21</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://carlusone.netlify.app/outils-organisation-travail/</loc><lastmod>2026-04-21</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://carlusone.netlify.app/blog/</loc><lastmod>2026-04-21</lastmod><changefreq>weekly</changefreq><priority>0.85</priority></url>
-  <url><loc>https://carlusone.netlify.app/blog/gerer-ses-taches-efficacement/</loc><lastmod>2026-04-21</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://carlusone.netlify.app/blog/meilleures-applications-gestion-taches/</loc><lastmod>2026-04-21</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://carlusone.netlify.app/blog/organiser-travail-equipe/</loc><lastmod>2026-04-21</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://carlusone.netlify.app/blog/todo-list-simple/</loc><lastmod>2026-04-21</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
-  <url><loc>https://carlusone.netlify.app/blog/outil-gestion-taches-freelance/</loc><lastmod>2026-04-21</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://carlusone.netlify.app/blog/gestion-priorites-travail/</loc><lastmod>2026-04-21</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://carlusone.netlify.app/blog/planification-hebdomadaire-equipe/</loc><lastmod>2026-04-21</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://carlusone.netlify.app/blog/logiciel-reservation-simple/</loc><lastmod>2026-04-21</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://carlusone.netlify.app/blog/application-budget-familial/</loc><lastmod>2026-04-21</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://carlusone.netlify.app/blog/ameliorer-vocabulaire-enfant/</loc><lastmod>2026-04-21</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://carlusone.netlify.app/blog/application-gestion-taches-quebec/</loc><lastmod>2026-04-21</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://carlusone.netlify.app/blog/logiciel-reservation-quebec/</loc><lastmod>2026-04-21</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://carlusone.netlify.app/blog/application-budget-canada/</loc><lastmod>2026-04-21</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://carlusone.netlify.app/blog/outil-organisation-pme-quebec/</loc><lastmod>2026-04-21</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://carlusone.netlify.app/blog/application-educative-francais-enfant/</loc><lastmod>2026-04-21</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://carlusone.netlify.app/a-propos/</loc><lastmod>2026-04-21</lastmod><changefreq>yearly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://carlusone.netlify.app/contact/</loc><lastmod>2026-04-21</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://carlusone.netlify.app/mentions-legales/</loc><lastmod>2026-04-21</lastmod><changefreq>yearly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://www.carlusone.com/applications/</loc><lastmod>2026-04-21</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://www.carlusone.com/applications/gesttaches/</loc><lastmod>2026-04-21</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://www.carlusone.com/applications/gestbudget/</loc><lastmod>2026-04-21</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://www.carlusone.com/applications/gestreserve/</loc><lastmod>2026-04-21</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://www.carlusone.com/applications/jeudemots/</loc><lastmod>2026-04-21</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://www.carlusone.com/outils-productivite/</loc><lastmod>2026-04-21</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.carlusone.com/applications-gratuites/</loc><lastmod>2026-04-21</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.carlusone.com/outils-organisation-travail/</loc><lastmod>2026-04-21</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.carlusone.com/blog/</loc><lastmod>2026-04-21</lastmod><changefreq>weekly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://www.carlusone.com/blog/gerer-ses-taches-efficacement/</loc><lastmod>2026-04-21</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.carlusone.com/blog/meilleures-applications-gestion-taches/</loc><lastmod>2026-04-21</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.carlusone.com/blog/organiser-travail-equipe/</loc><lastmod>2026-04-21</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.carlusone.com/blog/todo-list-simple/</loc><lastmod>2026-04-21</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://www.carlusone.com/blog/outil-gestion-taches-freelance/</loc><lastmod>2026-04-21</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.carlusone.com/blog/gestion-priorites-travail/</loc><lastmod>2026-04-21</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.carlusone.com/blog/planification-hebdomadaire-equipe/</loc><lastmod>2026-04-21</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.carlusone.com/blog/logiciel-reservation-simple/</loc><lastmod>2026-04-21</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.carlusone.com/blog/application-budget-familial/</loc><lastmod>2026-04-21</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.carlusone.com/blog/ameliorer-vocabulaire-enfant/</loc><lastmod>2026-04-21</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.carlusone.com/blog/application-gestion-taches-quebec/</loc><lastmod>2026-04-21</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.carlusone.com/blog/logiciel-reservation-quebec/</loc><lastmod>2026-04-21</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.carlusone.com/blog/application-budget-canada/</loc><lastmod>2026-04-21</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.carlusone.com/blog/outil-organisation-pme-quebec/</loc><lastmod>2026-04-21</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.carlusone.com/blog/application-educative-francais-enfant/</loc><lastmod>2026-04-21</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.carlusone.com/a-propos/</loc><lastmod>2026-04-21</lastmod><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://www.carlusone.com/contact/</loc><lastmod>2026-04-21</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.carlusone.com/mentions-legales/</loc><lastmod>2026-04-21</lastmod><changefreq>yearly</changefreq><priority>0.3</priority></url>
 </urlset>
