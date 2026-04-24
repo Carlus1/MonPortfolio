@@ -881,9 +881,14 @@ function applyTranslations(lang) {
 
 // Make t() available globally for script.js
 window.t = t;
+window.applyTranslations = applyTranslations;
 
-// Initialize on DOM ready
-document.addEventListener('DOMContentLoaded', async () => {
+let i18nInitialized = false;
+
+async function initializeI18n() {
+  if (i18nInitialized) return;
+  i18nInitialized = true;
+
   await loadPageTranslations();
   storeInitialPageSnapshot();
   const fullPage = applyLanguageAvailabilityRules();
@@ -896,4 +901,11 @@ document.addEventListener('DOMContentLoaded', async () => {
       applyTranslations(btn.dataset.lang);
     });
   });
-});
+}
+
+// Initialize safely whether script loads before or after DOMContentLoaded
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', initializeI18n, { once: true });
+} else {
+  initializeI18n();
+}
