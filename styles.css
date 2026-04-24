@@ -52,6 +52,8 @@
   /* Typography */
   --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   --font-display: 'Space Grotesk', 'Inter', sans-serif;
+  --font-heading: var(--font-display);
+  --primary: var(--primary-600);
 
   /* Effects */
   --shadow-sm: 0 1px 2px rgba(0,0,0,0.05);
@@ -1533,6 +1535,10 @@ ul { list-style: none; }
   }
 }
 
+.mobile-quick-actions {
+  display: none;
+}
+
 /* ===== FOOTER ===== */
 .footer {
   padding: 4rem 0 0;
@@ -1965,6 +1971,43 @@ ul { list-style: none; }
 
   .hero-subtitle {
     font-size: 1.0625rem;
+  }
+
+  .app-description,
+  .how-description,
+  .app-features li {
+    font-size: 1rem;
+    line-height: 1.7;
+  }
+
+  .how-steps li {
+    font-size: 0.95rem;
+    line-height: 1.7;
+  }
+
+  .mobile-quick-actions {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1100;
+    display: flex;
+    gap: 0.75rem;
+    padding: 0.75rem 1rem;
+    border-top: 1px solid var(--gray-200);
+    background: rgba(255,255,255,0.97);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+  }
+
+  .mobile-quick-actions .btn {
+    flex: 1;
+    justify-content: center;
+    padding: 0.75rem 0.9rem;
+  }
+
+  .home-page {
+    padding-bottom: 78px;
   }
 
   .hero-stats {
