@@ -43,6 +43,7 @@ const translations = {
     'apps.badge': 'Nos applications',
     'apps.title': 'Des solutions adapt\u00e9es \u00e0 vos besoins',
     'apps.subtitle': 'Chaque application est con\u00e7ue avec soin pour offrir une exp\u00e9rience utilisateur exceptionnelle.',
+    'apps.viewDetails': 'Voir la fiche compl\u00e8te',
 
     // Blog page
     'blog.breadcrumb': 'Blog',
@@ -260,6 +261,7 @@ const translations = {
     'apps.badge': 'Our applications',
     'apps.title': 'Solutions tailored to your needs',
     'apps.subtitle': 'Each application is carefully designed to deliver an exceptional user experience.',
+    'apps.viewDetails': 'View full details',
 
     // Blog page
     'blog.breadcrumb': 'Blog',
@@ -469,6 +471,7 @@ const translations = {
     'apps.badge': 'Nuestras aplicaciones',
     'apps.title': 'Soluciones adaptadas a sus necesidades',
     'apps.subtitle': 'Cada aplicaci\u00f3n est\u00e1 cuidadosamente dise\u00f1ada para ofrecer una experiencia de usuario excepcional.',
+    'apps.viewDetails': 'Ver ficha completa',
 
     // Blog page
     'blog.breadcrumb': 'Blog',
