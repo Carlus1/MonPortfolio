@@ -367,7 +367,7 @@ window.__CARLUSONE_PAGE_TRANSLATIONS = {
         { selector: '.content-grid.three-col .content-card#tarif .price-period', value: '/ month' },
         { selector: '.content-grid.three-col .content-card#tarif .pricing-trial span', value: '14-day free trial' },
         { selector: '.content-grid.three-col .content-card#tarif a.btn', value: 'Get started' },
-        { selector: '.section-soft .container > .content-card > h2', value: 'How does it work?' },
+        { selector: '.section-soft .container:not(.content-grid) > .content-card > h2', value: 'How does it work?' },
         { selector: '.section-soft .content-grid.two-col .content-card:nth-child(1) h2', value: 'Use cases' },
         { selector: '.section-soft .content-grid.two-col .content-card:nth-child(1) li:nth-child(1)', value: 'Organise on-call shifts, duty rosters or time slots.' },
         { selector: '.section-soft .content-grid.two-col .content-card:nth-child(1) li:nth-child(2)', value: 'Distribute a workload across several people.' },
@@ -423,7 +423,7 @@ window.__CARLUSONE_PAGE_TRANSLATIONS = {
         { selector: '.content-grid.three-col .content-card#tarif .price-period', value: '/ mes' },
         { selector: '.content-grid.three-col .content-card#tarif .pricing-trial span', value: '14 dias de prueba gratis' },
         { selector: '.content-grid.three-col .content-card#tarif a.btn', value: 'Comenzar' },
-        { selector: '.section-soft .container > .content-card > h2', value: 'Como funciona?' },
+        { selector: '.section-soft .container:not(.content-grid) > .content-card > h2', value: 'Como funciona?' },
         { selector: '.section-soft .content-grid.two-col .content-card:nth-child(1) h2', value: 'Casos de uso' },
         { selector: '.section-soft .content-grid.two-col .content-card:nth-child(1) li:nth-child(1)', value: 'Organizar guardias, turnos o franjas horarias.' },
         { selector: '.section-soft .content-grid.two-col .content-card:nth-child(1) li:nth-child(2)', value: 'Repartir un volumen de tareas entre varias personas.' },
@@ -480,7 +480,7 @@ window.__CARLUSONE_PAGE_TRANSLATIONS = {
         { selector: '.content-grid.three-col .content-card#tarif .price-period', value: '/ month' },
         { selector: '.content-grid.three-col .content-card#tarif .pricing-trial span', value: '2-day free trial' },
         { selector: '.content-grid.three-col .content-card#tarif a.btn', value: 'Get started' },
-        { selector: '.section-soft .container > .content-card > h2', value: 'How does it work?' },
+        { selector: '.section-soft .container:not(.content-grid) > .content-card > h2', value: 'How does it work?' },
         { selector: '.section-soft .content-grid.two-col .content-card:nth-child(1) h2', value: 'Use cases' },
         { selector: '.section-soft .content-grid.two-col .content-card:nth-child(1) li:nth-child(1)', value: 'Track your monthly personal budget.' },
         { selector: '.section-soft .content-grid.two-col .content-card:nth-child(1) li:nth-child(2)', value: 'Compare income and expenses.' },
@@ -532,7 +532,7 @@ window.__CARLUSONE_PAGE_TRANSLATIONS = {
         { selector: '.content-grid.three-col .content-card#tarif .price-period', value: '/ mes' },
         { selector: '.content-grid.three-col .content-card#tarif .pricing-trial span', value: '2 dias de prueba gratis' },
         { selector: '.content-grid.three-col .content-card#tarif a.btn', value: 'Comenzar' },
-        { selector: '.section-soft .container > .content-card > h2', value: 'Como funciona?' },
+        { selector: '.section-soft .container:not(.content-grid) > .content-card > h2', value: 'Como funciona?' },
         { selector: '.section-soft .content-grid.two-col .content-card:nth-child(1) h2', value: 'Casos de uso' },
         { selector: '.section-soft .content-grid.two-col .content-card:nth-child(1) li:nth-child(1)', value: 'Hacer seguimiento de tu presupuesto personal mensual.' },
         { selector: '.section-soft .content-grid.two-col .content-card:nth-child(1) li:nth-child(2)', value: 'Comparar ingresos y gastos.' },
@@ -586,7 +586,7 @@ window.__CARLUSONE_PAGE_TRANSLATIONS = {
         { selector: '.content-grid.three-col .content-card#tarif .price-period', value: '/ month' },
         { selector: '.content-grid.three-col .content-card#tarif .pricing-trial span', value: '2-day free trial' },
         { selector: '.content-grid.three-col .content-card#tarif a.btn', value: 'Get started' },
-        { selector: '.section-soft .container > .content-card > h2', value: 'How does it work?' },
+        { selector: '.section-soft .container:not(.content-grid) > .content-card > h2', value: 'How does it work?' },
         { selector: '.section-soft .content-grid.two-col .content-card:nth-child(1) h2', value: 'Use cases' },
         { selector: '.section-soft .content-grid.two-col .content-card:nth-child(1) li:nth-child(1)', value: 'Book meeting rooms.' },
         { selector: '.section-soft .content-grid.two-col .content-card:nth-child(1) li:nth-child(2)', value: 'Manage shared equipment.' },
@@ -638,7 +638,7 @@ window.__CARLUSONE_PAGE_TRANSLATIONS = {
         { selector: '.content-grid.three-col .content-card#tarif .price-period', value: '/ mes' },
         { selector: '.content-grid.three-col .content-card#tarif .pricing-trial span', value: '2 dias de prueba gratis' },
         { selector: '.content-grid.three-col .content-card#tarif a.btn', value: 'Comenzar' },
-        { selector: '.section-soft .container > .content-card > h2', value: 'Como funciona?' },
+        { selector: '.section-soft .container:not(.content-grid) > .content-card > h2', value: 'Como funciona?' },
         { selector: '.section-soft .content-grid.two-col .content-card:nth-child(1) h2', value: 'Casos de uso' },
         { selector: '.section-soft .content-grid.two-col .content-card:nth-child(1) li:nth-child(1)', value: 'Reservar salas de reuniones.' },
         { selector: '.section-soft .content-grid.two-col .content-card:nth-child(1) li:nth-child(2)', value: 'Gestionar equipos compartidos.' },
@@ -692,9 +692,9 @@ window.__CARLUSONE_PAGE_TRANSLATIONS = {
         { selector: '.content-grid.three-col .content-card#tarif .price-period', value: '/ month' },
         { selector: '.content-grid.three-col .content-card#tarif .pricing-trial span', value: '2-day free trial' },
         { selector: '.content-grid.three-col .content-card#tarif a.btn', value: 'Get started' },
-        { selector: '.section-soft .container > .content-card > h2', value: 'How does it work?' },
-        { selector: '.section-soft .container > .content-card > p:nth-of-type(4)', value: 'Two file formats are supported:' },
-        { selector: '.section-soft .container > .content-card > p:nth-of-type(5)', value: 'Lists are saved in the cloud and accessible from any device.' },
+        { selector: '.section-soft .container:not(.content-grid) > .content-card > h2', value: 'How does it work?' },
+        { selector: '.section-soft .container:not(.content-grid) > .content-card > p:nth-of-type(4)', value: 'Two file formats are supported:' },
+        { selector: '.section-soft .container:not(.content-grid) > .content-card > p:nth-of-type(5)', value: 'Lists are saved in the cloud and accessible from any device.' },
         { selector: '.section-soft .content-grid.two-col .content-card:nth-child(1) h2', value: 'Teacher use case' },
         { selector: '.section-soft .content-grid.two-col .content-card:nth-child(1) > p', value: 'A teacher can turn the math worksheets into a daily 5-minute ritual to strengthen mental-math automatisms.' },
         { selector: '.section-soft .content-grid.two-col .content-card:nth-child(1) li:nth-child(1)', value: 'Phase 1: additions from 0 to 5, then additions from 0 to 10.' },
@@ -722,11 +722,11 @@ window.__CARLUSONE_PAGE_TRANSLATIONS = {
         { selector: '.cta-panel .button-row a:nth-child(2)', value: 'See all applications' }
       ],
       html: [
-        { selector: '.section-soft .container > .content-card > p:nth-of-type(1)', value: '<strong>1. Add your students</strong> in the Preferences menu. Each student gets their own word list.' },
-        { selector: '.section-soft .container > .content-card > p:nth-of-type(2)', value: '<strong>2. Select a student</strong> then load a <strong>.txt</strong> file. The file is automatically saved for that student.' },
-        { selector: '.section-soft .container > .content-card > p:nth-of-type(3)', value: '<strong>3. That\u2019s it!</strong> Next time, the words load automatically when you select the student.' },
-        { selector: '.section-soft .container > .content-card > ul > li:nth-child(1)', value: '<strong>French vocabulary</strong>: one word per line (e.g. maison, jardin, ecole).' },
-        { selector: '.section-soft .container > .content-card > ul > li:nth-child(2)', value: '<strong>English to French</strong>: one English word, then a semicolon, then the French translation (e.g. Hello;Bonjour).' }
+        { selector: '.section-soft .container:not(.content-grid) > .content-card > p:nth-of-type(1)', value: '<strong>1. Add your students</strong> in the Preferences menu. Each student gets their own word list.' },
+        { selector: '.section-soft .container:not(.content-grid) > .content-card > p:nth-of-type(2)', value: '<strong>2. Select a student</strong> then load a <strong>.txt</strong> file. The file is automatically saved for that student.' },
+        { selector: '.section-soft .container:not(.content-grid) > .content-card > p:nth-of-type(3)', value: '<strong>3. That\u2019s it!</strong> Next time, the words load automatically when you select the student.' },
+        { selector: '.section-soft .container:not(.content-grid) > .content-card > ul > li:nth-child(1)', value: '<strong>French vocabulary</strong>: one word per line (e.g. maison, jardin, ecole).' },
+        { selector: '.section-soft .container:not(.content-grid) > .content-card > ul > li:nth-child(2)', value: '<strong>English to French</strong>: one English word, then a semicolon, then the French translation (e.g. Hello;Bonjour).' }
       ]
     },
     es: {
@@ -750,9 +750,9 @@ window.__CARLUSONE_PAGE_TRANSLATIONS = {
         { selector: '.content-grid.three-col .content-card#tarif .price-period', value: '/ mes' },
         { selector: '.content-grid.three-col .content-card#tarif .pricing-trial span', value: '2 dias de prueba gratis' },
         { selector: '.content-grid.three-col .content-card#tarif a.btn', value: 'Comenzar' },
-        { selector: '.section-soft .container > .content-card > h2', value: 'Como funciona?' },
-        { selector: '.section-soft .container > .content-card > p:nth-of-type(4)', value: 'Se admiten dos formatos de archivo:' },
-        { selector: '.section-soft .container > .content-card > p:nth-of-type(5)', value: 'Las listas se guardan en la nube y son accesibles desde cualquier dispositivo.' },
+        { selector: '.section-soft .container:not(.content-grid) > .content-card > h2', value: 'Como funciona?' },
+        { selector: '.section-soft .container:not(.content-grid) > .content-card > p:nth-of-type(4)', value: 'Se admiten dos formatos de archivo:' },
+        { selector: '.section-soft .container:not(.content-grid) > .content-card > p:nth-of-type(5)', value: 'Las listas se guardan en la nube y son accesibles desde cualquier dispositivo.' },
         { selector: '.section-soft .content-grid.two-col .content-card:nth-child(1) h2', value: 'Caso de uso docente' },
         { selector: '.section-soft .content-grid.two-col .content-card:nth-child(1) > p', value: 'Un docente puede convertir las hojas de operaciones en un ritual diario de 5 minutos para reforzar los automatismos del calculo.' },
         { selector: '.section-soft .content-grid.two-col .content-card:nth-child(1) li:nth-child(1)', value: 'Fase 1: sumas de 0 a 5, luego sumas de 0 a 10.' },
@@ -780,11 +780,11 @@ window.__CARLUSONE_PAGE_TRANSLATIONS = {
         { selector: '.cta-panel .button-row a:nth-child(2)', value: 'Ver todas las aplicaciones' }
       ],
       html: [
-        { selector: '.section-soft .container > .content-card > p:nth-of-type(1)', value: '<strong>1. Anade a tus estudiantes</strong> en el menu Preferencias. Cada estudiante tendra su propia lista de palabras.' },
-        { selector: '.section-soft .container > .content-card > p:nth-of-type(2)', value: '<strong>2. Selecciona un estudiante</strong> y luego carga un archivo <strong>.txt</strong>. El archivo se guarda automaticamente para ese estudiante.' },
-        { selector: '.section-soft .container > .content-card > p:nth-of-type(3)', value: '<strong>3. Eso es todo!</strong> La proxima vez, las palabras se cargan automaticamente al seleccionar al estudiante.' },
-        { selector: '.section-soft .container > .content-card > ul > li:nth-child(1)', value: '<strong>Vocabulario frances</strong>: una palabra por linea (ej.: maison, jardin, ecole).' },
-        { selector: '.section-soft .container > .content-card > ul > li:nth-child(2)', value: '<strong>Ingles al frances</strong>: una palabra inglesa, despues un punto y coma y luego la traduccion francesa (ej.: Hello;Bonjour).' }
+        { selector: '.section-soft .container:not(.content-grid) > .content-card > p:nth-of-type(1)', value: '<strong>1. Anade a tus estudiantes</strong> en el menu Preferencias. Cada estudiante tendra su propia lista de palabras.' },
+        { selector: '.section-soft .container:not(.content-grid) > .content-card > p:nth-of-type(2)', value: '<strong>2. Selecciona un estudiante</strong> y luego carga un archivo <strong>.txt</strong>. El archivo se guarda automaticamente para ese estudiante.' },
+        { selector: '.section-soft .container:not(.content-grid) > .content-card > p:nth-of-type(3)', value: '<strong>3. Eso es todo!</strong> La proxima vez, las palabras se cargan automaticamente al seleccionar al estudiante.' },
+        { selector: '.section-soft .container:not(.content-grid) > .content-card > ul > li:nth-child(1)', value: '<strong>Vocabulario frances</strong>: una palabra por linea (ej.: maison, jardin, ecole).' },
+        { selector: '.section-soft .container:not(.content-grid) > .content-card > ul > li:nth-child(2)', value: '<strong>Ingles al frances</strong>: una palabra inglesa, despues un punto y coma y luego la traduccion francesa (ej.: Hello;Bonjour).' }
       ]
     }
   },
