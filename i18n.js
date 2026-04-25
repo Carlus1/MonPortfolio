@@ -658,7 +658,7 @@ let currentLang = 'fr';
 const MIN_I18N_ATTRS_FOR_FULL_PAGE = 10;
 
 const PAGE_TRANSLATIONS_GLOBAL = '__CARLUSONE_PAGE_TRANSLATIONS';
-const PAGE_TRANSLATIONS_SCRIPT = '/i18n.pageTranslations.js';
+const PAGE_TRANSLATIONS_SCRIPT = '/i18n.pageTranslations.min.js';
 let pageTranslations = window[PAGE_TRANSLATIONS_GLOBAL] || {};
 let pageTranslationsLoadPromise = null;
 

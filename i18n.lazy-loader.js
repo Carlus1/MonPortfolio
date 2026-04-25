@@ -1,6 +1,6 @@
 // Lazy load i18n bundle on homepage to reduce initial unused JS.
 (function () {
-  const I18N_SRC = '/i18n.js';
+  const I18N_SRC = '/i18n.min.js';
   let loadPromise = null;
 
   function loadI18n() {
