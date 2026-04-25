@@ -878,33 +878,71 @@ window.__CARLUSONE_PAGE_TRANSLATIONS = {
   },
   '/blog/application-budget-familial/': {
     en: {
-      title: 'Which app to manage a family budget?',
-      description: 'How to choose a clear application to manage family spending and monthly budget.',
+      title: 'Which app to manage a family budget | 2026 guide',
+      description: 'How to choose a family budget app: useful criteria, common mistakes and recommended tool for simple tracking.',
       text: [
         { selector: '.page-hero .breadcrumb span:last-child', value: 'Family budget app' },
         { selector: '.page-hero .page-kicker', value: 'Budget' },
         { selector: '.page-hero .page-title', value: 'Which app to manage a family budget?' },
-        { selector: '.blog-sidebar .content-card h3', value: 'Related resources' },
-        { selector: '.footer-bottom p', value: '© 2026 CarlusOne. All rights reserved.' },
-        { selector: '.page-hero .page-subtitle', value: "A practical guide to choose a simple tool that genuinely helps manage household spending." },
-        { selector: '.content-prose > p:first-of-type', value: "Managing a family budget is not just about writing down numbers. You need to understand where the money goes, anticipate fixed expenses and keep a clear view month after month." },
-        { selector: '.content-prose h2:nth-of-type(1)', value: "What a good app should offer" }
-      
+        { selector: '.page-hero .page-subtitle', value: 'A practical guide to choose a simple tool that genuinely helps manage household spending.' },
+        { selector: '.content-prose > p:nth-of-type(1)', value: 'Managing a family budget is not just about writing down numbers. You need to understand where the money goes, anticipate fixed expenses and keep a clear view month after month.' },
+        { selector: '.content-prose h2:nth-of-type(1)', value: 'What a good app should offer' },
+        { selector: '.content-prose ul > li:nth-child(1)', value: 'Easily customisable spending categories.' },
+        { selector: '.content-prose ul > li:nth-child(2)', value: 'Monthly view of income and expenses.' },
+        { selector: '.content-prose ul > li:nth-child(3)', value: 'Tracking of gaps between forecast and actual.' },
+        { selector: '.content-prose ul > li:nth-child(4)', value: 'Readable interface on mobile.' },
+        { selector: '.content-prose > p:nth-of-type(2)', value: 'A useful app is not the most complex one: it is the one that allows quick checks and concrete decisions.' },
+        { selector: '.blog-sidebar .content-card:nth-of-type(1) h3', value: 'Related app' },
+        { selector: '.blog-sidebar .content-card:nth-of-type(1) p', value: 'GestBudget helps track income, expenses and categories without unnecessary complexity.' },
+        { selector: '.blog-sidebar .content-card:nth-of-type(1) .button-row a', value: 'See GestBudget' },
+        { selector: '.blog-sidebar .content-card:nth-of-type(2) h3', value: 'Read next' },
+        { selector: '.blog-sidebar .content-card:nth-of-type(2) .note-list a:nth-of-type(1)', value: 'Apps with free trial' },
+        { selector: '.blog-sidebar .content-card:nth-of-type(2) .note-list a:nth-of-type(2)', value: 'Compare task management apps' },
+        { selector: '.section-header .section-title', value: 'Frequently asked questions' },
+        { selector: '.faq-item:nth-of-type(1) .faq-question span', value: 'How to choose a family budget app?' },
+        { selector: '.faq-item:nth-of-type(1) .faq-answer', value: 'Choose an app that makes spending, categories and monthly variances visible without complex configuration.' },
+        { selector: '.faq-item:nth-of-type(2) .faq-question span', value: 'Which tool to track a family budget?' },
+        { selector: '.faq-item:nth-of-type(2) .faq-answer', value: 'GestBudget is a simple option to track income and expenses in a clear interface.' },
+        { selector: '.faq-item:nth-of-type(3) .faq-question span', value: 'How much does a budget app cost?' },
+        { selector: '.faq-item:nth-of-type(3) .faq-answer', value: 'Prices vary by service. Starting with a trial period helps verify the real value before paying.' },
+        { selector: '.footer-bottom p', value: '\u00A9 2026 CarlusOne. All rights reserved.' }
+      ],
+      html: [
+        { selector: '.content-prose > p:nth-of-type(3)', value: '<a href="/applications/gestbudget/">GestBudget</a> is built for this logic: simplicity, clarity and daily tracking.' }
       ]
     },
     es: {
-      title: 'Que aplicacion para gestionar un presupuesto familiar?',
-      description: 'Como elegir una aplicacion clara para gestionar gastos del hogar.',
+      title: 'Que aplicacion para gestionar un presupuesto familiar | Guia 2026',
+      description: 'Como elegir una aplicacion de presupuesto familiar: criterios utiles, errores comunes y herramienta recomendada para un seguimiento simple.',
       text: [
         { selector: '.page-hero .breadcrumb span:last-child', value: 'Aplicacion presupuesto familiar' },
         { selector: '.page-hero .page-kicker', value: 'Presupuesto' },
         { selector: '.page-hero .page-title', value: 'Que aplicacion para gestionar un presupuesto familiar?' },
-        { selector: '.blog-sidebar .content-card h3', value: 'Recursos relacionados' },
-        { selector: '.footer-bottom p', value: '© 2026 CarlusOne. Todos los derechos reservados.' },
-        { selector: '.page-hero .page-subtitle', value: "Una guia practica para elegir una herramienta sencilla que realmente ayude a gestionar los gastos del hogar." },
-        { selector: '.content-prose > p:first-of-type', value: "Gestionar un presupuesto familiar no consiste solo en anotar cifras. Hay que entender adonde va el dinero, anticipar los gastos fijos y mantener una vision clara mes tras mes." },
-        { selector: '.content-prose h2:nth-of-type(1)', value: "Lo que una buena aplicacion debe ofrecer" }
-      
+        { selector: '.page-hero .page-subtitle', value: 'Una guia practica para elegir una herramienta sencilla que realmente ayude a gestionar los gastos del hogar.' },
+        { selector: '.content-prose > p:nth-of-type(1)', value: 'Gestionar un presupuesto familiar no consiste solo en anotar cifras. Hay que entender adonde va el dinero, anticipar los gastos fijos y mantener una vision clara mes tras mes.' },
+        { selector: '.content-prose h2:nth-of-type(1)', value: 'Lo que una buena aplicacion debe ofrecer' },
+        { selector: '.content-prose ul > li:nth-child(1)', value: 'Categorias de gastos faciles de personalizar.' },
+        { selector: '.content-prose ul > li:nth-child(2)', value: 'Vision mensual de ingresos y gastos.' },
+        { selector: '.content-prose ul > li:nth-child(3)', value: 'Seguimiento de las diferencias entre prevision y real.' },
+        { selector: '.content-prose ul > li:nth-child(4)', value: 'Interfaz legible en movil.' },
+        { selector: '.content-prose > p:nth-of-type(2)', value: 'Una aplicacion util no es la mas compleja: es la que permite una consulta rapida y decisiones concretas.' },
+        { selector: '.blog-sidebar .content-card:nth-of-type(1) h3', value: 'Aplicacion relacionada' },
+        { selector: '.blog-sidebar .content-card:nth-of-type(1) p', value: 'GestBudget ayuda a seguir ingresos, gastos y categorias sin complejidad innecesaria.' },
+        { selector: '.blog-sidebar .content-card:nth-of-type(1) .button-row a', value: 'Ver GestBudget' },
+        { selector: '.blog-sidebar .content-card:nth-of-type(2) h3', value: 'Leer a continuacion' },
+        { selector: '.blog-sidebar .content-card:nth-of-type(2) .note-list a:nth-of-type(1)', value: 'Aplicaciones con prueba gratuita' },
+        { selector: '.blog-sidebar .content-card:nth-of-type(2) .note-list a:nth-of-type(2)', value: 'Comparar aplicaciones de tareas' },
+        { selector: '.section-header .section-title', value: 'Preguntas frecuentes' },
+        { selector: '.faq-item:nth-of-type(1) .faq-question span', value: 'Como elegir una aplicacion de presupuesto familiar?' },
+        { selector: '.faq-item:nth-of-type(1) .faq-answer', value: 'Elige una aplicacion que haga visibles los gastos, las categorias y las diferencias mensuales sin configuracion compleja.' },
+        { selector: '.faq-item:nth-of-type(2) .faq-question span', value: 'Que herramienta usar para seguir un presupuesto familiar?' },
+        { selector: '.faq-item:nth-of-type(2) .faq-answer', value: 'GestBudget es una opcion simple para seguir ingresos y gastos en una interfaz clara.' },
+        { selector: '.faq-item:nth-of-type(3) .faq-question span', value: 'Cuanto cuesta una aplicacion de presupuesto?' },
+        { selector: '.faq-item:nth-of-type(3) .faq-answer', value: 'Los precios varian segun los servicios. Empezar por un periodo de prueba ayuda a verificar el valor real antes de pagar.' },
+        { selector: '.footer-bottom p', value: '\u00A9 2026 CarlusOne. Todos los derechos reservados.' }
+      ],
+      html: [
+        { selector: '.content-prose > p:nth-of-type(3)', value: '<a href="/applications/gestbudget/">GestBudget</a> esta disenado para esta logica: simplicidad, claridad y seguimiento diario.' }
       ]
     }
   },
