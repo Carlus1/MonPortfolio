@@ -846,33 +846,71 @@ window.__CARLUSONE_PAGE_TRANSLATIONS = {
   },
   '/blog/ameliorer-vocabulaire-enfant/': {
     en: {
-      title: 'How to improve a child vocabulary',
-      description: 'Practical tips to improve a child vocabulary with simple and regular activities.',
+      title: 'How to improve a child\u2019s vocabulary | Practical 2026 guide',
+      description: 'How to improve a child\u2019s vocabulary with simple, fun and regular activities at home or in class.',
       text: [
-        { selector: '.page-hero .breadcrumb span:last-child', value: 'Improve child vocabulary' },
+        { selector: '.page-hero .breadcrumb span:last-child', value: 'Improve a child\u2019s vocabulary' },
         { selector: '.page-hero .page-kicker', value: 'Education' },
-        { selector: '.page-hero .page-title', value: 'How to improve a child vocabulary' },
-        { selector: '.blog-sidebar .content-card h3', value: 'Related resources' },
-        { selector: '.footer-bottom p', value: '© 2026 CarlusOne. All rights reserved.' },
-        { selector: '.page-hero .page-subtitle', value: "Easy ideas to enrich vocabulary daily without turning learning into a chore." },
-        { selector: '.content-prose > p:first-of-type', value: "Vocabulary develops better through regular interactions than through long, infrequent sessions. The goal is to set up a playful and progressive routine." },
-        { selector: '.content-prose h2:nth-of-type(1)', value: "Effective activities" }
-      
+        { selector: '.page-hero .page-title', value: 'How to improve a child\u2019s vocabulary' },
+        { selector: '.page-hero .page-subtitle', value: 'Easy ideas to enrich vocabulary daily without turning learning into a chore.' },
+        { selector: '.content-prose > p:nth-of-type(1)', value: 'Vocabulary develops better through regular interactions than through long, infrequent sessions. The goal is to set up a playful and progressive routine.' },
+        { selector: '.content-prose h2:nth-of-type(1)', value: 'Effective activities' },
+        { selector: '.content-prose ul > li:nth-child(1)', value: 'Short word games every day.' },
+        { selector: '.content-prose ul > li:nth-child(2)', value: 'Read aloud while explaining new terms.' },
+        { selector: '.content-prose ul > li:nth-child(3)', value: 'Reuse learned words in simple sentences.' },
+        { selector: '.content-prose ul > li:nth-child(4)', value: 'Weekly mini-challenges to memorise.' },
+        { selector: '.content-prose > p:nth-of-type(2)', value: 'Children progress faster when they associate words with concrete situations.' },
+        { selector: '.blog-sidebar .content-card:nth-of-type(1) h3', value: 'Related app' },
+        { selector: '.blog-sidebar .content-card:nth-of-type(1) p', value: 'Jeu de Mots offers fun activities to consolidate vocabulary and arithmetic.' },
+        { selector: '.blog-sidebar .content-card:nth-of-type(1) .button-row a', value: 'See Jeu de Mots' },
+        { selector: '.blog-sidebar .content-card:nth-of-type(2) h3', value: 'Read next' },
+        { selector: '.blog-sidebar .content-card:nth-of-type(2) .note-list a:nth-of-type(1)', value: 'App details' },
+        { selector: '.blog-sidebar .content-card:nth-of-type(2) .note-list a:nth-of-type(2)', value: 'All applications' },
+        { selector: '.section-header .section-title', value: 'Frequently asked questions' },
+        { selector: '.faq-item:nth-of-type(1) .faq-question span', value: 'How to choose an activity to enrich a child\u2019s vocabulary?' },
+        { selector: '.faq-item:nth-of-type(1) .faq-answer', value: 'Choose short, age-appropriate activities with regular repetition and reuse of words in context.' },
+        { selector: '.faq-item:nth-of-type(2) .faq-question span', value: 'Which tool to work on French vocabulary?' },
+        { selector: '.faq-item:nth-of-type(2) .faq-answer', value: 'Jeu de Mots offers interactive exercises useful to reinforce vocabulary and memorisation.' },
+        { selector: '.faq-item:nth-of-type(3) .faq-question span', value: 'How much does an educational app for children cost?' },
+        { selector: '.faq-item:nth-of-type(3) .faq-answer', value: 'Pricing varies by platform. A trial period helps verify the educational fit before subscribing.' },
+        { selector: '.footer-bottom p', value: '\u00A9 2026 CarlusOne. All rights reserved.' }
+      ],
+      html: [
+        { selector: '.content-prose > p:nth-of-type(3)', value: 'To vary activities, <a href="/applications/jeudemots/">Jeu de Mots</a> offers interactive and tailored exercises.' }
       ]
     },
     es: {
-      title: 'Como mejorar el vocabulario de un nino',
-      description: 'Consejos practicos para mejorar el vocabulario de un nino con actividades simples.',
+      title: 'Como mejorar el vocabulario de un nino | Guia practica 2026',
+      description: 'Como mejorar el vocabulario de un nino con actividades simples, ludicas y regulares en casa o en clase.',
       text: [
-        { selector: '.page-hero .breadcrumb span:last-child', value: 'Mejorar vocabulario infantil' },
+        { selector: '.page-hero .breadcrumb span:last-child', value: 'Mejorar el vocabulario de un nino' },
         { selector: '.page-hero .page-kicker', value: 'Educacion' },
         { selector: '.page-hero .page-title', value: 'Como mejorar el vocabulario de un nino' },
-        { selector: '.blog-sidebar .content-card h3', value: 'Recursos relacionados' },
-        { selector: '.footer-bottom p', value: '© 2026 CarlusOne. Todos los derechos reservados.' },
-        { selector: '.page-hero .page-subtitle', value: "Ideas faciles de aplicar para enriquecer el vocabulario a diario sin convertir el aprendizaje en una obligacion." },
-        { selector: '.content-prose > p:first-of-type', value: "El vocabulario se desarrolla mejor con interacciones regulares que con sesiones largas y poco frecuentes. El objetivo es instalar una rutina divertida y progresiva." },
-        { selector: '.content-prose h2:nth-of-type(1)', value: "Actividades efectivas" }
-      
+        { selector: '.page-hero .page-subtitle', value: 'Ideas faciles de aplicar para enriquecer el vocabulario a diario sin convertir el aprendizaje en una obligacion.' },
+        { selector: '.content-prose > p:nth-of-type(1)', value: 'El vocabulario se desarrolla mejor con interacciones regulares que con sesiones largas y poco frecuentes. El objetivo es instalar una rutina divertida y progresiva.' },
+        { selector: '.content-prose h2:nth-of-type(1)', value: 'Actividades efectivas' },
+        { selector: '.content-prose ul > li:nth-child(1)', value: 'Juegos de palabras cortos cada dia.' },
+        { selector: '.content-prose ul > li:nth-child(2)', value: 'Lectura en voz alta con explicacion de terminos nuevos.' },
+        { selector: '.content-prose ul > li:nth-child(3)', value: 'Reutilizar las palabras aprendidas en frases sencillas.' },
+        { selector: '.content-prose ul > li:nth-child(4)', value: 'Mini-desafios semanales para memorizar.' },
+        { selector: '.content-prose > p:nth-of-type(2)', value: 'Los ninos progresan mas rapido cuando asocian las palabras a situaciones concretas.' },
+        { selector: '.blog-sidebar .content-card:nth-of-type(1) h3', value: 'Aplicacion relacionada' },
+        { selector: '.blog-sidebar .content-card:nth-of-type(1) p', value: 'Jeu de Mots ofrece actividades ludicas para consolidar vocabulario y calculo.' },
+        { selector: '.blog-sidebar .content-card:nth-of-type(1) .button-row a', value: 'Ver Jeu de Mots' },
+        { selector: '.blog-sidebar .content-card:nth-of-type(2) h3', value: 'Leer a continuacion' },
+        { selector: '.blog-sidebar .content-card:nth-of-type(2) .note-list a:nth-of-type(1)', value: 'Detalles de la aplicacion' },
+        { selector: '.blog-sidebar .content-card:nth-of-type(2) .note-list a:nth-of-type(2)', value: 'Todas las aplicaciones' },
+        { selector: '.section-header .section-title', value: 'Preguntas frecuentes' },
+        { selector: '.faq-item:nth-of-type(1) .faq-question span', value: 'Como elegir una actividad para enriquecer el vocabulario de un nino?' },
+        { selector: '.faq-item:nth-of-type(1) .faq-answer', value: 'Elige actividades cortas, adaptadas a la edad, con repeticion regular y reutilizacion de las palabras en contexto.' },
+        { selector: '.faq-item:nth-of-type(2) .faq-question span', value: 'Que herramienta usar para trabajar el vocabulario en frances?' },
+        { selector: '.faq-item:nth-of-type(2) .faq-answer', value: 'Jeu de Mots propone ejercicios interactivos utiles para reforzar vocabulario y memorizacion.' },
+        { selector: '.faq-item:nth-of-type(3) .faq-question span', value: 'Cuanto cuesta una aplicacion educativa para nino?' },
+        { selector: '.faq-item:nth-of-type(3) .faq-answer', value: 'Las tarifas varian segun las plataformas. Un periodo de prueba permite verificar la adaptacion pedagogica antes de suscribirse.' },
+        { selector: '.footer-bottom p', value: '\u00A9 2026 CarlusOne. Todos los derechos reservados.' }
+      ],
+      html: [
+        { selector: '.content-prose > p:nth-of-type(3)', value: 'Para variar las actividades, <a href="/applications/jeudemots/">Jeu de Mots</a> propone ejercicios interactivos y adaptados.' }
       ]
     }
   },
