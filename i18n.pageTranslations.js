@@ -1037,32 +1037,58 @@ window.__CARLUSONE_PAGE_TRANSLATIONS = {
   '/blog/meilleures-applications-gestion-taches/': {
     en: {
       title: 'Best task management applications',
-      description: 'Compare task management applications with practical criteria for real teams.',
+      description: 'How to compare the best task management applications according to your real usage.',
       text: [
         { selector: '.page-hero .breadcrumb span:last-child', value: 'Best task management apps' },
-        { selector: '.page-hero .page-kicker', value: 'Comparison' },
+        { selector: '.page-hero .page-kicker', value: 'Article' },
         { selector: '.page-hero .page-title', value: 'Best task management applications' },
-        { selector: '.blog-sidebar .content-card h3', value: 'Related resources' },
-        { selector: '.footer-bottom p', value: '© 2026 CarlusOne. All rights reserved.' },
-        { selector: '.page-hero .page-subtitle', value: "Comparing task management tools requires more than a list of features. You need to understand the usage context." },
-        { selector: '.content-prose > p:first-of-type', value: "Many comparisons of task management apps just line up features. Yet the right criterion is not the number of options, but the tool's ability to save your organisation time." },
-        { selector: '.content-prose h2:nth-of-type(1)', value: "Comparison criteria" }
-      
+        { selector: '.page-hero .page-subtitle', value: 'Comparing task management tools requires more than a list of features. You need to understand the usage context.' },
+        { selector: '.content-prose > p:nth-of-type(1)', value: 'Many comparisons of task management apps just line up features. Yet the right criterion is not the number of options, but the tool\u2019s ability to save your organisation time.' },
+        { selector: '.content-prose h2:nth-of-type(1)', value: 'Comparison criteria' },
+        { selector: '.content-prose ul > li:nth-child(1)', value: 'Ease of getting started' },
+        { selector: '.content-prose ul > li:nth-child(2)', value: 'Clear view of responsibilities' },
+        { selector: '.content-prose ul > li:nth-child(3)', value: 'Ability to handle recurrence' },
+        { selector: '.content-prose ul > li:nth-child(4)', value: 'Quality of the calendar' },
+        { selector: '.content-prose ul > li:nth-child(5)', value: 'Fit with the team\u2019s real way of working' },
+        { selector: '.content-prose > p:nth-of-type(3)', value: 'A good tool is not the one that does everything. It is the one that fits your work routine and the level of coordination you need.' },
+        { selector: '.blog-sidebar .content-card:nth-of-type(1) h3', value: 'Page to visit' },
+        { selector: '.blog-sidebar .content-card:nth-of-type(1) .button-row a', value: 'See GestTaches' },
+        { selector: '.blog-sidebar .content-card:nth-of-type(2) h3', value: 'Related links' },
+        { selector: '.blog-sidebar .content-card:nth-of-type(2) .note-list a:nth-of-type(1)', value: 'Manage your tasks effectively' },
+        { selector: '.blog-sidebar .content-card:nth-of-type(2) .note-list a:nth-of-type(2)', value: 'Choose a tool for freelancers' },
+        { selector: '.footer-bottom p', value: '\u00A9 2026 CarlusOne. All rights reserved.' }
+      ],
+      html: [
+        { selector: '.content-prose > p:nth-of-type(2)', value: 'For a team with calendars, availability and action assignment, a tool like <a href="/applications/gesttaches/">GestTaches</a> makes more sense than a generic task manager.' },
+        { selector: '.blog-sidebar .content-card:nth-of-type(1) p', value: 'If your need concerns collective planning, see <a href="/applications/gesttaches/">the GestTaches page</a>.' }
       ]
     },
     es: {
       title: 'Mejores aplicaciones de gestion de tareas',
-      description: 'Comparar aplicaciones de gestion de tareas con criterios practicos.',
+      description: 'Como comparar las mejores aplicaciones de gestion de tareas segun tu uso real.',
       text: [
         { selector: '.page-hero .breadcrumb span:last-child', value: 'Mejores apps de tareas' },
-        { selector: '.page-hero .page-kicker', value: 'Comparativa' },
+        { selector: '.page-hero .page-kicker', value: 'Articulo' },
         { selector: '.page-hero .page-title', value: 'Mejores aplicaciones de gestion de tareas' },
-        { selector: '.blog-sidebar .content-card h3', value: 'Recursos relacionados' },
-        { selector: '.footer-bottom p', value: '© 2026 CarlusOne. Todos los derechos reservados.' },
-        { selector: '.page-hero .page-subtitle', value: "Comparar herramientas de gestion de tareas requiere mas que una lista de funciones. Hay que entender el contexto de uso." },
-        { selector: '.content-prose > p:first-of-type', value: "Muchas comparativas de aplicaciones de gestion de tareas se limitan a alinear funciones. Pero el criterio correcto no es la cantidad de opciones, sino la capacidad de la herramienta para hacer ganar tiempo a tu organizacion." },
-        { selector: '.content-prose h2:nth-of-type(1)', value: "Criterios de comparacion" }
-      
+        { selector: '.page-hero .page-subtitle', value: 'Comparar herramientas de gestion de tareas requiere mas que una lista de funciones. Hay que entender el contexto de uso.' },
+        { selector: '.content-prose > p:nth-of-type(1)', value: 'Muchas comparativas de aplicaciones de gestion de tareas se limitan a alinear funciones. Pero el criterio correcto no es la cantidad de opciones, sino la capacidad de la herramienta para hacer ganar tiempo a tu organizacion.' },
+        { selector: '.content-prose h2:nth-of-type(1)', value: 'Criterios de comparacion' },
+        { selector: '.content-prose ul > li:nth-child(1)', value: 'Facilidad de uso' },
+        { selector: '.content-prose ul > li:nth-child(2)', value: 'Vision clara de las responsabilidades' },
+        { selector: '.content-prose ul > li:nth-child(3)', value: 'Capacidad para gestionar la recurrencia' },
+        { selector: '.content-prose ul > li:nth-child(4)', value: 'Calidad del calendario' },
+        { selector: '.content-prose ul > li:nth-child(5)', value: 'Adaptacion a la forma real de trabajar del equipo' },
+        { selector: '.content-prose > p:nth-of-type(3)', value: 'Una buena herramienta no es la que lo hace todo. Es la que se ajusta a tu rutina de trabajo y al nivel de coordinacion que necesitas.' },
+        { selector: '.blog-sidebar .content-card:nth-of-type(1) h3', value: 'Pagina a visitar' },
+        { selector: '.blog-sidebar .content-card:nth-of-type(1) .button-row a', value: 'Ver GestTaches' },
+        { selector: '.blog-sidebar .content-card:nth-of-type(2) h3', value: 'Enlaces relacionados' },
+        { selector: '.blog-sidebar .content-card:nth-of-type(2) .note-list a:nth-of-type(1)', value: 'Gestionar tareas eficazmente' },
+        { selector: '.blog-sidebar .content-card:nth-of-type(2) .note-list a:nth-of-type(2)', value: 'Elegir una herramienta para freelance' },
+        { selector: '.footer-bottom p', value: '\u00A9 2026 CarlusOne. Todos los derechos reservados.' }
+      ],
+      html: [
+        { selector: '.content-prose > p:nth-of-type(2)', value: 'Para un equipo con calendario, disponibilidades y reparto de acciones, una herramienta como <a href="/applications/gesttaches/">GestTaches</a> tiene mas sentido que un gestor de tareas generico.' },
+        { selector: '.blog-sidebar .content-card:nth-of-type(1) p', value: 'Si tu necesidad es la planificacion colectiva, consulta <a href="/applications/gesttaches/">la pagina de GestTaches</a>.' }
       ]
     }
   },
