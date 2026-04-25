@@ -265,7 +265,19 @@ window.__CARLUSONE_PAGE_TRANSLATIONS = {
         { selector: '.article-card:nth-child(14) p', value: 'Structure operations for a small team with suitable tools.' },
         { selector: '.article-card:nth-child(15) .article-meta', value: 'Education' },
         { selector: '.article-card:nth-child(15) h3 a', value: 'French educational app for children' },
-        { selector: '.article-card:nth-child(15) p', value: 'Help children progress in vocabulary with a playful approach.' }
+        { selector: '.article-card:nth-child(15) p', value: 'Help children progress in vocabulary with a playful approach.' },
+        { selector: '.article-card:nth-child(16) .article-meta', value: 'Education' },
+        { selector: '.article-card:nth-child(16) h3 a', value: 'Educational activities at home' },
+        { selector: '.article-card:nth-child(16) p', value: 'A short, playful routine to progress in vocabulary and math without pressure.' },
+        { selector: '.article-card:nth-child(17) .article-meta', value: 'Education' },
+        { selector: '.article-card:nth-child(17) h3 a', value: 'Flashcards for children: simple and effective method' },
+        { selector: '.article-card:nth-child(17) p', value: 'How to structure short sessions to memorise better and longer.' },
+        { selector: '.article-card:nth-child(18) .article-meta', value: 'Reservations' },
+        { selector: '.article-card:nth-child(18) h3 a', value: 'Reduce reservation cancellations' },
+        { selector: '.article-card:nth-child(18) p', value: 'Simple rules to make bookings more reliable and limit late cancellations.' },
+        { selector: '.article-card:nth-child(19) .article-meta', value: 'Education' },
+        { selector: '.article-card:nth-child(19) h3 a', value: 'Mental math challenge in class: 5-minute teacher method' },
+        { selector: '.article-card:nth-child(19) p', value: 'A clear progression to automate addition, subtraction, multiplication and division with operation sheets.' }
       ]
     },
     es: {
@@ -316,7 +328,19 @@ window.__CARLUSONE_PAGE_TRANSLATIONS = {
         { selector: '.article-card:nth-child(14) p', value: 'Estructurar operaciones de un equipo pequeno con herramientas adaptadas.' },
         { selector: '.article-card:nth-child(15) .article-meta', value: 'Educacion' },
         { selector: '.article-card:nth-child(15) h3 a', value: 'Aplicacion educativa de frances para ninos' },
-        { selector: '.article-card:nth-child(15) p', value: 'Ayudar a progresar en vocabulario con enfoque ludico.' }
+        { selector: '.article-card:nth-child(15) p', value: 'Ayudar a progresar en vocabulario con enfoque ludico.' },
+        { selector: '.article-card:nth-child(16) .article-meta', value: 'Educacion' },
+        { selector: '.article-card:nth-child(16) h3 a', value: 'Actividades educativas en casa' },
+        { selector: '.article-card:nth-child(16) p', value: 'Una rutina corta y divertida para progresar en vocabulario y calculo sin presion.' },
+        { selector: '.article-card:nth-child(17) .article-meta', value: 'Educacion' },
+        { selector: '.article-card:nth-child(17) h3 a', value: 'Flashcards para ninos: metodo simple y eficaz' },
+        { selector: '.article-card:nth-child(17) p', value: 'Como estructurar sesiones cortas para memorizar mejor y por mas tiempo.' },
+        { selector: '.article-card:nth-child(18) .article-meta', value: 'Reservas' },
+        { selector: '.article-card:nth-child(18) h3 a', value: 'Reducir las cancelaciones de reservas' },
+        { selector: '.article-card:nth-child(18) p', value: 'Reglas simples para fiabilizar las reservas y limitar las cancelaciones tardias.' },
+        { selector: '.article-card:nth-child(19) .article-meta', value: 'Educacion' },
+        { selector: '.article-card:nth-child(19) h3 a', value: 'Desafio de calculo mental en clase: metodo docente de 5 minutos' },
+        { selector: '.article-card:nth-child(19) p', value: 'Una progresion clara para automatizar suma, resta, multiplicacion y division con hojas de operaciones.' }
       ]
     }
   },
