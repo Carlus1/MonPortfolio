@@ -1042,33 +1042,69 @@ window.__CARLUSONE_PAGE_TRANSLATIONS = {
   },
   '/blog/logiciel-reservation-simple/': {
     en: {
-      title: 'Choose a simple reservation software',
-      description: 'Key criteria to select a reservation software that prevents scheduling conflicts.',
+      title: 'Which reservation software to choose | Simple 2026 guide',
+      description: 'How to choose a simple reservation software: essential criteria, mistakes to avoid and the right solution for your need.',
       text: [
         { selector: '.page-hero .breadcrumb span:last-child', value: 'Simple reservation software' },
-        { selector: '.page-hero .page-kicker', value: 'Reservations' },
+        { selector: '.page-hero .page-kicker', value: 'Reservation' },
         { selector: '.page-hero .page-title', value: 'Choose a simple reservation software' },
-        { selector: '.blog-sidebar .content-card h3', value: 'Related resources' },
-        { selector: '.footer-bottom p', value: '© 2026 CarlusOne. All rights reserved.' },
-        { selector: '.page-hero .page-subtitle', value: "Essential criteria to avoid double bookings, clarify access and streamline organisation." },
-        { selector: '.content-prose > p:first-of-type', value: "A good reservation tool should not be complicated. It mainly needs to avoid scheduling conflicts, make availability visible and define who can book what." },
-        { selector: '.content-prose h2:nth-of-type(1)', value: "3 points to check" }
-      
+        { selector: '.page-hero .page-subtitle', value: 'The essential criteria to avoid double bookings, clarify access and streamline the organisation.' },
+        { selector: '.content-prose > p:nth-of-type(1)', value: 'A good reservation tool should not be complicated. It mainly needs to avoid scheduling conflicts, make availability visible and define who can book what.' },
+        { selector: '.content-prose h2:nth-of-type(1)', value: '3 points to check' },
+        { selector: '.content-prose ul > li:nth-child(1)', value: 'Clear calendar with quick view of slots.' },
+        { selector: '.content-prose ul > li:nth-child(2)', value: 'Management of rights and user groups.' },
+        { selector: '.content-prose ul > li:nth-child(3)', value: 'Ability to block periods of unavailability.' },
+        { selector: '.content-prose > p:nth-of-type(2)', value: 'When these three points are covered, most coordination problems disappear.' },
+        { selector: '.blog-sidebar .content-card:nth-of-type(1) h3', value: 'Related app' },
+        { selector: '.blog-sidebar .content-card:nth-of-type(1) p', value: 'GestReserve centralises bookings and limits scheduling errors.' },
+        { selector: '.blog-sidebar .content-card:nth-of-type(1) .button-row a', value: 'See GestReserve' },
+        { selector: '.blog-sidebar .content-card:nth-of-type(2) h3', value: 'Read next' },
+        { selector: '.blog-sidebar .content-card:nth-of-type(2) .note-list a:nth-of-type(1)', value: 'Work organisation tools' },
+        { selector: '.blog-sidebar .content-card:nth-of-type(2) .note-list a:nth-of-type(2)', value: 'Organise team work' },
+        { selector: '.section-header .section-title', value: 'Frequently asked questions' },
+        { selector: '.faq-item:nth-of-type(1) .faq-question span', value: 'How to choose a simple reservation software?' },
+        { selector: '.faq-item:nth-of-type(1) .faq-answer', value: 'Aim for a clear interface, group-based access rights and a real-time calendar to avoid conflicts.' },
+        { selector: '.faq-item:nth-of-type(2) .faq-question span', value: 'Which tool to book shared resources?' },
+        { selector: '.faq-item:nth-of-type(2) .faq-answer', value: 'GestReserve is suited for rooms, vehicles and equipment with availability management.' },
+        { selector: '.faq-item:nth-of-type(3) .faq-question span', value: 'How much does a reservation software cost?' },
+        { selector: '.faq-item:nth-of-type(3) .faq-answer', value: 'The price depends on the solution and features. A free trial is the best way to validate before subscribing.' },
+        { selector: '.footer-bottom p', value: '\u00A9 2026 CarlusOne. All rights reserved.' }
+      ],
+      html: [
+        { selector: '.content-prose > p:nth-of-type(3)', value: 'The <a href="/applications/gestreserve/">GestReserve</a> solution addresses precisely this need in an easy-to-use interface.' }
       ]
     },
     es: {
-      title: 'Elegir un software de reservas simple',
-      description: 'Criterios clave para elegir un software de reservas y evitar conflictos.',
+      title: 'Que software de reservas elegir | Guia simple 2026',
+      description: 'Como elegir un software de reservas simple: criterios esenciales, errores a evitar y solucion adaptada a tu necesidad.',
       text: [
         { selector: '.page-hero .breadcrumb span:last-child', value: 'Software de reservas simple' },
         { selector: '.page-hero .page-kicker', value: 'Reservas' },
         { selector: '.page-hero .page-title', value: 'Elegir un software de reservas simple' },
-        { selector: '.blog-sidebar .content-card h3', value: 'Recursos relacionados' },
-        { selector: '.footer-bottom p', value: '© 2026 CarlusOne. Todos los derechos reservados.' },
-        { selector: '.page-hero .page-subtitle', value: "Los criterios esenciales para evitar dobles reservas, aclarar los accesos y agilizar la organizacion." },
-        { selector: '.content-prose > p:first-of-type', value: "Un buen software de reservas no tiene que ser complicado. Sobre todo debe evitar conflictos de horario, hacer visible la disponibilidad y definir quien puede reservar que." },
-        { selector: '.content-prose h2:nth-of-type(1)', value: "3 puntos a verificar" }
-      
+        { selector: '.page-hero .page-subtitle', value: 'Los criterios esenciales para evitar dobles reservas, aclarar los accesos y agilizar la organizacion.' },
+        { selector: '.content-prose > p:nth-of-type(1)', value: 'Un buen software de reservas no tiene que ser complicado. Sobre todo debe evitar conflictos de horario, hacer visible la disponibilidad y definir quien puede reservar que.' },
+        { selector: '.content-prose h2:nth-of-type(1)', value: '3 puntos a verificar' },
+        { selector: '.content-prose ul > li:nth-child(1)', value: 'Calendario claro con vista rapida de los espacios.' },
+        { selector: '.content-prose ul > li:nth-child(2)', value: 'Gestion de derechos y grupos de usuarios.' },
+        { selector: '.content-prose ul > li:nth-child(3)', value: 'Posibilidad de bloquear periodos de indisponibilidad.' },
+        { selector: '.content-prose > p:nth-of-type(2)', value: 'Cuando estos tres puntos estan cubiertos, la mayoria de los problemas de coordinacion desaparecen.' },
+        { selector: '.blog-sidebar .content-card:nth-of-type(1) h3', value: 'Aplicacion relacionada' },
+        { selector: '.blog-sidebar .content-card:nth-of-type(1) p', value: 'GestReserve centraliza las reservas y limita los errores de planificacion.' },
+        { selector: '.blog-sidebar .content-card:nth-of-type(1) .button-row a', value: 'Ver GestReserve' },
+        { selector: '.blog-sidebar .content-card:nth-of-type(2) h3', value: 'Leer a continuacion' },
+        { selector: '.blog-sidebar .content-card:nth-of-type(2) .note-list a:nth-of-type(1)', value: 'Herramientas de organizacion del trabajo' },
+        { selector: '.blog-sidebar .content-card:nth-of-type(2) .note-list a:nth-of-type(2)', value: 'Organizar el trabajo en equipo' },
+        { selector: '.section-header .section-title', value: 'Preguntas frecuentes' },
+        { selector: '.faq-item:nth-of-type(1) .faq-question span', value: 'Como elegir un software de reservas simple?' },
+        { selector: '.faq-item:nth-of-type(1) .faq-answer', value: 'Busca una interfaz clara, derechos de acceso por grupo y un calendario en tiempo real para evitar conflictos.' },
+        { selector: '.faq-item:nth-of-type(2) .faq-question span', value: 'Que herramienta usar para reservar recursos compartidos?' },
+        { selector: '.faq-item:nth-of-type(2) .faq-answer', value: 'GestReserve es adecuado para salas, vehiculos y equipos con gestion de disponibilidades.' },
+        { selector: '.faq-item:nth-of-type(3) .faq-question span', value: 'Cuanto cuesta un software de reservas?' },
+        { selector: '.faq-item:nth-of-type(3) .faq-answer', value: 'El precio depende de la solucion y las funcionalidades. Una prueba gratuita es la mejor forma de validar antes de suscribirse.' },
+        { selector: '.footer-bottom p', value: '\u00A9 2026 CarlusOne. Todos los derechos reservados.' }
+      ],
+      html: [
+        { selector: '.content-prose > p:nth-of-type(3)', value: 'La solucion <a href="/applications/gestreserve/">GestReserve</a> responde precisamente a esta necesidad en una interfaz simple de usar.' }
       ]
     }
   },
