@@ -329,15 +329,15 @@ window.__CARLUSONE_PAGE_TRANSLATIONS = {
         { selector: '.page-hero .page-kicker', value: 'Business app' },
         { selector: '.page-hero .page-title', value: 'Simple task management application' },
         { selector: '.page-hero .page-subtitle', value: 'GestTaches helps teams plan work, distribute tasks, centralize unavailability and publish more balanced schedules.' },
-        { selector: '.content-grid.two-col .content-card:nth-child(1) h2', value: 'Description' },
-        { selector: '.content-grid.two-col .content-card:nth-child(1) p:nth-of-type(1)', value: 'GestTaches is designed for organizations that need clear work distribution: clinics, admin teams, associations and small businesses.' },
-        { selector: '.content-grid.two-col .content-card:nth-child(1) p:nth-of-type(2)', value: 'The app lets you create groups, define one-time or recurring tasks, manage roles and generate coherent assignments based on availability.' },
-        { selector: '.content-grid.two-col .content-card:nth-child(2) h2', value: 'Features' },
-        { selector: '.content-grid.two-col .content-card:nth-child(2) li:nth-child(1)', value: 'Group and member management' },
-        { selector: '.content-grid.two-col .content-card:nth-child(2) li:nth-child(2)', value: 'Recurring and one-time tasks' },
-        { selector: '.content-grid.two-col .content-card:nth-child(2) li:nth-child(3)', value: 'Interactive calendar' },
-        { selector: '.content-grid.two-col .content-card:nth-child(2) li:nth-child(4)', value: 'Automatic proposals' },
-        { selector: '.content-grid.two-col .content-card:nth-child(2) li:nth-child(5)', value: 'Reports and statistics' },
+        { selector: '.content-grid.three-col .content-card:nth-child(1) h2', value: 'Description' },
+        { selector: '.content-grid.three-col .content-card:nth-child(1) p:nth-of-type(1)', value: 'GestTaches is designed for organizations that need clear work distribution: clinics, admin teams, associations and small businesses.' },
+        { selector: '.content-grid.three-col .content-card:nth-child(1) p:nth-of-type(2)', value: 'The app lets you create groups, define one-time or recurring tasks, manage roles and generate coherent assignments based on availability.' },
+        { selector: '.content-grid.three-col .content-card:nth-child(2) h2', value: 'Features' },
+        { selector: '.content-grid.three-col .content-card:nth-child(2) li:nth-child(1)', value: 'Group and member management' },
+        { selector: '.content-grid.three-col .content-card:nth-child(2) li:nth-child(2)', value: 'Recurring and one-time tasks' },
+        { selector: '.content-grid.three-col .content-card:nth-child(2) li:nth-child(3)', value: 'Interactive calendar' },
+        { selector: '.content-grid.three-col .content-card:nth-child(2) li:nth-child(4)', value: 'Automatic proposals' },
+        { selector: '.content-grid.three-col .content-card:nth-child(2) li:nth-child(5)', value: 'Reports and statistics' },
         { selector: '.section-soft .content-card:nth-child(1) h2', value: 'Use cases' },
         { selector: '.section-soft .content-card:nth-child(2) h2', value: 'Useful links' },
         { selector: '.section-soft .content-card:nth-child(2) .note-list a:nth-child(1)', value: 'Open GestTaches' },
@@ -351,7 +351,10 @@ window.__CARLUSONE_PAGE_TRANSLATIONS = {
         { selector: '.faq-grid .faq-item:nth-child(3) .faq-question span', value: 'Do I need technical training?' },
         { selector: '.cta-panel h2', value: 'Try GestTaches' },
         { selector: '.cta-panel .button-row a:nth-child(1)', value: 'Open application' },
-        { selector: '.cta-panel .button-row a:nth-child(2)', value: 'See all applications' }
+        { selector: '.cta-panel .button-row a:nth-child(2)', value: 'See all applications' }        ,{ selector: '#tarif h2', value: 'Pricing' },
+        { selector: '#tarif .price-period', value: '/ month' },
+        { selector: '#tarif .pricing-trial span', value: '14-day free trial' },
+        { selector: '#tarif a.btn', value: 'Get started' }
       ]
     },
     es: {
@@ -362,13 +365,13 @@ window.__CARLUSONE_PAGE_TRANSLATIONS = {
         { selector: '.page-hero .page-kicker', value: 'Aplicacion profesional' },
         { selector: '.page-hero .page-title', value: 'Aplicacion simple de gestion de tareas' },
         { selector: '.page-hero .page-subtitle', value: 'GestTaches ayuda a los equipos a planificar trabajo, repartir tareas y publicar calendarios mas equilibrados.' },
-        { selector: '.content-grid.two-col .content-card:nth-child(1) h2', value: 'Descripcion' },
-        { selector: '.content-grid.two-col .content-card:nth-child(2) h2', value: 'Funciones' },
-        { selector: '.content-grid.two-col .content-card:nth-child(2) li:nth-child(1)', value: 'Gestion de grupos y miembros' },
-        { selector: '.content-grid.two-col .content-card:nth-child(2) li:nth-child(2)', value: 'Tareas recurrentes y puntuales' },
-        { selector: '.content-grid.two-col .content-card:nth-child(2) li:nth-child(3)', value: 'Calendario interactivo' },
-        { selector: '.content-grid.two-col .content-card:nth-child(2) li:nth-child(4)', value: 'Propuestas automaticas' },
-        { selector: '.content-grid.two-col .content-card:nth-child(2) li:nth-child(5)', value: 'Informes y estadisticas' },
+        { selector: '.content-grid.three-col .content-card:nth-child(1) h2', value: 'Descripcion' },
+        { selector: '.content-grid.three-col .content-card:nth-child(2) h2', value: 'Funciones' },
+        { selector: '.content-grid.three-col .content-card:nth-child(2) li:nth-child(1)', value: 'Gestion de grupos y miembros' },
+        { selector: '.content-grid.three-col .content-card:nth-child(2) li:nth-child(2)', value: 'Tareas recurrentes y puntuales' },
+        { selector: '.content-grid.three-col .content-card:nth-child(2) li:nth-child(3)', value: 'Calendario interactivo' },
+        { selector: '.content-grid.three-col .content-card:nth-child(2) li:nth-child(4)', value: 'Propuestas automaticas' },
+        { selector: '.content-grid.three-col .content-card:nth-child(2) li:nth-child(5)', value: 'Informes y estadisticas' },
         { selector: '.section-soft .content-card:nth-child(1) h2', value: 'Casos de uso' },
         { selector: '.section-soft .content-card:nth-child(2) h2', value: 'Enlaces utiles' },
         { selector: '.section-header .section-title', value: 'Preguntas frecuentes sobre GestTaches' },
@@ -377,7 +380,10 @@ window.__CARLUSONE_PAGE_TRANSLATIONS = {
         { selector: '.faq-grid .faq-item:nth-child(3) .faq-question span', value: 'Hace falta formacion tecnica?' },
         { selector: '.cta-panel h2', value: 'Probar GestTaches' },
         { selector: '.cta-panel .button-row a:nth-child(1)', value: 'Acceder a la aplicacion' },
-        { selector: '.cta-panel .button-row a:nth-child(2)', value: 'Ver todas las aplicaciones' }
+        { selector: '.cta-panel .button-row a:nth-child(2)', value: 'Ver todas las aplicaciones' }        ,{ selector: '#tarif h2', value: 'Precios' },
+        { selector: '#tarif .price-period', value: '/ mes' },
+        { selector: '#tarif .pricing-trial span', value: '14 dias de prueba gratis' },
+        { selector: '#tarif a.btn', value: 'Comenzar' }
       ]
     }
   },
@@ -389,11 +395,11 @@ window.__CARLUSONE_PAGE_TRANSLATIONS = {
         { selector: '.page-hero .page-kicker', value: 'Personal finance' },
         { selector: '.page-hero .page-title', value: 'Simple budget management application' },
         { selector: '.page-hero .page-subtitle', value: 'GestBudget helps manage personal budgets with a clear view of income, expenses, accounts and categories.' },
-        { selector: '.content-grid.two-col .content-card:nth-child(1) h2', value: 'Description' },
-        { selector: '.content-grid.two-col .content-card:nth-child(2) h2', value: 'Features' },
-        { selector: '.content-grid.two-col .content-card:nth-child(2) li:nth-child(1)', value: 'Visual dashboard' },
-        { selector: '.content-grid.two-col .content-card:nth-child(2) li:nth-child(2)', value: 'Multi-account management' },
-        { selector: '.content-grid.two-col .content-card:nth-child(2) li:nth-child(3)', value: 'Custom categories' },
+        { selector: '.content-grid.three-col .content-card:nth-child(1) h2', value: 'Description' },
+        { selector: '.content-grid.three-col .content-card:nth-child(2) h2', value: 'Features' },
+        { selector: '.content-grid.three-col .content-card:nth-child(2) li:nth-child(1)', value: 'Visual dashboard' },
+        { selector: '.content-grid.three-col .content-card:nth-child(2) li:nth-child(2)', value: 'Multi-account management' },
+        { selector: '.content-grid.three-col .content-card:nth-child(2) li:nth-child(3)', value: 'Custom categories' },
         { selector: '.section-soft .content-card:nth-child(1) h2', value: 'Use cases' },
         { selector: '.section-soft .content-card:nth-child(2) h2', value: 'Useful links' },
         { selector: '.section-soft .content-card:nth-child(2) .note-list a:nth-child(1)', value: 'Open GestBudget' },
@@ -401,7 +407,10 @@ window.__CARLUSONE_PAGE_TRANSLATIONS = {
         { selector: '.section-header .section-title', value: 'Frequently asked questions about GestBudget' },
         { selector: '.cta-panel h2', value: 'Discover GestBudget' },
         { selector: '.cta-panel .button-row a:nth-child(1)', value: 'Open application' },
-        { selector: '.cta-panel .button-row a:nth-child(2)', value: 'See all applications' }
+        { selector: '.cta-panel .button-row a:nth-child(2)', value: 'See all applications' }        ,{ selector: '#tarif h2', value: 'Pricing' },
+        { selector: '#tarif .price-period', value: '/ month' },
+        { selector: '#tarif .pricing-trial span', value: '2-day free trial' },
+        { selector: '#tarif a.btn', value: 'Get started' }
       ]
     },
     es: {
@@ -411,17 +420,20 @@ window.__CARLUSONE_PAGE_TRANSLATIONS = {
         { selector: '.page-hero .page-kicker', value: 'Finanzas personales' },
         { selector: '.page-hero .page-title', value: 'Aplicacion simple de gestion de presupuesto' },
         { selector: '.page-hero .page-subtitle', value: 'GestBudget ayuda a gestionar presupuesto personal con vista clara de ingresos, gastos y cuentas.' },
-        { selector: '.content-grid.two-col .content-card:nth-child(1) h2', value: 'Descripcion' },
-        { selector: '.content-grid.two-col .content-card:nth-child(2) h2', value: 'Funciones' },
-        { selector: '.content-grid.two-col .content-card:nth-child(2) li:nth-child(1)', value: 'Panel visual' },
-        { selector: '.content-grid.two-col .content-card:nth-child(2) li:nth-child(2)', value: 'Gestion multi-cuentas' },
-        { selector: '.content-grid.two-col .content-card:nth-child(2) li:nth-child(3)', value: 'Categorias personalizables' },
+        { selector: '.content-grid.three-col .content-card:nth-child(1) h2', value: 'Descripcion' },
+        { selector: '.content-grid.three-col .content-card:nth-child(2) h2', value: 'Funciones' },
+        { selector: '.content-grid.three-col .content-card:nth-child(2) li:nth-child(1)', value: 'Panel visual' },
+        { selector: '.content-grid.three-col .content-card:nth-child(2) li:nth-child(2)', value: 'Gestion multi-cuentas' },
+        { selector: '.content-grid.three-col .content-card:nth-child(2) li:nth-child(3)', value: 'Categorias personalizables' },
         { selector: '.section-soft .content-card:nth-child(1) h2', value: 'Casos de uso' },
         { selector: '.section-soft .content-card:nth-child(2) h2', value: 'Enlaces utiles' },
         { selector: '.section-header .section-title', value: 'Preguntas frecuentes sobre GestBudget' },
         { selector: '.cta-panel h2', value: 'Descubrir GestBudget' },
         { selector: '.cta-panel .button-row a:nth-child(1)', value: 'Acceder a la aplicacion' },
-        { selector: '.cta-panel .button-row a:nth-child(2)', value: 'Ver todas las aplicaciones' }
+        { selector: '.cta-panel .button-row a:nth-child(2)', value: 'Ver todas las aplicaciones' }        ,{ selector: '#tarif h2', value: 'Precios' },
+        { selector: '#tarif .price-period', value: '/ mes' },
+        { selector: '#tarif .pricing-trial span', value: '2 dias de prueba gratis' },
+        { selector: '#tarif a.btn', value: 'Comenzar' }
       ]
     }
   },
@@ -433,18 +445,21 @@ window.__CARLUSONE_PAGE_TRANSLATIONS = {
         { selector: '.page-hero .page-kicker', value: 'Asset reservation' },
         { selector: '.page-hero .page-title', value: 'Simple reservation management application' },
         { selector: '.page-hero .page-subtitle', value: 'GestReserve manages room, equipment and vehicle booking with a clear calendar and group-based access rights.' },
-        { selector: '.content-grid.two-col .content-card:nth-child(1) h2', value: 'Description' },
-        { selector: '.content-grid.two-col .content-card:nth-child(2) h2', value: 'Features' },
-        { selector: '.content-grid.two-col .content-card:nth-child(2) li:nth-child(1)', value: 'Interactive reservation calendar' },
-        { selector: '.content-grid.two-col .content-card:nth-child(2) li:nth-child(2)', value: 'Asset and unavailability management' },
-        { selector: '.content-grid.two-col .content-card:nth-child(2) li:nth-child(3)', value: 'Access groups and restricted visibility' },
+        { selector: '.content-grid.three-col .content-card:nth-child(1) h2', value: 'Description' },
+        { selector: '.content-grid.three-col .content-card:nth-child(2) h2', value: 'Features' },
+        { selector: '.content-grid.three-col .content-card:nth-child(2) li:nth-child(1)', value: 'Interactive reservation calendar' },
+        { selector: '.content-grid.three-col .content-card:nth-child(2) li:nth-child(2)', value: 'Asset and unavailability management' },
+        { selector: '.content-grid.three-col .content-card:nth-child(2) li:nth-child(3)', value: 'Access groups and restricted visibility' },
         { selector: '.section-soft .content-card:nth-child(1) h2', value: 'Use cases' },
         { selector: '.section-soft .content-card:nth-child(2) h2', value: 'Useful links' },
         { selector: '.section-soft .content-card:nth-child(2) .note-list a:nth-child(1)', value: 'Open GestReserve' },
         { selector: '.section-header .section-title', value: 'Frequently asked questions about GestReserve' },
         { selector: '.cta-panel h2', value: 'Try GestReserve' },
         { selector: '.cta-panel .button-row a:nth-child(1)', value: 'Open application' },
-        { selector: '.cta-panel .button-row a:nth-child(2)', value: 'See all applications' }
+        { selector: '.cta-panel .button-row a:nth-child(2)', value: 'See all applications' }        ,{ selector: '#tarif h2', value: 'Pricing' },
+        { selector: '#tarif .price-period', value: '/ month' },
+        { selector: '#tarif .pricing-trial span', value: '2-day free trial' },
+        { selector: '#tarif a.btn', value: 'Get started' }
       ]
     },
     es: {
@@ -454,14 +469,17 @@ window.__CARLUSONE_PAGE_TRANSLATIONS = {
         { selector: '.page-hero .page-kicker', value: 'Reserva de bienes' },
         { selector: '.page-hero .page-title', value: 'Aplicacion simple de gestion de reservas' },
         { selector: '.page-hero .page-subtitle', value: 'GestReserve permite gestionar reservas de salas y equipos con calendario claro y accesos por grupos.' },
-        { selector: '.content-grid.two-col .content-card:nth-child(1) h2', value: 'Descripcion' },
-        { selector: '.content-grid.two-col .content-card:nth-child(2) h2', value: 'Funciones' },
+        { selector: '.content-grid.three-col .content-card:nth-child(1) h2', value: 'Descripcion' },
+        { selector: '.content-grid.three-col .content-card:nth-child(2) h2', value: 'Funciones' },
         { selector: '.section-soft .content-card:nth-child(1) h2', value: 'Casos de uso' },
         { selector: '.section-soft .content-card:nth-child(2) h2', value: 'Enlaces utiles' },
         { selector: '.section-header .section-title', value: 'Preguntas frecuentes sobre GestReserve' },
         { selector: '.cta-panel h2', value: 'Probar GestReserve' },
         { selector: '.cta-panel .button-row a:nth-child(1)', value: 'Acceder a la aplicacion' },
-        { selector: '.cta-panel .button-row a:nth-child(2)', value: 'Ver todas las aplicaciones' }
+        { selector: '.cta-panel .button-row a:nth-child(2)', value: 'Ver todas las aplicaciones' }        ,{ selector: '#tarif h2', value: 'Precios' },
+        { selector: '#tarif .price-period', value: '/ mes' },
+        { selector: '#tarif .pricing-trial span', value: '2 dias de prueba gratis' },
+        { selector: '#tarif a.btn', value: 'Comenzar' }
       ]
     }
   },
@@ -473,18 +491,21 @@ window.__CARLUSONE_PAGE_TRANSLATIONS = {
         { selector: '.page-hero .page-kicker', value: 'Education' },
         { selector: '.page-hero .page-title', value: 'Simple educational application' },
         { selector: '.page-hero .page-subtitle', value: 'Jeu de Mots helps children, parents and teachers learn through interactive activities, vocabulary and adapted quizzes.' },
-        { selector: '.content-grid.two-col .content-card:nth-child(1) h2', value: 'Description' },
-        { selector: '.content-grid.two-col .content-card:nth-child(2) h2', value: 'Features' },
-        { selector: '.content-grid.two-col .content-card:nth-child(2) li:nth-child(1)', value: 'Vocabulary flashcards' },
-        { selector: '.content-grid.two-col .content-card:nth-child(2) li:nth-child(2)', value: 'Math quizzes' },
-        { selector: '.content-grid.two-col .content-card:nth-child(2) li:nth-child(3)', value: 'Printable worksheets' },
+        { selector: '.content-grid.three-col .content-card:nth-child(1) h2', value: 'Description' },
+        { selector: '.content-grid.three-col .content-card:nth-child(2) h2', value: 'Features' },
+        { selector: '.content-grid.three-col .content-card:nth-child(2) li:nth-child(1)', value: 'Vocabulary flashcards' },
+        { selector: '.content-grid.three-col .content-card:nth-child(2) li:nth-child(2)', value: 'Math quizzes' },
+        { selector: '.content-grid.three-col .content-card:nth-child(2) li:nth-child(3)', value: 'Printable worksheets' },
         { selector: '.section-soft .content-card:nth-child(1) h2', value: 'Use cases' },
         { selector: '.section-soft .content-card:nth-child(2) h2', value: 'Useful links' },
         { selector: '.section-soft .content-card:nth-child(2) .note-list a:nth-child(1)', value: 'Open Jeu de Mots' },
         { selector: '.section-header .section-title', value: 'Frequently asked questions about Jeu de Mots' },
         { selector: '.cta-panel h2', value: 'Discover Jeu de Mots' },
         { selector: '.cta-panel .button-row a:nth-child(1)', value: 'Open application' },
-        { selector: '.cta-panel .button-row a:nth-child(2)', value: 'See all applications' }
+        { selector: '.cta-panel .button-row a:nth-child(2)', value: 'See all applications' }        ,{ selector: '#tarif h2', value: 'Pricing' },
+        { selector: '#tarif .price-period', value: '/ month' },
+        { selector: '#tarif .pricing-trial span', value: '2-day free trial' },
+        { selector: '#tarif a.btn', value: 'Get started' }
       ]
     },
     es: {
@@ -494,17 +515,20 @@ window.__CARLUSONE_PAGE_TRANSLATIONS = {
         { selector: '.page-hero .page-kicker', value: 'Educacion' },
         { selector: '.page-hero .page-title', value: 'Aplicacion educativa simple' },
         { selector: '.page-hero .page-subtitle', value: 'Jeu de Mots ayuda a ninos, padres y docentes a aprender con actividades interactivas y quizzes adaptados.' },
-        { selector: '.content-grid.two-col .content-card:nth-child(1) h2', value: 'Descripcion' },
-        { selector: '.content-grid.two-col .content-card:nth-child(2) h2', value: 'Funciones' },
-        { selector: '.content-grid.two-col .content-card:nth-child(2) li:nth-child(1)', value: 'Flashcards de vocabulario' },
-        { selector: '.content-grid.two-col .content-card:nth-child(2) li:nth-child(2)', value: 'Quizzes de matematicas' },
-        { selector: '.content-grid.two-col .content-card:nth-child(2) li:nth-child(3)', value: 'Hojas imprimibles' },
+        { selector: '.content-grid.three-col .content-card:nth-child(1) h2', value: 'Descripcion' },
+        { selector: '.content-grid.three-col .content-card:nth-child(2) h2', value: 'Funciones' },
+        { selector: '.content-grid.three-col .content-card:nth-child(2) li:nth-child(1)', value: 'Flashcards de vocabulario' },
+        { selector: '.content-grid.three-col .content-card:nth-child(2) li:nth-child(2)', value: 'Quizzes de matematicas' },
+        { selector: '.content-grid.three-col .content-card:nth-child(2) li:nth-child(3)', value: 'Hojas imprimibles' },
         { selector: '.section-soft .content-card:nth-child(1) h2', value: 'Casos de uso' },
         { selector: '.section-soft .content-card:nth-child(2) h2', value: 'Enlaces utiles' },
         { selector: '.section-header .section-title', value: 'Preguntas frecuentes sobre Jeu de Mots' },
         { selector: '.cta-panel h2', value: 'Descubrir Jeu de Mots' },
         { selector: '.cta-panel .button-row a:nth-child(1)', value: 'Acceder a la aplicacion' },
-        { selector: '.cta-panel .button-row a:nth-child(2)', value: 'Ver todas las aplicaciones' }
+        { selector: '.cta-panel .button-row a:nth-child(2)', value: 'Ver todas las aplicaciones' }        ,{ selector: '#tarif h2', value: 'Precios' },
+        { selector: '#tarif .price-period', value: '/ mes' },
+        { selector: '#tarif .pricing-trial span', value: '2 dias de prueba gratis' },
+        { selector: '#tarif a.btn', value: 'Comenzar' }
       ]
     }
   },
@@ -522,7 +546,10 @@ window.__CARLUSONE_PAGE_TRANSLATIONS = {
         { selector: '.blog-sidebar .note-list a:nth-child(1)', value: 'Family budget app' },
         { selector: '.blog-sidebar .note-list a:nth-child(2)', value: 'Apps with free trial' },
         { selector: '.blog-sidebar .note-list a:nth-child(3)', value: 'GestBudget product page' },
-        { selector: '.footer-bottom p', value: '© 2026 CarlusOne. All rights reserved.' }
+        { selector: '.footer-bottom p', value: '© 2026 CarlusOne. All rights reserved.' },
+        { selector: '.content-prose > p:first-of-type', value: "To properly manage a personal budget in Canada, you need a quick view of income, expenses and categories. The goal is not to track every complex detail, but to keep clear oversight." },
+        { selector: '.content-prose h2:nth-of-type(1)', value: "Important elements" }
+      
       ]
     },
     es: {
@@ -538,7 +565,10 @@ window.__CARLUSONE_PAGE_TRANSLATIONS = {
         { selector: '.blog-sidebar .note-list a:nth-child(1)', value: 'Aplicacion presupuesto familiar' },
         { selector: '.blog-sidebar .note-list a:nth-child(2)', value: 'Aplicaciones con prueba gratuita' },
         { selector: '.blog-sidebar .note-list a:nth-child(3)', value: 'Pagina de producto GestBudget' },
-        { selector: '.footer-bottom p', value: '© 2026 CarlusOne. Todos los derechos reservados.' }
+        { selector: '.footer-bottom p', value: '© 2026 CarlusOne. Todos los derechos reservados.' },
+        { selector: '.content-prose > p:first-of-type', value: "Para gestionar bien un presupuesto personal en Canada, necesitas una vision rapida de ingresos, gastos y categorias. El objetivo no es seguir cada detalle complejo, sino mantener un control claro." },
+        { selector: '.content-prose h2:nth-of-type(1)', value: "Elementos importantes" }
+      
       ]
     }
   },
@@ -556,7 +586,10 @@ window.__CARLUSONE_PAGE_TRANSLATIONS = {
         { selector: '.blog-sidebar .note-list a:nth-child(1)', value: 'Improve child vocabulary' },
         { selector: '.blog-sidebar .note-list a:nth-child(2)', value: 'Jeu de Mots product page' },
         { selector: '.blog-sidebar .note-list a:nth-child(3)', value: 'All applications' },
-        { selector: '.footer-bottom p', value: '© 2026 CarlusOne. All rights reserved.' }
+        { selector: '.footer-bottom p', value: '© 2026 CarlusOne. All rights reserved.' },
+        { selector: '.content-prose > p:first-of-type', value: "An effective educational app should keep children engaged while offering progressive exercises. The best choice is often the one that makes regular practice enjoyable." },
+        { selector: '.content-prose h2:nth-of-type(1)', value: "What to check before choosing" }
+      
       ]
     },
     es: {
@@ -572,7 +605,10 @@ window.__CARLUSONE_PAGE_TRANSLATIONS = {
         { selector: '.blog-sidebar .note-list a:nth-child(1)', value: 'Mejorar vocabulario de un nino' },
         { selector: '.blog-sidebar .note-list a:nth-child(2)', value: 'Pagina de producto Jeu de Mots' },
         { selector: '.blog-sidebar .note-list a:nth-child(3)', value: 'Todas las aplicaciones' },
-        { selector: '.footer-bottom p', value: '© 2026 CarlusOne. Todos los derechos reservados.' }
+        { selector: '.footer-bottom p', value: '© 2026 CarlusOne. Todos los derechos reservados.' },
+        { selector: '.content-prose > p:first-of-type', value: "Una aplicacion educativa eficaz debe mantener al nino comprometido mientras propone ejercicios progresivos. La mejor opcion suele ser la que permite repetir con regularidad y placer." },
+        { selector: '.content-prose h2:nth-of-type(1)', value: "Que verificar antes de elegir" }
+      
       ]
     }
   },
@@ -590,7 +626,10 @@ window.__CARLUSONE_PAGE_TRANSLATIONS = {
         { selector: '.blog-sidebar .note-list a:nth-child(1)', value: 'Manage priorities at work' },
         { selector: '.blog-sidebar .note-list a:nth-child(2)', value: 'Weekly team planning' },
         { selector: '.blog-sidebar .note-list a:nth-child(3)', value: 'GestTaches product page' },
-        { selector: '.footer-bottom p', value: '© 2026 CarlusOne. All rights reserved.' }
+        { selector: '.footer-bottom p', value: '© 2026 CarlusOne. All rights reserved.' },
+        { selector: '.content-prose > p:first-of-type', value: "In Quebec, many teams still rely on spreadsheets and scattered exchanges. The result: lack of visibility, missed items, and difficulty prioritising." },
+        { selector: '.content-prose h2:nth-of-type(1)', value: "What to focus on" }
+      
       ]
     },
     es: {
@@ -606,7 +645,10 @@ window.__CARLUSONE_PAGE_TRANSLATIONS = {
         { selector: '.blog-sidebar .note-list a:nth-child(1)', value: 'Gestionar prioridades en el trabajo' },
         { selector: '.blog-sidebar .note-list a:nth-child(2)', value: 'Planificacion semanal de equipo' },
         { selector: '.blog-sidebar .note-list a:nth-child(3)', value: 'Pagina de producto GestTaches' },
-        { selector: '.footer-bottom p', value: '© 2026 CarlusOne. Todos los derechos reservados.' }
+        { selector: '.footer-bottom p', value: '© 2026 CarlusOne. Todos los derechos reservados.' },
+        { selector: '.content-prose > p:first-of-type', value: "En Quebec, muchos equipos todavia funcionan con hojas de calculo e intercambios dispersos. El resultado: falta de visibilidad, olvidos y dificultad para priorizar." },
+        { selector: '.content-prose h2:nth-of-type(1)', value: "Lo que conviene priorizar" }
+      
       ]
     }
   },
@@ -624,7 +666,10 @@ window.__CARLUSONE_PAGE_TRANSLATIONS = {
         { selector: '.blog-sidebar .note-list a:nth-child(1)', value: 'Simple reservation software' },
         { selector: '.blog-sidebar .note-list a:nth-child(2)', value: 'Work organization tools' },
         { selector: '.blog-sidebar .note-list a:nth-child(3)', value: 'GestReserve product page' },
-        { selector: '.footer-bottom p', value: '© 2026 CarlusOne. All rights reserved.' }
+        { selector: '.footer-bottom p', value: '© 2026 CarlusOne. All rights reserved.' },
+        { selector: '.content-prose > p:first-of-type', value: "Local organisations need simple solutions: knowing who reserves, when, and with what restrictions. A good reservation tool should avoid scheduling collisions and clarify access." },
+        { selector: '.content-prose h2:nth-of-type(1)', value: "Useful checklist" }
+      
       ]
     },
     es: {
@@ -640,7 +685,10 @@ window.__CARLUSONE_PAGE_TRANSLATIONS = {
         { selector: '.blog-sidebar .note-list a:nth-child(1)', value: 'Software de reservas simple' },
         { selector: '.blog-sidebar .note-list a:nth-child(2)', value: 'Herramientas de organizacion del trabajo' },
         { selector: '.blog-sidebar .note-list a:nth-child(3)', value: 'Pagina de producto GestReserve' },
-        { selector: '.footer-bottom p', value: '© 2026 CarlusOne. Todos los derechos reservados.' }
+        { selector: '.footer-bottom p', value: '© 2026 CarlusOne. Todos los derechos reservados.' },
+        { selector: '.content-prose > p:first-of-type', value: "Las estructuras locales necesitan soluciones simples: saber quien reserva, cuando y con que restricciones. Un buen software de reservas debe evitar choques de horarios y aclarar los accesos." },
+        { selector: '.content-prose h2:nth-of-type(1)', value: "Checklist util" }
+      
       ]
     }
   },
@@ -658,7 +706,10 @@ window.__CARLUSONE_PAGE_TRANSLATIONS = {
         { selector: '.blog-sidebar .note-list a:nth-child(1)', value: 'Work organization guide' },
         { selector: '.blog-sidebar .note-list a:nth-child(2)', value: 'Organize teamwork' },
         { selector: '.blog-sidebar .note-list a:nth-child(3)', value: 'All applications' },
-        { selector: '.footer-bottom p', value: '© 2026 CarlusOne. All rights reserved.' }
+        { selector: '.footer-bottom p', value: '© 2026 CarlusOne. All rights reserved.' },
+        { selector: '.content-prose > p:first-of-type', value: "Quebec SMEs need simple tools to structure daily activities without spending time on configuration. The goal is to clarify who does what and by when." },
+        { selector: '.content-prose h2:nth-of-type(1)', value: "Points to watch" }
+      
       ]
     },
     es: {
@@ -674,7 +725,10 @@ window.__CARLUSONE_PAGE_TRANSLATIONS = {
         { selector: '.blog-sidebar .note-list a:nth-child(1)', value: 'Guia de organizacion del trabajo' },
         { selector: '.blog-sidebar .note-list a:nth-child(2)', value: 'Organizar trabajo en equipo' },
         { selector: '.blog-sidebar .note-list a:nth-child(3)', value: 'Todas las aplicaciones' },
-        { selector: '.footer-bottom p', value: '© 2026 CarlusOne. Todos los derechos reservados.' }
+        { selector: '.footer-bottom p', value: '© 2026 CarlusOne. Todos los derechos reservados.' },
+        { selector: '.content-prose > p:first-of-type', value: "Las pymes de Quebec necesitan herramientas simples para estructurar las actividades diarias sin perder tiempo en configuracion. El reto es aclarar quien hace que y en que plazo." },
+        { selector: '.content-prose h2:nth-of-type(1)', value: "Puntos de vigilancia" }
+      
       ]
     }
   },
@@ -775,7 +829,11 @@ window.__CARLUSONE_PAGE_TRANSLATIONS = {
         { selector: '.page-hero .page-kicker', value: 'Education' },
         { selector: '.page-hero .page-title', value: 'How to improve a child vocabulary' },
         { selector: '.blog-sidebar .content-card h3', value: 'Related resources' },
-        { selector: '.footer-bottom p', value: '© 2026 CarlusOne. All rights reserved.' }
+        { selector: '.footer-bottom p', value: '© 2026 CarlusOne. All rights reserved.' },
+        { selector: '.page-hero .page-subtitle', value: "Easy ideas to enrich vocabulary daily without turning learning into a chore." },
+        { selector: '.content-prose > p:first-of-type', value: "Vocabulary develops better through regular interactions than through long, infrequent sessions. The goal is to set up a playful and progressive routine." },
+        { selector: '.content-prose h2:nth-of-type(1)', value: "Effective activities" }
+      
       ]
     },
     es: {
@@ -786,7 +844,11 @@ window.__CARLUSONE_PAGE_TRANSLATIONS = {
         { selector: '.page-hero .page-kicker', value: 'Educacion' },
         { selector: '.page-hero .page-title', value: 'Como mejorar el vocabulario de un nino' },
         { selector: '.blog-sidebar .content-card h3', value: 'Recursos relacionados' },
-        { selector: '.footer-bottom p', value: '© 2026 CarlusOne. Todos los derechos reservados.' }
+        { selector: '.footer-bottom p', value: '© 2026 CarlusOne. Todos los derechos reservados.' },
+        { selector: '.page-hero .page-subtitle', value: "Ideas faciles de aplicar para enriquecer el vocabulario a diario sin convertir el aprendizaje en una obligacion." },
+        { selector: '.content-prose > p:first-of-type', value: "El vocabulario se desarrolla mejor con interacciones regulares que con sesiones largas y poco frecuentes. El objetivo es instalar una rutina divertida y progresiva." },
+        { selector: '.content-prose h2:nth-of-type(1)', value: "Actividades efectivas" }
+      
       ]
     }
   },
@@ -799,7 +861,11 @@ window.__CARLUSONE_PAGE_TRANSLATIONS = {
         { selector: '.page-hero .page-kicker', value: 'Budget' },
         { selector: '.page-hero .page-title', value: 'Which app to manage a family budget?' },
         { selector: '.blog-sidebar .content-card h3', value: 'Related resources' },
-        { selector: '.footer-bottom p', value: '© 2026 CarlusOne. All rights reserved.' }
+        { selector: '.footer-bottom p', value: '© 2026 CarlusOne. All rights reserved.' },
+        { selector: '.page-hero .page-subtitle', value: "A practical guide to choose a simple tool that genuinely helps manage household spending." },
+        { selector: '.content-prose > p:first-of-type', value: "Managing a family budget is not just about writing down numbers. You need to understand where the money goes, anticipate fixed expenses and keep a clear view month after month." },
+        { selector: '.content-prose h2:nth-of-type(1)', value: "What a good app should offer" }
+      
       ]
     },
     es: {
@@ -810,7 +876,11 @@ window.__CARLUSONE_PAGE_TRANSLATIONS = {
         { selector: '.page-hero .page-kicker', value: 'Presupuesto' },
         { selector: '.page-hero .page-title', value: 'Que aplicacion para gestionar un presupuesto familiar?' },
         { selector: '.blog-sidebar .content-card h3', value: 'Recursos relacionados' },
-        { selector: '.footer-bottom p', value: '© 2026 CarlusOne. Todos los derechos reservados.' }
+        { selector: '.footer-bottom p', value: '© 2026 CarlusOne. Todos los derechos reservados.' },
+        { selector: '.page-hero .page-subtitle', value: "Una guia practica para elegir una herramienta sencilla que realmente ayude a gestionar los gastos del hogar." },
+        { selector: '.content-prose > p:first-of-type', value: "Gestionar un presupuesto familiar no consiste solo en anotar cifras. Hay que entender adonde va el dinero, anticipar los gastos fijos y mantener una vision clara mes tras mes." },
+        { selector: '.content-prose h2:nth-of-type(1)', value: "Lo que una buena aplicacion debe ofrecer" }
+      
       ]
     }
   },
@@ -823,7 +893,12 @@ window.__CARLUSONE_PAGE_TRANSLATIONS = {
         { selector: '.page-hero .page-kicker', value: 'Task management' },
         { selector: '.page-hero .page-title', value: 'Manage your tasks effectively' },
         { selector: '.blog-sidebar .content-card h3', value: 'Related resources' },
-        { selector: '.footer-bottom p', value: '© 2026 CarlusOne. All rights reserved.' }
+        { selector: '.footer-bottom p', value: '© 2026 CarlusOne. All rights reserved.' },
+        { selector: '.page-hero .page-subtitle', value: "A simple method to better track your actions, reduce mental load and avoid overly complex systems." },
+        { selector: '.content-prose > p:first-of-type', value: "The challenge of task management does not always come from a lack of tools. It often comes from an excess of unprioritised information. When everything is a priority, nothing really is." },
+        { selector: '.content-prose h2:nth-of-type(1)', value: "A simple method" },
+        { selector: '.content-prose h2:nth-of-type(2)', value: "When to switch to a dedicated tool?" }
+      
       ]
     },
     es: {
@@ -834,7 +909,12 @@ window.__CARLUSONE_PAGE_TRANSLATIONS = {
         { selector: '.page-hero .page-kicker', value: 'Gestion de tareas' },
         { selector: '.page-hero .page-title', value: 'Gestionar tareas eficazmente' },
         { selector: '.blog-sidebar .content-card h3', value: 'Recursos relacionados' },
-        { selector: '.footer-bottom p', value: '© 2026 CarlusOne. Todos los derechos reservados.' }
+        { selector: '.footer-bottom p', value: '© 2026 CarlusOne. Todos los derechos reservados.' },
+        { selector: '.page-hero .page-subtitle', value: "Un metodo simple para seguir mejor tus acciones, reducir la carga mental y evitar sistemas demasiado complicados." },
+        { selector: '.content-prose > p:first-of-type', value: "El problema de la gestion de tareas no siempre viene de la falta de herramientas. Suele venir de un exceso de informacion sin priorizar. Cuando todo es prioritario, ya nada lo es realmente." },
+        { selector: '.content-prose h2:nth-of-type(1)', value: "Un metodo simple" },
+        { selector: '.content-prose h2:nth-of-type(2)', value: "Cuando pasar a una herramienta dedicada?" }
+      
       ]
     }
   },
@@ -847,7 +927,12 @@ window.__CARLUSONE_PAGE_TRANSLATIONS = {
         { selector: '.page-hero .page-kicker', value: 'Prioritization' },
         { selector: '.page-hero .page-title', value: 'How to manage priorities at work' },
         { selector: '.blog-sidebar .content-card h3', value: 'Related resources' },
-        { selector: '.footer-bottom p', value: '© 2026 CarlusOne. All rights reserved.' }
+        { selector: '.footer-bottom p', value: '© 2026 CarlusOne. All rights reserved.' },
+        { selector: '.page-hero .page-subtitle', value: "A practical method to choose what to do now, what can wait and what should be removed." },
+        { selector: '.content-prose > p:first-of-type', value: "The challenge is not lacking ideas. It is deciding what to handle first when everything seems urgent. Without a method, you spend the day reacting instead of moving forward." },
+        { selector: '.content-prose h2:nth-of-type(1)', value: "Simple sorting rule" },
+        { selector: '.content-prose h2:nth-of-type(2)', value: "Recommended pace" }
+      
       ]
     },
     es: {
@@ -858,7 +943,12 @@ window.__CARLUSONE_PAGE_TRANSLATIONS = {
         { selector: '.page-hero .page-kicker', value: 'Priorizacion' },
         { selector: '.page-hero .page-title', value: 'Como gestionar prioridades en el trabajo' },
         { selector: '.blog-sidebar .content-card h3', value: 'Recursos relacionados' },
-        { selector: '.footer-bottom p', value: '© 2026 CarlusOne. Todos los derechos reservados.' }
+        { selector: '.footer-bottom p', value: '© 2026 CarlusOne. Todos los derechos reservados.' },
+        { selector: '.page-hero .page-subtitle', value: "Un metodo practico para elegir lo que hay que hacer ahora, lo que puede esperar y lo que conviene eliminar." },
+        { selector: '.content-prose > p:first-of-type', value: "La dificultad no es la falta de ideas. Es decidir que tratar primero cuando todo parece urgente. Sin metodo, pasas el dia reaccionando en lugar de avanzar." },
+        { selector: '.content-prose h2:nth-of-type(1)', value: "Regla simple de clasificacion" },
+        { selector: '.content-prose h2:nth-of-type(2)', value: "Ritmo recomendado" }
+      
       ]
     }
   },
@@ -871,7 +961,11 @@ window.__CARLUSONE_PAGE_TRANSLATIONS = {
         { selector: '.page-hero .page-kicker', value: 'Reservations' },
         { selector: '.page-hero .page-title', value: 'Choose a simple reservation software' },
         { selector: '.blog-sidebar .content-card h3', value: 'Related resources' },
-        { selector: '.footer-bottom p', value: '© 2026 CarlusOne. All rights reserved.' }
+        { selector: '.footer-bottom p', value: '© 2026 CarlusOne. All rights reserved.' },
+        { selector: '.page-hero .page-subtitle', value: "Essential criteria to avoid double bookings, clarify access and streamline organisation." },
+        { selector: '.content-prose > p:first-of-type', value: "A good reservation tool should not be complicated. It mainly needs to avoid scheduling conflicts, make availability visible and define who can book what." },
+        { selector: '.content-prose h2:nth-of-type(1)', value: "3 points to check" }
+      
       ]
     },
     es: {
@@ -882,7 +976,11 @@ window.__CARLUSONE_PAGE_TRANSLATIONS = {
         { selector: '.page-hero .page-kicker', value: 'Reservas' },
         { selector: '.page-hero .page-title', value: 'Elegir un software de reservas simple' },
         { selector: '.blog-sidebar .content-card h3', value: 'Recursos relacionados' },
-        { selector: '.footer-bottom p', value: '© 2026 CarlusOne. Todos los derechos reservados.' }
+        { selector: '.footer-bottom p', value: '© 2026 CarlusOne. Todos los derechos reservados.' },
+        { selector: '.page-hero .page-subtitle', value: "Los criterios esenciales para evitar dobles reservas, aclarar los accesos y agilizar la organizacion." },
+        { selector: '.content-prose > p:first-of-type', value: "Un buen software de reservas no tiene que ser complicado. Sobre todo debe evitar conflictos de horario, hacer visible la disponibilidad y definir quien puede reservar que." },
+        { selector: '.content-prose h2:nth-of-type(1)', value: "3 puntos a verificar" }
+      
       ]
     }
   },
@@ -895,7 +993,11 @@ window.__CARLUSONE_PAGE_TRANSLATIONS = {
         { selector: '.page-hero .page-kicker', value: 'Comparison' },
         { selector: '.page-hero .page-title', value: 'Best task management applications' },
         { selector: '.blog-sidebar .content-card h3', value: 'Related resources' },
-        { selector: '.footer-bottom p', value: '© 2026 CarlusOne. All rights reserved.' }
+        { selector: '.footer-bottom p', value: '© 2026 CarlusOne. All rights reserved.' },
+        { selector: '.page-hero .page-subtitle', value: "Comparing task management tools requires more than a list of features. You need to understand the usage context." },
+        { selector: '.content-prose > p:first-of-type', value: "Many comparisons of task management apps just line up features. Yet the right criterion is not the number of options, but the tool's ability to save your organisation time." },
+        { selector: '.content-prose h2:nth-of-type(1)', value: "Comparison criteria" }
+      
       ]
     },
     es: {
@@ -906,7 +1008,11 @@ window.__CARLUSONE_PAGE_TRANSLATIONS = {
         { selector: '.page-hero .page-kicker', value: 'Comparativa' },
         { selector: '.page-hero .page-title', value: 'Mejores aplicaciones de gestion de tareas' },
         { selector: '.blog-sidebar .content-card h3', value: 'Recursos relacionados' },
-        { selector: '.footer-bottom p', value: '© 2026 CarlusOne. Todos los derechos reservados.' }
+        { selector: '.footer-bottom p', value: '© 2026 CarlusOne. Todos los derechos reservados.' },
+        { selector: '.page-hero .page-subtitle', value: "Comparar herramientas de gestion de tareas requiere mas que una lista de funciones. Hay que entender el contexto de uso." },
+        { selector: '.content-prose > p:first-of-type', value: "Muchas comparativas de aplicaciones de gestion de tareas se limitan a alinear funciones. Pero el criterio correcto no es la cantidad de opciones, sino la capacidad de la herramienta para hacer ganar tiempo a tu organizacion." },
+        { selector: '.content-prose h2:nth-of-type(1)', value: "Criterios de comparacion" }
+      
       ]
     }
   },
@@ -919,7 +1025,11 @@ window.__CARLUSONE_PAGE_TRANSLATIONS = {
         { selector: '.page-hero .page-kicker', value: 'Organization' },
         { selector: '.page-hero .page-title', value: 'Organize teamwork effectively' },
         { selector: '.blog-sidebar .content-card h3', value: 'Related resources' },
-        { selector: '.footer-bottom p', value: '© 2026 CarlusOne. All rights reserved.' }
+        { selector: '.footer-bottom p', value: '© 2026 CarlusOne. All rights reserved.' },
+        { selector: '.page-hero .page-subtitle', value: "Clarify responsibilities, share a calendar and reduce friction in daily execution." },
+        { selector: '.content-prose > p:first-of-type', value: "Team work organisation rests on three pillars: clear roles, visible tasks and a shared schedule. Without this, even a small team wastes time coordinating." },
+        { selector: '.content-prose h2:nth-of-type(1)', value: "What to put in place" }
+      
       ]
     },
     es: {
@@ -930,7 +1040,11 @@ window.__CARLUSONE_PAGE_TRANSLATIONS = {
         { selector: '.page-hero .page-kicker', value: 'Organizacion' },
         { selector: '.page-hero .page-title', value: 'Organizar el trabajo en equipo' },
         { selector: '.blog-sidebar .content-card h3', value: 'Recursos relacionados' },
-        { selector: '.footer-bottom p', value: '© 2026 CarlusOne. Todos los derechos reservados.' }
+        { selector: '.footer-bottom p', value: '© 2026 CarlusOne. Todos los derechos reservados.' },
+        { selector: '.page-hero .page-subtitle', value: "Aclarar las responsabilidades, compartir un calendario y reducir la friccion en la ejecucion diaria." },
+        { selector: '.content-prose > p:first-of-type', value: "La organizacion del trabajo en equipo se basa en tres pilares: roles claros, tareas visibles y un calendario compartido. Sin esto, incluso un equipo pequeno pierde tiempo coordinandose." },
+        { selector: '.content-prose h2:nth-of-type(1)', value: "Lo que hay que implementar" }
+      
       ]
     }
   },
@@ -943,7 +1057,11 @@ window.__CARLUSONE_PAGE_TRANSLATIONS = {
         { selector: '.page-hero .page-kicker', value: 'Freelance' },
         { selector: '.page-hero .page-title', value: 'Task management tool for freelancers' },
         { selector: '.blog-sidebar .content-card h3', value: 'Related resources' },
-        { selector: '.footer-bottom p', value: '© 2026 CarlusOne. All rights reserved.' }
+        { selector: '.footer-bottom p', value: '© 2026 CarlusOne. All rights reserved.' },
+        { selector: '.page-hero .page-subtitle', value: "A freelancer needs a fast, clear tool, free of useless friction and able to track real priorities." },
+        { selector: '.content-prose > p:first-of-type', value: "Freelancers often juggle production, client follow-up, admin and personal organisation. The ideal tool must not add mental load." },
+        { selector: '.content-prose h2:nth-of-type(1)', value: "Useful criteria" }
+      
       ]
     },
     es: {
@@ -954,7 +1072,11 @@ window.__CARLUSONE_PAGE_TRANSLATIONS = {
         { selector: '.page-hero .page-kicker', value: 'Freelance' },
         { selector: '.page-hero .page-title', value: 'Herramienta de gestion de tareas para freelance' },
         { selector: '.blog-sidebar .content-card h3', value: 'Recursos relacionados' },
-        { selector: '.footer-bottom p', value: '© 2026 CarlusOne. Todos los derechos reservados.' }
+        { selector: '.footer-bottom p', value: '© 2026 CarlusOne. Todos los derechos reservados.' },
+        { selector: '.page-hero .page-subtitle', value: "Un freelance necesita una herramienta rapida, clara, sin friccion innecesaria y capaz de seguir sus prioridades reales." },
+        { selector: '.content-prose > p:first-of-type', value: "El freelance suele alternar entre produccion, seguimiento de clientes, administracion y organizacion personal. La herramienta ideal no debe agregar carga mental." },
+        { selector: '.content-prose h2:nth-of-type(1)', value: "Criterios utiles" }
+      
       ]
     }
   },
@@ -967,7 +1089,11 @@ window.__CARLUSONE_PAGE_TRANSLATIONS = {
         { selector: '.page-hero .page-kicker', value: 'Planning' },
         { selector: '.page-hero .page-title', value: 'Weekly team planning' },
         { selector: '.blog-sidebar .content-card h3', value: 'Related resources' },
-        { selector: '.footer-bottom p', value: '© 2026 CarlusOne. All rights reserved.' }
+        { selector: '.footer-bottom p', value: '© 2026 CarlusOne. All rights reserved.' },
+        { selector: '.page-hero .page-subtitle', value: "How to structure the week without overloading collaborators or losing visibility on priorities." },
+        { selector: '.content-prose > p:first-of-type', value: "A well-planned week reduces pressure and improves execution quality. The goal is not to fill every calendar slot, but to secure important deliverables." },
+        { selector: '.content-prose h2:nth-of-type(1)', value: "4-step framework" }
+      
       ]
     },
     es: {
@@ -978,7 +1104,11 @@ window.__CARLUSONE_PAGE_TRANSLATIONS = {
         { selector: '.page-hero .page-kicker', value: 'Planificacion' },
         { selector: '.page-hero .page-title', value: 'Planificacion semanal de equipo' },
         { selector: '.blog-sidebar .content-card h3', value: 'Recursos relacionados' },
-        { selector: '.footer-bottom p', value: '© 2026 CarlusOne. Todos los derechos reservados.' }
+        { selector: '.footer-bottom p', value: '© 2026 CarlusOne. Todos los derechos reservados.' },
+        { selector: '.page-hero .page-subtitle', value: "Como estructurar la semana sin sobrecargar a los colaboradores ni perder visibilidad sobre las prioridades." },
+        { selector: '.content-prose > p:first-of-type', value: "Una semana bien planificada reduce la presion y mejora la calidad de ejecucion. El objetivo no es llenar todas las casillas del calendario, sino asegurar los entregables importantes." },
+        { selector: '.content-prose h2:nth-of-type(1)', value: "Marco en 4 etapas" }
+      
       ]
     }
   },
@@ -991,7 +1121,11 @@ window.__CARLUSONE_PAGE_TRANSLATIONS = {
         { selector: '.page-hero .page-kicker', value: 'Method' },
         { selector: '.page-hero .page-title', value: 'Build a simple todo list' },
         { selector: '.blog-sidebar .content-card h3', value: 'Related resources' },
-        { selector: '.footer-bottom p', value: '© 2026 CarlusOne. All rights reserved.' }
+        { selector: '.footer-bottom p', value: '© 2026 CarlusOne. All rights reserved.' },
+        { selector: '.page-hero .page-subtitle', value: "Most systems fail not because they are insufficient, but because they are too heavy to maintain." },
+        { selector: '.content-prose > p:first-of-type', value: "A simple todo list works when it stays actionable. If it becomes a warehouse of thoughts, it no longer helps you make progress." },
+        { selector: '.content-prose h2:nth-of-type(1)', value: "Basic rules" }
+      
       ]
     },
     es: {
@@ -1002,8 +1136,175 @@ window.__CARLUSONE_PAGE_TRANSLATIONS = {
         { selector: '.page-hero .page-kicker', value: 'Metodo' },
         { selector: '.page-hero .page-title', value: 'Construir una lista de tareas simple' },
         { selector: '.blog-sidebar .content-card h3', value: 'Recursos relacionados' },
-        { selector: '.footer-bottom p', value: '© 2026 CarlusOne. Todos los derechos reservados.' }
+        { selector: '.footer-bottom p', value: '© 2026 CarlusOne. Todos los derechos reservados.' },
+        { selector: '.page-hero .page-subtitle', value: "La mayoria de los sistemas falla no porque sean insuficientes, sino porque son demasiado pesados de mantener." },
+        { selector: '.content-prose > p:first-of-type', value: "Una lista de tareas simple funciona cuando sigue siendo accionable. Si se convierte en un almacen de ideas, deja de ayudar a avanzar." },
+        { selector: '.content-prose h2:nth-of-type(1)', value: "Reglas basicas" }
+      
+      ]
+    }
+  },
+  '/blog/activites-educatives-maison/': {
+    en: {
+      title: "Educational activities at home | Simple 2026 guide",
+      description: "Simple educational activities to do at home to strengthen vocabulary, mental math and autonomy in children.",
+      text: [
+        { selector: '.page-hero .breadcrumb span:last-child', value: "Educational activities at home" },
+        { selector: '.page-hero .page-kicker', value: "Education" },
+        { selector: '.page-hero .page-title', value: "Educational activities at home" },
+        { selector: '.page-hero .page-subtitle', value: "A simple framework to learn regularly without turning the home into a classroom." },
+        { selector: '.content-prose > p:first-of-type', value: "Helping a child learn at home does not require long sessions. A short, repetitive and playful routine is often more effective." },
+        { selector: '.content-prose h2:nth-of-type(1)', value: "Recommended 20-minute routine" },
+        { selector: '.blog-sidebar .content-card h3', value: "Related app" },
+        { selector: '.footer-bottom p', value: '\u00A9 2026 CarlusOne. All rights reserved.' }
+      ]
+    },
+    es: {
+      title: "Actividades educativas en casa | Guia simple 2026",
+      description: "Actividades educativas simples para hacer en casa y reforzar vocabulario, calculo mental y autonomia en los ninos.",
+      text: [
+        { selector: '.page-hero .breadcrumb span:last-child', value: "Actividades educativas en casa" },
+        { selector: '.page-hero .page-kicker', value: "Educacion" },
+        { selector: '.page-hero .page-title', value: "Actividades educativas en casa" },
+        { selector: '.page-hero .page-subtitle', value: "Un marco sencillo para aprender con regularidad sin convertir la casa en un aula." },
+        { selector: '.content-prose > p:first-of-type', value: "Ayudar a un nino a aprender en casa no requiere sesiones largas. Una rutina corta, repetitiva y divertida suele ser mas efectiva." },
+        { selector: '.content-prose h2:nth-of-type(1)', value: "Rutina recomendada de 20 minutos" },
+        { selector: '.blog-sidebar .content-card h3', value: "Aplicacion relacionada" },
+        { selector: '.footer-bottom p', value: '\u00A9 2026 CarlusOne. Todos los derechos reservados.' }
+      ]
+    }
+  },
+  '/blog/defi-calcul-mental-classe-5-minutes/': {
+    en: {
+      title: "Mental math challenge in class: 5-minute teacher method",
+      description: "A simple method to train addition, subtraction, multiplication and division in class with a 5-minute challenge.",
+      text: [
+        { selector: '.page-hero .breadcrumb span:last-child', value: "5-minute classroom mental math challenge" },
+        { selector: '.page-hero .page-kicker', value: "Education" },
+        { selector: '.page-hero .page-title', value: "Mental math challenge in class: 5-minute teacher method" },
+        { selector: '.page-hero .page-subtitle', value: "A progressive, concrete and easy-to-implement framework to make students solid in basic arithmetic." },
+        { selector: '.content-prose > p:first-of-type', value: "A short ritual, repeated each day, can lasting change classroom mastery of mental arithmetic. The idea is simple: print operation sheets, time 5 minutes, then correct quickly to track progress." },
+        { selector: '.content-prose h2:nth-of-type(1)', value: "Educational objective" },
+        { selector: '.content-prose h2:nth-of-type(2)', value: "Recommended progression" },
+        { selector: '.content-prose h2:nth-of-type(3)', value: "Classroom organisation" },
+        { selector: '.content-prose h2:nth-of-type(4)', value: "Final stage: mixed operations" },
+        { selector: '.content-prose h2:nth-of-type(5)', value: "Expected outcomes" },
+        { selector: '.blog-sidebar .content-card h3', value: "Related resources" },
+        { selector: '.footer-bottom p', value: '\u00A9 2026 CarlusOne. All rights reserved.' }
+      ]
+    },
+    es: {
+      title: "Desafio de calculo mental en clase: metodo docente de 5 minutos",
+      description: "Un metodo simple para entrenar suma, resta, multiplicacion y division en clase con un desafio de 5 minutos.",
+      text: [
+        { selector: '.page-hero .breadcrumb span:last-child', value: "Desafio de calculo mental 5 minutos" },
+        { selector: '.page-hero .page-kicker', value: "Educacion" },
+        { selector: '.page-hero .page-title', value: "Desafio de calculo mental en clase: metodo docente de 5 minutos" },
+        { selector: '.page-hero .page-subtitle', value: "Un marco progresivo, concreto y facil de implementar para que los alumnos dominen el calculo basico." },
+        { selector: '.content-prose > p:first-of-type', value: "Un ritual corto, repetido cada dia, puede cambiar de forma duradera el dominio del calculo en clase. La idea es simple: imprimir hojas de operaciones, cronometrar 5 minutos y corregir rapido para seguir la progresion." },
+        { selector: '.content-prose h2:nth-of-type(1)', value: "Objetivo pedagogico" },
+        { selector: '.content-prose h2:nth-of-type(2)', value: "Progresion recomendada" },
+        { selector: '.content-prose h2:nth-of-type(3)', value: "Organizacion en clase" },
+        { selector: '.content-prose h2:nth-of-type(4)', value: "Etapa final: operaciones mezcladas" },
+        { selector: '.content-prose h2:nth-of-type(5)', value: "Resultados esperados" },
+        { selector: '.blog-sidebar .content-card h3', value: "Recursos relacionados" },
+        { selector: '.footer-bottom p', value: '\u00A9 2026 CarlusOne. Todos los derechos reservados.' }
+      ]
+    }
+  },
+  '/blog/flashcards-enfant-methode-simple/': {
+    en: {
+      title: "Flashcards for children | Simple and effective method",
+      description: "How to use flashcards with a child: ideal duration, pace, mistakes to avoid and visible progress.",
+      text: [
+        { selector: '.page-hero .breadcrumb span:last-child', value: "Flashcards for children" },
+        { selector: '.page-hero .page-kicker', value: "Education" },
+        { selector: '.page-hero .page-title', value: "Flashcards for children: simple method" },
+        { selector: '.page-hero .page-subtitle', value: "A clear method to memorise better, with short sessions and lasting progress." },
+        { selector: '.content-prose > p:first-of-type', value: "Flashcards are effective when used at a regular pace and with a limited number of cards per session." },
+        { selector: '.content-prose h2:nth-of-type(1)', value: "Recommended structure" },
+        { selector: '.blog-sidebar .content-card h3', value: "Related app" },
+        { selector: '.footer-bottom p', value: '\u00A9 2026 CarlusOne. All rights reserved.' }
+      ]
+    },
+    es: {
+      title: "Flashcards para ninos | Metodo simple y eficaz",
+      description: "Como usar flashcards con un nino: duracion ideal, ritmo, errores a evitar y progreso visible.",
+      text: [
+        { selector: '.page-hero .breadcrumb span:last-child', value: "Flashcards para ninos" },
+        { selector: '.page-hero .page-kicker', value: "Educacion" },
+        { selector: '.page-hero .page-title', value: "Flashcards para ninos: metodo simple" },
+        { selector: '.page-hero .page-subtitle', value: "Un metodo claro para memorizar mejor, con sesiones cortas y progreso duradero." },
+        { selector: '.content-prose > p:first-of-type', value: "Las flashcards son efectivas cuando se usan a un ritmo regular y con un numero limitado de tarjetas por sesion." },
+        { selector: '.content-prose h2:nth-of-type(1)', value: "Estructura recomendada" },
+        { selector: '.blog-sidebar .content-card h3', value: "Aplicacion relacionada" },
+        { selector: '.footer-bottom p', value: '\u00A9 2026 CarlusOne. Todos los derechos reservados.' }
+      ]
+    }
+  },
+  '/blog/optimiser-planning-reservations/': {
+    en: {
+      title: "Optimise the reservation schedule | Practical method",
+      description: "How to optimise a reservation schedule to reduce conflicts, better use resources and save time.",
+      text: [
+        { selector: '.page-hero .breadcrumb span:last-child', value: "Optimise reservation schedule" },
+        { selector: '.page-hero .page-kicker', value: "Reservations" },
+        { selector: '.page-hero .page-title', value: "Optimise the reservation schedule" },
+        { selector: '.page-hero .page-subtitle', value: "A concrete method to streamline resource usage and reduce conflicts." },
+        { selector: '.content-prose > p:first-of-type', value: "An inefficient reservation schedule quickly creates tension: duplicates, last-minute cancellations and wasted time." },
+        { selector: '.content-prose h2:nth-of-type(1)', value: "4-step optimisation plan" },
+        { selector: '.blog-sidebar .content-card h3', value: "Related app" },
+        { selector: '.footer-bottom p', value: '\u00A9 2026 CarlusOne. All rights reserved.' }
+      ]
+    },
+    es: {
+      title: "Optimizar el calendario de reservas | Metodo practico",
+      description: "Como optimizar un calendario de reservas para reducir conflictos, usar mejor los recursos y ganar tiempo.",
+      text: [
+        { selector: '.page-hero .breadcrumb span:last-child', value: "Optimizar el calendario de reservas" },
+        { selector: '.page-hero .page-kicker', value: "Reservas" },
+        { selector: '.page-hero .page-title', value: "Optimizar el calendario de reservas" },
+        { selector: '.page-hero .page-subtitle', value: "Un metodo concreto para fluidizar el uso de los recursos y reducir los conflictos." },
+        { selector: '.content-prose > p:first-of-type', value: "Un calendario de reservas ineficiente genera rapidamente tensiones: duplicados, cancelaciones de ultimo minuto y perdida de tiempo." },
+        { selector: '.content-prose h2:nth-of-type(1)', value: "Plan de optimizacion en 4 pasos" },
+        { selector: '.blog-sidebar .content-card h3', value: "Aplicacion relacionada" },
+        { selector: '.footer-bottom p', value: '\u00A9 2026 CarlusOne. Todos los derechos reservados.' }
+      ]
+    }
+  },
+  '/blog/reduire-annulations-reservations/': {
+    en: {
+      title: "Reduce reservation cancellations | Practical advice",
+      description: "Concrete actions to reduce reservation cancellations and make your organisation more reliable.",
+      text: [
+        { selector: '.page-hero .breadcrumb span:last-child', value: "Reduce reservation cancellations" },
+        { selector: '.page-hero .page-kicker', value: "Reservations" },
+        { selector: '.page-hero .page-title', value: "Reduce reservation cancellations" },
+        { selector: '.page-hero .page-subtitle', value: "A simple plan to make your reservations more reliable and protect resource availability." },
+        { selector: '.content-prose > p:first-of-type', value: "Cancellations cannot be eliminated entirely, but they can be greatly reduced with a few clear rules." },
+        { selector: '.content-prose h2:nth-of-type(1)', value: "Priority actions" },
+        { selector: '.blog-sidebar .content-card h3', value: "Related app" },
+        { selector: '.footer-bottom p', value: '\u00A9 2026 CarlusOne. All rights reserved.' }
+      ]
+    },
+    es: {
+      title: "Reducir las cancelaciones de reservas | Consejos practicos",
+      description: "Acciones concretas para reducir las cancelaciones de reservas y hacer tu organizacion mas fiable.",
+      text: [
+        { selector: '.page-hero .breadcrumb span:last-child', value: "Reducir cancelaciones de reservas" },
+        { selector: '.page-hero .page-kicker', value: "Reservas" },
+        { selector: '.page-hero .page-title', value: "Reducir las cancelaciones de reservas" },
+        { selector: '.page-hero .page-subtitle', value: "Un plan sencillo para hacer mas fiables tus reservas y proteger la disponibilidad de tus recursos." },
+        { selector: '.content-prose > p:first-of-type', value: "Las cancelaciones no pueden eliminarse por completo, pero pueden reducirse mucho con algunas reglas claras." },
+        { selector: '.content-prose h2:nth-of-type(1)', value: "Acciones prioritarias" },
+        { selector: '.blog-sidebar .content-card h3', value: "Aplicacion relacionada" },
+        { selector: '.footer-bottom p', value: '\u00A9 2026 CarlusOne. Todos los derechos reservados.' }
       ]
     }
   }
+
+
+
+
+
 };;
