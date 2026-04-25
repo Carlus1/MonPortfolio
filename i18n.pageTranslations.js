@@ -1747,10 +1747,30 @@ window.__CARLUSONE_PAGE_TRANSLATIONS = {
         { selector: '.page-hero .page-kicker', value: "Reservations" },
         { selector: '.page-hero .page-title', value: "Reduce reservation cancellations" },
         { selector: '.page-hero .page-subtitle', value: "A simple plan to make your reservations more reliable and protect resource availability." },
-        { selector: '.content-prose > p:first-of-type', value: "Cancellations cannot be eliminated entirely, but they can be greatly reduced with a few clear rules." },
+        { selector: '.content-prose > p:nth-of-type(1)', value: "Cancellations cannot be eliminated entirely, but they can be greatly reduced with a few clear rules." },
         { selector: '.content-prose h2:nth-of-type(1)', value: "Priority actions" },
-        { selector: '.blog-sidebar .content-card h3', value: "Related app" },
+        { selector: '.content-prose ul > li:nth-child(1)', value: "Set a cancellation deadline (e.g. 24 hours)." },
+        { selector: '.content-prose ul > li:nth-child(2)', value: "Add a mandatory reason in case of cancellation." },
+        { selector: '.content-prose ul > li:nth-child(3)', value: "Send reminders the day before and the same day." },
+        { selector: '.content-prose ul > li:nth-child(4)', value: "Track the main causes monthly." },
+        { selector: '.content-prose > p:nth-of-type(2)', value: "This discipline helps identify systemic issues and improve overall reliability." },
+        { selector: '.blog-sidebar .content-card:nth-of-type(1) h3', value: "Related app" },
+        { selector: '.blog-sidebar .content-card:nth-of-type(1) p', value: "GestReserve helps reduce avoidable cancellations and stabilise the schedule." },
+        { selector: '.blog-sidebar .content-card:nth-of-type(1) .button-row a', value: "See GestReserve" },
+        { selector: '.blog-sidebar .content-card:nth-of-type(2) h3', value: "Read next" },
+        { selector: '.blog-sidebar .content-card:nth-of-type(2) .note-list a:nth-of-type(1)', value: "Optimise the reservation schedule" },
+        { selector: '.blog-sidebar .content-card:nth-of-type(2) .note-list a:nth-of-type(2)', value: "Choose simple reservation software" },
+        { selector: '.section-header .section-title', value: "Frequently asked questions" },
+        { selector: '.faq-item:nth-of-type(1) .faq-question span', value: "Why are cancellations increasing?" },
+        { selector: '.faq-item:nth-of-type(1) .faq-answer', value: "Common causes are lack of reminders, unclear rules and the absence of an overall view of availability." },
+        { selector: '.faq-item:nth-of-type(2) .faq-question span', value: "How to reduce last-minute cancellations?" },
+        { selector: '.faq-item:nth-of-type(2) .faq-answer', value: "Set deadline rules, send reminders and track cancellation reasons to fix recurring causes." },
+        { selector: '.faq-item:nth-of-type(3) .faq-question span', value: "Which tool helps better track reservations?" },
+        { selector: '.faq-item:nth-of-type(3) .faq-answer', value: "GestReserve helps structure reservations and limit avoidable cancellations." },
         { selector: '.footer-bottom p', value: '\u00A9 2026 CarlusOne. All rights reserved.' }
+      ],
+      html: [
+        { selector: '.content-prose > p:nth-of-type(3)', value: '<a href="/applications/gestreserve/">GestReserve</a> makes this tracking easier with a centralised calendar and management rules per group.' }
       ]
     },
     es: {
@@ -1761,10 +1781,30 @@ window.__CARLUSONE_PAGE_TRANSLATIONS = {
         { selector: '.page-hero .page-kicker', value: "Reservas" },
         { selector: '.page-hero .page-title', value: "Reducir las cancelaciones de reservas" },
         { selector: '.page-hero .page-subtitle', value: "Un plan sencillo para hacer mas fiables tus reservas y proteger la disponibilidad de tus recursos." },
-        { selector: '.content-prose > p:first-of-type', value: "Las cancelaciones no pueden eliminarse por completo, pero pueden reducirse mucho con algunas reglas claras." },
+        { selector: '.content-prose > p:nth-of-type(1)', value: "Las cancelaciones no pueden eliminarse por completo, pero pueden reducirse mucho con algunas reglas claras." },
         { selector: '.content-prose h2:nth-of-type(1)', value: "Acciones prioritarias" },
-        { selector: '.blog-sidebar .content-card h3', value: "Aplicacion relacionada" },
+        { selector: '.content-prose ul > li:nth-child(1)', value: "Fijar un plazo de cancelacion (ej. 24 horas)." },
+        { selector: '.content-prose ul > li:nth-child(2)', value: "Anadir un motivo obligatorio en caso de cancelacion." },
+        { selector: '.content-prose ul > li:nth-child(3)', value: "Enviar recordatorios la vispera y el mismo dia." },
+        { selector: '.content-prose ul > li:nth-child(4)', value: "Hacer seguimiento mensual de las causas principales." },
+        { selector: '.content-prose > p:nth-of-type(2)', value: "Esta disciplina permite identificar los problemas sistemicos y mejorar la fiabilidad global." },
+        { selector: '.blog-sidebar .content-card:nth-of-type(1) h3', value: "Aplicacion relacionada" },
+        { selector: '.blog-sidebar .content-card:nth-of-type(1) p', value: "GestReserve ayuda a reducir las cancelaciones evitables y estabilizar el calendario." },
+        { selector: '.blog-sidebar .content-card:nth-of-type(1) .button-row a', value: "Ver GestReserve" },
+        { selector: '.blog-sidebar .content-card:nth-of-type(2) h3', value: "Leer a continuacion" },
+        { selector: '.blog-sidebar .content-card:nth-of-type(2) .note-list a:nth-of-type(1)', value: "Optimizar el calendario de reservas" },
+        { selector: '.blog-sidebar .content-card:nth-of-type(2) .note-list a:nth-of-type(2)', value: "Elegir un software de reservas simple" },
+        { selector: '.section-header .section-title', value: "Preguntas frecuentes" },
+        { selector: '.faq-item:nth-of-type(1) .faq-question span', value: "Por que aumentan las cancelaciones?" },
+        { selector: '.faq-item:nth-of-type(1) .faq-answer', value: "Las causas frecuentes son la falta de recordatorios, reglas poco claras y la ausencia de una vision global de las disponibilidades." },
+        { selector: '.faq-item:nth-of-type(2) .faq-question span', value: "Como reducir las cancelaciones de ultima hora?" },
+        { selector: '.faq-item:nth-of-type(2) .faq-answer', value: "Define reglas de plazo, envia recordatorios y haz seguimiento de los motivos de cancelacion para corregir las causas recurrentes." },
+        { selector: '.faq-item:nth-of-type(3) .faq-question span', value: "Que herramienta ayuda a seguir mejor las reservas?" },
+        { selector: '.faq-item:nth-of-type(3) .faq-answer', value: "GestReserve ayuda a estructurar las reservas y limitar las cancelaciones evitables." },
         { selector: '.footer-bottom p', value: '\u00A9 2026 CarlusOne. Todos los derechos reservados.' }
+      ],
+      html: [
+        { selector: '.content-prose > p:nth-of-type(3)', value: '<a href="/applications/gestreserve/">GestReserve</a> facilita este seguimiento con un calendario centralizado y reglas de gestion por grupo.' }
       ]
     }
   }
