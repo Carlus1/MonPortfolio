@@ -1150,33 +1150,57 @@ window.__CARLUSONE_PAGE_TRANSLATIONS = {
   },
   '/blog/outil-gestion-taches-freelance/': {
     en: {
-      title: 'Task management tool for freelancers',
-      description: 'How freelancers can choose a lightweight task management tool.',
+      title: 'Which task management tool for a freelancer?',
+      description: 'How to choose a task management tool for freelancers without falling into heavy software.',
       text: [
-        { selector: '.page-hero .breadcrumb span:last-child', value: 'Freelance task tool' },
-        { selector: '.page-hero .page-kicker', value: 'Freelance' },
-        { selector: '.page-hero .page-title', value: 'Task management tool for freelancers' },
-        { selector: '.blog-sidebar .content-card h3', value: 'Related resources' },
-        { selector: '.footer-bottom p', value: '© 2026 CarlusOne. All rights reserved.' },
-        { selector: '.page-hero .page-subtitle', value: "A freelancer needs a fast, clear tool, free of useless friction and able to track real priorities." },
-        { selector: '.content-prose > p:first-of-type', value: "Freelancers often juggle production, client follow-up, admin and personal organisation. The ideal tool must not add mental load." },
-        { selector: '.content-prose h2:nth-of-type(1)', value: "Useful criteria" }
-      
+        { selector: '.page-hero .breadcrumb span:last-child', value: 'Task tool for freelancers' },
+        { selector: '.page-hero .page-kicker', value: 'Article' },
+        { selector: '.page-hero .page-title', value: 'Which task management tool for a freelancer?' },
+        { selector: '.page-hero .page-subtitle', value: 'A freelancer needs a fast, clear tool, free of useless friction and able to track real priorities.' },
+        { selector: '.content-prose > p:nth-of-type(1)', value: 'Freelancers often juggle production, client follow-up, admin and personal organisation. The ideal tool must not add mental load.' },
+        { selector: '.content-prose > p:nth-of-type(2)', value: 'You need a simple tool with clear logic for priorities, calendar and tracking. If you mostly work alone, simplicity comes first. If you collaborate regularly, you need a tool able to handle several people and several contexts.' },
+        { selector: '.content-prose h2:nth-of-type(1)', value: 'Useful criteria' },
+        { selector: '.content-prose ul > li:nth-child(1)', value: 'Interface that is quick to understand' },
+        { selector: '.content-prose ul > li:nth-child(2)', value: 'Visible calendar or schedule' },
+        { selector: '.content-prose ul > li:nth-child(3)', value: 'Little configuration' },
+        { selector: '.content-prose ul > li:nth-child(4)', value: 'Able to scale up if your business grows' },
+        { selector: '.blog-sidebar .content-card:nth-of-type(1) h3', value: 'Recommended app' },
+        { selector: '.blog-sidebar .content-card:nth-of-type(1) .button-row a', value: 'Try GestTaches' },
+        { selector: '.blog-sidebar .content-card:nth-of-type(2) h3', value: 'Read also' },
+        { selector: '.blog-sidebar .content-card:nth-of-type(2) .note-list a:nth-of-type(1)', value: 'Simple todo list' },
+        { selector: '.blog-sidebar .content-card:nth-of-type(2) .note-list a:nth-of-type(2)', value: 'Compare apps' },
+        { selector: '.footer-bottom p', value: '\u00A9 2026 CarlusOne. All rights reserved.' }
+      ],
+      html: [
+        { selector: '.content-prose > p:nth-of-type(3)', value: 'For a need focused on action organisation, <a href="/applications/gesttaches/">GestTaches</a> is the best starting point in the CarlusOne suite.' },
+        { selector: '.blog-sidebar .content-card:nth-of-type(1) p', value: 'Start with <a href="/applications/gesttaches/">GestTaches</a> if you are looking for clear and structured task management.' }
       ]
     },
     es: {
-      title: 'Herramienta de gestion de tareas para freelance',
-      description: 'Como elegir una herramienta ligera de gestion de tareas para freelance.',
+      title: 'Que herramienta de gestion de tareas para un freelance?',
+      description: 'Como elegir una herramienta de gestion de tareas para freelance sin caer en software demasiado pesado.',
       text: [
         { selector: '.page-hero .breadcrumb span:last-child', value: 'Herramienta tareas freelance' },
-        { selector: '.page-hero .page-kicker', value: 'Freelance' },
-        { selector: '.page-hero .page-title', value: 'Herramienta de gestion de tareas para freelance' },
-        { selector: '.blog-sidebar .content-card h3', value: 'Recursos relacionados' },
-        { selector: '.footer-bottom p', value: '© 2026 CarlusOne. Todos los derechos reservados.' },
-        { selector: '.page-hero .page-subtitle', value: "Un freelance necesita una herramienta rapida, clara, sin friccion innecesaria y capaz de seguir sus prioridades reales." },
-        { selector: '.content-prose > p:first-of-type', value: "El freelance suele alternar entre produccion, seguimiento de clientes, administracion y organizacion personal. La herramienta ideal no debe agregar carga mental." },
-        { selector: '.content-prose h2:nth-of-type(1)', value: "Criterios utiles" }
-      
+        { selector: '.page-hero .page-kicker', value: 'Articulo' },
+        { selector: '.page-hero .page-title', value: 'Que herramienta de gestion de tareas para un freelance?' },
+        { selector: '.page-hero .page-subtitle', value: 'Un freelance necesita una herramienta rapida, clara, sin friccion innecesaria y capaz de seguir sus prioridades reales.' },
+        { selector: '.content-prose > p:nth-of-type(1)', value: 'El freelance suele alternar entre produccion, seguimiento de clientes, administracion y organizacion personal. La herramienta ideal no debe agregar carga mental.' },
+        { selector: '.content-prose > p:nth-of-type(2)', value: 'Hay que buscar una herramienta simple, con una logica clara de prioridades, calendario y seguimiento. Si trabajas sobre todo solo, la simplicidad es lo primero. Si colaboras a menudo, necesitas una herramienta capaz de gestionar varias personas y varios contextos.' },
+        { selector: '.content-prose h2:nth-of-type(1)', value: 'Criterios utiles' },
+        { selector: '.content-prose ul > li:nth-child(1)', value: 'Interfaz rapida de entender' },
+        { selector: '.content-prose ul > li:nth-child(2)', value: 'Calendario o agenda visible' },
+        { selector: '.content-prose ul > li:nth-child(3)', value: 'Poca configuracion' },
+        { selector: '.content-prose ul > li:nth-child(4)', value: 'Posibilidad de evolucionar si la actividad crece' },
+        { selector: '.blog-sidebar .content-card:nth-of-type(1) h3', value: 'Aplicacion recomendada' },
+        { selector: '.blog-sidebar .content-card:nth-of-type(1) .button-row a', value: 'Probar GestTaches' },
+        { selector: '.blog-sidebar .content-card:nth-of-type(2) h3', value: 'Leer tambien' },
+        { selector: '.blog-sidebar .content-card:nth-of-type(2) .note-list a:nth-of-type(1)', value: 'Lista de tareas simple' },
+        { selector: '.blog-sidebar .content-card:nth-of-type(2) .note-list a:nth-of-type(2)', value: 'Comparar aplicaciones' },
+        { selector: '.footer-bottom p', value: '\u00A9 2026 CarlusOne. Todos los derechos reservados.' }
+      ],
+      html: [
+        { selector: '.content-prose > p:nth-of-type(3)', value: 'Para una necesidad centrada en la organizacion de acciones, <a href="/applications/gesttaches/">GestTaches</a> es el mejor punto de partida en la suite CarlusOne.' },
+        { selector: '.blog-sidebar .content-card:nth-of-type(1) p', value: 'Empieza con <a href="/applications/gesttaches/">GestTaches</a> si buscas una gestion de tareas clara y estructurada.' }
       ]
     }
   },
