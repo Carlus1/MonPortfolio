@@ -565,15 +565,20 @@ window.__CARLUSONE_PAGE_TRANSLATIONS = {
         { selector: '.page-hero .page-kicker', value: 'Canada' },
         { selector: '.page-hero .page-title', value: 'Personal budget app in Canada' },
         { selector: '.page-hero .page-subtitle', value: 'How to choose a clear app to manage a monthly budget in Canadian dollars.' },
-        { selector: '.content-prose h2', value: 'Key elements' },
+        { selector: '.content-prose > p:nth-of-type(1)', value: 'To properly manage a personal budget in Canada, you need a quick view of income, expenses and categories. The goal is not to track every complex detail, but to keep clear oversight.' },
+        { selector: '.content-prose h2:nth-of-type(1)', value: 'Important elements' },
+        { selector: '.content-prose ul > li:nth-child(1)', value: 'Tracking of recurring expenses.' },
+        { selector: '.content-prose ul > li:nth-child(2)', value: 'Monthly view of balances.' },
+        { selector: '.content-prose ul > li:nth-child(3)', value: 'Categories that are easy to adjust.' },
+        { selector: '.content-prose ul > li:nth-child(4)', value: 'Readable mobile interface.' },
         { selector: '.blog-sidebar .content-card h3', value: 'Related resources' },
-        { selector: '.blog-sidebar .note-list a:nth-child(1)', value: 'Family budget app' },
-        { selector: '.blog-sidebar .note-list a:nth-child(2)', value: 'Apps with free trial' },
-        { selector: '.blog-sidebar .note-list a:nth-child(3)', value: 'GestBudget product page' },
-        { selector: '.footer-bottom p', value: '© 2026 CarlusOne. All rights reserved.' },
-        { selector: '.content-prose > p:first-of-type', value: "To properly manage a personal budget in Canada, you need a quick view of income, expenses and categories. The goal is not to track every complex detail, but to keep clear oversight." },
-        { selector: '.content-prose h2:nth-of-type(1)', value: "Important elements" }
-      
+        { selector: '.blog-sidebar .note-list a:nth-of-type(1)', value: 'Family budget app' },
+        { selector: '.blog-sidebar .note-list a:nth-of-type(2)', value: 'Apps with free trial' },
+        { selector: '.blog-sidebar .note-list a:nth-of-type(3)', value: 'GestBudget product page' },
+        { selector: '.footer-bottom p', value: '\u00A9 2026 CarlusOne. All rights reserved.' }
+      ],
+      html: [
+        { selector: '.content-prose > p:nth-of-type(2)', value: '<a href="/applications/gestbudget/">GestBudget</a> fits this approach and stays simple to use day to day.' }
       ]
     },
     es: {
@@ -583,16 +588,21 @@ window.__CARLUSONE_PAGE_TRANSLATIONS = {
         { selector: '.page-hero .breadcrumb span:last-child', value: 'Aplicacion presupuesto Canada' },
         { selector: '.page-hero .page-kicker', value: 'Canada' },
         { selector: '.page-hero .page-title', value: 'Aplicacion de presupuesto personal en Canada' },
-        { selector: '.page-hero .page-subtitle', value: 'Como elegir una aplicacion clara para gestionar presupuesto mensual en dolares canadienses.' },
-        { selector: '.content-prose h2', value: 'Elementos importantes' },
+        { selector: '.page-hero .page-subtitle', value: 'Como elegir una aplicacion clara para pilotar un presupuesto mensual en dolares canadienses.' },
+        { selector: '.content-prose > p:nth-of-type(1)', value: 'Para gestionar bien un presupuesto personal en Canada, necesitas una vision rapida de ingresos, gastos y categorias. El objetivo no es seguir cada detalle complejo, sino mantener un control claro.' },
+        { selector: '.content-prose h2:nth-of-type(1)', value: 'Elementos importantes' },
+        { selector: '.content-prose ul > li:nth-child(1)', value: 'Seguimiento de los gastos recurrentes.' },
+        { selector: '.content-prose ul > li:nth-child(2)', value: 'Vision mensual de los saldos.' },
+        { selector: '.content-prose ul > li:nth-child(3)', value: 'Categorias faciles de ajustar.' },
+        { selector: '.content-prose ul > li:nth-child(4)', value: 'Interfaz movil legible.' },
         { selector: '.blog-sidebar .content-card h3', value: 'Recursos relacionados' },
-        { selector: '.blog-sidebar .note-list a:nth-child(1)', value: 'Aplicacion presupuesto familiar' },
-        { selector: '.blog-sidebar .note-list a:nth-child(2)', value: 'Aplicaciones con prueba gratuita' },
-        { selector: '.blog-sidebar .note-list a:nth-child(3)', value: 'Pagina de producto GestBudget' },
-        { selector: '.footer-bottom p', value: '© 2026 CarlusOne. Todos los derechos reservados.' },
-        { selector: '.content-prose > p:first-of-type', value: "Para gestionar bien un presupuesto personal en Canada, necesitas una vision rapida de ingresos, gastos y categorias. El objetivo no es seguir cada detalle complejo, sino mantener un control claro." },
-        { selector: '.content-prose h2:nth-of-type(1)', value: "Elementos importantes" }
-      
+        { selector: '.blog-sidebar .note-list a:nth-of-type(1)', value: 'Aplicacion presupuesto familiar' },
+        { selector: '.blog-sidebar .note-list a:nth-of-type(2)', value: 'Aplicaciones con prueba gratuita' },
+        { selector: '.blog-sidebar .note-list a:nth-of-type(3)', value: 'Pagina de producto GestBudget' },
+        { selector: '.footer-bottom p', value: '\u00A9 2026 CarlusOne. Todos los derechos reservados.' }
+      ],
+      html: [
+        { selector: '.content-prose > p:nth-of-type(2)', value: '<a href="/applications/gestbudget/">GestBudget</a> esta adaptado a esta logica y resulta simple de usar a diario.' }
       ]
     }
   },
