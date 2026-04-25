@@ -911,34 +911,60 @@ window.__CARLUSONE_PAGE_TRANSLATIONS = {
   '/blog/gerer-ses-taches-efficacement/': {
     en: {
       title: 'Manage your tasks effectively',
-      description: 'Simple methods to prioritize better and avoid task overload.',
+      description: 'How to manage your tasks effectively with a simple, realistic and lasting system.',
       text: [
         { selector: '.page-hero .breadcrumb span:last-child', value: 'Manage tasks effectively' },
-        { selector: '.page-hero .page-kicker', value: 'Task management' },
+        { selector: '.page-hero .page-kicker', value: 'Article' },
         { selector: '.page-hero .page-title', value: 'Manage your tasks effectively' },
-        { selector: '.blog-sidebar .content-card h3', value: 'Related resources' },
-        { selector: '.footer-bottom p', value: '© 2026 CarlusOne. All rights reserved.' },
-        { selector: '.page-hero .page-subtitle', value: "A simple method to better track your actions, reduce mental load and avoid overly complex systems." },
-        { selector: '.content-prose > p:first-of-type', value: "The challenge of task management does not always come from a lack of tools. It often comes from an excess of unprioritised information. When everything is a priority, nothing really is." },
-        { selector: '.content-prose h2:nth-of-type(1)', value: "A simple method" },
-        { selector: '.content-prose h2:nth-of-type(2)', value: "When to switch to a dedicated tool?" }
-      
+        { selector: '.page-hero .page-subtitle', value: 'A simple method to better track your actions, reduce mental load and avoid overly complex systems.' },
+        { selector: '.content-prose > p:nth-of-type(1)', value: 'The challenge of task management does not always come from a lack of tools. It often comes from an excess of unprioritised information. When everything is a priority, nothing really is.' },
+        { selector: '.content-prose > p:nth-of-type(2)', value: 'To manage your tasks effectively, you must first distinguish actionable tasks, ideas, ongoing projects and fixed deadlines. Without this separation, a simple list quickly becomes an unmanageable catch-all.' },
+        { selector: '.content-prose h2:nth-of-type(1)', value: 'A simple method' },
+        { selector: '.content-prose ol > li:nth-child(1)', value: 'Centralise all tasks in a single place.' },
+        { selector: '.content-prose ol > li:nth-child(2)', value: 'Define owners and deadlines.' },
+        { selector: '.content-prose ol > li:nth-child(3)', value: 'Review the list every day or every week.' },
+        { selector: '.content-prose ol > li:nth-child(4)', value: 'Remove obsolete tasks.' },
+        { selector: '.content-prose h2:nth-of-type(2)', value: 'When to switch to a dedicated tool?' },
+        { selector: '.content-prose > p:nth-of-type(4)', value: 'As soon as you need to share responsibilities, track recurrences or share a calendar, a specialised tool becomes useful. It prevents oversights and makes priorities visible.' },
+        { selector: '.blog-sidebar .content-card:nth-of-type(1) h3', value: 'Recommended app' },
+        { selector: '.blog-sidebar .content-card:nth-of-type(1) .button-row a', value: 'Try GestTaches' },
+        { selector: '.blog-sidebar .content-card:nth-of-type(2) h3', value: 'Read next' },
+        { selector: '.blog-sidebar .content-card:nth-of-type(2) .note-list a:nth-of-type(1)', value: 'Compare task management apps' },
+        { selector: '.blog-sidebar .content-card:nth-of-type(2) .note-list a:nth-of-type(2)', value: 'Organise teamwork' },
+        { selector: '.footer-bottom p', value: '\u00A9 2026 CarlusOne. All rights reserved.' }
+      ],
+      html: [
+        { selector: '.content-prose > p:nth-of-type(3)', value: 'If you manage a team, <a href="/applications/gesttaches/">GestTaches</a> helps structure this work with more clarity than a scattered todo list.' },
+        { selector: '.blog-sidebar .content-card:nth-of-type(1) p', value: 'To turn this method into a shared system, the most relevant page is <a href="/applications/gesttaches/">GestTaches</a>.' }
       ]
     },
     es: {
       title: 'Gestionar tareas eficazmente',
-      description: 'Metodos simples para priorizar mejor y evitar acumulacion de tareas.',
+      description: 'Como gestionar tus tareas eficazmente con un sistema simple, realista y duradero.',
       text: [
         { selector: '.page-hero .breadcrumb span:last-child', value: 'Gestionar tareas eficazmente' },
-        { selector: '.page-hero .page-kicker', value: 'Gestion de tareas' },
+        { selector: '.page-hero .page-kicker', value: 'Articulo' },
         { selector: '.page-hero .page-title', value: 'Gestionar tareas eficazmente' },
-        { selector: '.blog-sidebar .content-card h3', value: 'Recursos relacionados' },
-        { selector: '.footer-bottom p', value: '© 2026 CarlusOne. Todos los derechos reservados.' },
-        { selector: '.page-hero .page-subtitle', value: "Un metodo simple para seguir mejor tus acciones, reducir la carga mental y evitar sistemas demasiado complicados." },
-        { selector: '.content-prose > p:first-of-type', value: "El problema de la gestion de tareas no siempre viene de la falta de herramientas. Suele venir de un exceso de informacion sin priorizar. Cuando todo es prioritario, ya nada lo es realmente." },
-        { selector: '.content-prose h2:nth-of-type(1)', value: "Un metodo simple" },
-        { selector: '.content-prose h2:nth-of-type(2)', value: "Cuando pasar a una herramienta dedicada?" }
-      
+        { selector: '.page-hero .page-subtitle', value: 'Un metodo simple para seguir mejor tus acciones, reducir la carga mental y evitar sistemas demasiado complicados.' },
+        { selector: '.content-prose > p:nth-of-type(1)', value: 'El problema de la gestion de tareas no siempre viene de la falta de herramientas. Suele venir de un exceso de informacion sin priorizar. Cuando todo es prioritario, ya nada lo es realmente.' },
+        { selector: '.content-prose > p:nth-of-type(2)', value: 'Para gestionar tus tareas eficazmente, primero hay que distinguir las tareas accionables, las ideas, los proyectos en curso y los plazos fijos. Sin esta separacion, una simple lista se convierte rapidamente en un cajon imposible de manejar.' },
+        { selector: '.content-prose h2:nth-of-type(1)', value: 'Un metodo simple' },
+        { selector: '.content-prose ol > li:nth-child(1)', value: 'Centraliza todas las tareas en un unico lugar.' },
+        { selector: '.content-prose ol > li:nth-child(2)', value: 'Define los responsables y los plazos.' },
+        { selector: '.content-prose ol > li:nth-child(3)', value: 'Revisa la lista cada dia o cada semana.' },
+        { selector: '.content-prose ol > li:nth-child(4)', value: 'Elimina las tareas obsoletas.' },
+        { selector: '.content-prose h2:nth-of-type(2)', value: 'Cuando pasar a una herramienta dedicada?' },
+        { selector: '.content-prose > p:nth-of-type(4)', value: 'En cuanto haya que repartir responsabilidades, hacer seguimiento de recurrencias o compartir un calendario, una herramienta especializada se vuelve util. Evita olvidos y hace visibles las prioridades.' },
+        { selector: '.blog-sidebar .content-card:nth-of-type(1) h3', value: 'Aplicacion recomendada' },
+        { selector: '.blog-sidebar .content-card:nth-of-type(1) .button-row a', value: 'Probar GestTaches' },
+        { selector: '.blog-sidebar .content-card:nth-of-type(2) h3', value: 'Leer despues' },
+        { selector: '.blog-sidebar .content-card:nth-of-type(2) .note-list a:nth-of-type(1)', value: 'Comparar aplicaciones de gestion de tareas' },
+        { selector: '.blog-sidebar .content-card:nth-of-type(2) .note-list a:nth-of-type(2)', value: 'Organizar el trabajo en equipo' },
+        { selector: '.footer-bottom p', value: '\u00A9 2026 CarlusOne. Todos los derechos reservados.' }
+      ],
+      html: [
+        { selector: '.content-prose > p:nth-of-type(3)', value: 'Si gestionas un equipo, <a href="/applications/gesttaches/">GestTaches</a> permite estructurar este trabajo con mas claridad que una lista de tareas dispersa.' },
+        { selector: '.blog-sidebar .content-card:nth-of-type(1) p', value: 'Para convertir este metodo en un sistema compartido, la pagina mas relevante es <a href="/applications/gesttaches/">GestTaches</a>.' }
       ]
     }
   },
