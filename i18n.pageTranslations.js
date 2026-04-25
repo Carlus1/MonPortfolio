@@ -695,15 +695,20 @@ window.__CARLUSONE_PAGE_TRANSLATIONS = {
         { selector: '.page-hero .page-kicker', value: 'Quebec' },
         { selector: '.page-hero .page-title', value: 'Reservation software in Quebec' },
         { selector: '.page-hero .page-subtitle', value: 'A pragmatic approach to manage rooms, vehicles and shared resources.' },
-        { selector: '.content-prose h2', value: 'Useful checklist' },
+        { selector: '.content-prose > p:nth-of-type(1)', value: 'Local organisations need simple solutions: knowing who reserves, when, and with what restrictions. A good reservation tool should avoid scheduling collisions and clarify access.' },
+        { selector: '.content-prose h2:nth-of-type(1)', value: 'Useful checklist' },
+        { selector: '.content-prose ul > li:nth-child(1)', value: 'Real-time visual calendar.' },
+        { selector: '.content-prose ul > li:nth-child(2)', value: 'User group management.' },
+        { selector: '.content-prose ul > li:nth-child(3)', value: 'Blocking of unavailability.' },
+        { selector: '.content-prose ul > li:nth-child(4)', value: 'Booking history.' },
         { selector: '.blog-sidebar .content-card h3', value: 'Related resources' },
-        { selector: '.blog-sidebar .note-list a:nth-child(1)', value: 'Simple reservation software' },
-        { selector: '.blog-sidebar .note-list a:nth-child(2)', value: 'Work organization tools' },
-        { selector: '.blog-sidebar .note-list a:nth-child(3)', value: 'GestReserve product page' },
-        { selector: '.footer-bottom p', value: '© 2026 CarlusOne. All rights reserved.' },
-        { selector: '.content-prose > p:first-of-type', value: "Local organisations need simple solutions: knowing who reserves, when, and with what restrictions. A good reservation tool should avoid scheduling collisions and clarify access." },
-        { selector: '.content-prose h2:nth-of-type(1)', value: "Useful checklist" }
-      
+        { selector: '.blog-sidebar .note-list a:nth-of-type(1)', value: 'Simple reservation software' },
+        { selector: '.blog-sidebar .note-list a:nth-of-type(2)', value: 'Work organisation tools' },
+        { selector: '.blog-sidebar .note-list a:nth-of-type(3)', value: 'GestReserve product page' },
+        { selector: '.footer-bottom p', value: '\u00A9 2026 CarlusOne. All rights reserved.' }
+      ],
+      html: [
+        { selector: '.content-prose > p:nth-of-type(2)', value: '<a href="/applications/gestreserve/">GestReserve</a> covers these needs with a quick learning curve.' }
       ]
     },
     es: {
@@ -713,16 +718,21 @@ window.__CARLUSONE_PAGE_TRANSLATIONS = {
         { selector: '.page-hero .breadcrumb span:last-child', value: 'Software de reservas en Quebec' },
         { selector: '.page-hero .page-kicker', value: 'Quebec' },
         { selector: '.page-hero .page-title', value: 'Software de reservas en Quebec' },
-        { selector: '.page-hero .page-subtitle', value: 'Enfoque pragmatico para gestionar salas, vehiculos y recursos compartidos.' },
-        { selector: '.content-prose h2', value: 'Checklist util' },
+        { selector: '.page-hero .page-subtitle', value: 'Un enfoque pragmatico para gestionar salas, vehiculos y recursos compartidos.' },
+        { selector: '.content-prose > p:nth-of-type(1)', value: 'Las estructuras locales necesitan soluciones simples: saber quien reserva, cuando y con que restricciones. Un buen software de reservas debe evitar choques de horarios y aclarar los accesos.' },
+        { selector: '.content-prose h2:nth-of-type(1)', value: 'Checklist util' },
+        { selector: '.content-prose ul > li:nth-child(1)', value: 'Calendario visual en tiempo real.' },
+        { selector: '.content-prose ul > li:nth-child(2)', value: 'Gestion de grupos de usuarios.' },
+        { selector: '.content-prose ul > li:nth-child(3)', value: 'Bloqueo de las indisponibilidades.' },
+        { selector: '.content-prose ul > li:nth-child(4)', value: 'Historial de las reservas.' },
         { selector: '.blog-sidebar .content-card h3', value: 'Recursos relacionados' },
-        { selector: '.blog-sidebar .note-list a:nth-child(1)', value: 'Software de reservas simple' },
-        { selector: '.blog-sidebar .note-list a:nth-child(2)', value: 'Herramientas de organizacion del trabajo' },
-        { selector: '.blog-sidebar .note-list a:nth-child(3)', value: 'Pagina de producto GestReserve' },
-        { selector: '.footer-bottom p', value: '© 2026 CarlusOne. Todos los derechos reservados.' },
-        { selector: '.content-prose > p:first-of-type', value: "Las estructuras locales necesitan soluciones simples: saber quien reserva, cuando y con que restricciones. Un buen software de reservas debe evitar choques de horarios y aclarar los accesos." },
-        { selector: '.content-prose h2:nth-of-type(1)', value: "Checklist util" }
-      
+        { selector: '.blog-sidebar .note-list a:nth-of-type(1)', value: 'Software de reservas simple' },
+        { selector: '.blog-sidebar .note-list a:nth-of-type(2)', value: 'Herramientas de organizacion del trabajo' },
+        { selector: '.blog-sidebar .note-list a:nth-of-type(3)', value: 'Pagina de producto GestReserve' },
+        { selector: '.footer-bottom p', value: '\u00A9 2026 CarlusOne. Todos los derechos reservados.' }
+      ],
+      html: [
+        { selector: '.content-prose > p:nth-of-type(2)', value: '<a href="/applications/gestreserve/">GestReserve</a> cubre estas necesidades con una toma en mano rapida.' }
       ]
     }
   },
