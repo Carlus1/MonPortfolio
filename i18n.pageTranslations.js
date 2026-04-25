@@ -1215,32 +1215,56 @@ window.__CARLUSONE_PAGE_TRANSLATIONS = {
   '/blog/todo-list-simple/': {
     en: {
       title: 'Build a simple todo list',
-      description: 'How to build and keep a simple todo list that really helps daily execution.',
+      description: 'Why a simple todo list is often more effective than an overly complex system.',
       text: [
         { selector: '.page-hero .breadcrumb span:last-child', value: 'Simple todo list' },
-        { selector: '.page-hero .page-kicker', value: 'Method' },
+        { selector: '.page-hero .page-kicker', value: 'Article' },
         { selector: '.page-hero .page-title', value: 'Build a simple todo list' },
-        { selector: '.blog-sidebar .content-card h3', value: 'Related resources' },
-        { selector: '.footer-bottom p', value: '© 2026 CarlusOne. All rights reserved.' },
-        { selector: '.page-hero .page-subtitle', value: "Most systems fail not because they are insufficient, but because they are too heavy to maintain." },
-        { selector: '.content-prose > p:first-of-type', value: "A simple todo list works when it stays actionable. If it becomes a warehouse of thoughts, it no longer helps you make progress." },
-        { selector: '.content-prose h2:nth-of-type(1)', value: "Basic rules" }
-      
+        { selector: '.page-hero .page-subtitle', value: 'Most systems fail not because they are insufficient, but because they are too heavy to maintain.' },
+        { selector: '.content-prose > p:nth-of-type(1)', value: 'A simple todo list works when it stays actionable. If it becomes a warehouse of thoughts, it no longer helps you make progress.' },
+        { selector: '.content-prose > p:nth-of-type(2)', value: 'The principle is straightforward: list few items, review often, and organise by real priority. For one person, that may be enough. For a team, you quickly need a tool with roles and a calendar.' },
+        { selector: '.content-prose h2:nth-of-type(1)', value: 'Basic rules' },
+        { selector: '.content-prose ul > li:nth-child(1)', value: 'One task = one clear action.' },
+        { selector: '.content-prose ul > li:nth-child(2)', value: 'A deadline only if it is real.' },
+        { selector: '.content-prose ul > li:nth-child(3)', value: 'A limited number of priorities per day.' },
+        { selector: '.content-prose ul > li:nth-child(4)', value: 'A simple tool rather than a flashy system.' },
+        { selector: '.blog-sidebar .content-card:nth-of-type(1) h3', value: 'App to discover' },
+        { selector: '.blog-sidebar .content-card:nth-of-type(1) p', value: 'GestTaches is the natural next step when the todo list needs to be shared, planned and tracked over time.' },
+        { selector: '.blog-sidebar .content-card:nth-of-type(1) .button-row a', value: 'See GestTaches' },
+        { selector: '.blog-sidebar .content-card:nth-of-type(2) h3', value: 'Keep reading' },
+        { selector: '.blog-sidebar .content-card:nth-of-type(2) .note-list a:nth-of-type(1)', value: 'Manage your tasks effectively' },
+        { selector: '.blog-sidebar .content-card:nth-of-type(2) .note-list a:nth-of-type(2)', value: 'Tool for freelancers' },
+        { selector: '.footer-bottom p', value: '\u00A9 2026 CarlusOne. All rights reserved.' }
+      ],
+      html: [
+        { selector: '.content-prose > p:nth-of-type(3)', value: 'If your todo list starts to involve other people, look at <a href="/applications/gesttaches/">GestTaches</a> to move beyond solo work.' }
       ]
     },
     es: {
       title: 'Construir una lista de tareas simple',
-      description: 'Como construir una lista de tareas simple y util para el dia a dia.',
+      description: 'Por que una lista de tareas simple suele ser mas eficaz que un sistema demasiado complicado.',
       text: [
         { selector: '.page-hero .breadcrumb span:last-child', value: 'Lista de tareas simple' },
-        { selector: '.page-hero .page-kicker', value: 'Metodo' },
+        { selector: '.page-hero .page-kicker', value: 'Articulo' },
         { selector: '.page-hero .page-title', value: 'Construir una lista de tareas simple' },
-        { selector: '.blog-sidebar .content-card h3', value: 'Recursos relacionados' },
-        { selector: '.footer-bottom p', value: '© 2026 CarlusOne. Todos los derechos reservados.' },
-        { selector: '.page-hero .page-subtitle', value: "La mayoria de los sistemas falla no porque sean insuficientes, sino porque son demasiado pesados de mantener." },
-        { selector: '.content-prose > p:first-of-type', value: "Una lista de tareas simple funciona cuando sigue siendo accionable. Si se convierte en un almacen de ideas, deja de ayudar a avanzar." },
-        { selector: '.content-prose h2:nth-of-type(1)', value: "Reglas basicas" }
-      
+        { selector: '.page-hero .page-subtitle', value: 'La mayoria de los sistemas falla no porque sean insuficientes, sino porque son demasiado pesados de mantener.' },
+        { selector: '.content-prose > p:nth-of-type(1)', value: 'Una lista de tareas simple funciona cuando sigue siendo accionable. Si se convierte en un almacen de ideas, deja de ayudar a avanzar.' },
+        { selector: '.content-prose > p:nth-of-type(2)', value: 'El principio es directo: listar poco, revisar a menudo y organizar por prioridad real. Para una persona sola puede bastar. Para un equipo, rapidamente hace falta una herramienta con roles y calendario.' },
+        { selector: '.content-prose h2:nth-of-type(1)', value: 'Reglas basicas' },
+        { selector: '.content-prose ul > li:nth-child(1)', value: 'Una tarea = una accion clara.' },
+        { selector: '.content-prose ul > li:nth-child(2)', value: 'Un plazo solo si es real.' },
+        { selector: '.content-prose ul > li:nth-child(3)', value: 'Un numero limitado de prioridades por dia.' },
+        { selector: '.content-prose ul > li:nth-child(4)', value: 'Una herramienta simple en lugar de un sistema espectacular.' },
+        { selector: '.blog-sidebar .content-card:nth-of-type(1) h3', value: 'Aplicacion para descubrir' },
+        { selector: '.blog-sidebar .content-card:nth-of-type(1) p', value: 'GestTaches es el siguiente paso logico cuando la lista de tareas debe ser compartida, planificada y seguida en el tiempo.' },
+        { selector: '.blog-sidebar .content-card:nth-of-type(1) .button-row a', value: 'Ver GestTaches' },
+        { selector: '.blog-sidebar .content-card:nth-of-type(2) h3', value: 'Seguir leyendo' },
+        { selector: '.blog-sidebar .content-card:nth-of-type(2) .note-list a:nth-of-type(1)', value: 'Gestionar tareas eficazmente' },
+        { selector: '.blog-sidebar .content-card:nth-of-type(2) .note-list a:nth-of-type(2)', value: 'Herramienta para freelance' },
+        { selector: '.footer-bottom p', value: '\u00A9 2026 CarlusOne. Todos los derechos reservados.' }
+      ],
+      html: [
+        { selector: '.content-prose > p:nth-of-type(3)', value: 'Si tu lista de tareas empieza a involucrar a otras personas, mira <a href="/applications/gesttaches/">GestTaches</a> para salir de un funcionamiento aislado.' }
       ]
     }
   },
