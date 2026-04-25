@@ -611,38 +611,48 @@ window.__CARLUSONE_PAGE_TRANSLATIONS = {
       title: 'French educational app for children',
       description: 'Which French educational app to choose to help a child progress in vocabulary.',
       text: [
-        { selector: '.page-hero .breadcrumb span:last-child', value: 'French educational app child' },
+        { selector: '.page-hero .breadcrumb span:last-child', value: 'French educational app for children' },
         { selector: '.page-hero .page-kicker', value: 'Education' },
         { selector: '.page-hero .page-title', value: 'French educational app for children' },
         { selector: '.page-hero .page-subtitle', value: 'Simple criteria to choose a useful and playful app adapted to school progression.' },
-        { selector: '.content-prose h2', value: 'What to check before choosing' },
+        { selector: '.content-prose > p:nth-of-type(1)', value: 'An effective educational app should keep children engaged while offering progressive exercises. The best choice is often the one that makes regular practice enjoyable.' },
+        { selector: '.content-prose h2:nth-of-type(1)', value: 'What to check before choosing' },
+        { selector: '.content-prose ul > li:nth-child(1)', value: 'Varied and short activities.' },
+        { selector: '.content-prose ul > li:nth-child(2)', value: 'Level adapted to the age.' },
+        { selector: '.content-prose ul > li:nth-child(3)', value: 'Progress visible to parents.' },
+        { selector: '.content-prose ul > li:nth-child(4)', value: 'Clear interface in French.' },
         { selector: '.blog-sidebar .content-card h3', value: 'Related resources' },
-        { selector: '.blog-sidebar .note-list a:nth-child(1)', value: 'Improve child vocabulary' },
-        { selector: '.blog-sidebar .note-list a:nth-child(2)', value: 'Jeu de Mots product page' },
-        { selector: '.blog-sidebar .note-list a:nth-child(3)', value: 'All applications' },
-        { selector: '.footer-bottom p', value: '© 2026 CarlusOne. All rights reserved.' },
-        { selector: '.content-prose > p:first-of-type', value: "An effective educational app should keep children engaged while offering progressive exercises. The best choice is often the one that makes regular practice enjoyable." },
-        { selector: '.content-prose h2:nth-of-type(1)', value: "What to check before choosing" }
-      
+        { selector: '.blog-sidebar .note-list a:nth-of-type(1)', value: 'Improve a child\u2019s vocabulary' },
+        { selector: '.blog-sidebar .note-list a:nth-of-type(2)', value: 'Jeu de Mots product page' },
+        { selector: '.blog-sidebar .note-list a:nth-of-type(3)', value: 'All applications' },
+        { selector: '.footer-bottom p', value: '\u00A9 2026 CarlusOne. All rights reserved.' }
+      ],
+      html: [
+        { selector: '.content-prose > p:nth-of-type(2)', value: '<a href="/applications/jeudemots/">Jeu de Mots</a> covers these needs with vocabulary and arithmetic activities.' }
       ]
     },
     es: {
       title: 'Aplicacion educativa de frances para ninos',
-      description: 'Que aplicacion educativa en frances elegir para ayudar a un nino con vocabulario.',
+      description: 'Que aplicacion educativa en frances elegir para ayudar a un nino a progresar en vocabulario.',
       text: [
-        { selector: '.page-hero .breadcrumb span:last-child', value: 'Aplicacion educativa frances nino' },
+        { selector: '.page-hero .breadcrumb span:last-child', value: 'Aplicacion educativa frances para ninos' },
         { selector: '.page-hero .page-kicker', value: 'Educacion' },
         { selector: '.page-hero .page-title', value: 'Aplicacion educativa de frances para ninos' },
         { selector: '.page-hero .page-subtitle', value: 'Criterios simples para elegir una aplicacion util, ludica y adaptada al progreso escolar.' },
-        { selector: '.content-prose h2', value: 'Que verificar antes de elegir' },
+        { selector: '.content-prose > p:nth-of-type(1)', value: 'Una aplicacion educativa eficaz debe mantener al nino comprometido mientras propone ejercicios progresivos. La mejor opcion suele ser la que permite repetir con regularidad y placer.' },
+        { selector: '.content-prose h2:nth-of-type(1)', value: 'Que verificar antes de elegir' },
+        { selector: '.content-prose ul > li:nth-child(1)', value: 'Actividades variadas y cortas.' },
+        { selector: '.content-prose ul > li:nth-child(2)', value: 'Nivel adaptado a la edad.' },
+        { selector: '.content-prose ul > li:nth-child(3)', value: 'Progreso visible para los padres.' },
+        { selector: '.content-prose ul > li:nth-child(4)', value: 'Interfaz clara en frances.' },
         { selector: '.blog-sidebar .content-card h3', value: 'Recursos relacionados' },
-        { selector: '.blog-sidebar .note-list a:nth-child(1)', value: 'Mejorar vocabulario de un nino' },
-        { selector: '.blog-sidebar .note-list a:nth-child(2)', value: 'Pagina de producto Jeu de Mots' },
-        { selector: '.blog-sidebar .note-list a:nth-child(3)', value: 'Todas las aplicaciones' },
-        { selector: '.footer-bottom p', value: '© 2026 CarlusOne. Todos los derechos reservados.' },
-        { selector: '.content-prose > p:first-of-type', value: "Una aplicacion educativa eficaz debe mantener al nino comprometido mientras propone ejercicios progresivos. La mejor opcion suele ser la que permite repetir con regularidad y placer." },
-        { selector: '.content-prose h2:nth-of-type(1)', value: "Que verificar antes de elegir" }
-      
+        { selector: '.blog-sidebar .note-list a:nth-of-type(1)', value: 'Mejorar el vocabulario de un nino' },
+        { selector: '.blog-sidebar .note-list a:nth-of-type(2)', value: 'Pagina de producto Jeu de Mots' },
+        { selector: '.blog-sidebar .note-list a:nth-of-type(3)', value: 'Todas las aplicaciones' },
+        { selector: '.footer-bottom p', value: '\u00A9 2026 CarlusOne. Todos los derechos reservados.' }
+      ],
+      html: [
+        { selector: '.content-prose > p:nth-of-type(2)', value: '<a href="/applications/jeudemots/">Jeu de Mots</a> cubre estas necesidades con actividades de vocabulario y calculo.' }
       ]
     }
   },
