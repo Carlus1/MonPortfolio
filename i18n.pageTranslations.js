@@ -645,15 +645,20 @@ window.__CARLUSONE_PAGE_TRANSLATIONS = {
         { selector: '.page-hero .page-kicker', value: 'Quebec' },
         { selector: '.page-hero .page-title', value: 'Task management app in Quebec' },
         { selector: '.page-hero .page-subtitle', value: 'A practical framework for Quebec teams that want better planning without heavy tools.' },
-        { selector: '.content-prose h2', value: 'What to prioritize' },
+        { selector: '.content-prose > p:nth-of-type(1)', value: 'In Quebec, many teams still rely on spreadsheets and scattered exchanges. The result: lack of visibility, missed items, and difficulty prioritising.' },
+        { selector: '.content-prose h2:nth-of-type(1)', value: 'What to focus on' },
+        { selector: '.content-prose ul > li:nth-child(1)', value: 'An interface that is easy to learn.' },
+        { selector: '.content-prose ul > li:nth-child(2)', value: 'A readable shared calendar.' },
+        { selector: '.content-prose ul > li:nth-child(3)', value: 'Clear responsibilities per user.' },
+        { selector: '.content-prose ul > li:nth-child(4)', value: 'An online solution accessible everywhere.' },
         { selector: '.blog-sidebar .content-card h3', value: 'See also' },
-        { selector: '.blog-sidebar .note-list a:nth-child(1)', value: 'Manage priorities at work' },
-        { selector: '.blog-sidebar .note-list a:nth-child(2)', value: 'Weekly team planning' },
-        { selector: '.blog-sidebar .note-list a:nth-child(3)', value: 'GestTaches product page' },
-        { selector: '.footer-bottom p', value: '© 2026 CarlusOne. All rights reserved.' },
-        { selector: '.content-prose > p:first-of-type', value: "In Quebec, many teams still rely on spreadsheets and scattered exchanges. The result: lack of visibility, missed items, and difficulty prioritising." },
-        { selector: '.content-prose h2:nth-of-type(1)', value: "What to focus on" }
-      
+        { selector: '.blog-sidebar .note-list a:nth-of-type(1)', value: 'Manage priorities at work' },
+        { selector: '.blog-sidebar .note-list a:nth-of-type(2)', value: 'Weekly team planning' },
+        { selector: '.blog-sidebar .note-list a:nth-of-type(3)', value: 'GestTaches product page' },
+        { selector: '.footer-bottom p', value: '\u00A9 2026 CarlusOne. All rights reserved.' }
+      ],
+      html: [
+        { selector: '.content-prose > p:nth-of-type(2)', value: 'For this need, <a href="/applications/gesttaches/">GestTaches</a> provides a useful framework for daily team planning.' }
       ]
     },
     es: {
@@ -663,16 +668,21 @@ window.__CARLUSONE_PAGE_TRANSLATIONS = {
         { selector: '.page-hero .breadcrumb span:last-child', value: 'Gestion de tareas en Quebec' },
         { selector: '.page-hero .page-kicker', value: 'Quebec' },
         { selector: '.page-hero .page-title', value: 'Aplicacion de gestion de tareas en Quebec' },
-        { selector: '.page-hero .page-subtitle', value: 'Marco concreto para equipos de Quebec que quieren planificar mejor sin herramientas pesadas.' },
-        { selector: '.content-prose h2', value: 'Que priorizar' },
+        { selector: '.page-hero .page-subtitle', value: 'Un marco concreto para los equipos de Quebec que quieren planificar mejor sin herramientas demasiado pesadas.' },
+        { selector: '.content-prose > p:nth-of-type(1)', value: 'En Quebec, muchos equipos todavia funcionan con hojas de calculo e intercambios dispersos. El resultado: falta de visibilidad, olvidos y dificultad para priorizar.' },
+        { selector: '.content-prose h2:nth-of-type(1)', value: 'Lo que conviene priorizar' },
+        { selector: '.content-prose ul > li:nth-child(1)', value: 'Una interfaz facil de aprender.' },
+        { selector: '.content-prose ul > li:nth-child(2)', value: 'Un calendario compartido legible.' },
+        { selector: '.content-prose ul > li:nth-child(3)', value: 'Responsabilidades claras por usuario.' },
+        { selector: '.content-prose ul > li:nth-child(4)', value: 'Una solucion en linea accesible en todas partes.' },
         { selector: '.blog-sidebar .content-card h3', value: 'Ver tambien' },
-        { selector: '.blog-sidebar .note-list a:nth-child(1)', value: 'Gestionar prioridades en el trabajo' },
-        { selector: '.blog-sidebar .note-list a:nth-child(2)', value: 'Planificacion semanal de equipo' },
-        { selector: '.blog-sidebar .note-list a:nth-child(3)', value: 'Pagina de producto GestTaches' },
-        { selector: '.footer-bottom p', value: '© 2026 CarlusOne. Todos los derechos reservados.' },
-        { selector: '.content-prose > p:first-of-type', value: "En Quebec, muchos equipos todavia funcionan con hojas de calculo e intercambios dispersos. El resultado: falta de visibilidad, olvidos y dificultad para priorizar." },
-        { selector: '.content-prose h2:nth-of-type(1)', value: "Lo que conviene priorizar" }
-      
+        { selector: '.blog-sidebar .note-list a:nth-of-type(1)', value: 'Gestionar prioridades en el trabajo' },
+        { selector: '.blog-sidebar .note-list a:nth-of-type(2)', value: 'Planificacion semanal de equipo' },
+        { selector: '.blog-sidebar .note-list a:nth-of-type(3)', value: 'Pagina de producto GestTaches' },
+        { selector: '.footer-bottom p', value: '\u00A9 2026 CarlusOne. Todos los derechos reservados.' }
+      ],
+      html: [
+        { selector: '.content-prose > p:nth-of-type(2)', value: 'Para esta necesidad, <a href="/applications/gesttaches/">GestTaches</a> ofrece un marco util para la planificacion diaria de equipo.' }
       ]
     }
   },
