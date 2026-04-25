@@ -1244,33 +1244,71 @@ window.__CARLUSONE_PAGE_TRANSLATIONS = {
   },
   '/blog/planification-hebdomadaire-equipe/': {
     en: {
-      title: 'Weekly team planning',
-      description: 'A practical framework for weekly team planning and workload distribution.',
+      title: 'Weekly team planning | Simple 2026 method',
+      description: 'Weekly team planning: a simple method to spread workload, set priorities and avoid blockers.',
       text: [
         { selector: '.page-hero .breadcrumb span:last-child', value: 'Weekly team planning' },
-        { selector: '.page-hero .page-kicker', value: 'Planning' },
+        { selector: '.page-hero .page-kicker', value: 'Management' },
         { selector: '.page-hero .page-title', value: 'Weekly team planning' },
-        { selector: '.blog-sidebar .content-card h3', value: 'Related resources' },
-        { selector: '.footer-bottom p', value: '© 2026 CarlusOne. All rights reserved.' },
-        { selector: '.page-hero .page-subtitle', value: "How to structure the week without overloading collaborators or losing visibility on priorities." },
-        { selector: '.content-prose > p:first-of-type', value: "A well-planned week reduces pressure and improves execution quality. The goal is not to fill every calendar slot, but to secure important deliverables." },
-        { selector: '.content-prose h2:nth-of-type(1)', value: "4-step framework" }
-      
+        { selector: '.page-hero .page-subtitle', value: 'How to structure the week without overloading collaborators or losing visibility on priorities.' },
+        { selector: '.content-prose > p:nth-of-type(1)', value: 'A well-planned week reduces pressure and improves execution quality. The goal is not to fill every calendar slot, but to secure important deliverables.' },
+        { selector: '.content-prose h2:nth-of-type(1)', value: '4-step framework' },
+        { selector: '.content-prose ol > li:nth-child(1)', value: 'Collect the week\u2019s tasks and constraints.' },
+        { selector: '.content-prose ol > li:nth-child(2)', value: 'Define a maximum of 3 priorities per person.' },
+        { selector: '.content-prose ol > li:nth-child(3)', value: 'Block coordination touchpoints.' },
+        { selector: '.content-prose ol > li:nth-child(4)', value: 'Reserve a buffer slot for the unexpected.' },
+        { selector: '.content-prose > p:nth-of-type(2)', value: 'Planning becomes effective when everyone clearly sees their responsibilities and the related deadlines.' },
+        { selector: '.blog-sidebar .content-card:nth-of-type(1) h3', value: 'Related app' },
+        { selector: '.blog-sidebar .content-card:nth-of-type(1) p', value: 'GestTaches lets you organise the week, assign tasks and track progress.' },
+        { selector: '.blog-sidebar .content-card:nth-of-type(1) .button-row a', value: 'Discover GestTaches' },
+        { selector: '.blog-sidebar .content-card:nth-of-type(2) h3', value: 'Read also' },
+        { selector: '.blog-sidebar .content-card:nth-of-type(2) .note-list a:nth-of-type(1)', value: 'Organise team work' },
+        { selector: '.blog-sidebar .content-card:nth-of-type(2) .note-list a:nth-of-type(2)', value: 'Manage priorities at work' },
+        { selector: '.section-header .section-title', value: 'Frequently asked questions' },
+        { selector: '.faq-item:nth-of-type(1) .faq-question span', value: 'How to choose a weekly planning method?' },
+        { selector: '.faq-item:nth-of-type(1) .faq-answer', value: 'Choose a method that limits priorities, clarifies who is responsible and reserves buffer time for the unexpected.' },
+        { selector: '.faq-item:nth-of-type(2) .faq-question span', value: 'Which tool to plan a team?' },
+        { selector: '.faq-item:nth-of-type(2) .faq-answer', value: 'A tool like GestTaches helps centralise tasks, roles and deadlines on a shared calendar.' },
+        { selector: '.faq-item:nth-of-type(3) .faq-question span', value: 'How much does a team planning tool cost?' },
+        { selector: '.faq-item:nth-of-type(3) .faq-answer', value: 'The cost depends on the product and number of users. Starting with a trial period helps validate the fit.' },
+        { selector: '.footer-bottom p', value: '\u00A9 2026 CarlusOne. All rights reserved.' }
+      ],
+      html: [
+        { selector: '.content-prose > p:nth-of-type(3)', value: 'To run this approach operationally, use <a href="/applications/gesttaches/">GestTaches</a> with its tracking views.' }
       ]
     },
     es: {
-      title: 'Planificacion semanal de equipo',
-      description: 'Marco practico para planificacion semanal y distribucion de carga de equipo.',
+      title: 'Planificacion semanal de equipo | Metodo simple 2026',
+      description: 'Planificacion semanal de equipo: metodo simple para repartir la carga, fijar prioridades y evitar bloqueos.',
       text: [
-        { selector: '.page-hero .breadcrumb span:last-child', value: 'Planificacion semanal' },
-        { selector: '.page-hero .page-kicker', value: 'Planificacion' },
+        { selector: '.page-hero .breadcrumb span:last-child', value: 'Planificacion semanal de equipo' },
+        { selector: '.page-hero .page-kicker', value: 'Gestion' },
         { selector: '.page-hero .page-title', value: 'Planificacion semanal de equipo' },
-        { selector: '.blog-sidebar .content-card h3', value: 'Recursos relacionados' },
-        { selector: '.footer-bottom p', value: '© 2026 CarlusOne. Todos los derechos reservados.' },
-        { selector: '.page-hero .page-subtitle', value: "Como estructurar la semana sin sobrecargar a los colaboradores ni perder visibilidad sobre las prioridades." },
-        { selector: '.content-prose > p:first-of-type', value: "Una semana bien planificada reduce la presion y mejora la calidad de ejecucion. El objetivo no es llenar todas las casillas del calendario, sino asegurar los entregables importantes." },
-        { selector: '.content-prose h2:nth-of-type(1)', value: "Marco en 4 etapas" }
-      
+        { selector: '.page-hero .page-subtitle', value: 'Como estructurar la semana sin sobrecargar a los colaboradores ni perder visibilidad sobre las prioridades.' },
+        { selector: '.content-prose > p:nth-of-type(1)', value: 'Una semana bien planificada reduce la presion y mejora la calidad de ejecucion. El objetivo no es llenar todas las casillas del calendario, sino asegurar los entregables importantes.' },
+        { selector: '.content-prose h2:nth-of-type(1)', value: 'Marco en 4 etapas' },
+        { selector: '.content-prose ol > li:nth-child(1)', value: 'Reunir las tareas y restricciones de la semana.' },
+        { selector: '.content-prose ol > li:nth-child(2)', value: 'Definir maximo 3 prioridades por persona.' },
+        { selector: '.content-prose ol > li:nth-child(3)', value: 'Bloquear los puntos de coordinacion.' },
+        { selector: '.content-prose ol > li:nth-child(4)', value: 'Prever un espacio buffer para los imprevistos.' },
+        { selector: '.content-prose > p:nth-of-type(2)', value: 'La planificacion se vuelve eficaz cuando cada uno ve claramente sus responsabilidades y los plazos asociados.' },
+        { selector: '.blog-sidebar .content-card:nth-of-type(1) h3', value: 'Aplicacion relacionada' },
+        { selector: '.blog-sidebar .content-card:nth-of-type(1) p', value: 'GestTaches permite organizar la semana, asignar tareas y seguir el avance.' },
+        { selector: '.blog-sidebar .content-card:nth-of-type(1) .button-row a', value: 'Descubrir GestTaches' },
+        { selector: '.blog-sidebar .content-card:nth-of-type(2) h3', value: 'Leer tambien' },
+        { selector: '.blog-sidebar .content-card:nth-of-type(2) .note-list a:nth-of-type(1)', value: 'Organizar el trabajo en equipo' },
+        { selector: '.blog-sidebar .content-card:nth-of-type(2) .note-list a:nth-of-type(2)', value: 'Gestionar las prioridades en el trabajo' },
+        { selector: '.section-header .section-title', value: 'Preguntas frecuentes' },
+        { selector: '.faq-item:nth-of-type(1) .faq-question span', value: 'Como elegir un metodo de planificacion semanal?' },
+        { selector: '.faq-item:nth-of-type(1) .faq-answer', value: 'Elige un metodo que limite las prioridades, aclare los responsables y reserve un tiempo buffer para los imprevistos.' },
+        { selector: '.faq-item:nth-of-type(2) .faq-question span', value: 'Que herramienta usar para planificar un equipo?' },
+        { selector: '.faq-item:nth-of-type(2) .faq-answer', value: 'Una herramienta como GestTaches ayuda a centralizar las tareas, los roles y los plazos en un calendario compartido.' },
+        { selector: '.faq-item:nth-of-type(3) .faq-question span', value: 'Cuanto cuesta una herramienta de planificacion de equipo?' },
+        { selector: '.faq-item:nth-of-type(3) .faq-answer', value: 'El costo depende del producto y del numero de usuarios. Empezar por un periodo de prueba permite validar la adecuacion.' },
+        { selector: '.footer-bottom p', value: '\u00A9 2026 CarlusOne. Todos los derechos reservados.' }
+      ],
+      html: [
+        { selector: '.content-prose > p:nth-of-type(3)', value: 'Para llevar este funcionamiento de forma operativa, usa <a href="/applications/gesttaches/">GestTaches</a> con sus vistas de seguimiento.' }
       ]
     }
   },
