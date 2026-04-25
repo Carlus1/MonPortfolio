@@ -970,35 +970,73 @@ window.__CARLUSONE_PAGE_TRANSLATIONS = {
   },
   '/blog/gestion-priorites-travail/': {
     en: {
-      title: 'How to manage priorities at work',
-      description: 'A practical framework to separate urgent, important and secondary priorities.',
+      title: 'How to manage priorities at work | Simple 2026 method',
+      description: 'How to manage priorities at work with a simple method: urgent/important sorting, daily routine and recommended tool.',
       text: [
-        { selector: '.page-hero .breadcrumb span:last-child', value: 'Priorities at work' },
-        { selector: '.page-hero .page-kicker', value: 'Prioritization' },
+        { selector: '.page-hero .breadcrumb span:last-child', value: 'Manage priorities at work' },
+        { selector: '.page-hero .page-kicker', value: 'Productivity' },
         { selector: '.page-hero .page-title', value: 'How to manage priorities at work' },
-        { selector: '.blog-sidebar .content-card h3', value: 'Related resources' },
-        { selector: '.footer-bottom p', value: '© 2026 CarlusOne. All rights reserved.' },
-        { selector: '.page-hero .page-subtitle', value: "A practical method to choose what to do now, what can wait and what should be removed." },
-        { selector: '.content-prose > p:first-of-type', value: "The challenge is not lacking ideas. It is deciding what to handle first when everything seems urgent. Without a method, you spend the day reacting instead of moving forward." },
-        { selector: '.content-prose h2:nth-of-type(1)', value: "Simple sorting rule" },
-        { selector: '.content-prose h2:nth-of-type(2)', value: "Recommended pace" }
-      
+        { selector: '.page-hero .page-subtitle', value: 'A practical method to choose what to do now, what can wait and what should be removed.' },
+        { selector: '.content-prose > p:nth-of-type(1)', value: 'The challenge is not lacking ideas. It is deciding what to handle first when everything seems urgent. Without a method, you spend the day reacting instead of moving forward.' },
+        { selector: '.content-prose h2:nth-of-type(1)', value: 'Simple sorting rule' },
+        { selector: '.content-prose ul > li:nth-child(1)', value: 'Important and urgent: handle today.' },
+        { selector: '.content-prose ul > li:nth-child(2)', value: 'Important but not urgent: schedule.' },
+        { selector: '.content-prose ul > li:nth-child(3)', value: 'Urgent but not very important: delegate when possible.' },
+        { selector: '.content-prose ul > li:nth-child(4)', value: 'Neither urgent nor important: remove.' },
+        { selector: '.content-prose h2:nth-of-type(2)', value: 'Recommended pace' },
+        { selector: '.content-prose > p:nth-of-type(2)', value: 'Block 10 minutes in the morning and 10 minutes at the end of the day to review your priorities. This ritual prevents pile-up of tasks with no real impact.' },
+        { selector: '.blog-sidebar .content-card:nth-of-type(1) h3', value: 'Related app' },
+        { selector: '.blog-sidebar .content-card:nth-of-type(1) p', value: 'GestTaches helps make priorities tangible in a shared calendar.' },
+        { selector: '.blog-sidebar .content-card:nth-of-type(1) .button-row a', value: 'See GestTaches' },
+        { selector: '.blog-sidebar .content-card:nth-of-type(2) h3', value: 'Continue' },
+        { selector: '.blog-sidebar .content-card:nth-of-type(2) .note-list a:nth-of-type(1)', value: 'Weekly team planning' },
+        { selector: '.blog-sidebar .content-card:nth-of-type(2) .note-list a:nth-of-type(2)', value: 'Manage your tasks effectively' },
+        { selector: '.section-header .section-title', value: 'Frequently asked questions' },
+        { selector: '.faq-item:nth-of-type(1) .faq-question span', value: 'How to choose your priorities at work?' },
+        { selector: '.faq-item:nth-of-type(1) .faq-answer', value: 'Start by separating urgent from important, then limit daily priorities to three high-impact actions.' },
+        { selector: '.faq-item:nth-of-type(2) .faq-question span', value: 'Which tool to track team priorities?' },
+        { selector: '.faq-item:nth-of-type(2) .faq-answer', value: 'For a team, a tool like GestTaches lets you assign actions and view deadlines in a shared calendar.' },
+        { selector: '.faq-item:nth-of-type(3) .faq-question span', value: 'How much does a prioritisation tool cost?' },
+        { selector: '.faq-item:nth-of-type(3) .faq-answer', value: 'Costs vary by product. The CarlusOne suite offers free trials to validate the tool before subscribing.' },
+        { selector: '.footer-bottom p', value: '\u00A9 2026 CarlusOne. All rights reserved.' }
+      ],
+      html: [
+        { selector: '.content-prose > p:nth-of-type(3)', value: 'If you work in a team, use <a href="/applications/gesttaches/">GestTaches</a> to share priorities and track responsibilities.' }
       ]
     },
     es: {
-      title: 'Como gestionar prioridades en el trabajo',
-      description: 'Marco practico para distinguir urgente, importante y secundario.',
+      title: 'Como gestionar las prioridades en el trabajo | Metodo simple 2026',
+      description: 'Como gestionar las prioridades en el trabajo con un metodo simple: clasificacion urgente/importante, rutina diaria y herramienta recomendada.',
       text: [
-        { selector: '.page-hero .breadcrumb span:last-child', value: 'Prioridades en el trabajo' },
-        { selector: '.page-hero .page-kicker', value: 'Priorizacion' },
-        { selector: '.page-hero .page-title', value: 'Como gestionar prioridades en el trabajo' },
-        { selector: '.blog-sidebar .content-card h3', value: 'Recursos relacionados' },
-        { selector: '.footer-bottom p', value: '© 2026 CarlusOne. Todos los derechos reservados.' },
-        { selector: '.page-hero .page-subtitle', value: "Un metodo practico para elegir lo que hay que hacer ahora, lo que puede esperar y lo que conviene eliminar." },
-        { selector: '.content-prose > p:first-of-type', value: "La dificultad no es la falta de ideas. Es decidir que tratar primero cuando todo parece urgente. Sin metodo, pasas el dia reaccionando en lugar de avanzar." },
-        { selector: '.content-prose h2:nth-of-type(1)', value: "Regla simple de clasificacion" },
-        { selector: '.content-prose h2:nth-of-type(2)', value: "Ritmo recomendado" }
-      
+        { selector: '.page-hero .breadcrumb span:last-child', value: 'Gestionar prioridades en el trabajo' },
+        { selector: '.page-hero .page-kicker', value: 'Productividad' },
+        { selector: '.page-hero .page-title', value: 'Como gestionar las prioridades en el trabajo' },
+        { selector: '.page-hero .page-subtitle', value: 'Un metodo practico para elegir lo que hay que hacer ahora, lo que puede esperar y lo que conviene eliminar.' },
+        { selector: '.content-prose > p:nth-of-type(1)', value: 'La dificultad no es la falta de ideas. Es decidir que tratar primero cuando todo parece urgente. Sin metodo, pasas el dia reaccionando en lugar de avanzar.' },
+        { selector: '.content-prose h2:nth-of-type(1)', value: 'Regla simple de clasificacion' },
+        { selector: '.content-prose ul > li:nth-child(1)', value: 'Importante y urgente: tratar hoy.' },
+        { selector: '.content-prose ul > li:nth-child(2)', value: 'Importante pero no urgente: planificar.' },
+        { selector: '.content-prose ul > li:nth-child(3)', value: 'Urgente pero poco importante: delegar cuando sea posible.' },
+        { selector: '.content-prose ul > li:nth-child(4)', value: 'Ni urgente ni importante: eliminar.' },
+        { selector: '.content-prose h2:nth-of-type(2)', value: 'Ritmo recomendado' },
+        { selector: '.content-prose > p:nth-of-type(2)', value: 'Bloquea 10 minutos por la manana y 10 minutos al final del dia para revisar tus prioridades. Este ritual evita acumular tareas sin impacto real.' },
+        { selector: '.blog-sidebar .content-card:nth-of-type(1) h3', value: 'Aplicacion relacionada' },
+        { selector: '.blog-sidebar .content-card:nth-of-type(1) p', value: 'GestTaches ayuda a materializar las prioridades en un calendario compartido.' },
+        { selector: '.blog-sidebar .content-card:nth-of-type(1) .button-row a', value: 'Ver GestTaches' },
+        { selector: '.blog-sidebar .content-card:nth-of-type(2) h3', value: 'Continuar' },
+        { selector: '.blog-sidebar .content-card:nth-of-type(2) .note-list a:nth-of-type(1)', value: 'Planificacion semanal de equipo' },
+        { selector: '.blog-sidebar .content-card:nth-of-type(2) .note-list a:nth-of-type(2)', value: 'Gestionar tareas eficazmente' },
+        { selector: '.section-header .section-title', value: 'Preguntas frecuentes' },
+        { selector: '.faq-item:nth-of-type(1) .faq-question span', value: 'Como elegir tus prioridades en el trabajo?' },
+        { selector: '.faq-item:nth-of-type(1) .faq-answer', value: 'Empieza por distinguir lo urgente de lo importante, luego limita las prioridades diarias a tres acciones de alto impacto.' },
+        { selector: '.faq-item:nth-of-type(2) .faq-question span', value: 'Que herramienta usar para seguir las prioridades de equipo?' },
+        { selector: '.faq-item:nth-of-type(2) .faq-answer', value: 'Para un equipo, una herramienta como GestTaches permite asignar acciones y visualizar los plazos en un calendario compartido.' },
+        { selector: '.faq-item:nth-of-type(3) .faq-question span', value: 'Cuanto cuesta una herramienta de priorizacion?' },
+        { selector: '.faq-item:nth-of-type(3) .faq-answer', value: 'Los costos varian segun el producto. La suite CarlusOne ofrece pruebas gratuitas para validar la herramienta antes de suscribirse.' },
+        { selector: '.footer-bottom p', value: '\u00A9 2026 CarlusOne. Todos los derechos reservados.' }
+      ],
+      html: [
+        { selector: '.content-prose > p:nth-of-type(3)', value: 'Si trabajas en equipo, usa <a href="/applications/gesttaches/">GestTaches</a> para compartir las prioridades y hacer seguimiento de las responsabilidades.' }
       ]
     }
   },
