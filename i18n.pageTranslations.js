@@ -1094,33 +1094,57 @@ window.__CARLUSONE_PAGE_TRANSLATIONS = {
   },
   '/blog/organiser-travail-equipe/': {
     en: {
-      title: 'Organize teamwork effectively',
-      description: 'A simple method to organize teamwork, responsibilities and shared calendars.',
+      title: 'Organise teamwork',
+      description: 'How to organise teamwork with clear structure, defined roles and suitable tools.',
       text: [
-        { selector: '.page-hero .breadcrumb span:last-child', value: 'Organize teamwork' },
-        { selector: '.page-hero .page-kicker', value: 'Organization' },
-        { selector: '.page-hero .page-title', value: 'Organize teamwork effectively' },
-        { selector: '.blog-sidebar .content-card h3', value: 'Related resources' },
-        { selector: '.footer-bottom p', value: '© 2026 CarlusOne. All rights reserved.' },
-        { selector: '.page-hero .page-subtitle', value: "Clarify responsibilities, share a calendar and reduce friction in daily execution." },
-        { selector: '.content-prose > p:first-of-type', value: "Team work organisation rests on three pillars: clear roles, visible tasks and a shared schedule. Without this, even a small team wastes time coordinating." },
-        { selector: '.content-prose h2:nth-of-type(1)', value: "What to put in place" }
-      
+        { selector: '.page-hero .breadcrumb span:last-child', value: 'Organise teamwork' },
+        { selector: '.page-hero .page-kicker', value: 'Article' },
+        { selector: '.page-hero .page-title', value: 'Organise teamwork' },
+        { selector: '.page-hero .page-subtitle', value: 'Clarify responsibilities, share a calendar and reduce friction in daily execution.' },
+        { selector: '.content-prose > p:nth-of-type(1)', value: 'Team work organisation rests on three pillars: clear roles, visible tasks and a shared schedule. Without this, even a small team wastes time coordinating.' },
+        { selector: '.content-prose > p:nth-of-type(2)', value: 'The biggest risk is not lack of goodwill, but lack of visibility. When no one knows exactly who has to do what, duplicates and oversights pile up.' },
+        { selector: '.content-prose h2:nth-of-type(1)', value: 'What to put in place' },
+        { selector: '.content-prose ul > li:nth-child(1)', value: 'A central tool for tasks.' },
+        { selector: '.content-prose ul > li:nth-child(2)', value: 'A shared calendar for deadlines.' },
+        { selector: '.content-prose ul > li:nth-child(3)', value: 'A simple validation method.' },
+        { selector: '.content-prose ul > li:nth-child(4)', value: 'Role rules: who creates, who assigns, who executes.' },
+        { selector: '.blog-sidebar .content-card:nth-of-type(1) h3', value: 'Recommended apps' },
+        { selector: '.blog-sidebar .content-card:nth-of-type(1) .note-list a:nth-of-type(1)', value: 'See GestTaches' },
+        { selector: '.blog-sidebar .content-card:nth-of-type(1) .note-list a:nth-of-type(2)', value: 'See GestReserve' },
+        { selector: '.blog-sidebar .content-card:nth-of-type(2) h3', value: 'Read next' },
+        { selector: '.blog-sidebar .content-card:nth-of-type(2) .note-list a:nth-of-type(1)', value: 'Work organisation tools guide' },
+        { selector: '.blog-sidebar .content-card:nth-of-type(2) .note-list a:nth-of-type(2)', value: 'Manage your tasks effectively' },
+        { selector: '.footer-bottom p', value: '\u00A9 2026 CarlusOne. All rights reserved.' }
+      ],
+      html: [
+        { selector: '.content-prose > p:nth-of-type(3)', value: 'For this, <a href="/applications/gesttaches/">GestTaches</a> meets the coordination need. If your team shares rooms or equipment, <a href="/applications/gestreserve/">GestReserve</a> also becomes useful.' }
       ]
     },
     es: {
       title: 'Organizar el trabajo en equipo',
-      description: 'Metodo simple para organizar responsabilidades y planificacion de equipo.',
+      description: 'Como organizar el trabajo en equipo con una estructura clara, roles definidos y herramientas adecuadas.',
       text: [
         { selector: '.page-hero .breadcrumb span:last-child', value: 'Organizar trabajo en equipo' },
-        { selector: '.page-hero .page-kicker', value: 'Organizacion' },
+        { selector: '.page-hero .page-kicker', value: 'Articulo' },
         { selector: '.page-hero .page-title', value: 'Organizar el trabajo en equipo' },
-        { selector: '.blog-sidebar .content-card h3', value: 'Recursos relacionados' },
-        { selector: '.footer-bottom p', value: '© 2026 CarlusOne. Todos los derechos reservados.' },
-        { selector: '.page-hero .page-subtitle', value: "Aclarar las responsabilidades, compartir un calendario y reducir la friccion en la ejecucion diaria." },
-        { selector: '.content-prose > p:first-of-type', value: "La organizacion del trabajo en equipo se basa en tres pilares: roles claros, tareas visibles y un calendario compartido. Sin esto, incluso un equipo pequeno pierde tiempo coordinandose." },
-        { selector: '.content-prose h2:nth-of-type(1)', value: "Lo que hay que implementar" }
-      
+        { selector: '.page-hero .page-subtitle', value: 'Aclarar las responsabilidades, compartir un calendario y reducir la friccion en la ejecucion diaria.' },
+        { selector: '.content-prose > p:nth-of-type(1)', value: 'La organizacion del trabajo en equipo se basa en tres pilares: roles claros, tareas visibles y un calendario compartido. Sin esto, incluso un equipo pequeno pierde tiempo coordinandose.' },
+        { selector: '.content-prose > p:nth-of-type(2)', value: 'El mayor riesgo no es la falta de buena voluntad, sino la falta de visibilidad. Cuando nadie sabe exactamente quien debe hacer que, los duplicados y los olvidos aumentan.' },
+        { selector: '.content-prose h2:nth-of-type(1)', value: 'Lo que hay que implementar' },
+        { selector: '.content-prose ul > li:nth-child(1)', value: 'Una herramienta central para las tareas.' },
+        { selector: '.content-prose ul > li:nth-child(2)', value: 'Un calendario compartido para los plazos.' },
+        { selector: '.content-prose ul > li:nth-child(3)', value: 'Un metodo de validacion simple.' },
+        { selector: '.content-prose ul > li:nth-child(4)', value: 'Reglas de rol: quien crea, quien asigna, quien ejecuta.' },
+        { selector: '.blog-sidebar .content-card:nth-of-type(1) h3', value: 'Aplicaciones recomendadas' },
+        { selector: '.blog-sidebar .content-card:nth-of-type(1) .note-list a:nth-of-type(1)', value: 'Ver GestTaches' },
+        { selector: '.blog-sidebar .content-card:nth-of-type(1) .note-list a:nth-of-type(2)', value: 'Ver GestReserve' },
+        { selector: '.blog-sidebar .content-card:nth-of-type(2) h3', value: 'Leer despues' },
+        { selector: '.blog-sidebar .content-card:nth-of-type(2) .note-list a:nth-of-type(1)', value: 'Guia de herramientas de organizacion del trabajo' },
+        { selector: '.blog-sidebar .content-card:nth-of-type(2) .note-list a:nth-of-type(2)', value: 'Gestionar tareas eficazmente' },
+        { selector: '.footer-bottom p', value: '\u00A9 2026 CarlusOne. Todos los derechos reservados.' }
+      ],
+      html: [
+        { selector: '.content-prose > p:nth-of-type(3)', value: 'Para esto, <a href="/applications/gesttaches/">GestTaches</a> responde a la necesidad de coordinacion. Si tu equipo comparte salas o equipos, <a href="/applications/gestreserve/">GestReserve</a> tambien se vuelve util.' }
       ]
     }
   },
