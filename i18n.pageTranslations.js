@@ -748,41 +748,51 @@ window.__CARLUSONE_PAGE_TRANSLATIONS = {
   },
   '/blog/outil-organisation-pme-quebec/': {
     en: {
-      title: 'Organization tool for SMEs in Quebec',
-      description: 'How to choose an organization tool for SMEs in Quebec with a simple collaborative approach.',
+      title: 'Organisation tool for SMEs in Quebec',
+      description: 'How to choose an organisation tool for SMEs in Quebec with a simple, collaborative approach.',
       text: [
-        { selector: '.page-hero .breadcrumb span:last-child', value: 'SME organization Quebec' },
+        { selector: '.page-hero .breadcrumb span:last-child', value: 'SME organisation Quebec' },
         { selector: '.page-hero .page-kicker', value: 'SME' },
-        { selector: '.page-hero .page-title', value: 'Organization tool for SMEs in Quebec' },
+        { selector: '.page-hero .page-title', value: 'Organisation tool for SMEs in Quebec' },
         { selector: '.page-hero .page-subtitle', value: 'A concrete plan to structure operations and coordination in a small team.' },
-        { selector: '.content-prose h2', value: 'Watch points' },
+        { selector: '.content-prose > p:nth-of-type(1)', value: 'Quebec SMEs need simple tools to structure daily activities without spending time on configuration. The goal is to clarify who does what and by when.' },
+        { selector: '.content-prose h2:nth-of-type(1)', value: 'Points to watch' },
+        { selector: '.content-prose ul > li:nth-child(1)', value: 'Distribution of responsibilities.' },
+        { selector: '.content-prose ul > li:nth-child(2)', value: 'Visibility of priorities.' },
+        { selector: '.content-prose ul > li:nth-child(3)', value: 'Realistic weekly tracking.' },
+        { selector: '.content-prose ul > li:nth-child(4)', value: 'Coordination with availabilities.' },
         { selector: '.blog-sidebar .content-card h3', value: 'Useful links' },
-        { selector: '.blog-sidebar .note-list a:nth-child(1)', value: 'Work organization guide' },
-        { selector: '.blog-sidebar .note-list a:nth-child(2)', value: 'Organize teamwork' },
-        { selector: '.blog-sidebar .note-list a:nth-child(3)', value: 'All applications' },
-        { selector: '.footer-bottom p', value: '© 2026 CarlusOne. All rights reserved.' },
-        { selector: '.content-prose > p:first-of-type', value: "Quebec SMEs need simple tools to structure daily activities without spending time on configuration. The goal is to clarify who does what and by when." },
-        { selector: '.content-prose h2:nth-of-type(1)', value: "Points to watch" }
-      
+        { selector: '.blog-sidebar .note-list a:nth-of-type(1)', value: 'Work organisation guide' },
+        { selector: '.blog-sidebar .note-list a:nth-of-type(2)', value: 'Organise team work' },
+        { selector: '.blog-sidebar .note-list a:nth-of-type(3)', value: 'All applications' },
+        { selector: '.footer-bottom p', value: '\u00A9 2026 CarlusOne. All rights reserved.' }
+      ],
+      html: [
+        { selector: '.content-prose > p:nth-of-type(2)', value: 'To cover this need, the <a href="/applications/gesttaches/">GestTaches</a> + <a href="/applications/gestreserve/">GestReserve</a> duo is relevant depending on your context.' }
       ]
     },
     es: {
       title: 'Herramienta de organizacion para PyME en Quebec',
-      description: 'Como elegir una herramienta de organizacion para PyME en Quebec con enfoque simple y colaborativo.',
+      description: 'Como elegir una herramienta de organizacion para PyME en Quebec con un enfoque simple y colaborativo.',
       text: [
         { selector: '.page-hero .breadcrumb span:last-child', value: 'Organizacion PyME Quebec' },
         { selector: '.page-hero .page-kicker', value: 'PyME' },
         { selector: '.page-hero .page-title', value: 'Herramienta de organizacion para PyME en Quebec' },
-        { selector: '.page-hero .page-subtitle', value: 'Plan concreto para estructurar operaciones y coordinacion en un equipo pequeno.' },
-        { selector: '.content-prose h2', value: 'Puntos de vigilancia' },
+        { selector: '.page-hero .page-subtitle', value: 'Un plan concreto para estructurar las operaciones y la coordinacion en un equipo pequeno.' },
+        { selector: '.content-prose > p:nth-of-type(1)', value: 'Las pymes de Quebec necesitan herramientas simples para estructurar las actividades diarias sin perder tiempo en configuracion. El reto es aclarar quien hace que y en que plazo.' },
+        { selector: '.content-prose h2:nth-of-type(1)', value: 'Puntos de vigilancia' },
+        { selector: '.content-prose ul > li:nth-child(1)', value: 'Reparto de las responsabilidades.' },
+        { selector: '.content-prose ul > li:nth-child(2)', value: 'Visibilidad de las prioridades.' },
+        { selector: '.content-prose ul > li:nth-child(3)', value: 'Seguimiento semanal realista.' },
+        { selector: '.content-prose ul > li:nth-child(4)', value: 'Coordinacion con las disponibilidades.' },
         { selector: '.blog-sidebar .content-card h3', value: 'Enlaces utiles' },
-        { selector: '.blog-sidebar .note-list a:nth-child(1)', value: 'Guia de organizacion del trabajo' },
-        { selector: '.blog-sidebar .note-list a:nth-child(2)', value: 'Organizar trabajo en equipo' },
-        { selector: '.blog-sidebar .note-list a:nth-child(3)', value: 'Todas las aplicaciones' },
-        { selector: '.footer-bottom p', value: '© 2026 CarlusOne. Todos los derechos reservados.' },
-        { selector: '.content-prose > p:first-of-type', value: "Las pymes de Quebec necesitan herramientas simples para estructurar las actividades diarias sin perder tiempo en configuracion. El reto es aclarar quien hace que y en que plazo." },
-        { selector: '.content-prose h2:nth-of-type(1)', value: "Puntos de vigilancia" }
-      
+        { selector: '.blog-sidebar .note-list a:nth-of-type(1)', value: 'Guia de organizacion del trabajo' },
+        { selector: '.blog-sidebar .note-list a:nth-of-type(2)', value: 'Organizar el trabajo en equipo' },
+        { selector: '.blog-sidebar .note-list a:nth-of-type(3)', value: 'Todas las aplicaciones' },
+        { selector: '.footer-bottom p', value: '\u00A9 2026 CarlusOne. Todos los derechos reservados.' }
+      ],
+      html: [
+        { selector: '.content-prose > p:nth-of-type(2)', value: 'Para cubrir esta necesidad, el duo <a href="/applications/gesttaches/">GestTaches</a> + <a href="/applications/gestreserve/">GestReserve</a> es pertinente segun tu contexto.' }
       ]
     }
   },
