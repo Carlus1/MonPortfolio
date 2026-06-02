@@ -1510,6 +1510,80 @@ window.__CARLUSONE_PAGE_TRANSLATIONS = {
       ]
     }
   },
+  '/blog/application-transcription-ia/': {
+    en: {
+      title: 'AI audio transcription application | Why choose a local tool in 2026',
+      description: 'How to choose an AI-assisted audio transcription application: privacy, quality, sharing and cost. Simple 2026 guide.',
+      text: [
+        { selector: '.page-hero .breadcrumb span:last-child', value: 'AI audio transcription application' },
+        { selector: '.page-hero .page-kicker', value: 'AI Transcription' },
+        { selector: '.page-hero .page-title', value: 'AI audio transcription application: why choose a local tool' },
+        { selector: '.page-hero .page-subtitle', value: 'Privacy, quality, sharing and cost: the criteria that matter to turn your audios into useful reports.' },
+        { selector: '.content-prose > p:nth-of-type(1)', value: 'AI audio transcription applications are multiplying. Most of them, however, send your recordings to remote servers, which raises real privacy questions, especially for clinical, legal or strategic meetings.' },
+        { selector: '.content-prose h2:nth-of-type(1)', value: '3 criteria to check' },
+        { selector: '.content-prose > p:nth-of-type(2)', value: 'When these three points are covered, the tool becomes a real time saver in daily use.' },
+        { selector: '.content-prose h2:nth-of-type(2)', value: 'Why local processing changes everything' },
+        { selector: '.content-prose > p:nth-of-type(4)', value: 'Local processing means the audio is transcribed on a machine you control (or by a dedicated worker), without going through a generic third-party service. The result is then encrypted in the browser before being stored: even the service administrator cannot read it.' },
+        { selector: '.content-prose > p:nth-of-type(5)', value: 'For interviews, committees or sensitive voice notes, this is what makes the difference between a demo tool and a professional tool.' },
+        { selector: '.blog-sidebar .content-card:nth-of-type(1) h3', value: 'Related app' },
+        { selector: '.blog-sidebar .content-card:nth-of-type(1) p', value: 'TranscriptIA transcribes, summarises and encrypts your audios without compromising on confidentiality.' },
+        { selector: '.blog-sidebar .content-card:nth-of-type(1) .button-row a', value: 'See TranscriptIA' },
+        { selector: '.blog-sidebar .content-card:nth-of-type(2) h3', value: 'Read next' },
+        { selector: '.blog-sidebar .content-card:nth-of-type(2) .note-list a:nth-of-type(1)', value: 'Productivity tools' },
+        { selector: '.blog-sidebar .content-card:nth-of-type(2) .note-list a:nth-of-type(2)', value: 'Organise team work' },
+        { selector: '.section-header .section-title', value: 'Frequently asked questions' },
+        { selector: '.faq-item:nth-of-type(1) .faq-question span', value: 'How to choose an AI audio transcription application?' },
+        { selector: '.faq-item:nth-of-type(1) .faq-answer', value: 'Choose a tool that encrypts your transcriptions, produces a structured report and lets you share the result to your usual applications.' },
+        { selector: '.faq-item:nth-of-type(2) .faq-question span', value: 'Is local transcription more confidential?' },
+        { selector: '.faq-item:nth-of-type(2) .faq-answer', value: 'Yes. The audio stays on infrastructure you control and the transcription is encrypted before storage, which strongly limits leak risks.' },
+        { selector: '.faq-item:nth-of-type(3) .faq-question span', value: 'Can I send a transcription to Mail or Drive?' },
+        { selector: '.faq-item:nth-of-type(3) .faq-answer', value: 'Yes. TranscriptIA offers Copy, Download and Share buttons that open your device\u2019s native sharing sheet to send the content to Mail, Drive, WhatsApp, Notes, etc.' },
+        { selector: '.footer-bottom p', value: '\u00A9 2026 CarlusOne. All rights reserved.' }
+      ],
+      html: [
+        { selector: '.content-prose ul > li:nth-child(1)', value: '<strong>Privacy</strong>: where are the audios stored and who can read them?' },
+        { selector: '.content-prose ul > li:nth-child(2)', value: '<strong>AI quality</strong>: does the transcription come with a structured report and key points?' },
+        { selector: '.content-prose ul > li:nth-child(3)', value: '<strong>Sharing</strong>: can you send the result to Mail, Drive, WhatsApp or Notes in one click?' },
+        { selector: '.content-prose > p:nth-of-type(3)', value: 'The <a href="/applications/transcriptia/">TranscriptIA</a> solution addresses precisely this need with a local GPU worker, AI reports and end-to-end encryption of transcriptions.' }
+      ]
+    },
+    es: {
+      title: 'Aplicacion de transcripcion de audio por IA | Por que elegir una herramienta local en 2026',
+      description: 'Como elegir una aplicacion de transcripcion de audio asistida por IA: confidencialidad, calidad, compartir y coste. Guia simple 2026.',
+      text: [
+        { selector: '.page-hero .breadcrumb span:last-child', value: 'Aplicacion de transcripcion de audio por IA' },
+        { selector: '.page-hero .page-kicker', value: 'Transcripcion IA' },
+        { selector: '.page-hero .page-title', value: 'Aplicacion de transcripcion de audio por IA: por que elegir una herramienta local' },
+        { selector: '.page-hero .page-subtitle', value: 'Confidencialidad, calidad, compartir y coste: los criterios que importan para transformar sus audios en informes utiles.' },
+        { selector: '.content-prose > p:nth-of-type(1)', value: 'Las aplicaciones de transcripcion de audio por IA se multiplican. La mayoria, sin embargo, envia sus grabaciones a servidores remotos, lo que plantea verdaderas cuestiones de confidencialidad, sobre todo para reuniones clinicas, juridicas o estrategicas.' },
+        { selector: '.content-prose h2:nth-of-type(1)', value: '3 criterios a verificar' },
+        { selector: '.content-prose > p:nth-of-type(2)', value: 'Cuando estos tres puntos estan cubiertos, la herramienta se convierte en un autentico ahorro de tiempo a diario.' },
+        { selector: '.content-prose h2:nth-of-type(2)', value: 'Por que el procesamiento local lo cambia todo' },
+        { selector: '.content-prose > p:nth-of-type(4)', value: 'Procesamiento local significa que el audio se transcribe en una maquina que usted controla (o mediante un worker dedicado), sin pasar por un servicio externo generico. El resultado se cifra luego en el navegador antes de almacenarse: incluso el administrador del servicio no puede leerlo.' },
+        { selector: '.content-prose > p:nth-of-type(5)', value: 'Para entrevistas, comites o notas de voz sensibles, esto marca la diferencia entre una herramienta de demostracion y una herramienta profesional.' },
+        { selector: '.blog-sidebar .content-card:nth-of-type(1) h3', value: 'Aplicacion relacionada' },
+        { selector: '.blog-sidebar .content-card:nth-of-type(1) p', value: 'TranscriptIA transcribe, resume y cifra sus audios sin comprometer la confidencialidad.' },
+        { selector: '.blog-sidebar .content-card:nth-of-type(1) .button-row a', value: 'Ver TranscriptIA' },
+        { selector: '.blog-sidebar .content-card:nth-of-type(2) h3', value: 'Leer despues' },
+        { selector: '.blog-sidebar .content-card:nth-of-type(2) .note-list a:nth-of-type(1)', value: 'Herramientas de productividad' },
+        { selector: '.blog-sidebar .content-card:nth-of-type(2) .note-list a:nth-of-type(2)', value: 'Organizar el trabajo en equipo' },
+        { selector: '.section-header .section-title', value: 'Preguntas frecuentes' },
+        { selector: '.faq-item:nth-of-type(1) .faq-question span', value: 'Como elegir una aplicacion de transcripcion de audio por IA?' },
+        { selector: '.faq-item:nth-of-type(1) .faq-answer', value: 'Elija una herramienta que cifre sus transcripciones, produzca un informe estructurado y permita compartir el resultado con sus aplicaciones habituales.' },
+        { selector: '.faq-item:nth-of-type(2) .faq-question span', value: 'La transcripcion local es mas confidencial?' },
+        { selector: '.faq-item:nth-of-type(2) .faq-answer', value: 'Si. El audio permanece en una infraestructura que usted controla y la transcripcion se cifra antes del almacenamiento, lo que limita fuertemente los riesgos de filtracion.' },
+        { selector: '.faq-item:nth-of-type(3) .faq-question span', value: 'Puedo enviar una transcripcion a Mail o Drive?' },
+        { selector: '.faq-item:nth-of-type(3) .faq-answer', value: 'Si. TranscriptIA ofrece botones Copiar, Descargar y Compartir que abren el selector nativo de su dispositivo para enviar el contenido a Mail, Drive, WhatsApp, Notas, etc.' },
+        { selector: '.footer-bottom p', value: '\u00A9 2026 CarlusOne. Todos los derechos reservados.' }
+      ],
+      html: [
+        { selector: '.content-prose ul > li:nth-child(1)', value: '<strong>Confidencialidad</strong>: donde se almacenan los audios y quien puede leerlos?' },
+        { selector: '.content-prose ul > li:nth-child(2)', value: '<strong>Calidad IA</strong>: la transcripcion incluye un informe estructurado y puntos clave?' },
+        { selector: '.content-prose ul > li:nth-child(3)', value: '<strong>Compartir</strong>: puede enviar el resultado a Mail, Drive, WhatsApp o Notas en un clic?' },
+        { selector: '.content-prose > p:nth-of-type(3)', value: 'La solucion <a href="/applications/transcriptia/">TranscriptIA</a> responde precisamente a esta necesidad con un worker GPU local, informes IA y cifrado de extremo a extremo de las transcripciones.' }
+      ]
+    }
+  },
   '/blog/logiciel-reservation-simple/': {
     en: {
       title: 'Which reservation software to choose | Simple 2026 guide',
