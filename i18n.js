@@ -805,9 +805,9 @@ function storeInitialPageSnapshot() {
     if (initialPageSnapshot[selector]) return;
     const node = document.querySelector(selector);
     if (!node) return;
-    if (type === 'html') initialPageSnapshot[selector] = node.innerHTML;
-    else if (type === 'placeholder') initialPageSnapshot[selector] = node.placeholder;
-    else initialPageSnapshot[selector] = node.textContent;
+    if (type === 'html') initialPageSnapshot[selector] = { type: 'html', value: node.innerHTML };
+    else if (type === 'placeholder') initialPageSnapshot[selector] = { type: 'placeholder', value: node.placeholder };
+    else initialPageSnapshot[selector] = { type: 'text', value: node.textContent };
   });
 }
 
@@ -820,12 +820,14 @@ function applyPageSpecificTranslations(lang) {
     document.title = initialPageMeta.title;
     if (metaDesc && initialPageMeta.description) metaDesc.setAttribute('content', initialPageMeta.description);
 
-    Object.entries(initialPageSnapshot).forEach(([selector, value]) => {
+    Object.entries(initialPageSnapshot).forEach(([selector, snapshot]) => {
       const node = document.querySelector(selector);
       if (!node) return;
+      const value = (snapshot && typeof snapshot === 'object' && 'value' in snapshot) ? snapshot.value : snapshot;
+      const type = (snapshot && typeof snapshot === 'object' && snapshot.type) ? snapshot.type : null;
       if (node.tagName === 'INPUT' || node.tagName === 'TEXTAREA') {
         node.placeholder = value;
-      } else if (selector.includes('.content-card:nth-child(3) p')) {
+      } else if (type === 'html' || selector.includes('.content-card:nth-child(3) p')) {
         node.innerHTML = value;
       } else {
         node.textContent = value;
