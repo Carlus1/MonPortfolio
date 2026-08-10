@@ -777,7 +777,9 @@ function applyLanguageAvailabilityRules() {
   const fullPage = isPageFullyTranslatable();
   document.querySelectorAll('.lang-btn').forEach(btn => {
     const isFrench = btn.dataset.lang === 'fr';
-    const mustDisable = !fullPage && !isFrench;
+    // Real navigation anchors (used on legal pages with per-language URLs) must stay clickable
+    const isNavLink = btn.tagName === 'A' && btn.getAttribute('href') && btn.getAttribute('href') !== '#';
+    const mustDisable = !fullPage && !isFrench && !isNavLink;
     btn.disabled = mustDisable;
     btn.style.opacity = mustDisable ? '0.45' : '';
     btn.style.cursor = mustDisable ? 'not-allowed' : '';
@@ -957,6 +959,8 @@ async function initializeI18n() {
 
   document.querySelectorAll('.lang-btn').forEach(btn => {
     btn.addEventListener('click', () => {
+      // Real anchors navigate via href; skip the JS translation path entirely
+      if (btn.tagName === 'A' && btn.getAttribute('href') && btn.getAttribute('href') !== '#') return;
       if (btn.disabled) return;
       applyTranslations(btn.dataset.lang);
     });
