@@ -1,6 +1,30 @@
 [build]
   publish = "."
 
+[[redirects]]
+  from = "/privacy"
+  to = "/politique-confidentialite/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/privacy/"
+  to = "/politique-confidentialite/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/terms"
+  to = "/conditions-utilisation/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/terms/"
+  to = "/conditions-utilisation/"
+  status = 301
+  force = true
+
 [[headers]]
   for = "/*"
   [headers.values]
